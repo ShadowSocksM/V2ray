@@ -1,4 +1,3 @@
-Singbox link & app:
 {
   "log": {
     "level": "warn",
