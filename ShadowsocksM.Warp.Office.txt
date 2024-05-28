@@ -98,14 +98,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "TVC🤖-IR1",
-        "TVC🤖-DE1",
-        "TVC🤖-IR2",
-        "TVC🤖-DE3",
-        "TVC🤖-IR4",
-        "TVC🤖-DE4",
-        "TVC🤖-IR5",
-        "TVC🤖-DE5"
+        "TVC-IR1",
+        "TVC-DE1",
+        "TVC-IR2",
+        "TVC-DE3",
+        "TVC-IR4",
+        "TVC-DE4",
+        "TVC-IR5",
+        "TVC-DE5"
       ],
       "default": "auto"
     },
@@ -113,21 +113,21 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "TVC🤖-IR1",
-        "TVC🤖-DE1",
-        "TVC🤖-IR2",
-        "TVC🤖-DE3",
-        "TVC🤖-IR4",
-        "TVC🤖-DE4",
-        "TVC🤖-IR5",
-        "TVC🤖-DE5"
+        "TVC-IR1",
+        "TVC-DE1",
+        "TVC-IR2",
+        "TVC-DE3",
+        "TVC-IR4",
+        "TVC-DE4",
+        "TVC-IR5",
+        "TVC-DE5"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m0s"
     },
     {
       "type": "wireguard",
-      "tag": "TVC🤖-IR1",
+      "tag": "TVC-IR1",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:844d:792b:5e1d:f3c1:ded8/128"
@@ -142,8 +142,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "TVC🤖-DE1",
-      "detour": "TVC🤖-IR1",
+      "tag": "TVC-DE1",
+      "detour": "TVC-IR1",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8cfa:59fa:3116:538:877a/128"
@@ -157,7 +157,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "TVC🤖-IR2",
+      "tag": "TVC-IR2",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:844d:792b:5e1d:f3c1:ded8/128"
@@ -172,8 +172,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "TVC🤖-DE3",
-      "detour": "TVC🤖-IR2",
+      "tag": "TVC-DE3",
+      "detour": "TVC-IR2",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8cfa:59fa:3116:538:877a/128"
@@ -187,7 +187,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "TVC🤖-IR4",
+      "tag": "TVC-IR4",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:844d:792b:5e1d:f3c1:ded8/128"
@@ -202,8 +202,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "TVC🤖-DE4",
-      "detour": "TVC🤖-IR4",
+      "tag": "TVC-DE4",
+      "detour": "TVC-IR4",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8cfa:59fa:3116:538:877a/128"
@@ -217,7 +217,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "TVC🤖-IR5",
+      "tag": "TVC-IR5",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:844d:792b:5e1d:f3c1:ded8/128"
@@ -232,8 +232,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "TVC🤖-DE5",
-      "detour": "TVC🤖-IR5",
+      "tag": "TVC-DE5",
+      "detour": "TVC-IR5",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8cfa:59fa:3116:538:877a/128"
