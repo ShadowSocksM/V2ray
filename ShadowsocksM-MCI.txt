@@ -1,3 +1,7 @@
+vless://538cc8f2-55ef-422b-ba47-f3c2433f5a7c@se3.deata.ir:2025/?encryption=none&host=playstation.com&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://538cc8f2-55ef-422b-ba47-f3c2433f5a7c@se3.deata.ir:2025/?encryption=none&host=playstation.com&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://d8d3e2f7-bb0d-411d-9fba-9957885904b7@185.146.173.59:80/?type=ws&encryption=none&host=Ch2.vless.site.&path=%2Fvless#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://d8d3e2f7-bb0d-411d-9fba-9957885904b7@185.146.173.59:80/?type=ws&encryption=none&host=Ch2.vless.site.&path=%2Fvless#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
 hy2://jS7RBX3eQ9QGTDDz9d@107.175.93.166:52200/?sni=han.ssudo.x10.mx#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-107.175.93.166%3A52200
 hysteria://108.181.5.133:26022/?insecure=1&peer=google.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.5.133%3A26022
 vmess://eyJhZGQiOiIxMjguMTk5LjEyMS41NCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI0NDdmYWFjOS00MWZlLTQzZTktYjJkNi0wZmNkMTU3M2I2ZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvNDQ3ZmFhYzkiLCJwb3J0IjoiMzAwNTYiLCJwcyI6IvCfh7jwn4esIOaWsOWKoOWdoUBZVUFOWkkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
