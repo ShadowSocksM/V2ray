@@ -13,12 +13,10 @@ vless://91d28207-ff16-46b6-9da9-b7fc329191c8@vpncustomize.elmahstyle.ir:8080/?ty
 vless://ecb24b35-eeac-4bc0-9d6c-fdba928a0023@join-unlimiteddev-vpn.unlimiteddev.site:8080/?type=ws&encryption=none&host=unlimiteddev-vpn.unlimiteddev.Community.&path=%2FTelegram%3A%40UnlimitedDev-Telegram%3A%40UnlimitedDev%3Fed%3D8080#@ShadowsocksM
 vless://91d28207-ff16-46b6-9da9-b7fc329191c8@vpncustomize.elmahstyle.ir:8080/?type=ws&encryption=none&host=VPNCUSTOMIZE.V2ray.Community.&path=%2FJoin--VPNCUSTOMIZE.V2ray.re%3Fed%3D8080#@ShadowsocksM
 vless://91d28207-ff16-46b6-9da9-b7fc329191c8@vpncustomize.elmahstyle.ir:8080/?type=ws&encryption=none&host=VPNCUSTOMIZE.V2ray.Community.&path=%2FJoin--VPNCUSTOMIZE.V2ray.re%3Fed%3D8080#@ShadowsocksM
-
 vless://19c08c07-a3b7-4c26-bcee-d7270f6d3422@vpncustomize.elmahstyle.ir:8080/?type=ws&encryption=none&host=VPNCUSTOMIZE.V2ray.Community.&path=%2FJoin--VPNCUSTOMIZE.V2ray.re%3Fed%3D8080#@ShadowsocksM
 vless://514d4474-fe80-45ba-9b69-0c86fe4201eb@23.227.60.56:8080/?type=ws&encryption=none&host=su2.mahanocean.ir&path=%2F%3Fed%3D2086#@ShadowsocksM
 vless://41a91bac-b974-4dd5-8878-21801e06e829@185.146.173.70:8080/?type=ws&encryption=none&host=V2ray.digikala.com-mykit.ir.nobitex.com.IMhyW5477e.DAILYCONFIGS.vigilantecollection.com.&path=%2F---%40Daily_Configs---%40Daily_Configs---%40Daily_Configs---%40Daily_Configs---%40Daily_Configs#@ShadowsocksM
 vless://c82342be-4cc1-4d7f-ba61-5c3c8db07fa1@198.41.221.63:8080/?type=ws&encryption=none&host=V2ray.digikala.com-mykit.ir.nobitex.com.IMhyW5477e.DAILYCONFIGS.vigilantecollection.com.&path=%2F---%40Daily_Configs---%40Daily_Configs---%40Daily_Configs---%40Daily_Configs---%40Daily_Configs#@ShadowsocksM
-
 vless://5af10469-3ec3-4353-94d2-297b7215a15b@continuity.sasuke.ir:443?security=tls&sni=continuity.sasuke.ir&fp=chrome&type=ws&path=/ws&host=continuity.sasuke.ir&encryption=none#@ShadowsocksM
 vless://31100534-bcec-4b7e-a577-d3d193bd6446@check-host.net:80?security=&type=ws&path=/telegram-@Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,Mmdv2rayng-V2rayngmmd-telegram-mehran-v2ray?ed%3D2560&host=dl25a.emicocloud.info&encryption=none#@ShadowsocksM
 vless://3e096434-f094-4752-bb1b-6e1933cef6b1@94.101.178.237:443/?type=tcp&encryption=none#@ShadowsocksM
