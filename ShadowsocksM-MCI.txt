@@ -54,7 +54,6 @@ vless://1f82fe0d-f257-4d22-971a-1ba53ab97801@185.253.7.201:14633/?encryption=non
 vless://UnlimitedDev%E2%80%94Channel-688843@2.189.59.2:443/?type=grpc&encryption=none&serviceName=Channel%3A%40UnlimitedDev&security=tls&sni=mci.unlimiteddev-vpn.Com.#@ShadowsocksM
 vless://205cae28-50dc-4269-865a-220ac82c68c5@185.253.7.201:22661/?type=tcp&encryption=none#@ShadowsocksM
 vless://1f82fe0d-f257-4d22-971a-1ba53ab97801@185.253.7.201:14633/?encryption=none&host=fast.com%2Cspeedtest.net%2Ccloudfalre.com&type=tcp&headerType=http#@ShadowsocksM
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206RzB4MEd0MGhqbFBVOWhCbytmL24vTy9UUFErd01CVFBHZUFHaS9sRm9ocz06L3ZLcEtaYXpjL1g0WVYwV1NEeE1UWEs1Rk4wVHJhTG9OZ0xBQnBjd0Q4WT0@185.253.7.201:53857#@ShadowsocksM
 trojan://cSvF5A84Bs@185.253.7.201:53925/?host=fast.com%2Cspeedtest.net%2Ccloudfalre.com&type=tcp&headerType=http#@ShadowsocksM
 vless://1f82fe0d-f257-4d22-971a-1ba53ab97801@[2a13:4ac0:8:0:f816:3eff:fec3:5da0]:14633/?encryption=none&host=fast.com%2Cspeedtest.net%2Ccloudfalre.com&type=tcp&headerType=http#@ShadowsocksM
 vless://91d28207-ff16-46b6-9da9-b7fc329191c8@vpncustomize.elmahstyle.ir:8080/?type=ws&encryption=none&host=VPNCUSTOMIZE.V2ray.Community.&path=%2FJoin--VPNCUSTOMIZE.V2ray.re%3Fed%3D8080#@ShadowsocksM
