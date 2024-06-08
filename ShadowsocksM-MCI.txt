@@ -1,3 +1,4 @@
+ss://YWVzLTI1Ni1nY206QEdldE5ldHdvcmtCb3Q@[2a0d:c740:3c:1::4d56:7f45]:47529#@ShadowsocksM
 vless://unlimitedev%E2%80%94%E2%80%94channel8192@2.189.59.2:443/?type=grpc&encryption=none&serviceName=Channel%3A%40UnlimitedDev&security=tls&sni=mci.unlimiteddev-vpn.Com.&fp=chrome#@ShadowsocksM
 vless://d8d3e2f7-bb0d-411d-9fba-9957885904b7@185.146.173.59:80/?type=ws&encryption=none&host=Ch2.vless.site.&path=%2Fvless#@ShadowsocksM
 hy2://jS7RBX3eQ9QGTDDz9d@107.175.93.166:52200/?sni=han.ssudo.x10.mx#@ShadowsocksM
