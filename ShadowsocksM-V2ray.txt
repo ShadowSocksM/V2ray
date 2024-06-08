@@ -1,3 +1,4 @@
+vless://1cfd44d2-61fe-4feb-92ad-26aa7023963f@188.114.97.3:443?security=tls&sni=technoi.o3co.ir&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=technoi&encryption=none#@ShadowsocksM
 vless://91d28207-ff16-46b6-9da9-b7fc329191c8@185.146.173.9:8080/?type=ws&encryption=none&host=VPNCUSTOMIZE.V2ray.Community.&path=%2FJoin--VPNCUSTOMIZE.V2ray.re%3Fed%3D8080#@ShadowsocksM
 vless://928d5b9a-8491-41ba-95fe-ae6d3b39579e@104.18.228.32:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg%3Fed%3D8080#@ShadowsocksM
 vless://928d5b9a-8491-41ba-95fe-ae6d3b39579e@104.27.10.144:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg%3Fed%3D8080#@ShadowsocksM
