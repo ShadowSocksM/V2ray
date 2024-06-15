@@ -1,5 +1,4 @@
 vless://45c24d3e-5f87-45a3-a440-b0d6d3e92082@88.135.47.94:5001?security=&type=tcp&headerType=http&host=fast.com&encryption=none#@ShadowsocksM-1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#@ShadowsocksM-2
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@188.114.97.3:443?security=tls&sni=936a99B4.Vde5-MlX81LANeo.pAgES.dEv&type=ws&path=/Telegram-@V2ray_Alpha/?ed%3D2560&host=936a99B4.Vde5-MlX81LANeo.pAgES.dEv&encryption=none#@ShadowsocksM-3
 vless://962a733d-2614-0b9b-7ffe-9ac92ffea8eb@104.16.61.8:2052?security=&type=ws&path=/ahmedquran19.xyz/current_time&host=vless-sub.n7p8ri7j.workers.dev&encryption=none#@ShadowsocksM-4
 vless://7f113923-9429-48b8-d5dd-b2906a583dfe@172.67.163.103:443?security=tls&sni=frr.kanal-tel-nufilter.site&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER&encryption=none#@ShadowsocksM-5
@@ -8,14 +7,6 @@ vless://e825d9e4-b513-4ede-b8a6-966292f2b753@172.66.44.158:443?security=tls&sni=
 vless://17a7bf97-fef5-4101-a5c5-7c730fabeeee@104.16.190.131:443?security=tls&sni=bpb-worker-panel-h5f.pages.dev&fp=firefox&type=ws&path=/?ed%3D2560&host=bpb-worker-panel-h5f.pages.dev&encryption=none#@ShadowsocksM-8
 vless://telegram-id-KOPPPLLPS@185.146.173.25:80?security=&type=ws&path=/KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS,KOPPPLLPS-KOPPPLLPS?ed%3D2048&host=1.V2ray.www.speedtest.net.zula.ir.v-_-V.v.xn--9iqtb0z3kmg58ejur6wfbwf9muugk7rck30b0frbqkvk2bye0bm1a.mrseif.ir&encryption=none#@ShadowsocksM-9
 vless://5da27733-3527-479e-bb81-4c5a9c75d83f@104.21.7.164:443?security=tls&sni=viphamester.wolfmoon.ir&alpn=h2,http/1.1&type=grpc&serviceName=okala.com&encryption=none#@ShadowsocksM-10
-ss://YWVzLTI1Ni1jZmI6QndjQVVaazhoVUZBa0RHTg==@45.89.52.66:9031#@ShadowsocksM-11
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.90.61.153:989#@ShadowsocksM-12
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@46.183.185.15:989#@ShadowsocksM-13
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@46.183.184.60:989#@ShadowsocksM-14
-ss://YWVzLTI1Ni1jZmI6R0E5S3plRWd2ZnhOcmdtTQ==@217.30.10.18:9019#@ShadowsocksM-15
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.123.101.241:989#@ShadowsocksM-16
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@92.38.163.53:989#@ShadowsocksM-17
-ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ==@5.188.181.201:9037#@ShadowsocksM-18
 vless://f8a62b9f-dd81-4c41-9b40-29876c2be37e@185.146.173.169:8880?security=&type=ws&path=/Telegram-thunderv2ray,Telegram-thunderv2ray,Telegram-thunderv2ray,Telegram-thunderv2ray,Telegram-thunderv2ray,Telegram-thunderv2ray,Telegram-thunderv2ray?ed%3D2048&host=2.V2ray.debian.org.fxp.debian.org.speedtest.net.zula.ir.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.mralpha-vpn.COM.&encryption=none#@ShadowsocksM-19
 vmess://eyJhZGQiOiIxOTguMi4yMTguMTAyIiwiYWlkIjoiNjQiLCJob3N0IjoiIiwiaWQiOiI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQxNDAwIiwicHMiOiLwn5GJ8J+GlCBAdjJyYXlfY29uZmlnc19wb29sIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9#@ShadowsocksM-20
 vmess://eyJhZGQiOiIxMDQuMjYuMC45NSIsImFpZCI6IjAiLCJob3N0Ijoib2JkaWkuY2ZkIiwiaWQiOiIwNTY0MWNmNS01OGQyLTRiYTQtYTlmMS1iM2NkYTBiMWZiMWQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwicG9ydCI6IjQ0MyIsInBzIjoi4pqhQERlYW1OZXRfUHJveHkg8J+Uu/Cfh6jwn4emQ0Eg8J+UuvCfh7rwn4e4VVMg4piRQURTTCDij7A2LzE0LzIwMjQiLCJzY3kiOiJhdXRvIiwic25pIjoib2JkaWkuY2ZkIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=#@ShadowsocksM-21
