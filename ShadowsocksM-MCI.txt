@@ -5,9 +5,6 @@ vless://6e842666-13fc-4dab-81e0-e8dd3cfd6c66@167.82.73.220:80?security=&type=ws&
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@104.24.196.20:2053?security=tls&sni=936a99B4.Vde5-MlX81LANeo.pAgES.dEv&alpn=h2,http/1.1&fp=randomized&type=ws&path=/KkhHL0gsSoZ7M6id/ZGU1Lm1lcmxpbm56Lmxpbms%3D?ed%3D2560&host=936a99B4.vDE5-MLx81LANeO.pAgeS.DEV&encryption=none#@ShadowsocksM-5
 vless://-_VPNCUSTOMIZE_-@185.146.173.58:8080?security=&type=ws&path=/Join--VPNCUSTOMIZE.V2ray.re?ed%3D8080&host=VPNCUSTOMIZE.V2ray.Community.&encryption=none#@ShadowsocksM-6
 vless://5da27733-3527-479e-bb81-4c5a9c75d83f@viphamester.wolfmoon.ir:443?security=tls&sni=viphamester.wolfmoon.ir&alpn=h2,http/1.1&type=grpc&serviceName=okala.com&encryption=none#@ShadowsocksM-7
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.90.61.153:989#@ShadowsocksM-8
-ss://YWVzLTI1Ni1jZmI6VTZxbllSaGZ5RG1uOHNnbg==@5.188.181.201:9041#@ShadowsocksM-9
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@77.72.5.113:989#@ShadowsocksM-10
 vless://OfflineNet-tunelvip-u3ervpn-@zula.ir:8443?security=tls&sni=offlinenet-some1274.aminho3ien.ir&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=OfflineNet-tunelvip-u3ervpn&encryption=none#@ShadowsocksM-11
 vless://telegram-id-ArV2ray@198.41.202.5:80?security=&type=ws&path=/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ARV2ray?ed%3D2048&host=11.v.V.v.V-_-_-V2ray-_-_-V.v.V.v.c.xn--9iqtb0z3kmg58ejur.Zula.ir.bahraNe.iR.&encryption=none#@ShadowsocksM-12
 vless://-_VPNCUSTOMIZE_-@185.146.173.37:8080?security=&type=ws&path=/Join--VPNCUSTOMIZE.V2ray.re?ed%3D8080&host=VPNCUSTOMIZE.V2ray.Community.&encryption=none#@ShadowsocksM-13
