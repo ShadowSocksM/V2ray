@@ -1,7 +1,6 @@
 vless://521a5079-0095-44e2-a6ed-3c294faafa01@[2a01:4f9:c010:2e1::1]:39563/?type=tcp&encryption=none#%40ShadowsocksM-5
 vless://6c7540fd-7929-4c8a-b1fe-bf4cc05939b1@[2a01:4f8:c010:764c::1]:443/?type=grpc&encryption=none#%40ShadowsocksM-6
 vless://a5469633-b780-4e13-815b-fa72582f8c4e@79.175.133.135:41754/?encryption=none&host=fast.com&type=tcp&headerType=http#%40ShadowsocksM-7
-vless://099234dc-3afc-478d-8349-bd5309e26157@49.12.38.70:37515/?type=tcp&encryption=none#%40ShadowsocksM-9
 hy2://dd6ada88-d4bd-4b07-9eb2-0c713c88874c@c6.mysell.store:34882/?insecure=1&sni=ramzinex.com&obfs=salamander&obfs-password=xYGLQEJbZmUz#%40ShadowsocksM-14
 vmess://eyJhZGQiOiIxNzIuNjcuNzIuMTU0IiwiYWlkIjoiMCIsImhvc3QiOiJubDg4LnRyYWRleDIwODAuY29tIiwiaWQiOiJmNTMzZTM3Yy05ZGE1LTQ5NTUtYTIxOC1hNzg4NmU1NzE5YjYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvTmtYbkkwbDZMR2tvdE15QVRXbXg1ZjZNYmxOIiwicG9ydCI6IjgwIiwicHMiOiLwn5GJ8J+GlCBAdjJyYXlfY29uZmlnc19wb29sIiwic2N5IjoiY2hhY2hhMjAtcG9seTEzMDUiLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==#@ShadowsocksM-6
 vless://telegram-id-ArV2ray@185.146.173.37:80?security=&type=ws&path=/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed%3D2048&host=1.v.v.V-_-_-V2ray-_-_-V.v.v.ev.speedtest.net.www.Zula.ir.check-host.net.mehpOw.iR.&encryption=none#@ShadowsocksM-7
