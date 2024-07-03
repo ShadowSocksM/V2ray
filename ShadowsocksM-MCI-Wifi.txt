@@ -10,7 +10,6 @@ vless://9be23604-03f8-4d69-af96-db20f9262b23@zula.ir.:443/?type=ws&encryption=no
 vless://Telegram-ipV2Ray-weq@185.146.173.58:2052/?type=ws&encryption=none&host=Ch.1.V2rayV2ray-_-_-V2ray.Zemestanil.Ir.&path=%2FTelegram-ipV2Ray%3Fed%3D2048#@ShadowsocksM-10
 vless://521a5079-0095-44e2-a6ed-3c294faafa01@[2a01:4f9:c010:2e1::1]:39563/?type=tcp&encryption=none#@ShadowsocksM-11
 vless://6c7540fd-7929-4c8a-b1fe-bf4cc05939b1@[2a01:4f8:c010:764c::1]:443/?type=grpc&encryption=none#@ShadowsocksM-12
-vless://a5469633-b780-4e13-815b-fa72582f8c4e@79.175.133.135:41754/?encryption=none&host=fast.com&type=tcp&headerType=http#@ShadowsocksM-13
 vmess://eyJhZGQiOiIyYTEyOjU5NDA6NzdjMDo6MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoienVsYS5pciIsImlkIjoiYjMyOWE2M2ItZmMzNC00MDQ5LTllNTQtY2FmMzNkODE2YjA5IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiMjA4OSIsInBzIjoi8J+RifCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=#@ShadowsocksM-14
 vless://099234dc-3afc-478d-8349-bd5309e26157@49.12.38.70:37515/?type=tcp&encryption=none#@ShadowsocksM-15
 vless://0fd2f220-142a-4e76-8b7e-c94a5592bd2d@217.60.247.220:443/?encryption=none&host=speedtest.net&type=tcp&headerType=http#@ShadowsocksM-16
