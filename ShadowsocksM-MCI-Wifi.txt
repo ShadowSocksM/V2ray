@@ -97,3 +97,5 @@ vless://6ff8c019-9abc-465a-a8cc-92cde57514d0@151.101.210.64:443?security=tls&sni
 vless://5c9e0a79-de00-419c-955a-c50310613699@zula.ir:80?security=&type=ws&path=/vless&host=Se2.vless.site.&encryption=none#@ShadowsocksM-97
 hy2://f6e4b19a3110d19d@207.246.124.135:443?obfs=salamander&obfs-password=8c3ce17b&insecure=1&sni=www.apple.com%0A#@ShadowsocksM-98
 hy2://f6e4b19a3110d19d@66.135.28.59:443?obfs=salamander&obfs-password=8c3ce17b&insecure=1&sni=ELiV2RAY.eliv2.top%0A#@ShadowsocksM-99
+vless://1081b819-c4dd-4cd8-a834-20f55969f303@104.18.193.31:8080?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed%3D8080&host=join-to.vmessorg.Community.&encryption=none#@ShadowsocksM-100
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@172.66.47.91:8443?security=tls&sni=eb043CC5.MkhaliLi.paGeS.DeV&alpn=http/1.1&fp=chrome&type=ws&path=/1I5kFrJb2nJW3PZH&host=Eb043cc5.mkHALILI.pAgES.dEv&encryption=none#@ShadowsocksM-101
