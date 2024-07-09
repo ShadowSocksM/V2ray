@@ -11,7 +11,6 @@ vless://d6ddec26-3a13-4bd7-845b-a6b9da3a8714@5.57.33.33:443/?type=tcp&encryption
 vless://Telegram-NUFiLTER@188.114.97.2:8080?security=&type=ws&path=/Qwerty&host=www.google.com.asve.ir&encryption=none#@ShadowsocksM-1
 vless://9e802d62-510f-4f64-b73c-5d116a7aea44@172.67.138.69:8080?security=&type=ws&path=VPNCUSTOMIZE?ed%3D8080&host=VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net.&encryption=none#@ShadowsocksM-2
 vless://Telegram-NUFiLTER@188.114.97.2:8080?security=&type=ws&path=/Qwerty&host=www.google.com.asve.ir&encryption=none#@ShadowsocksM-3
-vless://Telegram-NUFiLTER@188.114.97.2:8080?security=&type=ws&path=/Qwerty&host=www.google.com.asve.ir&encryption=none#@ShadowsocksM-4
 vless://9e802d62-510f-4f64-b73c-5d116a7aea44@172.67.138.69:8080?security=&type=ws&path=VPNCUSTOMIZE?ed%3D8080&host=VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net.&encryption=none#@ShadowsocksM-5
 vless://9e802d62-510f-4f64-b73c-5d116a7aea44@172.67.138.69:8080?security=&type=ws&path=VPNCUSTOMIZE?ed%3D8080&host=VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net.&encryption=none#@ShadowsocksM-6
 vless://5af10469-3ec3-4353-94d2-297b7215a15b@104.21.31.146:443?security=tls&sni=continuity.sasuke.ir&type=ws&path=/ws&host=continuity.sasuke.ir&encryption=none#@ShadowsocksM-7
