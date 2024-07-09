@@ -95,11 +95,7 @@
       "outbounds": [
         "auto",
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -108,59 +104,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -168,11 +124,7 @@
       "type": "urltest",
       "outbounds": [
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -181,59 +133,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "1m",
@@ -245,11 +157,7 @@
       "outbounds": [
         "direct",
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -258,59 +166,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -318,11 +186,7 @@
       "type": "selector",
       "outbounds": [
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -331,59 +195,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -391,11 +215,7 @@
       "type": "selector",
       "outbounds": [
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -404,59 +224,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -464,11 +244,7 @@
       "type": "selector",
       "outbounds": [
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -477,59 +253,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -537,11 +273,7 @@
       "type": "selector",
       "outbounds": [
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -550,59 +282,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -611,11 +303,7 @@
       "outbounds": [
         "direct",
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -624,59 +312,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -685,11 +333,7 @@
       "outbounds": [
         "direct",
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -698,59 +342,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -759,11 +363,7 @@
       "outbounds": [
         "direct",
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -772,59 +372,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -833,11 +393,7 @@
       "outbounds": [
         "direct",
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -846,59 +402,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -914,11 +430,7 @@
       "outbounds": [
         "direct",
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -927,59 +439,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -988,11 +460,7 @@
       "outbounds": [
         "direct",
         "@ShadowsocksM-1\r",
-        "@ShadowsocksM-2\r",
-        "@ShadowsocksM-3\r",
         "@ShadowsocksM-4\r",
-        "@ShadowsocksM-5\r",
-        "@ShadowsocksM-6\r",
         "@ShadowsocksM-7\r",
         "@ShadowsocksM-8\r",
         "@ShadowsocksM-9\r",
@@ -1001,59 +469,19 @@
         "@ShadowsocksM-12\r",
         "@ShadowsocksM-14\r",
         "@ShadowsocksM-15\r",
-        "@ShadowsocksM-16\r",
         "@ShadowsocksM-17\r",
-        "@ShadowsocksM-18\r",
-        "@ShadowsocksM-19\r",
         "@ShadowsocksM-20\r",
         "@ShadowsocksM-21\r",
-        "@ShadowsocksM-22\r",
-        "@ShadowsocksM-23\r",
         "@ShadowsocksM-24\r",
-        "@ShadowsocksM-25\r",
-        "@ShadowsocksM-26\r",
-        "@ShadowsocksM-27\r",
-        "@ShadowsocksM-28\r",
-        "@ShadowsocksM-29\r",
-        "@ShadowsocksM-30\r",
         "@ShadowsocksM-31\r",
         "@ShadowsocksM-32\r",
         "@ShadowsocksM-33\r",
         "@ShadowsocksM-34\r",
         "@ShadowsocksM-35\r",
-        "@ShadowsocksM-36\r",
-        "@ShadowsocksM-37\r",
         "@ShadowsocksM-38\r",
-        "@ShadowsocksM-39\r",
         "@ShadowsocksM-40\r",
         "@ShadowsocksM-41\r",
-        "@ShadowsocksM-42\r",
-        "@ShadowsocksM-43\r",
-        "@ShadowsocksM-44\r",
-        "@ShadowsocksM-45\r",
-        "@ShadowsocksM-46\r",
-        "@ShadowsocksM-47\r",
-        "@ShadowsocksM-48\r",
-        "@ShadowsocksM-49\r",
-        "@ShadowsocksM-50\r",
-        "@ShadowsocksM-51\r",
-        "@ShadowsocksM-52\r",
-        "@ShadowsocksM-53\r",
-        "@ShadowsocksM-54\r",
-        "@ShadowsocksM-55\r",
-        "@ShadowsocksM-56\r",
-        "@ShadowsocksM-57\r",
-        "@ShadowsocksM-58\r",
-        "@ShadowsocksM-59\r",
-        "@ShadowsocksM-60\r",
-        "@ShadowsocksM-61\r",
-        "@ShadowsocksM-62\r",
-        "@ShadowsocksM-63\r",
-        "@ShadowsocksM-64\r",
-        "@ShadowsocksM-65\r",
-        "@ShadowsocksM-66\r",
-        "@ShadowsocksM-67\r",
-        "@ShadowsocksM-68"
+        "@ShadowsocksM-67"
       ]
     },
     {
@@ -1102,40 +530,6 @@
       "type": "vless"
     },
     {
-      "server": "172.67.138.69",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net."
-      },
-      "transport": {
-        "path": "VPNCUSTOMIZE?ed=8080",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "9e802d62-510f-4f64-b73c-5d116a7aea44",
-      "tag": "@ShadowsocksM-2\r",
-      "type": "vless"
-    },
-    {
-      "server": "188.114.97.2",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com.asve.ir"
-      },
-      "transport": {
-        "path": "/Qwerty",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "Telegram-NUFiLTER",
-      "tag": "@ShadowsocksM-3\r",
-      "type": "vless"
-    },
-    {
       "server": "188.114.97.2",
       "server_port": 8080,
       "tls": {
@@ -1150,40 +544,6 @@
       },
       "uuid": "Telegram-NUFiLTER",
       "tag": "@ShadowsocksM-4\r",
-      "type": "vless"
-    },
-    {
-      "server": "172.67.138.69",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net."
-      },
-      "transport": {
-        "path": "VPNCUSTOMIZE?ed=8080",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "9e802d62-510f-4f64-b73c-5d116a7aea44",
-      "tag": "@ShadowsocksM-5\r",
-      "type": "vless"
-    },
-    {
-      "server": "172.67.138.69",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net."
-      },
-      "transport": {
-        "path": "VPNCUSTOMIZE?ed=8080",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "9e802d62-510f-4f64-b73c-5d116a7aea44",
-      "tag": "@ShadowsocksM-6\r",
       "type": "vless"
     },
     {
@@ -1328,27 +688,6 @@
       "type": "vless"
     },
     {
-      "server": "www.speedtest.net",
-      "server_port": 2096,
-      "tls": {
-        "enabled": true,
-        "server_name": "VPnerOr.sajAdHaDaDI.WEbSITe",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "path": "/eOwMtmADY6cWup8R?ed=2560",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
-      "tag": "@ShadowsocksM-16\r",
-      "type": "vless"
-    },
-    {
       "server": "104.16.190.131",
       "server_port": 443,
       "tls": {
@@ -1367,40 +706,6 @@
       },
       "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
       "tag": "@ShadowsocksM-17\r",
-      "type": "vless"
-    },
-    {
-      "server": "www.speedtest.net",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "SHHproxy--shhPROXY--SHHproxy.joinTELEGRAM.net."
-      },
-      "transport": {
-        "path": "SHHPROXY?ed=8080",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "0be4c9a8-c427-477e-8c54-228b95bfd39d",
-      "tag": "@ShadowsocksM-18\r",
-      "type": "vless"
-    },
-    {
-      "server": "108.162.192.188",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "ftp.2debian.org.www.speedtest.net.asve.ir."
-      },
-      "transport": {
-        "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "Telegram-NUFiLTER",
-      "tag": "@ShadowsocksM-19\r",
       "type": "vless"
     },
     {
@@ -1426,28 +731,6 @@
       "type": "vless"
     },
     {
-      "server": "217.60.245.4",
-      "server_port": 2083,
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtest.net"
-      },
-      "uuid": "6c28de4c-b62f-48f9-8cb5-cfdb5a53e2c0",
-      "tag": "@ShadowsocksM-22\r",
-      "type": "vless"
-    },
-    {
-      "server": "93.113.238.222",
-      "server_port": 35422,
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtest.net"
-      },
-      "uuid": "72d623bb-78f9-41ee-9c42-b172ec618ed2",
-      "tag": "@ShadowsocksM-23\r",
-      "type": "vless"
-    },
-    {
       "server": "104.17.148.22",
       "server_port": 2095,
       "tls": {
@@ -1462,108 +745,6 @@
       },
       "uuid": "Telegram-NUFiLTER",
       "tag": "@ShadowsocksM-24\r",
-      "type": "vless"
-    },
-    {
-      "server": "www.parsvds.ir",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "ftp.2debian.org.www.speedtest.net.arvinbaluch.ir."
-      },
-      "transport": {
-        "path": "/telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "channel_ExpressVPN_420",
-      "tag": "@ShadowsocksM-25\r",
-      "type": "vless"
-    },
-    {
-      "server": "www.speedtest.net",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "blackoutV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
-      },
-      "transport": {
-        "path": "/DailyConfigs-_-_-_DailyConfigs?ed=1024",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "a915927d-f9d7-4e57-96ed-810c707e25ea",
-      "tag": "@ShadowsocksM-26\r",
-      "type": "vless"
-    },
-    {
-      "server": "198.41.221.63",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "blackoutV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
-      },
-      "transport": {
-        "path": "/DailyConfigs-_-_-_DailyConfigs?ed=1024",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "5ac5f927-f12b-4906-ad4d-a6753814d410",
-      "tag": "@ShadowsocksM-27\r",
-      "type": "vless"
-    },
-    {
-      "server": "185.146.173.50",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "blackoutV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
-      },
-      "transport": {
-        "path": "/DailyConfigs-_-_-_DailyConfigs?ed=1024",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "9056a56c-0b8b-40ad-95ab-d57a88c3d916",
-      "tag": "@ShadowsocksM-28\r",
-      "type": "vless"
-    },
-    {
-      "server": "188.114.97.2",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "blackoutV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
-      },
-      "transport": {
-        "path": "/DailyConfigs-_-_-_DailyConfigs?ed=1024",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "6512a803-e365-419a-aad8-94bbd376c8f0",
-      "tag": "@ShadowsocksM-29\r",
-      "type": "vless"
-    },
-    {
-      "server": "185.146.173.68",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "QUENTIN--_--DiG.radiotehran.org."
-      },
-      "transport": {
-        "path": "/DigiconnecT?ed=1024",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "---DIGIV2RAY--",
-      "tag": "@ShadowsocksM-30\r",
       "type": "vless"
     },
     {
@@ -1652,40 +833,6 @@
       "type": "vless"
     },
     {
-      "server": "www.parsvds.ir",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net."
-      },
-      "transport": {
-        "path": "VPNCUSTOMIZE?ed=8080",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "9e802d62-510f-4f64-b73c-5d116a7aea44",
-      "tag": "@ShadowsocksM-36\r",
-      "type": "vless"
-    },
-    {
-      "server": "www.speedtest.net",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "8.v.v.v-_-_-v2ray-_-_-v.v.zula.ir.speedtest.net.bahrane.Ir."
-      },
-      "transport": {
-        "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "telegram-id-ArV2ray",
-      "tag": "@ShadowsocksM-37\r",
-      "type": "vless"
-    },
-    {
       "server": "108.162.192.79",
       "server_port": 443,
       "tls": {
@@ -1700,23 +847,6 @@
       },
       "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
       "tag": "@ShadowsocksM-38\r",
-      "type": "vless"
-    },
-    {
-      "server": "www.speedtest.net",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.speedtest.net.www.debian.org.mehpow.ir."
-      },
-      "transport": {
-        "path": "/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "telegram-id-ArV2ray",
-      "tag": "@ShadowsocksM-39\r",
       "type": "vless"
     },
     {
@@ -1754,414 +884,6 @@
       "type": "vless"
     },
     {
-      "server": "185.146.173.68",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "QUENTIN--_--DiG.radiotehran.org."
-      },
-      "transport": {
-        "path": "/DigiconnecT?ed=1024",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "---DIGIV2RAY--",
-      "tag": "@ShadowsocksM-42\r",
-      "type": "vless"
-    },
-    {
-      "server": "217.60.245.4",
-      "server_port": 2083,
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtest.net"
-      },
-      "uuid": "6c28de4c-b62f-48f9-8cb5-cfdb5a53e2c0",
-      "tag": "@ShadowsocksM-43\r",
-      "type": "vless"
-    },
-    {
-      "server": "mtn.vpnprosec.com",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "wWw.mObIlEtAk.cOm.ShOp1.qIsVn.iR."
-      },
-      "transport": {
-        "path": "/?ed=443",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "SVNTEAMa",
-      "tag": "@ShadowsocksM-44\r",
-      "type": "vless"
-    },
-    {
-      "server": "116.203.248.144",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true
-      },
-      "uuid": "36c038c9-4afd-4bf1-91f9-a80669fb8b9c",
-      "tag": "@ShadowsocksM-45\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.16.11.133",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtest.net.xn--wgb4bi00b.pinocchio1.ir."
-      },
-      "transport": {
-        "path": "/?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "15293bed-1b78-46e6-a37f-350bf73e6263",
-      "tag": "@ShadowsocksM-46\r",
-      "type": "vless"
-    },
-    {
-      "server": "www.parsvds.ir",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "ftp.2debian.org.www.speedtest.net.arvinbaluch.ir."
-      },
-      "transport": {
-        "path": "/telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "channel_ExpressVPN_420",
-      "tag": "@ShadowsocksM-47\r",
-      "type": "vless"
-    },
-    {
-      "server": "zula.ir",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "unlimiteddev-vpn.unlimiteddev.Community."
-      },
-      "transport": {
-        "path": "/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "cbd0bb00-295e-448f-b07f-47164e8e8196",
-      "tag": "@ShadowsocksM-48\r",
-      "type": "vless"
-    },
-    {
-      "server": "iranserver.com",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "unlimiteddev-vpn.unlimiteddev.Community."
-      },
-      "transport": {
-        "path": "/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "cbd0bb00-295e-448f-b07f-47164e8e8196",
-      "tag": "@ShadowsocksM-49\r",
-      "type": "vless"
-    },
-    {
-      "server": "108.162.192.79",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "bpb-worker-panel-chf.pages.dev"
-      },
-      "transport": {
-        "path": "/?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
-      "tag": "@ShadowsocksM-50\r",
-      "type": "vless"
-    },
-    {
-      "server": "zula.ir",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "8.v-_-_-_-_-_-_MaInV2RaY_-_-_-_-_-_-_mAiNv2RaY.5.5.5.5.5.5.IsVPhP.IR."
-      },
-      "transport": {
-        "path": "/vless?ed=1024",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "28a302ab-7f0f-4007-98fc-ff25bfa0615d",
-      "tag": "@ShadowsocksM-51\r",
-      "type": "vless"
-    },
-    {
-      "server": "nufilter.asve.ir",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "9.V.v.v-_-_-v2ray-_-_-v.v.v.v.speedtest.net.www.zula.ir.check-host.net.Vipnufilter.Online."
-      },
-      "transport": {
-        "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "1f40f68f-9a42-408e-98f0-241b80efd5d4",
-      "tag": "@ShadowsocksM-52\r",
-      "type": "vless"
-    },
-    {
-      "server": "185.146.173.50",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "blackoutV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
-      },
-      "transport": {
-        "path": "/DailyConfigs-_-_-_DailyConfigs?ed=1024",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "b789a45d-e100-4e3a-9bec-8161a1910fac",
-      "tag": "@ShadowsocksM-53\r",
-      "type": "vless"
-    },
-    {
-      "server": "188.114.97.2",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "blackoutV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
-      },
-      "transport": {
-        "path": "/DailyConfigs-_-_-_DailyConfigs?ed=1024",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "166e65e5-243c-4d33-a043-fe493fae219e",
-      "tag": "@ShadowsocksM-54\r",
-      "type": "vless"
-    },
-    {
-      "server": "ip.v2catch.buzz",
-      "server_port": 2082,
-      "tls": {
-        "enabled": true,
-        "server_name": "OlJbViBi47.iJaSd-zUmBa.oRg"
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
-      "tag": "@ShadowsocksM-55\r",
-      "type": "vless"
-    },
-    {
-      "server": "ip.v2catch.buzz",
-      "server_port": 8880,
-      "tls": {
-        "enabled": true,
-        "server_name": "IeRoCbHg8.PrZeNdEgI.NeT"
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
-      "tag": "@ShadowsocksM-56\r",
-      "type": "vless"
-    },
-    {
-      "server": "ip.v2catch.buzz",
-      "server_port": 2052,
-      "tls": {
-        "enabled": true,
-        "server_name": "WxVvVtZx22.hAmEdIgOlD.CoM"
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
-      "tag": "@ShadowsocksM-57\r",
-      "type": "vless"
-    },
-    {
-      "server": "185.146.173.158",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "19.v.V.v-_-_-V2rAy-_-_-v.v.v.v.speedtest.net.www.zula.ir.check-host.net.Vipnufilter.Online."
-      },
-      "transport": {
-        "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "Telegram-NUFiLTER",
-      "tag": "@ShadowsocksM-58\r",
-      "type": "vless"
-    },
-    {
-      "server": "www.zula.ir",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "its-legendaryking.com.www.zula.ir-so.ir-whereareyoumylady.xn--9iqtb0z3kmg58ejur6wfbwf9muugk7rck30b0frbqkvk2bye0bm1a.mozdozari.bUzz."
-      },
-      "transport": {
-        "path": "/telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers?ed=2560",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "3f7cca1a-3e89-4f01-983f-066a6406a2e9",
-      "tag": "@ShadowsocksM-59\r",
-      "type": "vless"
-    },
-    {
-      "server": "2.189.59.2",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "mci.unlimiteddev-vpn.Com.",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "31f1ae24-5b7b-4a6c-80a4-2356e8ccb431",
-      "tag": "@ShadowsocksM-60\r",
-      "type": "vless"
-    },
-    {
-      "server": "zula.ir",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "unlimiteddev-vpn.unlimiteddev.Community."
-      },
-      "transport": {
-        "path": "/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "6f42d454-ba41-4d87-943b-a21227b21a7a",
-      "tag": "@ShadowsocksM-61\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.21.63.234",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtest.net.xn--sgbm1d.pinocchio1.ir."
-      },
-      "transport": {
-        "path": "/?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "2e05a59d-e0ad-4f93-96c4-41afa62aed9b",
-      "tag": "@ShadowsocksM-62\r",
-      "type": "vless"
-    },
-    {
-      "server": "193.151.151.92",
-      "server_port": 80,
-      "tls": {
-        "enabled": true
-      },
-      "transport": {
-        "path": "/@V2Graphy/giveaway/ws1?ed=2560",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "2e9c68bb-9c58-4438-8e86-0a9c7a669c2e",
-      "tag": "@ShadowsocksM-63\r",
-      "type": "vless"
-    },
-    {
-      "server": "185.146.173.58",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "Kanal-polproxy.Vipnufilter.Online."
-      },
-      "transport": {
-        "path": "/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "b1072cd4-0371-4c26-af81-ac5032cf5491",
-      "tag": "@ShadowsocksM-64\r",
-      "type": "vless"
-    },
-    {
-      "server": "cdn.discordapp.com",
-      "server_port": 8880,
-      "tls": {
-        "enabled": true,
-        "server_name": "github-_-_-_-_-_-vpn_proxy66_marg_bar_khamenei.proxy66.shop."
-      },
-      "transport": {
-        "path": "/VPN_PROXY66.VPN_PROXY66",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
-      "tag": "@ShadowsocksM-65\r",
-      "type": "vless"
-    },
-    {
-      "server": "2a01",
-      "server_port": 4,
-      "tls": {
-        "enabled": true
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "6c7540fd-7929-4c8a-b1fe-bf4cc05939b1",
-      "tag": "@ShadowsocksM-66\r",
-      "type": "vless"
-    },
-    {
       "server": "185.146.173.31",
       "server_port": 443,
       "tls": {
@@ -2170,25 +892,8 @@
         "insecure": true
       },
       "password": "ItSjMC37sc",
-      "tag": "@ShadowsocksM-67\r",
+      "tag": "@ShadowsocksM-67",
       "type": "trojan"
-    },
-    {
-      "server": "104.18.193.31",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "join-to.vmessorg.Community."
-      },
-      "transport": {
-        "path": "/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "a841512a-0143-45f4-97d9-092a79c5a268",
-      "tag": "@ShadowsocksM-68",
-      "type": "vless"
     }
   ],
   "route": {
