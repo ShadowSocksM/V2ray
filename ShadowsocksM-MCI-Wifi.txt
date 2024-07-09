@@ -14,7 +14,6 @@ vmess://eyJhZGQiOiIxNjIuMTU5LjEyOS4xNyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJo
 vless://SVNTEAMI@mtn.vpnprosec.com:443/?type=grpc&encryption=none&security=tls&sni=mObIlEsHoPtWo.qIsVn.iR.&alpn=h2%2Chttp%2F1.1&fp=chrome#@ShadowsocksM-14
 vless://b9430690-525b-4774-9efa-42f163d3fe5b@104.19.8.222:8880/?type=ws&encryption=none&host=free.game-mobileberooz.ir&path=%2F%3Fed%3D2560#@ShadowsocksM-15
 vless://b41e1631-ceb3-47c9-ba87-c65a46f2f5a8@www.speedtest.net:2096/?type=ws&encryption=none&host=VPnerOr.sajAdHaDaDI.WEbSITe&path=%2FeOwMtmADY6cWup8R%3Fed%3D2560&security=tls&sni=vpNeRor.SAjadHADadi.WEbsiTe&fp=chrome#@ShadowsocksM-16
-vless://17a7bf97-fef5-4101-a5c5-7c730fabeeee@104.16.190.131:443/?type=ws&encryption=none&host=bpb-worker-panel-h5f.pages.dev&path=%2F%3Fed&security=tls&sni=bpb-worker-panel-h5f.pages.dev&fp=firefox#@ShadowsocksM-17
 vless://0be4c9a8-c427-477e-8c54-228b95bfd39d@www.speedtest.net:8080/?type=ws&encryption=none&host=SHHproxy--shhPROXY--SHHproxy.joinTELEGRAM.net.&path=SHHPROXY%3Fed%3D8080#@ShadowsocksM-18
 vless://Telegram-NUFiLTER@108.162.192.188:2095/?type=ws&encryption=none&host=ftp.2debian.org.www.speedtest.net.asve.ir.&path=%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D2048#@ShadowsocksM-19
 vless://3c7ec707-301f-4502-96fe-d82bbd6deaf2@5.160.46.82:443/?encryption=none&host=fast.com&type=tcp&headerType=http#@ShadowsocksM-20
