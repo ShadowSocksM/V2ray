@@ -1,1065 +1,1149 @@
 {
-  "log": {
-    "disabled": false,
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "proxyDns",
-        "address": "8.8.8.8",
-        "detour": "select"
-      },
-      {
-        "tag": "localDns",
-        "address": "https://223.5.5.5/dns-query",
-        "detour": "direct"
-      },
-      {
-        "tag": "block",
-        "address": "rcode://success"
-      }
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule"
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "tcp:\/\/185.228.168.9",
+                "address_resolver": "dns-direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "tcp:\/\/185.228.168.9",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode:\/\/success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": "direct",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            }
+        ],
+        "reverse_mapping": true,
+        "strategy": "ipv4_only",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "domain_strategy": "",
+            "interface_name": "tun0",
+            "inet4_address": "172.19.0.1\/30",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "domain_strategy": "",
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
     ],
-    "rules": [
-      {
-        "domain": [
-          "ghproxy.com",
-          "cdn.jsdelivr.net",
-          "testingcf.jsdelivr.net"
-        ],
-        "server": "localDns"
-      },
-      {
-        "geosite": [
-          "category-ads-all"
-        ],
-        "server": "block"
-      },
-      {
-        "server": "localDns",
-        "outbound": "any",
-        "disable_cache": true
-      },
-      {
-        "geosite": [
-          "cn"
-        ],
-        "server": "localDns"
-      },
-      {
-        "server": "localDns",
-        "clash_mode": "direct"
-      },
-      {
-        "server": "proxyDns",
-        "clash_mode": "global"
-      },
-      {
-        "geosite": [
-          "geolocation-!cn"
-        ],
-        "server": "proxyDns"
-      }
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "outbounds": [
+                "URL-TEST",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "@ShadowsocksM-1",
+                "@ShadowsocksM-2",
+                "@ShadowsocksM-3",
+                "@ShadowsocksM-4",
+                "@ShadowsocksM-5",
+                "@ShadowsocksM-6",
+                "@ShadowsocksM-7",
+                "@ShadowsocksM-8",
+                "@ShadowsocksM-9",
+                "@ShadowsocksM-10",
+                "@ShadowsocksM-11",
+                "@ShadowsocksM-12",
+                "@ShadowsocksM-13",
+                "@ShadowsocksM-14",
+                "@ShadowsocksM-15",
+                "@ShadowsocksM-16",
+                "@ShadowsocksM-17",
+                "@ShadowsocksM-18",
+                "@ShadowsocksM-19",
+                "@ShadowsocksM-20",
+                "@ShadowsocksM-21",
+                "@ShadowsocksM-22",
+                "@ShadowsocksM-23",
+                "@ShadowsocksM-24",
+                "@ShadowsocksM-25",
+                "@ShadowsocksM-26",
+                "@ShadowsocksM-27",
+                "@ShadowsocksM-28",
+                "@ShadowsocksM-29",
+                "@ShadowsocksM-30",
+                "@ShadowsocksM-31",
+                "@ShadowsocksM-32"
+            ]
+        },
+        {
+            "tag": "URL-TEST",
+            "type": "urltest",
+            "outbounds": [
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "👉🆔 @v2ray_configs_pool",
+                "@ShadowsocksM-1",
+                "@ShadowsocksM-2",
+                "@ShadowsocksM-3",
+                "@ShadowsocksM-4",
+                "@ShadowsocksM-5",
+                "@ShadowsocksM-6",
+                "@ShadowsocksM-7",
+                "@ShadowsocksM-8",
+                "@ShadowsocksM-9",
+                "@ShadowsocksM-10",
+                "@ShadowsocksM-11",
+                "@ShadowsocksM-12",
+                "@ShadowsocksM-13",
+                "@ShadowsocksM-14",
+                "@ShadowsocksM-15",
+                "@ShadowsocksM-16",
+                "@ShadowsocksM-17",
+                "@ShadowsocksM-18",
+                "@ShadowsocksM-19",
+                "@ShadowsocksM-20",
+                "@ShadowsocksM-21",
+                "@ShadowsocksM-22",
+                "@ShadowsocksM-23",
+                "@ShadowsocksM-24",
+                "@ShadowsocksM-25",
+                "@ShadowsocksM-26",
+                "@ShadowsocksM-27",
+                "@ShadowsocksM-28",
+                "@ShadowsocksM-29",
+                "@ShadowsocksM-30",
+                "@ShadowsocksM-31",
+                "@ShadowsocksM-32"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "3m",
+            "tolerance": 50
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "-----DIGIV2RAY----",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiconnecT?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.68"
+                }
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "527b0812-b93c-4b2b-b1db-c0f909cb7f01",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SHHPROXY?ed=8080",
+                "headers": {
+                    "Host": "zula.ir"
+                }
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "b1072cd4-0371-4c26-af81-ac5032cf5491",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "185.146.173.200",
+            "server_port": 8080,
+            "uuid": "5af3a353-c53f-4800-98dc-d44609ad11f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "185.146.173.200"
+                }
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "ec071b84-3073-4896-b5d3-792681f2988a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "ec071b84-3073-4896-b5d3-792681f2988a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "194.33.28.15",
+            "server_port": 8008,
+            "uuid": "2de2b89e-6488-4100-b9ae-bff4c288c61a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "188.114.98.220",
+            "server_port": 8080,
+            "uuid": "a9ee1f5f-ee06-4465-bbb7-f23a637a3996",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit",
+                "headers": {
+                    "Host": "188.114.98.220"
+                }
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "104.21.94.168",
+            "server_port": 8080,
+            "uuid": "5af3a353-c53f-4800-98dc-d44609ad11f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "104.21.94.168"
+                }
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "88.135.46.45",
+            "server_port": 2053,
+            "uuid": "f2d3bc51-9544-4273-aaaf-724a2db943a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "👉🆔 @v2ray_configs_pool",
+            "type": "vless",
+            "server": "www.parsvds.ir",
+            "server_port": 2095,
+            "uuid": "ab312897-cc65-51f2-abe9-7a80fd605a17",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiconnecT?ed=1024",
+                "headers": {
+                    "Host": "www.parsvds.ir"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-1",
+            "type": "vless",
+            "server": "avval.ir",
+            "server_port": 8080,
+            "uuid": "a9ee1f5f-ee06-4465-bbb7-f23a637a3996",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit",
+                "headers": {
+                    "Host": "avval.ir"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-2",
+            "type": "vless",
+            "server": "89.235.118.188",
+            "server_port": 13636,
+            "uuid": "6ae4e8ee-3862-44ca-a87b-7e246fa8e7e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-3",
+            "type": "vless",
+            "server": "79.175.134.87",
+            "server_port": 443,
+            "uuid": "a95554f9-a298-416d-9cb8-6af7cd709789",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-4",
+            "type": "vless",
+            "server": "178.239.147.38",
+            "server_port": 35799,
+            "uuid": "bd4d0bec-82d5-414c-8a08-c08c39c3d1b3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-5",
+            "type": "vless",
+            "server": "194.33.28.15",
+            "server_port": 8008,
+            "uuid": "2de2b89e-6488-4100-b9ae-bff4c288c61a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-6",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "939b318c-4021-411f-b28c-33f89a1a49b8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SHHPROXY?ed=8080",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-7",
+            "type": "vless",
+            "server": "185.146.173.92",
+            "server_port": 8080,
+            "uuid": "-%20KING%20OF%20SPEED%20-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/kingvrayng.shomalmegamall.ir.re?ed=8080",
+                "headers": {
+                    "Host": "185.146.173.92"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-8",
+            "type": "vless",
+            "server": "79.175.134.87",
+            "server_port": 443,
+            "uuid": "a95554f9-a298-416d-9cb8-6af7cd709789",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-9",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "8f0b1018-3e67-4868-bc69-862a786937d8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-10",
+            "type": "vless",
+            "server": "194.33.28.15",
+            "server_port": 8008,
+            "uuid": "2de2b89e-6488-4100-b9ae-bff4c288c61a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-11",
+            "type": "vless",
+            "server": "185.146.173.82",
+            "server_port": 2082,
+            "uuid": "609c3f08-4bc2-436d-e57c-0984e6f15743",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Free V2RAY TEL @Alfred_Config TEL @Alfred_Config TEL @Alfred_Config TEL @Alfred_Config @V2ray TEL @Alfred_Config TEL @Alfred_Config TEL @Alfred_Config",
+                "headers": {
+                    "Host": "185.146.173.82"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-12",
+            "type": "vless",
+            "server": "31.47.45.218",
+            "server_port": 18215,
+            "uuid": "19f1655a-beb4-452c-92c8-92c8598714f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-13",
+            "type": "vless",
+            "server": "198.41.215.201",
+            "server_port": 80,
+            "uuid": "d1e2af50-01ca-4874-8f16-0f2d81bca1f8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "198.41.215.201"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-14",
+            "type": "vless",
+            "server": "194.33.28.15",
+            "server_port": 8008,
+            "uuid": "2de2b89e-6488-4100-b9ae-bff4c288c61a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-15",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "Telegram-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-16",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-mkp",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ray",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-17",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "5631df39-0f66-4b1b-bcf3-a7b5dd9e3b06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SHHPROXY?ed=8080",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-18",
+            "type": "vless",
+            "server": "iranserver.com",
+            "server_port": 8080,
+            "uuid": "9f225a66-54fc-4a94-8dfd-9f1e3f114a8a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "iranserver.com"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-19",
+            "type": "vless",
+            "server": "zula.ir.",
+            "server_port": 443,
+            "uuid": "74d415a2-4876-4090-9be4-59a1823b9b37",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "my.halachicago.com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN?ed=1024",
+                "headers": {
+                    "Host": "my.halachicago.com."
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-20",
+            "type": "vless",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "5631df39-0f66-4b1b-bcf3-a7b5dd9e3b06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SHHPROXY?ed=8080",
+                "headers": {
+                    "Host": "www.parsvds.ir"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-21",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "9f225a66-54fc-4a94-8dfd-9f1e3f114a8a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "zula.ir"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-22",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "ecf707e8-b535-4ee1-8d7b-2e10fbd7e602",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/AllV2ray",
+                "headers": {
+                    "Host": "zula.ir"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-23",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/eOwMtmADY6cWup8R?ed=2560",
+                "headers": {
+                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-24",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 2095,
+            "uuid": "Telegram-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-25",
+            "type": "vless",
+            "server": "190.93.247.155",
+            "server_port": 80,
+            "uuid": "Join-Telegram-Picumin",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/robots.txt?ed=2560",
+                "headers": {
+                    "Host": "190.93.247.155"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-26",
+            "type": "vless",
+            "server": "104.21.94.168",
+            "server_port": 2095,
+            "uuid": "001f1e58-b309-432a-9d2c-7cdf2be70c6c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "104.21.94.168"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-27",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 2095,
+            "uuid": "Telegram-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "188.114.96.3"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-28",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 2095,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "104.17.147.22"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-29",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "b57c0631-e5c3-4cc8-bc4d-77f9d5d34e45",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-xiv2ray",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-30",
+            "type": "vless",
+            "server": "108.162.192.79",
+            "server_port": 443,
+            "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-chf.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bpb-worker-panel-chf.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-31",
+            "type": "vless",
+            "server": "analytics-cn.elephant-tech.xyz.",
+            "server_port": 80,
+            "uuid": "tel--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON",
+                "headers": {
+                    "Host": "analytics-cn.elephant-tech.xyz."
+                }
+            }
+        },
+        {
+            "tag": "@ShadowsocksM-32",
+            "type": "trojan",
+            "server": "185.146.173.31",
+            "server_port": 443,
+            "password": "ItSjMC37sc",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sus.suski2025.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        }
     ],
-    "strategy": "ipv4_only"
-  },
-  "inbounds": [
-    {
-      "sniff": true,
-      "type": "mixed",
-      "listen": "127.0.0.1",
-      "listen_port": 1081
-    },
-    {
-      "stack": "system",
-      "auto_route": true,
-      "inet4_address": "172.19.0.1/30",
-      "mtu": 9000,
-      "sniff": true,
-      "strict_route": true,
-      "type": "tun",
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 1081
-        }
-      }
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy",
+        "geoip": {
+            "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
+            "download_detour": "direct"
+        },
+        "geosite": {
+            "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
+            "download_detour": "direct"
+        },
+        "rules": [
+            {
+                "outbound": "dns-out",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "inbound": [
+                    "dns-in"
+                ],
+                "outbound": "dns-out"
+            },
+            {
+                "domain_suffix": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geoip": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geosite": [
+                    "ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "other"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "ads"
+                ],
+                "outbound": "block"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ]
+            }
+        ]
     }
-  ],
-  "outbounds": [
-    {
-      "tag": "select",
-      "type": "selector",
-      "outbounds": [
-        "auto",
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "auto",
-      "type": "urltest",
-      "outbounds": [
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
-      "tolerance": 50
-    },
-    {
-      "tag": "🤖 OpenAI",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "🌌 Google",
-      "type": "selector",
-      "outbounds": [
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "📟 Telegram",
-      "type": "selector",
-      "outbounds": [
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "🐦 Twitter",
-      "type": "selector",
-      "outbounds": [
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "👤 Facebook",
-      "type": "selector",
-      "outbounds": [
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "🛍️ Amazon",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "🍎 Apple",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "🧩 Microsoft",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "🎮 Game",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "📺 Bilibili",
-      "type": "selector",
-      "outbounds": [
-        "direct"
-      ]
-    },
-    {
-      "tag": "🎬 MediaVideo",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "🌏 !cn",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "@ShadowsocksM-1\r",
-        "@ShadowsocksM-4\r",
-        "@ShadowsocksM-7\r",
-        "@ShadowsocksM-8\r",
-        "@ShadowsocksM-9\r",
-        "@ShadowsocksM-10\r",
-        "@ShadowsocksM-11\r",
-        "@ShadowsocksM-12\r",
-        "@ShadowsocksM-14\r",
-        "@ShadowsocksM-15\r",
-        "@ShadowsocksM-17\r",
-        "@ShadowsocksM-20\r",
-        "@ShadowsocksM-21\r",
-        "@ShadowsocksM-24\r",
-        "@ShadowsocksM-31\r",
-        "@ShadowsocksM-32\r",
-        "@ShadowsocksM-33\r",
-        "@ShadowsocksM-34\r",
-        "@ShadowsocksM-35\r",
-        "@ShadowsocksM-38\r",
-        "@ShadowsocksM-40\r",
-        "@ShadowsocksM-41\r",
-        "@ShadowsocksM-67"
-      ]
-    },
-    {
-      "tag": "🌏 cn",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "select"
-      ]
-    },
-    {
-      "tag": "🛑 AdBlock",
-      "type": "selector",
-      "outbounds": [
-        "block",
-        "direct"
-      ]
-    },
-    {
-      "tag": "direct",
-      "type": "direct"
-    },
-    {
-      "tag": "block",
-      "type": "block"
-    },
-    {
-      "tag": "dns-out",
-      "type": "dns"
-    },
-    {
-      "server": "188.114.97.2",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com.asve.ir"
-      },
-      "transport": {
-        "path": "/Qwerty",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "Telegram-NUFiLTER",
-      "tag": "@ShadowsocksM-1\r",
-      "type": "vless"
-    },
-    {
-      "server": "188.114.97.2",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com.asve.ir"
-      },
-      "transport": {
-        "path": "/Qwerty",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "Telegram-NUFiLTER",
-      "tag": "@ShadowsocksM-4\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.21.31.146",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "continuity.sasuke.ir"
-      },
-      "transport": {
-        "path": "/ws",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "5af10469-3ec3-4353-94d2-297b7215a15b",
-      "tag": "@ShadowsocksM-7\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.21.31.146",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "continuity.sasuke.ir"
-      },
-      "transport": {
-        "path": "/ws",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "5af10469-3ec3-4353-94d2-297b7215a15b",
-      "tag": "@ShadowsocksM-8\r",
-      "type": "vless"
-    },
-    {
-      "server": "188.114.97.3",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "change-ip1-kNdKcxcmngSccOQ.anymath.ir"
-      },
-      "transport": {
-        "path": "/JOIN-@CHANGE_IP1",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "36674613-c58c-4e94-fd80-1fce492e8f0f",
-      "tag": "@ShadowsocksM-9\r",
-      "type": "vless"
-    },
-    {
-      "server": "188.114.97.3",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "change-ip1-kNdKcxcmngSccOQ.anymath.ir"
-      },
-      "transport": {
-        "path": "/JOIN-@CHANGE_IP1",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "36674613-c58c-4e94-fd80-1fce492e8f0f",
-      "tag": "@ShadowsocksM-10\r",
-      "type": "vless"
-    },
-    {
-      "server": "188.114.97.3",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "change-ip1-kNdKcxcmngSccOQ.anymath.ir"
-      },
-      "transport": {
-        "path": "/JOIN-@CHANGE_IP1",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "36674613-c58c-4e94-fd80-1fce492e8f0f",
-      "tag": "@ShadowsocksM-11\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.18.202.232",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "4d3d6f00.garywelch.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
-      "tag": "@ShadowsocksM-12\r",
-      "type": "vless"
-    },
-    {
-      "server": "mtn.vpnprosec.com",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "mObIlEsHoPtWo.qIsVn.iR.",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "SVNTEAMI",
-      "tag": "@ShadowsocksM-14\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.19.8.222",
-      "server_port": 8880,
-      "tls": {
-        "enabled": true,
-        "server_name": "free.game-mobileberooz.ir"
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "b9430690-525b-4774-9efa-42f163d3fe5b",
-      "tag": "@ShadowsocksM-15\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.16.190.131",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "bpb-worker-panel-h5f.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "path": "/?ed",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
-      "tag": "@ShadowsocksM-17\r",
-      "type": "vless"
-    },
-    {
-      "server": "5.160.46.82",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.com"
-      },
-      "uuid": "3c7ec707-301f-4502-96fe-d82bbd6deaf2",
-      "tag": "@ShadowsocksM-20\r",
-      "type": "vless"
-    },
-    {
-      "server": "5.160.46.82",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.com"
-      },
-      "uuid": "540a8eef-965c-4197-8f1c-3b5da31f4964",
-      "tag": "@ShadowsocksM-21\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.17.148.22",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "ftp.debian.org.www.speedtest.net.asve.ir."
-      },
-      "transport": {
-        "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "Telegram-NUFiLTER",
-      "tag": "@ShadowsocksM-24\r",
-      "type": "vless"
-    },
-    {
-      "server": "190.93.247.155",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "discord.com.PQN.iranserver.com.digikala.com.nobitex.ir.leader.ir.IMsrV2rayJGiioii92129TxTul.SawMINSWEDEN2.PaQmin.LAt"
-      },
-      "transport": {
-        "path": "/robots.txt?ed=2560",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "Join-Telegram-Picumin",
-      "tag": "@ShadowsocksM-31\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.21.94.168",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "azon-bala-kaftar-miyaye.asve.ir"
-      },
-      "transport": {
-        "path": "//telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "001f1e58-b309-432a-9d2c-7cdf2be70c6c",
-      "tag": "@ShadowsocksM-32\r",
-      "type": "vless"
-    },
-    {
-      "server": "188.114.96.3",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "ftp.debian.org.www.speedtest.net.asve.ir."
-      },
-      "transport": {
-        "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "Telegram-NUFiLTER",
-      "tag": "@ShadowsocksM-33\r",
-      "type": "vless"
-    },
-    {
-      "server": "104.17.147.22",
-      "server_port": 2095,
-      "tls": {
-        "enabled": true,
-        "server_name": "w.www.speedtest.net.zula.ir.bahrane.ir"
-      },
-      "transport": {
-        "path": "/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "telegram-id-ArV2ray",
-      "tag": "@ShadowsocksM-34\r",
-      "type": "vless"
-    },
-    {
-      "server": "185.146.173.58",
-      "server_port": 2052,
-      "tls": {
-        "enabled": true,
-        "server_name": "3.V2rayV2ray-_-_-V2ray.irantech.Org."
-      },
-      "transport": {
-        "path": "/Telegram-xiv2ray?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "b57c0631-e5c3-4cc8-bc4d-77f9d5d34e45",
-      "tag": "@ShadowsocksM-35\r",
-      "type": "vless"
-    },
-    {
-      "server": "108.162.192.79",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "bpb-worker-panel-chf.pages.dev"
-      },
-      "transport": {
-        "path": "/?ed=2048",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
-      "tag": "@ShadowsocksM-38\r",
-      "type": "vless"
-    },
-    {
-      "server": "analytics-cn.elephant-tech.xyz.",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "akbn.net.v2rayng6.6.6.6.ir.com.site.列男事事列上赛男.acountifyable.BUZZ."
-      },
-      "transport": {
-        "path": "/@ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "tel--ZEDMODEON",
-      "tag": "@ShadowsocksM-40\r",
-      "type": "vless"
-    },
-    {
-      "server": "190.93.247.155",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "akbn.net.v2rayng6.6.6.6.ir.com.site.列男事事列上赛男.acountifyable.BUZZ."
-      },
-      "transport": {
-        "path": "/@ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "tel--ZEDMODEON",
-      "tag": "@ShadowsocksM-41\r",
-      "type": "vless"
-    },
-    {
-      "server": "185.146.173.31",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "sus.suski2025.ir",
-        "insecure": true
-      },
-      "password": "ItSjMC37sc",
-      "tag": "@ShadowsocksM-67",
-      "type": "trojan"
-    }
-  ],
-  "route": {
-    "geoip": {
-      "download_url": "https://github.com/soffchen/sing-geoip/releases/latest/download/geoip.db",
-      "download_detour": "select"
-    },
-    "geosite": {
-      "download_url": "https://github.com/soffchen/sing-geosite/releases/latest/download/geosite.db",
-      "download_detour": "select"
-    },
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "block"
-      },
-      {
-        "clash_mode": "direct",
-        "outbound": "direct"
-      },
-      {
-        "clash_mode": "global",
-        "outbound": "select"
-      },
-      {
-        "domain": [
-          "v2rayse.com",
-          "cfmem.com",
-          "vpnse.org",
-          "cff.pw",
-          "tt.vg"
-        ],
-        "outbound": "select"
-      },
-      {
-        "domain": [
-          "clash.razord.top",
-          "yacd.metacubex.one",
-          "yacd.haishan.me",
-          "d.metacubex.one"
-        ],
-        "outbound": "direct"
-      },
-      {
-        "geosite": [
-          "openai"
-        ],
-        "outbound": "🤖 OpenAI"
-      },
-      {
-        "geosite": [
-          "google",
-          "github"
-        ],
-        "geoip": [
-          "google"
-        ],
-        "outbound": "🌌 Google"
-      },
-      {
-        "geosite": [
-          "telegram"
-        ],
-        "geoip": [
-          "telegram"
-        ],
-        "outbound": "📟 Telegram"
-      },
-      {
-        "geosite": [
-          "twitter"
-        ],
-        "geoip": [
-          "twitter"
-        ],
-        "outbound": "🐦 Twitter"
-      },
-      {
-        "geosite": [
-          "facebook",
-          "instagram"
-        ],
-        "geoip": [
-          "facebook"
-        ],
-        "outbound": "👤 Facebook"
-      },
-      {
-        "geosite": [
-          "amazon"
-        ],
-        "outbound": "🛍️ Amazon"
-      },
-      {
-        "geosite": [
-          "apple-cn",
-          "apple"
-        ],
-        "outbound": "🍎 Apple"
-      },
-      {
-        "geosite": [
-          "microsoft"
-        ],
-        "outbound": "🧩 Microsoft"
-      },
-      {
-        "geosite": [
-          "category-games"
-        ],
-        "outbound": "🎮 Game"
-      },
-      {
-        "geosite": [
-          "bilibili"
-        ],
-        "outbound": "📺 Bilibili"
-      },
-      {
-        "geosite": [
-          "tiktok",
-          "netflix",
-          "hbo",
-          "disney",
-          "primevideo"
-        ],
-        "geoip": [
-          "netflix"
-        ],
-        "outbound": "🎬 MediaVideo"
-      },
-      {
-        "geosite": [
-          "geolocation-!cn"
-        ],
-        "outbound": "🌏 !cn"
-      },
-      {
-        "geosite": [
-          "cn"
-        ],
-        "geoip": [
-          "private",
-          "cn"
-        ],
-        "outbound": "🌏 cn"
-      },
-      {
-        "geosite": [
-          "category-ads-all"
-        ],
-        "outbound": "🛑 AdBlock"
-      }
-    ],
-    "auto_detect_interface": true,
-    "final": "select"
-  },
-  "experimental": {
-    "cache_file": {
-      "enabled": true,
-      "path": "cache.db"
-    }
-  }
 }
