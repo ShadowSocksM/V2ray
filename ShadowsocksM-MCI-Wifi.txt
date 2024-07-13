@@ -1,3 +1,5 @@
+vless://47aff861-b287-4c7b-a213-6982cdb53db9@104.17.153.239:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg%3Fed%3D8080#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+trojan://telegram-id-directvpn@63.34.97.140:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
 vless://e16e9768-240f-4ff2-8c29-36d220ed2aa4@172.67.73.233:443/?type=grpc&encryption=none&serviceName=BLsNlVjvcrWGqHh74mj&security=tls&sni=msnghdfy4c2.cpiforpersia.uk&alpn=h2&fp=chrome#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%281%29
 trojan://E0002134H@104.21.43.145:2096/?type=tcp&security=tls&sni=6504e90a.xpxroject.pages.dev&allowInsecure=1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%283%29
 vless://2d7a8912-bbd7-44d9-b8ac-6c6fa55976f2@[2a01:4f9:c010:2e1::1]:39563/?type=grpc&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%284%29
