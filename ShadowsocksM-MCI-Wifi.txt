@@ -1,3 +1,5 @@
+vless://2d7a8912-bbd7-44d9-b8ac-6c6fa55976f2@[2a01:4f9:c010:2e1::1]:39563/?type=grpc&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://2d7a8912-bbd7-44d9-b8ac-6c6fa55976f2@[2a01:4f8:1c17:e805::1]:39563/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
 vless://51d19c6d-d0bf-4e0b-8eef-9a1d3f13c7e6@avval.ir:8443?encryption=none&security=tls&sni=vip-romax-tiktok.hsjsak.ir&type=ws&host=vip-romax-tiktok.hsjsak.ir&path=vless-ws%2F%3Fed#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%60
 vless://51d19c6d-d0bf-4e0b-8eef-9a1d3f13c7e6@avval.ir:8443?encryption=none&security=tls&sni=vip-romax-tiktok.hsjsak.ir&fp=random&type=ws&host=vip-romax-tiktok.hsjsak.ir&path=%2F#%F0%9F%87%BA%F0%9F%87%B8US%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40ROMAX_VPN%20%7C%200
 vless://1b6ae0f5-01dc-4b96-bca9-31c672dcf0aa@50.7.85.221:443?encryption=none&security=tls&sni=mohsenfitshr.wibibin259.workers.dev&fp=chrome&type=ws&host=mohsenfitshr.wibibin259.workers.dev&path=%2F%3Fed%3D2048#%F0%9F%94%92%20VL-WS-TLS%20%F0%9F%87%A9%F0%9F%87%AA%20DE-50.7.85.221%3A443
