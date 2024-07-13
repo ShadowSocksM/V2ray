@@ -1,1 +1,16 @@
-rr
+vless://e16e9768-240f-4ff2-8c29-36d220ed2aa4@172.67.73.233:443/?type=grpc&encryption=none&serviceName=BLsNlVjvcrWGqHh74mj&security=tls&sni=msnghdfy4c2.cpiforpersia.uk&alpn=h2&fp=chrome#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%281%29
+trojan://E0002134H@104.21.43.145:2096/?type=tcp&security=tls&sni=6504e90a.xpxroject.pages.dev&allowInsecure=1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%283%29
+vless://2d7a8912-bbd7-44d9-b8ac-6c6fa55976f2@[2a01:4f9:c010:2e1::1]:39563/?type=grpc&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%284%29
+vless://2d7a8912-bbd7-44d9-b8ac-6c6fa55976f2@[2a01:4f8:1c17:e805::1]:39563/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%285%29
+vless://47aff861-b287-4c7b-a213-6982cdb53db9@104.25.19.43:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg%3Fed%3D8080#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%60%20%281%29
+vless://5f7b92f0-1e6e-4611-8aa2-3c37838ae474@188.114.96.3:8080/?type=ws&encryption=none&host=WwW.speedtEst.net.mifastip6.mifastip.INFo.&path=%2Fwww.speedtest.net.Jimarkel%3Fed%3D443#%F0%9F%94%92%20VL-WS-NONE%20%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%20NA-188.114.96.3%3A8080
+vless://57cbd1f6-f30f-4d84-ec7b-aefa613cd508@185.143.233.5:80/?type=ws&encryption=none&host=bpm.shaparsak.ir&path=%2F#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%286%29
+vless://661fbbe7-ab18-43f5-b548-cb1ab1ec049b@www.parsvds.ir:8080/?type=ws&encryption=none&host=unlimiteddev-vpn.unlimiteddev.Community.&path=%2FTelegram%3A%40UnlimitedDev-Telegram%3A%40UnlimitedDev%3Fed%3D8080#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%60%20%282%29
+vless://47aff861-b287-4c7b-a213-6982cdb53db9@104.17.153.239:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg%3Fed%3D8080#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%60%20%283%29
+vless://416f18ec-11f3-4648-9693-8c6480d0662d@172.67.137.11:8080/?type=ws&encryption=none&host=PbDpGsCo7.HaMeCi-dSsTeMaNe.oRg&path=%2F#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%60%20%284%29
+vless://2de2b89e-6488-4100-b9ae-bff4c288c61a@194.33.28.15:8008/?encryption=none&host=nobitex.ir&type=tcp&headerType=http#%40Shadowsocksm-12
+vless://2de2b89e-6488-4100-b9ae-bff4c288c61a@194.33.28.15:8008/?encryption=none&host=nobitex.ir&type=tcp&headerType=http#%40Shadowsocksm-32
+vless://2de2b89e-6488-4100-b9ae-bff4c288c61a@194.33.28.15:8008/?encryption=none&host=nobitex.ir&type=tcp&headerType=http#%40Shadowsocksm-41
+vless://-%20KING%20OF%20SPEED%20-@185.146.173.92:8080/?type=ws&encryption=none&host=kingvrayng.shomalmegamall.ir&path=%2Fkingvrayng.shomalmegamall.ir.re%3Fed%3D8080#%40Shadowsocksm-43
+vless://2de2b89e-6488-4100-b9ae-bff4c288c61a@194.33.28.15:8008/?encryption=none&host=nobitex.ir&type=tcp&headerType=http#%40Shadowsocksm-46
+vless://2de2b89e-6488-4100-b9ae-bff4c288c61a@194.33.28.15:8008/?encryption=none&host=nobitex.ir&type=tcp&headerType=http#%40Shadowsocksm-50
