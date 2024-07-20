@@ -1,2 +1,1 @@
 vless://67ce895d-e92f-41ed-a243-071f6d4d1b21@www.parsvds.ir:80/?type=ws&encryption=none&host=VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net.&path=VPNCUSTOMIZE%3Fed%3D8080#%F0%9F%91%89%20%F0%9F%86%94%20%40v2ray_configs_pool
-vless://7f0aa96d-9a4c-4132-8744-34d27fe08043@zula.ir:2086/?type=ws&encryption=none&host=Cloutdcjvg.samancenter.com.&path=%2F%40Kingspeed_support-iran%3Fed%3D1024#%F0%9F%91%89%20%F0%9F%86%94%20%40v2ray_configs_pool
