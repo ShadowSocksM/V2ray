@@ -30,4 +30,18 @@ vless://2a9bd227-bef2-4fea-a153-7e8423a07277@104.18.101.41:8080/?type=ws&encrypt
 ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181:443#@ShadowsocksM-30
 vless://2a9bd227-bef2-4fea-a153-7e8423a07277@104.17.47.75:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg%3Fed%3D8080#@ShadowsocksM-31
 vless://2a9bd227-bef2-4fea-a153-7e8423a07277@104.16.225.78:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg%3Fed%3D8080#@ShadowsocksM-32
+vless://1dbe32b7-708f-4e88-8785-3400fcc7e071@chat.openai.com:2096?encryption=none&security=tls&sni=telegram-id-vpn-ocean.telegram-id-vpn-ocean-3.workers.dev&alpn=h2&fp=randomized&type=ws&host=telegram-id-vpn-ocean.telegram-id-vpn-ocean-3.workers.dev&path=%2Fvless-ws%2F%3Fed%3D2048#@ShadowsocksM-33
+vless://BA88EA98-45F3-4749-ADC5-EA58CAD37264@50.7.85.221:443?encryption=none&security=tls&sni=telegram-irn-vpn.tgtyosvp.workers.dev&type=ws&host=telegram-irn-vpn.tgtyosvp.workers.dev&path=%2F%40%2B%40IRN_VPN#@ShadowsocksM-34
+vless://6df874ef-f074-4142-8ee9-7c4b88ff7a07@worker-singbox-rsae63.mbnpl.workers.dev:443?encryption=none&security=tls&sni=worker-singbox-rsae63.mbnpl.workers.dev&fp=random&type=ws&host=worker-singbox-rsae63.mbnpl.workers.dev&path=%2F%3Fed%3D2048#@ShadowsocksM-35
+vless://6df874ef-f074-4142-8ee9-7c4b88ff7a07@worker-singbox-rsae63.mbnpl.workers.dev:8443?encryption=none&security=tls&sni=worker-singbox-rsae63.mbnpl.workers.dev&fp=random&type=ws&host=worker-singbox-rsae63.mbnpl.workers.dev&path=%2F%3Fed%3D2048#@ShadowsocksM-36
+vless://a0ec908f-7bae-4624-9afb-0c3c32fe8e9b@www.parsvds.ir:80?encryption=none&security=none&type=ws&host=VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net.&path=VPNCUSTOMIZE%3Fed%3D8080#@ShadowsocksM-37
+vless://a0ec908f-7bae-4624-9afb-0c3c32fe8e9b@www.parsvds.ir:80?encryption=none&security=none&type=ws&host=VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net.&path=VPNCUSTOMIZE%3Fed%3D8080#@ShadowsocksM-38
+vless://cd8002d9-e8fd-4411-8bb6-fc80310ff81d@avval.ir:2053?encryption=none&security=tls&sni=vip1-romax-tiktok.hsjsak.ir&fp=random&type=ws&host=vip1-romax-tiktok.hsjsak.ir&path=vless-ws%2F%3Fed#@ShadowsocksM-39
+vless://c7f86a29-0720-4266-8f60-f3db180354a9@www.visa.com:8080?encryption=none&security=none&type=ws&host=uNlImIteddEv-vpn.uNlImIteddEv.Community.&path=%2FTelegram%3A%40UnlimitedDev-Telegram%3A%40UnlimitedDev%3Fed%3D8080#@ShadowsocksM-40
+vless://9d5e56d1-b1aa-4fe6-b95f-a313c04f4434@www.digikala.com.speedtest.net.tanhaeihayeman.ir:8880?encryption=none&security=none&type=ws&path=%2F#@ShadowsocksM-41
+vless://cd8002d9-e8fd-4411-8bb6-fc80310ff81d@avval.ir:2053?encryption=none&security=tls&sni=vip1-romax-tiktok.hsjsak.ir&fp=random&type=ws&host=vip1-romax-tiktok.hsjsak.ir&path=vless-ws%2F%3Fed#@ShadowsocksM-42
+vless://658a5fce-391b-46ed-bac2-0af9772ec953@104.26.10.138:8080?encryption=none&security=none&type=ws&host=sbp.unironically.ir&path=%2FFIRELINKVPNNN#@ShadowsocksM-43
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.2.133:443?encryption=none&security=tls&sni=www.Arizona.edu&type=ws&host=fraud.chase&path=%2F#@ShadowsocksM-44
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.194.133:443?encryption=none&security=tls&sni=www.Arizona.edu&type=ws&host=fraud.chase&path=%2F#@ShadowsocksM-45
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443?encryption=none&security=tls&sni=www.Arizona.edu&type=ws&host=fraud.chase&path=%2F#@ShadowsocksM-46
 
