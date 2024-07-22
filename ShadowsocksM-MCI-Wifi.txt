@@ -45,7 +45,6 @@ vless://1dbe32b7-708f-4e88-8785-3400fcc7e071@chat.openai.com:2096?security=tls&s
 vless://BA88EA98-45F3-4749-ADC5-EA58CAD37264@50.7.85.221:443?security=tls&sni=telegram-irn-vpn.tgtyosvp.workers.dev&type=ws&path=/@+@IRN_VPN&host=telegram-irn-vpn.tgtyosvp.workers.dev&encryption=none#@ShadowsocksM-45
 vless://6df874ef-f074-4142-8ee9-7c4b88ff7a07@worker-singbox-rsae63.mbnpl.workers.dev:443?security=tls&sni=worker-singbox-rsae63.mbnpl.workers.dev&fp=random&type=ws&path=/?ed%3D2048&host=worker-singbox-rsae63.mbnpl.workers.dev&encryption=none#@ShadowsocksM-46
 vless://6df874ef-f074-4142-8ee9-7c4b88ff7a07@worker-singbox-rsae63.mbnpl.workers.dev:8443?security=tls&sni=worker-singbox-rsae63.mbnpl.workers.dev&fp=random&type=ws&path=/?ed%3D2048&host=worker-singbox-rsae63.mbnpl.workers.dev&encryption=none#@ShadowsocksM-47
-vless://cd8002d9-e8fd-4411-8bb6-fc80310ff81d@avval.ir:2053?security=tls&sni=vip1-romax-tiktok.hsjsak.ir&fp=random&type=ws&path=vless-ws/?ed&host=vip1-romax-tiktok.hsjsak.ir&encryption=none#@ShadowsocksM-48
 vless://c7f86a29-0720-4266-8f60-f3db180354a9@www.visa.com:8080?security=&type=ws&path=/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed%3D8080&host=uNlImIteddEv-vpn.uNlImIteddEv.Community.&encryption=none#@ShadowsocksM-49
 vless://9d5e56d1-b1aa-4fe6-b95f-a313c04f4434@www.digikala.com.speedtest.net.tanhaeihayeman.ir:8880?security=&type=ws&path=/&encryption=none#@ShadowsocksM-50
 vless://658a5fce-391b-46ed-bac2-0af9772ec953@104.26.10.138:8080?security=&type=ws&path=/FIRELINKVPNNN&host=sbp.unironically.ir&encryption=none#@ShadowsocksM-51
