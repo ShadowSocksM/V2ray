@@ -18,7 +18,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "8.8.4.4",
+        "address": "1.1.1.1",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
@@ -34,7 +34,8 @@
     ],
     "rules": [
       {
-        "domain": "dwih-1e_qrxxidiwgcfu",
+        "domain_suffix": ".ir",
+        "geosite": "ir",
         "server": "dns-direct"
       },
       {
@@ -45,16 +46,17 @@
     ],
     "final": "dns-remote",
     "static_ips": {
-      "dWih-1E_QrxxIDiWGcfu": [
-        "2606:4700:d0:0:c00a:ad4:3e1b:8aae"
-      ],
       "sky.rethinkdns.com": [
-        "104.17.147.22",
-        "104.17.148.22",
+        "188.114.97.3",
+        "188.114.96.3",
         "2a06:98c1:3120::3",
         "2a06:98c1:3121::3",
+        "104.17.147.22",
+        "104.17.148.22",
+        "188.114.97.3",
         "188.114.96.3",
-        "188.114.97.3"
+        "2a06:98c1:3121::3",
+        "2a06:98c1:3120::3"
       ]
     },
     "independent_cache": true
@@ -65,7 +67,6 @@
       "tag": "tun-in",
       "mtu": 9000,
       "inet4_address": "172.19.0.1/28",
-      "inet6_address": "fdfe:dcba:9876::1/126",
       "auto_route": true,
       "strict_route": true,
       "endpoint_independent_nat": true,
@@ -94,8 +95,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "warp_ir § 0",
-        "Warp_in_Warp § 1"
+        "proxy1",
+        "proxy2"
       ],
       "default": "auto"
     },
@@ -103,46 +104,44 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "warp_ir § 0",
-        "Warp_in_Warp § 1"
+        "proxy1",
+        "proxy2"
       ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "1h0m0s",
-      "idle_timeout": "10h0m0s"
+      "url": "http://cp.cloudflare.com/",
+      "interval": "10m0s",
+      "idle_timeout": "1h40m0s"
     },
     {
       "type": "wireguard",
-      "tag": "warp_ir § 0",
+      "tag": "proxy1",
       "local_address": [
-        "172.16.0.2/24",
-        "2606:4700:110:8129:a4fa:7f3f:b403:3502/128"
+        "172.16.0.2/32",
+        "2606:4700:110:8888:9bd8:607d:9d82:29ee/128"
       ],
-      "private_key": "iEpDeGzv4atQRxj84TzSzEqHa1Ehdq/JkWkfwxV6cWI=",
-      "server": "dWih-1E_QrxxIDiWGcfu",
-      "server_port": 8854,
+      "private_key": "yChZkhU+brTGJiRLIPHar5UAyK1yJBLMK+988LELG1s=",
+      "server": "188.114.97.132",
+      "server_port": 908,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "yvny",
-      "mtu": 1330,
-      "fake_packets": "1-3",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
-      "fake_packets_mode": "h_37"
-    },
-    {
-      "type": "wireguard",
-      "tag": "Warp_in_Warp § 1",
-      "detour": "warp_ir § 0",
-      "local_address": [
-        "172.16.0.2/24",
-        "2606:4700:110:8cb3:8af3:831:7aae:2b8a/128"
-      ],
-      "private_key": "2PJ6ujogEeKHYBJqPVidKrPj1BFin9MygZbQvPfrEW4=",
-      "server": "162.159.192.1",
-      "server_port": 1180,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "eFmq",
+      "reserved": "XDEv",
       "mtu": 1280,
-      "fake_packets_mode": "h_37"
+      "fake_packets": "5-10",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "20-200"
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy2",
+      "detour": "proxy1",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:850c:5e87:4b0f:47c6:5219/128"
+      ],
+      "private_key": "0GIU/JjisFqsYMe9CApidmZt9KJnUazYAFF7XDVmq3w=",
+      "server": "188.114.97.132",
+      "server_port": 908,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "tyJq",
+      "mtu": 1230
     },
     {
       "type": "dns",
@@ -157,20 +156,26 @@
       "tag": "direct-fragment",
       "tls_fragment": {
         "enabled": true,
-        "size": "10-30",
-        "sleep": "2-8"
+        "size": "1-500",
+        "sleep": "0-500"
       }
     },
     {
       "type": "direct",
       "tag": "bypass"
-},
+    },
     {
       "type": "block",
       "tag": "block"
     }
   ],
   "route": {
+    "geoip": {
+      "path": "geo-assets/sagernet-sing-geoip-geoip.db"
+    },
+    "geosite": {
+      "path": "geo-assets/sagernet-sing-geosite-geosite.db"
+    },
     "rules": [
       {
         "inbound": "dns-in",
@@ -181,12 +186,18 @@
         "outbound": "dns-out"
       },
       {
-        "clash_mode": "Direct",
+"clash_mode": "Direct",
         "outbound": "direct"
       },
       {
         "clash_mode": "Global",
         "outbound": "select"
+      },
+      {
+        "domain_suffix": ".ir",
+        "geosite": "ir",
+        "geoip": "ir",
+        "outbound": "bypass"
       }
     ],
     "final": "select",
@@ -200,7 +211,7 @@
     },
     "clash_api": {
       "external_controller": "127.0.0.1:6756",
-      "secret": "d5ij5eVgZCB5flE7"
+      "secret": "cETN3_-XawrcU5ee"
     }
   }
 }
