@@ -34,29 +34,27 @@
     ],
     "rules": [
       {
-        "domain_suffix": ".ir",
-        "geosite": "ir",
-        "server": "dns-direct"
-      },
-      {
         "domain": "cp.cloudflare.com",
         "server": "dns-remote",
         "rewrite_ttl": 3000
+      },
+      {
+        "rule_set": [
+          "geoip-ir",
+          "geosite-ir"
+        ],
+        "server": "dns-direct"
       }
     ],
     "final": "dns-remote",
     "static_ips": {
       "sky.rethinkdns.com": [
-        "188.114.97.3",
-        "188.114.96.3",
+        "104.17.148.22",
+        "104.17.147.22",
         "2a06:98c1:3120::3",
         "2a06:98c1:3121::3",
-        "104.17.147.22",
-        "104.17.148.22",
         "188.114.97.3",
-        "188.114.96.3",
-        "2a06:98c1:3121::3",
-        "2a06:98c1:3120::3"
+        "188.114.96.3"
       ]
     },
     "independent_cache": true
@@ -78,7 +76,7 @@
       "type": "mixed",
       "tag": "mixed-in",
       "listen": "127.0.0.1",
-      "listen_port": 2334,
+      "listen_port": 12334,
       "sniff": true,
       "sniff_override_destination": true
     },
@@ -86,7 +84,7 @@
       "type": "direct",
       "tag": "dns-in",
       "listen": "127.0.0.1",
-      "listen_port": 6450
+      "listen_port": 16450
     }
   ],
   "outbounds": [
@@ -95,8 +93,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "proxy1",
-        "proxy2"
+        "m4 § 0",
+        "m4 § 1"
       ],
       "default": "auto"
     },
@@ -104,44 +102,46 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "proxy1",
-        "proxy2"
+        "m4 § 0",
+        "m4 § 1"
       ],
-      "url": "http://cp.cloudflare.com/",
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
       "idle_timeout": "1h40m0s"
     },
     {
       "type": "wireguard",
-      "tag": "proxy1",
+      "tag": "m4 § 0",
       "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8888:9bd8:607d:9d82:29ee/128"
+        "172.16.0.2/24",
+        "2606:4700:110:8c96:1234:7603:3132:14b5/128"
       ],
-      "private_key": "yChZkhU+brTGJiRLIPHar5UAyK1yJBLMK+988LELG1s=",
-      "server": "188.114.97.132",
-      "server_port": 908,
+      "private_key": "uOlpUuGvBWo0djW9he51UEpCEVTh/eMcYDnleMFbnXo=",
+      "server": "188.114.97.170",
+      "server_port": 1010,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "XDEv",
-      "mtu": 1280,
-      "fake_packets": "5-10",
+      "reserved": "7W5B",
+      "mtu": 1330,
+      "fake_packets": "40-80",
       "fake_packets_size": "40-100",
-      "fake_packets_delay": "20-200"
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
     },
     {
       "type": "wireguard",
-      "tag": "proxy2",
-      "detour": "proxy1",
+      "tag": "m4 § 1",
+      "detour": "m4 § 0",
       "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:850c:5e87:4b0f:47c6:5219/128"
+        "172.16.0.2/24",
+        "2606:4700:110:8d5d:671c:46ea:417b:8485/128"
       ],
-      "private_key": "0GIU/JjisFqsYMe9CApidmZt9KJnUazYAFF7XDVmq3w=",
-      "server": "188.114.97.132",
-      "server_port": 908,
+      "private_key": "QL9lMOyJwqqDnXPUS0+fw40HVslFwobuezJlhig0JFs=",
+      "server": "188.114.97.170",
+      "server_port": 1074,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "tyJq",
-      "mtu": 1230
+      "reserved": "JiCe",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
     },
     {
       "type": "dns",
@@ -156,8 +156,8 @@
       "tag": "direct-fragment",
       "tls_fragment": {
         "enabled": true,
-        "size": "1-500",
-        "sleep": "0-500"
+        "size": "10-30",
+        "sleep": "2-8"
       }
     },
     {
@@ -170,13 +170,14 @@
     }
   ],
   "route": {
-    "geoip": {
-      "path": "geo-assets/sagernet-sing-geoip-geoip.db"
-    },
-    "geosite": {
-      "path": "geo-assets/sagernet-sing-geosite-geosite.db"
-    },
     "rules": [
+      {
+        "rule_set": [
+          "geoip-ir",
+          "geosite-ir"
+        ],
+        "outbound": "direct"
+      },
       {
         "inbound": "dns-in",
         "outbound": "dns-out"
@@ -186,18 +187,28 @@
         "outbound": "dns-out"
       },
       {
-"clash_mode": "Direct",
+        "clash_mode": "Direct",
         "outbound": "direct"
       },
       {
         "clash_mode": "Global",
         "outbound": "select"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geoip-ir",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geoip-ir.srs",
+        "update_interval": "120h0m0s"
       },
       {
-        "domain_suffix": ".ir",
-        "geosite": "ir",
-        "geoip": "ir",
-        "outbound": "bypass"
+        "type": "remote",
+        "tag": "geosite-ir",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-ir.srs",
+        "update_interval": "120h0m0s"
       }
     ],
     "final": "select",
@@ -210,8 +221,8 @@
       "path": "clash.db"
     },
     "clash_api": {
-      "external_controller": "127.0.0.1:6756",
-      "secret": "cETN3_-XawrcU5ee"
+      "external_controller": "127.0.0.1:16756",
+      "secret": "AdxI2dkhyzLpd62O"
     }
   }
 }
