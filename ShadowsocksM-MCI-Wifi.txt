@@ -41,6 +41,3 @@ vmess://eyJhZGQiOiIxMDQuMjEuMjQuMTcwIiwiYWlkIjoiMCIsImhvc3QiOiJhZGVuYzM2di54dG9v
 vless://07eec9ba-ca65@194.116.216.129:25?security=&type=tcp&headerType=http&host=www.speedtest.net&encryption=none#@ShadowsocksM-41
 vless://telegram-id-ArV2ray@www.speedtest.net:2095?security=&type=ws&path=/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry&host=4.V.V2.www.speedtest.net.d.www.speedtest.net.bahrane.iR.&encryption=none#@ShadowsocksM-42
 vless://0855f550-a2f1-4047-9803-d9eb7a3ddec9@www.parsvds.ir:8880?security=&type=ws&path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed%3D2048&host=LiV2ryLIGHTNING6spEedTest.NeT.lightning6.ONlinE.&encryption=none#@ShadowsocksM-43
-ss://YWVzLTI1Ni1jZmI6WkVUNTlMRjZEdkNDOEtWdA==@80.92.204.106:9005#@ShadowsocksM-44
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.164.35.9:989#@ShadowsocksM-45
-ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ==@45.89.52.66:9037#@ShadowsocksM-46
