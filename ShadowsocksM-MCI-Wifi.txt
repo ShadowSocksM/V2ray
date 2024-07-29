@@ -12,3 +12,6 @@ vless://44e5341b-e7ee-436f-ba1f-b960d1fbcadd@[2a01:4f9:c011:28db::1]:2087/?type=
 vmess://eyJhZGQiOiIyYTEyOjU5NDA6NzdjMDo6MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI2MDBlZTljNS03OGE4LTQwYWUtOWYyNy0zMzllODY5M2ZjODciLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjMxMjI2IiwicHMiOiLwn5KYIEB2MnJheV9jb25maWdzX3Bvb2wg8J+SmCAoMjApIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
 vless://58e6bea1-9928-5974-8880-55b11fd48f86@104.19.148.116:80/?type=ws&encryption=none&host=azadiiivpn.se2.vless.sitespeedtest.net.&path=%2FgbIwv9pciHPGApxVkC6vK8zmU8Bu0MXnViVIxxrFpW7d%3Fed%3D2560#%40ShadowsocksM-23
 vless://21853e7d-8ade-4731-a8e1-32e735a567ce@thexw6.huondadalioshop.ir:8080/?encryption=none&host=tgju.org&type=tcp&headerType=http#%40ShadowsocksM-26
+vless://58e6bea1-9928-5974-8880-55b11fd48f86@104.19.148.116:80?security=&type=ws&path=/gbIwv9pciHPGApxVkC6vK8zmU8Bu0MXnViVIxxrFpW7d?ed%3D2560&host=azadiiivpn.se2.vless.sitespeedtest.net.&encryption=none#@ShadowsocksM-23
+
+vless://21853e7d-8ade-4731-a8e1-32e735a567ce@thexw6.huondadalioshop.ir:8080?security=&type=tcp&headerType=http&host=tgju.org&encryption=none#@ShadowsocksM-26
