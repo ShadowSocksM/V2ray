@@ -1,3 +1,7 @@
+trojan://e30dbfd0-f15a-11ed-9080-1239d0255272@51.159.59.186:443/?type=tcp&security=tls&sni=fr.test3.net&allowInsecure=1#%F0%9F%94%92%20TR-TCP-TLS%20%F0%9F%87%AB%F0%9F%87%B7%20FR-51.159.59.186%3A443
+trojan://a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671@5.135.235.163:443/?type=tcp&security=tls&sni=upload.soft98.download&allowInsecure=1#%F0%9F%94%92%20TR-TCP-TLS%20%F0%9F%87%AB%F0%9F%87%B7%20FR-5.135.235.163%3A443
+trojan://2ea5fc44-bd38-4fb0-a9b9-88c83fc56622@146.19.215.165:443/?type=tcp&security=tls&sni=4-193-105-141.nhost.00cdn.com&allowInsecure=1#%F0%9F%94%92%20TR-TCP-TLS%20%F0%9F%87%A9%F0%9F%87%AA%20DE-146.19.215.165%3A443
+trojan://share.mjj-home.com@91.195.240.94:443/?type=tcp&security=tls&sni=tw.softbank.mjj-home.com#%F0%9F%94%92%20TR-TCP-TLS%20%F0%9F%87%A9%F0%9F%87%AA%20DE-91.195.240.94%3A443
 vless://f30aad19-41df-486d-9b57-3df1eceab697@185.146.173.58:80/?type=ws&encryption=none&host=dcc21.servernet.fun.&path=%2Fservernett#%F0%9F%92%98%20%40v2ray_configs_pool%20%F0%9F%92%98
 vmess://eyJhZGQiOiIxNDIuMC4xMzQuMjQyIiwiYWlkIjoiNjQiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ1MDE3IiwicHMiOiLwn5KYIEB2MnJheV9jb25maWdzX3Bvb2wg8J+SmCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 vless://f7d7de77-971e-4af3-91ab-21a72f641534@downloads.arno1.lol:33003/?encryption=none&host=speedtest.net&type=tcp&headerType=http#%F0%9F%92%98%20%40v2ray_configs_pool%20%F0%9F%92%98
