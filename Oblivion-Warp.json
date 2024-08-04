@@ -21,7 +21,7 @@
     {
       "type": "wireguard",
       "tag": "warp in warp § 1",
-      "detour": "m6 § 0",
+      "detour": "m4 § 0",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8dbd:d928:9ab3:1548:4832/128"
