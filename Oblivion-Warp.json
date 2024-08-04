@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "m1 § 0",
+      "tag": "m4 § 0",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8022:12fa:e9df:49f8:8f13/128"
