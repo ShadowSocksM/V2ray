@@ -1,4 +1,11 @@
+//profile-title: base64:QWxsICBXYXJwICsgV2luZHNjcmliZSArIFBvcm90b24gKyBIeXN0ZXJpYQ==
+//profile-update-interval: 48
+//subscription-userinfo: upload=0; download=0; total=107374182400004; expire=1848904940
+//support-url: https://t.me/F_NiREvil
+//profile-web-page-url: https://github.com/NiREvil
+
 {
+  "outbounds": [
   "log": {
     "level": "warn",
     "output": "box.log",
