@@ -1,5 +1,23 @@
 {
   "outbounds":   [
+     {
+      "type": "wireguard",
+      "tag": "m44 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:88c8:f7d8:1b63:403:cee3/128"
+      ],
+      "private_key": "oPKN+Ahu5sUYYoZZ2+4D3DF4TClGsnYEWDKHMaujon4=",
+      "server": "188.114.97.170",
+      "server_port": 7103,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "3MDy",
+      "mtu": 1330,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
+    },
     {
       "type": "wireguard",
       "tag": "m4 § 0",
@@ -17,6 +35,21 @@
       "fake_packets_size": "40-100",
       "fake_packets_delay": "4-8",
       "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "warp in warp6 § 1",
+      "detour": "m4 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8558:e30a:d203:78b6:bfce/128"
+      ],
+      "private_key": "SCRppkFMWitR0MjY6ygNvPVX1QsOPzleb4X7c2FQXXg=",
+      "server": "188.114.97.170",
+      "server_port": 4177,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "EAo8",
+      "mtu": 1280
     },
     {
       "type": "wireguard",
