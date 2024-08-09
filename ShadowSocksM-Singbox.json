@@ -18,7 +18,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "1.1.1.1",
+        "address": "8.8.4.4",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
@@ -34,31 +34,20 @@
     ],
     "rules": [
       {
-        "domain": "connectivitycheck.gstatic.com",
+        "domain": "cp.cloudflare.com",
         "server": "dns-remote",
         "rewrite_ttl": 3000
-      },
-      {
-        "domain_suffix": ".ir",
-        "server": "dns-direct"
-      },
-      {
-        "rule_set": [
-          "geoip-ir",
-          "geosite-ir"
-        ],
-        "server": "dns-direct"
       }
     ],
     "final": "dns-remote",
     "static_ips": {
       "sky.rethinkdns.com": [
-        "104.17.147.22",
         "104.17.148.22",
-        "2a06:98c1:3121::3",
-        "2a06:98c1:3120::3",
+        "104.17.147.22",
+        "188.114.96.3",
         "188.114.97.3",
-        "188.114.96.3"
+        "2a06:98c1:3121::3",
+        "2a06:98c1:3120::3"
       ]
     },
     "independent_cache": true
@@ -73,10 +62,9 @@
       "auto_route": true,
       "strict_route": true,
       "endpoint_independent_nat": true,
-      "stack": "gvisor",
+      "stack": "mixed",
       "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4"
+      "sniff_override_destination": true
     },
     {
       "type": "mixed",
@@ -84,8 +72,7 @@
       "listen": "127.0.0.1",
       "listen_port": 12334,
       "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4"
+      "sniff_override_destination": true
     },
     {
       "type": "direct",
@@ -100,8 +87,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪🟡 myH24️⃣",
-        "🇸🇪🟡 myH26️⃣"
+        "💕 @v2ray_configs_pool 💕 § 0"
       ],
       "default": "auto"
     },
@@ -109,46 +95,25 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪🟡 myH24️⃣",
-        "🇸🇪🟡 myH26️⃣"
+        "💕 @v2ray_configs_pool 💕 § 0"
       ],
-      "url": "http://connectivitycheck.gstatic.com/generate_204",
-      "interval": "47m0s",
+      "url": "http://cp.cloudflare.com/",
+      "interval": "46m0s",
       "tolerance": 1,
-      "idle_timeout": "2h21m0s"
+      "idle_timeout": "2h18m0s"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇸🇪🟡 myH24️⃣",
-      "server": "77.91.87.167",
-      "server_port": 2087,
-      "obfs": {
-        "type": "salamander",
-        "password": "fd784f88798796c1"
-      },
-      "password": "04bb42227f7c629c",
+      "type": "hysteria",
+      "tag": "💕 @v2ray_configs_pool 💕 § 0",
+      "server": "62.210.243.131",
+      "server_port": 18702,
+      "up_mbps": 10,
+      "down_mbps": 50,
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.c",
-        "insecure": true,
-        "alpn": "h3"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇪🟡 myH26️⃣",
-      "server": "2a12:5940:bbac::2",
-      "server_port": 2087,
-      "obfs": {
-        "type": "salamander",
-        "password": "fd784f88798796c1"
-      },
-      "password": "04bb42227f7c629c",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.c",
-        "insecure": true,
-        "alpn": "h3"
+        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+        "insecure": true
       }
     },
     {
@@ -195,33 +160,6 @@
           "HiddifyCli.exe"
         ],
         "outbound": "bypass"
-      },
-      {
-        "domain_suffix": ".ir",
-        "outbound": "direct"
-      },
-      {
-        "rule_set": [
-          "geoip-ir",
-          "geosite-ir"
-        ],
-        "outbound": "direct"
-      }
-    ],
-    "rule_set": [
-      {
-        "type": "remote",
-        "tag": "geoip-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geoip-ir.srs",
-        "update_interval": "120h0m0s"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-ir.srs",
-        "update_interval": "120h0m0s"
       }
     ],
     "final": "select",
@@ -235,7 +173,7 @@
     },
     "clash_api": {
       "external_controller": "127.0.0.1:16756",
-      "secret": "bcMSGsIjwmZY_Xzb"
+      "secret": "eJOo2bupWsOTckXv"
     }
   }
 }
