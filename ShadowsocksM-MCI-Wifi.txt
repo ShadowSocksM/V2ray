@@ -1,3 +1,5 @@
+vless://67a02cad-baf8-4e69-9c38-271072dbfd4b@www.speedtest.net:8880/?type=ws&encryption=none&host=www.speedtest.net.A.lightning-6.LiVE.&path=%2F-LiV2ry%40LIGHTNING6-TEL--%40LIGHTNING6-TEL--%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL-%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL--%40LIGHTNING6%3Fed%3D2048#%F0%9F%86%94mehrosaboran%20%F0%9F%94%93%20VL-WS-N%2FA%20%F0%9F%86%A5%F0%9F%86%A5%20%205ms
+vless://telegram-id-PcV2ray@www.speedtest.net:8080/?type=ws&encryption=none&host=1.v2.y.www.speedtest.net.xn--ihqvlaa157dbvcba104cs6p80gfvt8npc35ad25a.Site.&path=%2F-PcV2ry--PcV2ry-TEL--PcV2ry-TEL--PcV2ry%3Fed%3D8080#%F0%9F%86%94mehrosaboran%20%F0%9F%94%93%20VL-WS-N%2FA%20%F0%9F%86%A5%F0%9F%86%A5%20%205017ms
 https://hingroup.t.me/
 https://here_is_nowhere.t.me/
 vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080/?type=tcp&encryption=none&security=tls#%E2%9A%A0%EF%B8%8F%20FREE%20TO%20USE%21
