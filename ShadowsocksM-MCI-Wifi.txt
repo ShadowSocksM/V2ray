@@ -1,3 +1,7 @@
+vless://bf852703-3716-43f6-81c6-7f08403a1d55@zula.ir:8880/?type=ws&encryption=none&host=wWw.speEdtest.net.www.zula.ir.cloudflare.com.Tescoco.cFd.&path=%2F%3Fed%3D2048#%F0%9F%92%95%20%40v2ray_configs_pool%20%F0%9F%92%95
+vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011/?type=tcp&encryption=none#%F0%9F%92%95%20%40v2ray_configs_pool%20%F0%9F%92%95
+vmess://eyJhZGQiOiIyYTAxOjRmODoxYzFiOjk5OTo6MSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzZDNiYzk5Yy1mYTZjLTRiMTYtYWYxYS0wMDUyOWVmNzY0ODUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+SlSBAdjJyYXlfY29uZmlnc19wb29sIPCfkpUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
+vless://25e7ec43-77db-47c7-a08e-f0971adbfbdb@185.146.173.85:80/?type=ws&encryption=none&host=www.speedtest.net.ftp.debian.org.nobitex.com.vigilantecollection.com.&path=2048%2FDaily_Configs-Daily_Configs-Daily_Configs%3Fed%3D2048#%F0%9F%92%95%20%40v2ray_configs_pool%20%F0%9F%92%95
 vless://TELEGRAM-NUFiLTER@[2a01:4f8:1c1b:9d8::1]:43048/?type=tcp&encryption=none#%F0%9F%92%95%20%40v2ray_configs_pool%20%F0%9F%92%95%20%283%29
 vless://TELEGRAM-ServerNett@[2a01:4f8:c17:2cda::1]:29542/?type=tcp&encryption=none#%F0%9F%92%95%20%40v2ray_configs_pool%20%F0%9F%92%95%20%285%29
 vless://TELEGRAM-NUFiLTER@[2a01:4f8:1c1b:1c80::1]:45446/?type=tcp&encryption=none#%F0%9F%92%95%20%40v2ray_configs_pool%20%F0%9F%92%95%20%287%29
