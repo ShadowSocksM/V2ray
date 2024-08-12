@@ -1,3 +1,5 @@
+vless://TELEGRAM-NUFiLTER@[2a01:4f9:c011:4deb::1]:48548/?type=tcp&encryption=none#%F0%9F%86%94%20%40v2ray_configs_pool
+vless://TELEGRAM-ServerNett@[2a01:4f8:c17:eaf8::1]:53421/?type=tcp&encryption=none#%F0%9F%86%94%20%40v2ray_configs_pool
 vless://bf852703-3716-43f6-81c6-7f08403a1d55@zula.ir:8880/?type=ws&encryption=none&host=wWw.speEdtest.net.www.zula.ir.cloudflare.com.Tescoco.cFd.&path=%2F%3Fed%3D2048#@ShadowsocksM-1
 vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011/?type=tcp&encryption=none#@ShadowsocksM-2
 vmess://eyJhZGQiOiIyYTAxOjRmODoxYzFiOjk5OTo6MSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzZDNiYzk5Yy1mYTZjLTRiMTYtYWYxYS0wMDUyOWVmNzY0ODUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+SlSBAdjJyYXlfY29uZmlnc19wb29sIPCfkpUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=#@ShadowsocksM-3
