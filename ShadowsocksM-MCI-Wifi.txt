@@ -1,3 +1,5 @@
+vless://e260cbc6-7b84-4b8a-9442-dbe6f9ccd1ff@185.146.173.252:8080/?type=ws&encryption=none&host=unlimiteddev-vpn.unlimiteddev.Community.&path=%2FTelegram%3A%40UnlimitedDev-Telegram%3A%40UnlimitedDev%3Fed%3D8080#%F0%9F%86%94%20%40v2ray_configs_pool
+vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011/?type=tcp&encryption=none#%F0%9F%86%94%20%40v2ray_configs_pool
 vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011/?type=tcp&encryption=none#%F0%9F%86%94%20%40v2ray_configs_pool
 vless://0b182df1-eb4f-4852-8a4f-8a4d8bd81620@146.75.118.225:80/?type=ws&encryption=none&host=ramioncommunicationslimited.com&path=%2Fcontact%3Fed%3D2560#%F0%9F%86%94%20%40v2ray_configs_pool
 vless://0b182df1-eb4f-4852-8a4f-8a4d8bd81620@146.75.118.225:80/?type=ws&encryption=none&host=ramioncommunicationslimited.com&path=%2Fcontact%3Fed%3D2560#%F0%9F%86%94%20%40v2ray_configs_pool
