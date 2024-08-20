@@ -1,3 +1,10 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTanFpMU1taWQ3eXp4NDBrTGZ3Y1Y0@18.192.71.210:56303#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://Parsashonam-43@[2a01:4f8:1c1b:26eb::1]:8888/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://TELEGRAM-ServerNett@[2a01:4f8:c17:2cda::1]:45075/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://TELEGRAM-ServerNett@[2a01:4f8:c012:9907::1]:22481/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+trojan://telegram-id-privatevpns@18.192.148.249:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://41d17df9-c57d-4223-ac07-b4ee347c8bf2@sh.freak-web.rani-city.site:15035/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://41d17df9-c57d-4223-ac07-b4ee347c8bf2@212.80.19.118:15035/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
 vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.130.133:443/?type=ws&encryption=none&host=fraud.chase&path=%2FTELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI%2F%3Fed%3D2048&security=tls&sni=www.Arizona.edu#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
 vless://e292c8a2-50d4-4c20-ae95-fd20dd44d1a6@46.245.64.144:2095/?type=ws&encryption=none&host=www.speedtest.net&path=%2F-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
 trojan://telegram-id-privatevpns@18.135.25.58:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
