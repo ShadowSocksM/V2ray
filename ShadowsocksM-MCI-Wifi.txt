@@ -1,4 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTanFpMU1taWQ3eXp4NDBrTGZ3Y1Y0@18.192.71.210:56303#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://c6c8cf12-eb81-4044-88c7-d398614e0cd2@smartvipeasymt.hphell.ir:12345/?encryption=none&host=uplod.ir&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
+vless://b333915f-82d9-4163-83e6-c91e243a7edd@irmk.petirangroup.com:30242/?encryption=none&host=fast.com&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
 vless://Parsashonam-43@[2a01:4f8:1c1b:26eb::1]:8888/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
 vless://TELEGRAM-ServerNett@[2a01:4f8:c17:2cda::1]:45075/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
 vless://TELEGRAM-ServerNett@[2a01:4f8:c012:9907::1]:22481/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
