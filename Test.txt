@@ -1,58 +1,570 @@
-trojan://71409d3e488548e8bb076d229778f008@104.17.147.77:443?security=tls&sni=bangladeshipatri.com&allowInsecure=1&fp=chrome&type=ws&path=6b777a91&host=bangladeshipatri.com#@ShadowsocksM-1
-trojan://telegram-id-directvpn@16.171.211.125:22222?security=tls&sni=trojan.burgerip.co.uk&alpn=http/1.1&type=tcp#@ShadowsocksM-2
-vless://cd8002d9-e8fd-4411-8bb6-fc80310ff81d@avval.ir:2053?security=tls&sni=vip1-romax-tiktok.hsjsak.ir&fp=random&type=ws&path=vless-ws/?ed&host=vip1-romax-tiktok.hsjsak.ir&encryption=none#@ShadowsocksM-3
-vless://telegram-id-ArV2ray@www.parsvds.ir:2095?security=&type=ws&path=/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed%3D2095&host=10.V.V2.www.speedtest.net.s.debian.org.mashtimji.iR.&encryption=none#@ShadowsocksM-4
-vless://23c1bdc8-3f6f-48d0-9a5c-a11b5ddf1366@104.21.69.44:8080?security=&type=ws&path=/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed%3D8080&host=unlimiteddev-vpn.unlimiteddev.Community.&encryption=none#@ShadowsocksM-5
-vless://23c1bdc8-3f6f-48d0-9a5c-a11b5ddf1366@172.67.138.69:8080?security=&type=ws&path=/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed%3D8080&host=unlimiteddev-vpn.unlimiteddev.Community.&encryption=none#@ShadowsocksM-6
-vless://b642e82c-b721-43bc-8602-0241cc4a3933@87.242.118.69:7777?security=&type=ws&path=/&encryption=none#@ShadowsocksM-7
-vless://Join-VPNCUSTOMIZE@braelyn.ns.cloudflare.com:80?security=&type=ws&path=VPNCUSTOMIZE?ed%3D8080&host=VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net.&encryption=none#@ShadowsocksM-8
-vless://66dfb5f2-1c63-4d82-94a7-0915bedd93b9@172.67.156.210:443?security=tls&sni=knocked.aurorainiceland.com&fp=chrome&type=ws&path=/nimws?ed%3D@MARAMBASHI,@MARAMBASHI,@MARAMBASHI&host=knocked.aurorainiceland.com&encryption=none#@ShadowsocksM-9
-vless://17a7bf97-fef5-4101-a5c5-7c730fabeeee@104.16.190.131:443?security=tls&sni=bpb-worker-panel-h5f.pages.dev&type=ws&path=/TELEGRAM-MARAMBASHI-MARAMBASHI/?ed%3D2048&host=bpb-worker-panel-h5f.pages.dev&encryption=none#@ShadowsocksM-10
-vless://FILTERSHCAN@195.201.234.221:8080?security=&type=tcp&encryption=none#@ShadowsocksM-11
-vless://14c31520-0ab0-5dbe-86ca-fcc9bf6596ec@185.146.173.92:443?security=tls&sni=uk1.vless.site&type=ws&path=/vless&host=uk1.vless.site&encryption=none#@ShadowsocksM-12
-vless://cd8002d9-e8fd-4411-8bb6-fc80310ff81d@104.26.14.16:2053?security=tls&sni=vip1-romax-tiktok.hsjsak.ir&fp=chrome&type=ws&path=/&host=vip1-romax-tiktok.hsjsak.ir&encryption=none#@ShadowsocksM-13
-vless://9efb6ace-6b25-4f13-bbd2-6d5767ab1f6e@172.67.138.69:8880?security=&type=ws&path=/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed%3D2048&host=37.v.v.y.www.speedtest.net.ftp.debian.org.bklink.iR.&encryption=none#@ShadowsocksM-14
-vless://telegram-id-ArV2ray@104.17.0.14:443?security=&type=tcp&encryption=none#@ShadowsocksM-15
-vless://TELEGRAMmainv2ray@zula.ir:8080?security=&type=ws&path=/Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray?ed%3D2040&host=www.speedtest.net.kkkkklllkokowkfwofkfkfekojg.ir.mralpha-vpn.COm.&encryption=none#@ShadowsocksM-16
-vless://3bca6005-c1dc-4321-ab7a-ca086a240e36@2.19.84.75:443?security=tls&sni=joinbedevmessorg.xn--54qv00ez5ar77g.co&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed%3D443&host=joinbedevmessorg.xn--54qv00ez5ar77g.co.&encryption=none#@ShadowsocksM-17
-vless://17a7bf97-fef5-4101-a5c5-7c730fabeeee@104.18.202.232:443?security=tls&sni=bpb-worker-panel-h5f.pages.dev&fp=firefox&type=ws&path=/Tel-@V2ray_Alpha/?ed%3D2560&host=bpb-worker-panel-h5f.pages.dev&encryption=none#@ShadowsocksM-18
-vless://9902fc94-31f9-4afe-b37a-82f5790b3d2a@104.24.20.71:443?security=tls&sni=de1-moryvpnbot.pages.dev&type=ws&path=/TELEGRAM-MARAMBASHI-MARAMBASHI/?ed%3D2048&host=de1-moryvpnbot.pages.dev&encryption=none#@ShadowsocksM-19
-vless://c4f7e3f1-5618-4985-8b68-883593c4c3bc@check-host.net:80?security=&type=ws&path=/PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed%3D2048&host=1.www.speedtest.net.zula.ir.zemestanil.iR.&encryption=none#@ShadowsocksM-20
-vless://c4f7e3f1-5618-4985-8b68-883593c4c3bc@188.114.97.3:80?security=&type=ws&path=/PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed%3D2048&host=1.www.speedtest.net.zula.ir.zemestanil.iR.&encryption=none#@ShadowsocksM-21
-vless://c4f7e3f1-5618-4985-8b68-883593c4c3bc@190.93.247.155:80?security=&type=ws&path=/PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed%3D2048&host=1.www.speedtest.net.zula.ir.zemestanil.iR.&encryption=none#@ShadowsocksM-22
-vless://c4f7e3f1-5618-4985-8b68-883593c4c3bc@185.146.173.58:80?security=&type=ws&path=/PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed%3D2048&host=1.www.speedtest.net.zula.ir.zemestanil.iR.&encryption=none#@ShadowsocksM-23
-vless://c4f7e3f1-5618-4985-8b68-883593c4c3bc@www.speedtest.net:80?security=&type=ws&path=/PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed%3D2048&host=1.www.speedtest.net.zula.ir.zemestanil.iR.&encryption=none#@ShadowsocksM-24
-vless://Telegram-NUFiLTER@www.speedtest.net:2095?security=&type=ws&path=/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed%3D2048&host=116.v.v.y.www.speedtest.net.ftp.debian.org.bklink.iR.&encryption=none#@ShadowsocksM-25
-vless://telegram-id-ArV2ray@www.speedtest.net:8880?security=&type=ws&path=/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed%3D8880&host=11.V.V2.h.www.speedtest.net.salatinmacvc.iR.&encryption=none#@ShadowsocksM-26
-vless://abaabe38-b551-48ad-bfee-98ac2f0ed838@104.16.128.215:8080?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed%3D8080&host=join-to.vmessorg.Community.&encryption=none#@ShadowsocksM-27
-vless://abaabe38-b551-48ad-bfee-98ac2f0ed838@104.16.87.46:8080?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed%3D8080&host=join-to.vmessorg.Community.&encryption=none#@ShadowsocksM-28
-vless://abaabe38-b551-48ad-bfee-98ac2f0ed838@104.16.225.78:8080?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed%3D8080&host=join-to.vmessorg.Community.&encryption=none#@ShadowsocksM-29
-vless://ID-V2RAXX@104.17.147.22:8080?security=&type=ws&path=/V2raxx?ed%3D1024&host=www.speedtest.net.ftp.debian.org.xn--79qr8bwg980ayroj80c.website.&encryption=none#@ShadowsocksM-30
-vless://da100e36-90d1-4f8a-ad91-dc02a12a85c1@78.110.121.207:2728?security=&type=tcp&encryption=none#@ShadowsocksM-31
-vless://TELEGRAMmaimv2ray@www.parsvds.ir:2052?security=&type=ws&path=/Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit?ed%3D2040&host=WwW.speedtest.net.kkkkklllkokoWkfwofkfKfekojg.IR.mralpha-vpn.COm&encryption=none#@ShadowsocksM-32
-vless://cb4fca5f-edf8-415b-aa8f-ac52f415296a@104.21.51.208:443?security=tls&sni=de-02.tradex2080.com&alpn=h2&fp=chrome&type=grpc&serviceName=gPGhgE3kwHBXqebAryGsQ&encryption=none#@ShadowsocksM-33
-vless://ba775821-d47b-4669-8ff0-91edf718a162@46.36.103.71:8464?security=&type=tcp&headerType=http&host=2picrszy.divarcdn.com&encryption=none#@ShadowsocksM-34
-vmess://eyJhZGQiOiJ6dWxhLmlyIiwiYWlkIjoiMCIsImhvc3QiOiJqYWhma2poYS5jZmQiLCJpZCI6Ijk1MGRiNmFhLTQ5MjYtNDYxNi04MTZlLWVjMDMxMmRjYjg3YiIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MiLCJwb3J0IjoiNDQzIiwicHMiOiLwn5GJIPCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCIsInNjeSI6ImF1dG8iLCJzbmkiOiJqYWhma2poYS5jZmQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==#@ShadowsocksM-35
-vmess://eyJhZGQiOiIxMDQuMjEuNDIuMzkiLCJhaWQiOiIwIiwiaG9zdCI6Im5lenVrby5yYWlkZW5zaG9ndW4uY2xvdWRucy5vcmciLCJpZCI6ImY1ODRkZTE1LTIwMzQtNDE3MC1hNzIzLWY0OGMyYmFlNWUwZiIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MvYWZyaG1zMTZ2LmJlc3R4cmF5LmJ1enoiLCJwb3J0IjoiNDQzIiwicHMiOiLwn5GJIPCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCIsInNjeSI6ImF1dG8iLCJzbmkiOiJuZXp1a28ucmFpZGVuc2hvZ3VuLmNsb3VkbnMub3JnIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=#@ShadowsocksM-36
-vmess://eyJhZGQiOiJucG1qcy5jb20iLCJhaWQiOiIwIiwiaG9zdCI6ImhkZnkxYzIuZnJlZWFpcmxhaW5lcy5jb20iLCJpZCI6IjZiODgwYjA3LWU5NTItNGMwYi1iNGEzLTZjOWFjNGNmOWQzZiIsIm5ldCI6IndzIiwicGF0aCI6Ii9RdnR2UGREWFhJbFNkWk1xbnV4RyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfkYkg8J+GlCBAdjJyYXlfY29uZmlnc19wb29sIiwic2N5IjoiYXV0byIsInNuaSI6ImhkZnkxYzIuZnJlZWFpcmxhaW5lcy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==#@ShadowsocksM-37
-vmess://eyJhZGQiOiIxNzIuNjcuMjA0Ljg0IiwiYWlkIjoiMCIsImhvc3QiOiJqYWhma2poYS5jZmQiLCJpZCI6Ijk1MGRiNmFhLTQ5MjYtNDYxNi04MTZlLWVjMDMxMmRjYjg3YiIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MiLCJwb3J0IjoiNDQzIiwicHMiOiLwn5GJIPCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCIsInNjeSI6ImF1dG8iLCJzbmkiOiJqYWhma2poYS5jZmQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==#@ShadowsocksM-38
-vmess://eyJhZGQiOiJ3d3cudGVsZXRyYW5zLnJvIiwiYWlkIjoiMCIsImhvc3QiOiJuZXp1a28ucmFpZGVuc2hvZ3VuLmNsb3VkbnMub3JnIiwiaWQiOiIwNTY0MWNmNS01OGQyLTRiYTQtYTlmMS1iM2NkYTBiMWZiMWQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzL29iZGlpLmNmZCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfkYkg8J+GlCBAdjJyYXlfY29uZmlnc19wb29sIiwic2N5IjoiYXV0byIsInNuaSI6Im5lenVrby5yYWlkZW5zaG9ndW4uY2xvdWRucy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==#@ShadowsocksM-39
-vmess://eyJhZGQiOiIxODguMTE0Ljk3LjciLCJhaWQiOiIwIiwiaG9zdCI6ImxpbmRlMDYuaW5kaWF2aWRlby5zYnMiLCJpZCI6ImVkYmIxMDU5LTE2MzMtNDI3MS1iNjZlLWVkNGZiYTQ3YTFiZiIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MiLCJwb3J0IjoiNDQzIiwicHMiOiLwn5GJIPCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCIsInNjeSI6ImF1dG8iLCJzbmkiOiJsaW5kZTA2LmluZGlhdmlkZW8uc2JzIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=#@ShadowsocksM-40
-vmess://eyJhZGQiOiIxMDQuMjEuMjQuMTcwIiwiYWlkIjoiMCIsImhvc3QiOiJhZGVuYzM2di54dG9vbHRlY2guY2ZkIiwiaWQiOiJiMzIxZmQ1ZC1lNmVjLTQyOTMtYTY0NC0xNjRlMzg4NWY1MmUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+RiSDwn4aUIEB2MnJheV9jb25maWdzX3Bvb2wiLCJzY3kiOiJhdXRvIiwic25pIjoiYWRlbmMzNnYueHRvb2x0ZWNoLmNmZCIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9#@ShadowsocksM-41
-vmess://eyJhZGQiOiIxODguMTE0Ljk3LjMiLCJhaWQiOiIwIiwiaG9zdCI6Ik5sMS52bWVzcy5zaXRlLiIsImlkIjoiNzcyM2VlMzEtMDM5Yi00OGQwLWJmZDgtZDU5MWNhNGJhZjRlIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzIiwicG9ydCI6IjIwNTIiLCJwcyI6IvCfkYkg8J+GlCBAdjJyYXlfY29uZmlnc19wb29sIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9#@ShadowsocksM-42
-vmess://eyJhZGQiOiJjd202cXgxMDcwaHAyZHM0OGMyNmMudGVsZS10b28uY29tIiwiYWlkIjoiMCIsImhvc3QiOiIiLCJpZCI6IjQyZjVjM2EyLTI3NDMtNDIxMi1iZDEzLWNhZTcxNWJlMDJmZiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDEzMDQiLCJwcyI6IvCfkYkg8J+GlCBAdjJyYXlfY29uZmlnc19wb29sIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9#@ShadowsocksM-43
-vmess://eyJhZGQiOiIxNzIuNjcuMTYxLjc3IiwiYWlkIjoiMCIsImhvc3QiOiJsaW5kZTA2LmluZGlhdmlkZW8uc2JzIiwiaWQiOiJlZGJiMTA1OS0xNjMzLTQyNzEtYjY2ZS1lZDRmYmE0N2ExYmYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+RiSDwn4aUIEB2MnJheV9jb25maWdzX3Bvb2wiLCJzY3kiOiJhdXRvIiwic25pIjoibGluZGUwNi5pbmRpYXZpZGVvLnNicyIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9#@ShadowsocksM-44
-vmess://eyJhZGQiOiIxNzIuNjcuMTgzLjIyMCIsImFpZCI6IjAiLCJob3N0IjoiamFoZmtqaGEuY2ZkIiwiaWQiOiI5NTBkYjZhYS00OTI2LTQ2MTYtODE2ZS1lYzAzMTJkY2I4N2IiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+RiSDwn4aUIEB2MnJheV9jb25maWdzX3Bvb2wiLCJzY3kiOiJhdXRvIiwic25pIjoiamFoZmtqaGEuY2ZkIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=#@ShadowsocksM-45
-vmess://eyJhZGQiOiIxOTUuMjAxLjIzNC4yMjEiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiRklMVEVSU0hDQU4iLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjIwODYiLCJwcyI6IvCfkYkg8J+GlCBAdjJyYXlfY29uZmlnc19wb29sIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9#@ShadowsocksM-46
-vmess://eyJhZGQiOiJadWxhLmlyIiwiYWlkIjoiMCIsImhvc3QiOiJ3d3cuc3BlZWR0ZXN0Lm5ldC5ra2tra2xsbGtva293a2Z3b2ZrZmtmZWtvamcuaXIubXJhbHBoYS12cG4uQ09tIiwiaWQiOiJNYWludjJyYXkiLCJuZXQiOiJ3cyIsInBhdGgiOiIvVGVsZWdyYW0tTWFpbnYycmF5LVRlbGVncmFtLU1haW52MnJheS1UZWxlZ3JhbS1NYWludjJyYXktVGVsZWdyYW0tTWFpbnYycmF5LVRlbGVncmFtLU1haW52MnJheS1UZWxlZ3JhbS1NYWludjJyYXktVGVsZWdyYW0tTWFpbnYycmF5LVRlbGVncmFtLU1haW52MnJheS1UZWxlZ3JhbS1NYWludjJyYXktVGVsZWdyYW0tTWFpbnYycmF5LVRlbGVncmFtLU1haW52MnJheS1UZWxlZ3JhbS1NYWludjJyYXk/ZWQ9MjA0OCIsInBvcnQiOiIyMDk1IiwicHMiOiLwn5GJIPCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==#@ShadowsocksM-47
-vmess://eyJhZGQiOiIxODguMTE0Ljk5LjIwNSIsImFpZCI6IjAiLCJob3N0IjoibGluZGUwNi5pbmRpYXZpZGVvLnNicyIsImlkIjoiZWRiYjEwNTktMTYzMy00MjcxLWI2NmUtZWQ0ZmJhNDdhMWJmIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt3cyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfkYkg8J+GlCBAdjJyYXlfY29uZmlnc19wb29sIiwic2N5IjoiYXV0byIsInNuaSI6ImxpbmRlMDYuaW5kaWF2aWRlby5zYnMiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==#@ShadowsocksM-48
-vmess://eyJhZGQiOiIxNzIuNjcuMTY0LjE2NCIsImFpZCI6IjAiLCJob3N0IjoiYWZyaG1zMDcueGZpeGVkZmxvYXQuY2ZkIiwiaWQiOiJhMTY1NWY1MS0xZTIwLTRhOTItOGExMS1iN2NhMzBhN2EzNTMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+RiSDwn4aUIEB2MnJheV9jb25maWdzX3Bvb2wiLCJzY3kiOiJhdXRvIiwic25pIjoiYWZyaG1zMDcueGZpeGVkZmxvYXQuY2ZkIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=#@ShadowsocksM-49
-vless://telegram-id-ArV2ray@185.146.173.58:8080/?type=ws&encryption=none&host=13.V.www.speedtest.net.salatinmacvc.iR.&path=%2Ftelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%3Fed%3D8080#@ShadowsocksM-50
-vless://telegram-id-PcV2ray@104.17.147.22:8880/?type=ws&encryption=none&host=2.V.V2.www.speedtest.net.b.www.speedtest.net.mashtimji.iR.&path=%2F-PcV2ry--PcV2ry-TEL--PcV2ry-TEL--PcV2ry%3Fed%3D8880#@ShadowsocksM-51
-vless://telegram-id-PcV2ray@104.17.148.22:8880?security=&type=ws&path=/-PcV2ry--PcV2ry-TEL--PcV2ry-TEL--PcV2ry?ed%3D8880&host=2.V.V2.www.speedtest.net.b.www.speedtest.net.mashtimji.iR.&encryption=none#@ShadowsocksM-52
-vless://e9d8091d-5fb8-467f-88ed-b634f6ea3d8d@172.67.221.208:80?security=&type=ws&path=/Telegram-M4Dvpn-Telegram-M4Dvpn-Telegram-M4Dvpn-Telegram-M4Dvpn-Telegram-M4Dvpn-Telegram-M4Dvpn-Telegram-M4Dvpn-Telegram-M4Dvpn&host=m-ande.lab3485b.96om6.0m-e68m632.4365.neilson.ir&encryption=none#@ShadowsocksM-53
-vless://17a7bf97-fef5-4101-a5c5-7c730fabeeee@www.speedtest.net:443?security=tls&sni=bpb-worker-panel-h5f.pages.dev&fp=firefox&type=ws&path=Tel-@V2ray_Alpha/?ed%3D2560&host=bpb-worker-panel-h5f.pages.dev&encryption=none#@ShadowsocksM-54
-vless://9902fc94-31f9-4afe-b37a-82f5790b3d2a@104.24.20.71:443?security=tls&sni=de1-moryvpnbot.pages.dev&type=ws&path=/?ed%3D2048&host=de1-moryvpnbot.pages.dev&encryption=none#@ShadowsocksM-55
-vless://6df874ef-f074-4142-8ee9-7c4b88ff7a07@worker-singbox-rsae63.mbnpl.workers.dev:8443?security=tls&sni=worker-singbox-rsae63.mbnpl.workers.dev&fp=random&type=ws&path=/?ed%3D2048&host=worker-singbox-rsae63.mbnpl.workers.dev&encryption=none#@ShadowsocksM-56
-vless://17a7bf97-fef5-4101-a5c5-7c730fabeeee@104.16.190.131:443?security=tls&sni=bpb-worker-panel-h5f.pages.dev&type=ws&path=/TELEGRAM-MARAMBASHI-MARAMBASHI/?ed%3D2048&host=bpb-worker-panel-h5f.pages.dev&encryption=none#@ShadowsocksM-57
-vless://1dbe32b7-708f-4e88-8785-3400fcc7e071@chat.openai.com:2096?security=tls&sni=telegram-id-vpn-ocean.telegram-id-vpn-ocean-3.workers.dev&alpn=h2&fp=randomized&type=ws&path=/vless-ws/?ed%3D2048&host=telegram-id-vpn-ocean.telegram-id-vpn-ocean-3.workers.dev&encryption=none#@ShadowsocksM-58
+{
+    "log": {
+        "level": "warn",
+        "timestamp": true
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "https://94.140.14.14/dns-query",
+                "address_resolver": "dns-direct",
+                "strategy": "prefer_ipv4",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "8.8.8.8",
+                "address_resolver": "dns-local",
+                "strategy": "prefer_ipv4",
+                "detour": "direc t",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode://success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": ".ir",
+                "server": "dns-direct",
+                "domain": [
+                    "2e9bc800.new-bpb-worker-panel-drk.pages.dev",
+                    "www.speedtest.net"
+                ]
+            },
+            {
+                "disable_cache": true,
+                "rule_set": [
+                    "geosite-category-ads-all",
+                    "geosite-malware",
+                    "geosite-phishing",
+                    "geosite-cryptominers"
+                ],
+                "server": "dns-block"
+            }
+        ],
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "type": "direct",
+            "tag": "dns-in",
+            "listen": "127.0.0.1",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "inet4_address": "172.19.0.1/28",
+            "inet6_address": "fdfe:dcba:9876::1/126",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "endpoint_independent_nat": true,
+            "stack": "mixed",
+            "sniff": true,
+            "sniff_override_destination": true
+        },
+        {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "listen": "127.0.0.1",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": true
+        }
+    ],
+    "outbounds": [
+        {
+            "type": "selector",
+            "tag": "proxy",
+            "outbounds": [
+                "Best-Ping ðŸ’¥",
+                "A1",
+                "A2",
+                "A3",
+		        "A4",
+                "A5",
+                "A6",
+		        "A7",
+                "A8",
+                "A9",
+	            "A10",
+                "A11",
+                "A12",
+				"A13",
+	            "A14",
+                "A15",
+                "A16",
+	        	"WARP-MAIN",
+                "WARP-WIW"
+            ]
+        },
+        {
+            "type": "urltest",
+            "tag": "Best-Ping ðŸ’¥",
+            "outbounds": [
+                "A1",
+                "A2",
+                "A3",
+		        "A4",
+                "A5",
+                "A6",
+		        "A7",
+                "A8",
+                "A9",
+	            "A10",
+                "A11",
+                "A12",
+				"A13",
+	            "A14",
+                "A15",
+                "A16",
+	        	"WARP-MAIN",
+                "WARP-WIW"
+            ],
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": "30s",
+            "tolerance": 50
+        },
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "block",
+            "tag": "block"
+        },
+        {
+            "type": "dns",
+            "tag": "dns-out"
+        },
+		{
+			  "type": "hysteria2",
+			  "tag": "A1",
+			  "server": "77.91.77.27",
+			  "server_port": 39292,
+			  "obfs": {
+				"type": "salamander",
+				"password": "5449c086723e86d4"
+			  },
+			  "password": "f0126e9fe4014e17",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+					{
+			  "type": "hysteria2",
+			  "tag": "A2",
+			  "server": "[2a12:5940:9794::2]",
+			  "server_port": 39292,
+			  "obfs": {
+				"type": "salamander",
+				"password": "5449c086723e86d4"
+			  },
+			  "password": "f0126e9fe4014e17",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A3",
+			  "server": "77.91.77.87",
+			  "server_port": 37383,
+			  "obfs": {
+				"type": "salamander",
+				"password": "f809a60274316cdd"
+			  },
+			  "password": "4eb5646f51e94a84",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+	      }
+	    },
+	    {
+			  "type": "hysteria2",
+			  "tag": "A4",
+			  "server": "[2a12:5940:9ab8::2]",
+			  "server_port": 37383,
+			  "obfs": {
+				"type": "salamander",
+				"password": "f809a60274316cdd"
+			  },
+			  "password": "4eb5646f51e94a84",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A5",
+			  "server": "77.91.77.187",
+			  "server_port": 47388,
+			  "obfs": {
+				"type": "salamander",
+				"password": "15a519691a16a5d8"
+			  },
+			  "password": "f65c122897be1bff",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A6",
+			  "server": "[2a12:5940:aa9a::2]",
+			  "server_port": 47388,
+			  "obfs": {
+				"type": "salamander",
+				"password": "15a519691a16a5d8"
+			  },
+			  "password": "f65c122897be1bff",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A7",
+			  "server": "77.221.158.52",
+			  "server_port": 7373,
+			  "obfs": {
+				"type": "salamander",
+				"password": "7d9dff369a11f6e0"
+			  },
+			  "password": "81ea378b37931b23",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A8",
+			  "server": "[2a12:5940:72da::2]",
+			  "server_port": 7373,
+			  "obfs": {
+				"type": "salamander",
+				"password": "7d9dff369a11f6e0"
+			  },
+			  "password": "81ea378b37931b23",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "server": "77.91.77.27",
+			  "server_port": 39299,
+			  "uuid": "72b15e67-6ae5-42ba-9518-2258d5bb300f",
+			  "password": "cc5ce5f8e279f9ee",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A9",
+			  "type": "tuic"
+		},
+		{
+			  "server": "[2a12:5940:9794::2]",
+			  "server_port": 39299,
+			  "uuid": "72b15e67-6ae5-42ba-9518-2258d5bb300f",
+			  "password": "cc5ce5f8e279f9ee",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A10",
+			  "type": "tuic"
+		},
+		{
+			  "server": "77.91.77.87",
+			  "server_port": 38382,
+			  "uuid": "2999e665-fa4e-498f-8417-4ab567010ed6",
+			  "password": "aa69e32eae500e1c",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A11",
+			  "type": "tuic"
+		},
+		{
+			  "server": "[2a12:5940:9ab8::2]",
+			  "server_port": 38382,
+			  "uuid": "2999e665-fa4e-498f-8417-4ab567010ed6",
+			  "password": "aa69e32eae500e1c",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A12",
+			  "type": "tuic"
+		},
+		{
+			  "server": "77.91.77.187",
+			  "server_port": 38383,
+			  "uuid": "a223d4ab-2355-46e6-a455-e95ed843991a",
+			  "password": "ae8e511e0d7b5a49",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A13",
+			  "type": "tuic"
+		},
+		{
+			  "server": "[2a12:5940:aa9a::2]",
+			  "server_port": 38383,
+			  "uuid": "a223d4ab-2355-46e6-a455-e95ed843991a",
+			  "password": "ae8e511e0d7b5a49",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A14",
+			  "type": "tuic"
+		},
+		{
+			  "server": "77.221.158.52",
+			  "server_port": 8922,
+			  "uuid": "2f2dada7-b8af-49e7-a26e-d2d592c82846",
+			  "password": "734da957528baa43",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A15",
+			  "type": "tuic"
+		},
+		{
+			  "server": "[2a12:5940:72da::2]",
+			  "server_port": 8922,
+			  "uuid": "2f2dada7-b8af-49e7-a26e-d2d592c82846",
+			  "password": "734da957528baa43",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A16",
+			  "type": "tuic"
+		},
+		{
+			  "type": "wireguard",
+			  "server": "162.159.192.121",
+			  "server_port": 8886,
+			  "local_address": [
+				  "172.16.0.2/32",
+				  "2606:4700:110:83d5:b153:a1ec:f7a4:7d83/128"
+			  ],
+			  "private_key": "0D6uRan8wP5qYdni4hF/Vs/heLM5gT3GUgEYGPhO3l4=",
+			  "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+			  "reserved": [
+				  213,
+				  116,
+				  42
+			  ],
+			  "mtu": 1384,
+			  "workers": 2,
+			  "detour": "direct",
+			  "tag": "WARP-MAIN"
+		},
+		{
+			  "type": "wireguard",
+			  "server": "188.114.99.135",
+			  "server_port": 1180,
+			  "local_address": [
+				  "172.16.0.2/32",
+				  "2606:4700:110:83d5:b153:a1ec:f7a4:7d83/128"
+			  ],
+			  "private_key": "mOhCw+Qib5kinGboORTUqC/fcSBxCLPN8TLSMC6eLmQ=",
+			  "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+			  "reserved": [
+				  219,
+				  72,
+				  92
+			  ],
+			  "mtu": 1384,
+			  "workers": 2,
+			  "detour": "WARP-MAIN",
+			  "tag": "WARP-WIW"
+        }
+    ],
+    "route": {
+        "rules": [
+            {
+                "port": 53,
+                "outbound": "dns-out"
+            },
+            {
+                "inbound": "dns-in",
+                "outbound": "dns-out"
+            },
+            {
+                "network": "udp",
+                "port": 443,
+                "protocol": "quic",
+                "outbound": "block"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geosite-category-ads-all",
+                    "geosite-malware",
+                    "geosite-phishing",
+                    "geosite-cryptominers",
+                    "geoip-malware",
+                    "geoip-phishing"
+                ],
+                "outbound": "block"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir",
+                    "geoip-ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "source_ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "outbound": "block"
+            }
+        ],
+        "rule_set": [
+            {
+                "type": "remote",
+                "tag": "geosite-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-category-ads-all",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-malware",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-phishing",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-cryptominers",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-malware",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-phishing",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
+                "download_detour": "direct"
+            }
+        ],
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy"
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true
+        },
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule"
+        }
+    }
+}
