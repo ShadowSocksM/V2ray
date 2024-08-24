@@ -1,90 +1,570 @@
-vless://ASinTech-id-telegram@46.245.70.72:8080/?type=ws&encryption=none&host=ASinTech.ir.www.speedtest.net.www.zula.ir.cloudflare.com.ASinTech.top.&path=%2Ftelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%2Ctelegram-%40ASinTech%3Fed%3D2560#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@172.66.47.130:443/?type=ws&encryption=none&host=V2nGfasT-3Tm.pAgEs.dEV&path=%2F23UTNPNFMGj3lCvd%3Fed%3D2560&security=tls&sni=v2nGfast-3TM.PAGEs.DEv#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://5bc9ad5f-d639-b051-8009-e50047b2bc47@finland.ir.tekcloud.fun:50806/?encryption=none&host=alibaba.com&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://aef97fc7-1733-465f-b018-e5df33e3f744@srv7.bestforcast.com:27540/?type=ws&encryption=none&path=%2F#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://60f9c4c1-3437-4ef6-bf84-4a2869ffa3c3@www.parsvds.ir:8080/?type=ws&encryption=none&host=unlimiteddev-vpn.unlimiteddev.Community.&path=%2FTelegram%3A%40UnlimitedDev-Telegram%3A%40UnlimitedDev%3Fed%3D8080#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-trojan://telegram-id-privatevpns@13.37.66.216:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://5bc9ad5f-d639-b051-8009-e50047b2bc47@213.176.6.217:50806/?encryption=none&host=alibaba.com&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://2af24d4c-9611-4ef7-aeb1-85f4f989de48@78.141.216.213:22480/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://6814731f-d910-4f24-beae-cac520400aeb@vpvpvpvpvpappapa.vpt.dhdfgbdf.top:2087/?encryption=none&host=cloudflare.com&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://7a5a4624-df8d-4955-bccc-b3fa6161411f@104.16.16.16:443/?type=ws&encryption=none&host=telgram-xv2ray--xv2ray--xv2ray--xv2ray--xv2ray--xv2ray.pages.dev&path=%2FTelegram-XV2ry2%3Fed%3D512&security=tls&sni=Pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-trojan://telegram-id-directvpn@13.49.208.89:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@172.66.47.130:443/?type=ws&encryption=none&host=V2nGfasT-3Tm.pAgEs.dEV&path=%2F23UTNPNFMGj3lCvd%3Fed%3D2560&security=tls&sni=v2nGfast-3TM.PAGEs.DEv#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vmess://eyJhZGQiOiI5NS4zOC4yMTAuMTc5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjJmZGU4NThhLTZlZTgtNGJkMy1kYjc4LThiNmI0MjdhYTdkMiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMjY2MTIiLCJwcyI6IvCfkYnwn4aUIEB2MnJheV9jb25maWdzX3Bvb2wiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
-trojan://telegram-id-privatevpns@13.37.66.216:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://5bc9ad5f-d639-b051-8009-e50047b2bc47@213.176.6.217:50806/?encryption=none&host=alibaba.com&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://2af24d4c-9611-4ef7-aeb1-85f4f989de48@78.141.216.213:22480/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://80f6e216-4bbd-4ded-9880-86f5d1e80250@46.245.64.144:2095/?type=ws&encryption=none&host=www.speedtest.net&path=%2F-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://TELEGRAM-ServerNett@[2a01:4f8:c17:2cda::1]:45075/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://8344a8b4-a190-45da-b2f5-a05d11ea9211@87.248.152.16:30132/?encryption=none&host=host%3Anasa.gov&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://80f6e216-4bbd-4ded-9880-86f5d1e80250@46.245.64.144:2095/?type=ws&encryption=none&host=www.speedtest.net&path=%2F-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://7a5a4624-df8d-4955-bccc-b3fa6161411f@104.16.16.16:443/?type=ws&encryption=none&host=Telegram---XV2ray---XV2ray---XV2ray---XV2ray---XV2ray.Pages.dev&path=%2FTelegram-XV2ry2%3Fed%3D512&security=tls&sni=Pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://7a5a4624-df8d-4955-bccc-b3fa6161411f@185.146.173.200:443/?type=ws&encryption=none&host=Telegram---XV2ray---XV2ray---XV2ray---XV2ray---XV2ray.Pages.dev&path=%2FXV2ry2%3Fed%3D512&security=tls&sni=pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://i--V2RAXX@104.17.148.22:8080/?type=ws&encryption=none&host=www.speedtest.net.ftp.debian.org.xn--79qr8bwg980ayroj80c.website.&path=%2FV2raxx%3Fed%3D1024#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://8344a8b4-a190-45da-b2f5-a05d11ea9211@87.248.152.16:30132/?encryption=none&host=host%3Anasa.gov&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://c6c8cf12-eb81-4044-88c7-d398614e0cd2@smartvipeasymt.hphell.ir:12345/?encryption=none&host=uplod.ir&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://b333915f-82d9-4163-83e6-c91e243a7edd@irmk.petirangroup.com:30242/?encryption=none&host=fast.com&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://Parsashonam-43@[2a01:4f8:1c1b:26eb::1]:8888/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://TELEGRAM-ServerNett@[2a01:4f8:c17:2cda::1]:45075/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://TELEGRAM-ServerNett@[2a01:4f8:c012:9907::1]:22481/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-trojan://telegram-id-privatevpns@18.192.148.249:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://41d17df9-c57d-4223-ac07-b4ee347c8bf2@sh.freak-web.rani-city.site:15035/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://41d17df9-c57d-4223-ac07-b4ee347c8bf2@212.80.19.118:15035/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.130.133:443/?type=ws&encryption=none&host=fraud.chase&path=%2FTELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI%2F%3Fed%3D2048&security=tls&sni=www.Arizona.edu#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://e292c8a2-50d4-4c20-ae95-fd20dd44d1a6@46.245.64.144:2095/?type=ws&encryption=none&host=www.speedtest.net&path=%2F-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-trojan://telegram-id-privatevpns@18.135.25.58:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://7a5a4624-df8d-4955-bccc-b3fa6161411f@104.16.16.16:443/?type=ws&encryption=none&host=Telegram---XV2ray---XV2ray---XV2ray---XV2ray---XV2ray.Pages.dev&path=%2FTelegram-XV2ry2%3Fed%3D512&security=tls&sni=Pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://403633c1-fb49-4b14-a09b-283a30aec962@msjde.ir:443/?encryption=none&host=tamasha.com&type=tcp&headerType=http#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://41d17df9-c57d-4223-ac07-b4ee347c8bf2@212.80.19.118:15035/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@52.29.224.33:80/?type=ws&encryption=none&host=a.ssll.gay&path=TG%20%40WangCai_8%20%2F%3Fed%3D2048#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://TELEGRAM-NUFiLTER@[2a01:4f9:c011:4deb::1]:37166/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-trojan://aRh4GRxYO6@38.180.70.206:2096/?type=tcp#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://TELEGRAM-ServerNett@[2a01:4f8:c012:9907::1]:22481/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://TELEGRAM-ServerNett@[2a01:4f8:c17:2cda::1]:45075/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool
-vless://dcaea47c-ee77-464c-b408-4e3332270f6e@zula.ir:80/?type=ws&encryption=none&host=www.speedtest.net.ftp.debian.org.nobitex.com.vigilantecollection.com.&path=2048netmaster%2FDaily_Configs-Daily_Configs-Daily_Configs%3Fed%3D2048#%F0%9F%86%94%20%40v2ray_configs_pool
-vless://telegram-id-ArV2ray@www.speedtest.net:2095/?type=ws&encryption=none&host=6.www.speedtest.net.E.bahrane.iR.&path=%2Ftelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%2Ctelegram-ArV2ry%3Fed%3D2095#%F0%9F%86%94%20%40v2ray_configs_pool
-vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011/?type=tcp&encryption=none#%F0%9F%86%94%20%40v2ray_configs_pool
-vless://2e01ebcf-4bd6-4be4-9365-f5c623510512@198.41.198.177:2052/?type=ws&encryption=none&host=workerr.babray.workers.dev&path=%2F%3Fed%3D2048#%F0%9F%86%94%20%40v2ray_configs_pool
-vless://e6fa4064-2834-471c-bdaf-93a59bc5390c@66.235.200.6:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg%3Fed%3D8080#%F0%9F%86%94%20%40v2ray_configs_pool
-trojan://telegram-id-privatevpns@13.39.176.51:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%86%94%20%40v2ray_configs_pool
-vless://020c0450-9d3e-41a6-b21b-071b98832ec4@195.211.47.111:8096?encryption=none&headerType=http&host=telewebion.com&type=tcp#@ShadowsocksM-1
-vless://787ba246-eb28-4a00-a988-865fefd50875@195.211.47.112:8098?encryption=none&headerType=http&host=telewebion.com&type=tcp#@ShadowsocksM-2
-vless://c37423ca-0623-452b-bdce-55aecec53ce8@turktu.roshdadcollection.ir:2052?encryption=none&type=tcp#@ShadowsocksM-3
-vless://cccb4f83-3c1b-5749-984f-59d8691f5e13@[2a01:4f8:c010:c9a::1]:30490?encryption=none&type=tcp#@ShadowsocksM-4
-vless://5b831555-ca74-4f58-8f9d-3cf1a9ea9ff4@213.159.73.16:443?encryption=none&type=grpc#@ShadowsocksM-5
-vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011?encryption=none&type=tcp#@ShadowsocksM-6
-vless://e260cbc6-7b84-4b8a-9442-dbe6f9ccd1ff@www.parsvds.ir:8080/?type=ws&encryption=none&host=unlimiteddev-vpn.unlimiteddev.Community.&path=%2FTelegram%3A%40UnlimitedDev-Telegram%3A%40UnlimitedDev%3Fed%3D8080#@ShadowsocksM-7
-vmess://eyJhZGQiOiIxMDQuMjEuMTUuMjEyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnbHdlaWRmLnNicyIsImlkIjoiNzYyMjFiZmItZTkyZi00ZTgwLTgxYzUtNmZlNDhmNTBhYzBiIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt3cyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCAiLCJzY3kiOiJhdXRvIiwic25pIjoiZ2x3ZWlkZi5zYnMiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==#@ShadowsocksM-8
-vmess://eyJhZGQiOiJ0My5pbWFtSG9zc2Vpbi5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im1lZ2EubnoiLCJpZCI6IjU0ZGIxYTg5LTkxNDMtNDFkZS05ZGE4LTYwODFmNGM1YzFjNSIsIm5ldCI6InRjcCIsInBhdGgiOiIvcXNocEt2TVhwZTlEamRPdkhkMlJkTE9mIiwicG9ydCI6Ijg0NDMiLCJwcyI6IvCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9#@ShadowsocksM-9
-vless://e260cbc6-7b84-4b8a-9442-dbe6f9ccd1ff@185.146.173.252:8080/?type=ws&encryption=none&host=unlimiteddev-vpn.unlimiteddev.Community.&path=%2FTelegram%3A%40UnlimitedDev-Telegram%3A%40UnlimitedDev%3Fed%3D8080#@ShadowsocksM-10
-vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011/?type=tcp&encryption=none#@ShadowsocksM-11
-vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011/?type=tcp&encryption=none#@ShadowsocksM-12
-vless://0b182df1-eb4f-4852-8a4f-8a4d8bd81620@146.75.118.225:80/?type=ws&encryption=none&host=ramioncommunicationslimited.com&path=%2Fcontact%3Fed%3D2560#@ShadowsocksM-13
-vless://0b182df1-eb4f-4852-8a4f-8a4d8bd81620@146.75.118.225:80/?type=ws&encryption=none&host=ramioncommunicationslimited.com&path=%2Fcontact%3Fed%3D2560#@ShadowsocksM-14
-hy2://0ee2ddb4-7fcd-46dc-b65f-8965997704e0@91.103.140.171.sslip.io:13283/?sni=91.103.140.171.sslip.io&obfs=salamander&obfs-password=5qvhHK7T7FAAsstAzN4#@ShadowsocksM-15
-vless://Mahanvpn-mtn-telegram2@162.251.82.56:2082/?type=ws&encryption=none&host=LEomAHan.MaHAnmrz.ToP.&path=%2Fmobileshopmc%3Fed%3D1024#@ShadowsocksM-16
-vless://66ee0d2f-6f20-48f6-bc5c-6f75565107a7@185.146.173.85:80/?type=ws&encryption=none&host=www.speedtest.net.ftp.debian.org.nobitex.com.vigilantecollection.com.&path=2048%2FDaily_Configs-Daily_Configs-Daily_Configs%3Fed%3D2048#@ShadowsocksM-17
-vless://9c7c3b46-cd14-412d-a7cb-eb045ac3ee83@190.93.247.56:8080/?type=ws&encryption=none&host=legendaryking.ir.www.speedtest.net.www.zula.ir.cloudflare.com.mozdozari.buzz.&path=%2Ftelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%3Fed%3D2560#@ShadowsocksM-18
-vless://911e7942-4c0a-47f5-95e1-25740be19043@[2a01:7e01::f03c:94ff:fe2a:b2d]:5011/?type=tcp&encryption=none#@ShadowsocksM-19
-vless://39f52a46-c7d1-43a2-98c3-748d87e6596b@www.speedtest.net:80/?type=ws&encryption=none&host=shhproxy.com.www.speedtest.net.www.zula.ir.cloudflare.com.mozdfree.bUzz.&path=%2Ftelegram-%40Shh_Proxy-%40Shh_Proxy%2Ctelegram-%40Shh_Proxy%2Ctelegram-%40Shh_Proxy%2Ctelegram-%40Shh_Proxy%3Fed%3D2560#@ShadowsocksM-20
-vless://TELEGRAM-ServerNett@[2a01:4f8:c17:eaf8::1]:53421/?type=tcp&encryption=none#@ShadowsocksM-21
-vless://TELEGRAM-EXPRESSVPN_420@[2a01:4f8:1c1b:67e::1]:41971/?type=tcp&encryption=none#@ShadowsocksM-22
-vless://TELEGRAM-NUFiLTER@[2a01:4f8:1c1b:380::1]:46584/?type=tcp&encryption=none#@ShadowsocksM-23
-vless://TELEGRAM-ServerNett@[2a01:4f8:c012:9907::1]:18985/?type=tcp&encryption=none#@ShadowsocksM-24
-vless://94f51d56-204b-466b-b1d7-d397df9273d9@www.parspack.com:2095/?type=ws&encryption=none&host=www.speedtest.net.ftp.debian.org.www.digikala.com.radiotehran.org.&path=%2FDigi-Tel-Digiv-Digicnc-saaaalaaaam-%3Fed%3D1024#@ShadowsocksM-25
-vless://-%20KING%20OF%20SPEED%20-@188.114.98.0:80/?type=ws&encryption=none&host=kingvrayng.shomalmegamall.ir&path=%2Fkingvrayng.shomalmegamall.ir.re%3Fed%3D8080#@ShadowsocksM-26
-vless://88e57f4f-c2ef-4ab9-8da4-b32c0b8577e3@85.9.123.158:8880/?encryption=none&host=bmw.com&type=tcp&headerType=http#@ShadowsocksM-27
-vless://TELEGRAM-ServerNett@[2a01:4f8:c17:eaf8::1]:53421/?type=tcp&encryption=none#@ShadowsocksM-28
-vless://TELEGRAM-NUFiLTER@[2a01:4f9:c011:6180::1]:41971/?type=tcp&encryption=none#@ShadowsocksM-29
-hysteria://62.210.243.131:18702/?insecure=1&peer=wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc&auth=dongtaiwang.com&upmbps=10&downmbps=50&alpn=h3#@ShadowsocksM-30
-vless://TELEGRAM-ServerNett@[2a01:4f8:c012:9907::1]:18985/?type=tcp&encryption=none#@ShadowsocksM-31
-vless://b10ccbe8-849d-4473-b228-74e3e5ce00f8@104.16.232.76:80/?type=ws&encryption=none&host=www.speedtest.net.ftp.debian.org.nobitex.com.vigilantecollection.com.&path=2048%2FDaily_Configs-Daily_Configs-Daily_Configs%3Fed%3D2048#@ShadowsocksM-32
-vless://8931eecf-dcb0-46cf-8a68-99190a7fefb0@104.17.147.22:80/?type=ws&encryption=none&host=shhproxy.com.www.speedtest.net.www.zula.ir.cloudflare.com.mozdfree.bUzz.&path=%2Ftelegram-%40Shh_Proxy-%40Shh_Proxy%2Ctelegram-%40Shh_Proxy%2Ctelegram-%40Shh_Proxy%2Ctelegram-%40Shh_Proxy%3Fed%3D2560#@ShadowsocksM-33
-vless://f00e45ab-d85e-4745-9684-c2a08e1dbd9b@www.zula.ir:8080/?type=ws&encryption=none&host=wWw.speEdtest.net.www.zula.ir.cloudflare.com.Tescoco.cFd.&path=%2Fjoin---to---vistav2ray-------join---to---vistav2ray-------join---to---vistav2ray-------join---to---vistav2ray-------%3Fed%3D2048#@ShadowsocksM-34
-vless://f00e45ab-d85e-4745-9684-c2a08e1dbd9b@www.parsvds.ir:8080/?type=ws&encryption=none&host=wWw.speEdtest.net.www.zula.ir.cloudflare.com.Tescoco.cFd.&path=%2Fjoin---to---vistav2ray-------join---to---vistav2ray-------join---to---vistav2ray-------join---to---vistav2ray-------%3Fed%3D2048#@ShadowsocksM-35
-vless://220b6d1b-3de8-4d14-9471-432d0e08ed64@[2a01:4f9:c012:e4f2::1]:20000/?encryption=none&host=speedtest.net&type=tcp&headerType=http#@ShadowsocksM-36
-vmess://eyJhZGQiOiIyYTAzOjZmMDA6YTo6MjEyNSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI3MDVkY2Q4YS05MDkyLTQ5NjUtYWIyZi1hYjRjZDEwZTdhYzciLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjgwODAiLCJwcyI6IvCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=#@ShadowsocksM-37
-vless://TELEGRAM-EXPRESSVPN_420@[2a01:4f8:1c1b:67e::1]:41971/?type=tcp&encryption=none#@ShadowsocksM-38
-vless://5a01d769-24dc-4df8-83cd-b0c732c24877@185.155.72.111:23695/?encryption=none&host=telewebion.com&type=tcp&headerType=http#@ShadowsocksM-39
-
+{
+    "log": {
+        "level": "warn",
+        "timestamp": true
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "https://94.140.14.14/dns-query",
+                "address_resolver": "dns-direct",
+                "strategy": "prefer_ipv4",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "8.8.8.8",
+                "address_resolver": "dns-local",
+                "strategy": "prefer_ipv4",
+                "detour": "direc t",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode://success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": ".ir",
+                "server": "dns-direct",
+                "domain": [
+                    "2e9bc800.new-bpb-worker-panel-drk.pages.dev",
+                    "www.speedtest.net"
+                ]
+            },
+            {
+                "disable_cache": true,
+                "rule_set": [
+                    "geosite-category-ads-all",
+                    "geosite-malware",
+                    "geosite-phishing",
+                    "geosite-cryptominers"
+                ],
+                "server": "dns-block"
+            }
+        ],
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "type": "direct",
+            "tag": "dns-in",
+            "listen": "127.0.0.1",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "inet4_address": "172.19.0.1/28",
+            "inet6_address": "fdfe:dcba:9876::1/126",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "endpoint_independent_nat": true,
+            "stack": "mixed",
+            "sniff": true,
+            "sniff_override_destination": true
+        },
+        {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "listen": "127.0.0.1",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": true
+        }
+    ],
+    "outbounds": [
+        {
+            "type": "selector",
+            "tag": "proxy",
+            "outbounds": [
+                "Best-Ping ðŸ’¥",
+                "A1",
+                "A2",
+                "A3",
+		        "A4",
+                "A5",
+                "A6",
+		        "A7",
+                "A8",
+                "A9",
+	            "A10",
+                "A11",
+                "A12",
+				"A13",
+	            "A14",
+                "A15",
+                "A16",
+	        	"WARP-MAIN",
+                "WARP-WIW"
+            ]
+        },
+        {
+            "type": "urltest",
+            "tag": "Best-Ping ðŸ’¥",
+            "outbounds": [
+                "A1",
+                "A2",
+                "A3",
+		        "A4",
+                "A5",
+                "A6",
+		        "A7",
+                "A8",
+                "A9",
+	            "A10",
+                "A11",
+                "A12",
+				"A13",
+	            "A14",
+                "A15",
+                "A16",
+	        	"WARP-MAIN",
+                "WARP-WIW"
+            ],
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": "30s",
+            "tolerance": 50
+        },
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "block",
+            "tag": "block"
+        },
+        {
+            "type": "dns",
+            "tag": "dns-out"
+        },
+		{
+			  "type": "hysteria2",
+			  "tag": "A1",
+			  "server": "77.91.77.27",
+			  "server_port": 39292,
+			  "obfs": {
+				"type": "salamander",
+				"password": "5449c086723e86d4"
+			  },
+			  "password": "f0126e9fe4014e17",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+					{
+			  "type": "hysteria2",
+			  "tag": "A2",
+			  "server": "[2a12:5940:9794::2]",
+			  "server_port": 39292,
+			  "obfs": {
+				"type": "salamander",
+				"password": "5449c086723e86d4"
+			  },
+			  "password": "f0126e9fe4014e17",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A3",
+			  "server": "77.91.77.87",
+			  "server_port": 37383,
+			  "obfs": {
+				"type": "salamander",
+				"password": "f809a60274316cdd"
+			  },
+			  "password": "4eb5646f51e94a84",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+	      }
+	    },
+	    {
+			  "type": "hysteria2",
+			  "tag": "A4",
+			  "server": "[2a12:5940:9ab8::2]",
+			  "server_port": 37383,
+			  "obfs": {
+				"type": "salamander",
+				"password": "f809a60274316cdd"
+			  },
+			  "password": "4eb5646f51e94a84",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A5",
+			  "server": "77.91.77.187",
+			  "server_port": 47388,
+			  "obfs": {
+				"type": "salamander",
+				"password": "15a519691a16a5d8"
+			  },
+			  "password": "f65c122897be1bff",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A6",
+			  "server": "[2a12:5940:aa9a::2]",
+			  "server_port": 47388,
+			  "obfs": {
+				"type": "salamander",
+				"password": "15a519691a16a5d8"
+			  },
+			  "password": "f65c122897be1bff",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A7",
+			  "server": "77.221.158.52",
+			  "server_port": 7373,
+			  "obfs": {
+				"type": "salamander",
+				"password": "7d9dff369a11f6e0"
+			  },
+			  "password": "81ea378b37931b23",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "type": "hysteria2",
+			  "tag": "A8",
+			  "server": "[2a12:5940:72da::2]",
+			  "server_port": 7373,
+			  "obfs": {
+				"type": "salamander",
+				"password": "7d9dff369a11f6e0"
+			  },
+			  "password": "81ea378b37931b23",
+			  "tls": {
+				"enabled": true,
+				"insecure": true
+		  }
+		},
+		{
+			  "server": "77.91.77.27",
+			  "server_port": 39299,
+			  "uuid": "72b15e67-6ae5-42ba-9518-2258d5bb300f",
+			  "password": "cc5ce5f8e279f9ee",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A9",
+			  "type": "tuic"
+		},
+		{
+			  "server": "[2a12:5940:9794::2]",
+			  "server_port": 39299,
+			  "uuid": "72b15e67-6ae5-42ba-9518-2258d5bb300f",
+			  "password": "cc5ce5f8e279f9ee",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A10",
+			  "type": "tuic"
+		},
+		{
+			  "server": "77.91.77.87",
+			  "server_port": 38382,
+			  "uuid": "2999e665-fa4e-498f-8417-4ab567010ed6",
+			  "password": "aa69e32eae500e1c",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A11",
+			  "type": "tuic"
+		},
+		{
+			  "server": "[2a12:5940:9ab8::2]",
+			  "server_port": 38382,
+			  "uuid": "2999e665-fa4e-498f-8417-4ab567010ed6",
+			  "password": "aa69e32eae500e1c",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A12",
+			  "type": "tuic"
+		},
+		{
+			  "server": "77.91.77.187",
+			  "server_port": 38383,
+			  "uuid": "a223d4ab-2355-46e6-a455-e95ed843991a",
+			  "password": "ae8e511e0d7b5a49",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A13",
+			  "type": "tuic"
+		},
+		{
+			  "server": "[2a12:5940:aa9a::2]",
+			  "server_port": 38383,
+			  "uuid": "a223d4ab-2355-46e6-a455-e95ed843991a",
+			  "password": "ae8e511e0d7b5a49",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A14",
+			  "type": "tuic"
+		},
+		{
+			  "server": "77.221.158.52",
+			  "server_port": 8922,
+			  "uuid": "2f2dada7-b8af-49e7-a26e-d2d592c82846",
+			  "password": "734da957528baa43",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A15",
+			  "type": "tuic"
+		},
+		{
+			  "server": "[2a12:5940:72da::2]",
+			  "server_port": 8922,
+			  "uuid": "2f2dada7-b8af-49e7-a26e-d2d592c82846",
+			  "password": "734da957528baa43",
+			  "congestion_control": "bbr",
+			  "tls": {
+				"enabled": true,
+				"insecure": true,
+				"alpn": [
+					"h3",
+					"spdy/3.1"
+				]
+			  },
+			  "tag": "A16",
+			  "type": "tuic"
+		},
+		{
+			  "type": "wireguard",
+			  "server": "162.159.192.121",
+			  "server_port": 8886,
+			  "local_address": [
+				  "172.16.0.2/32",
+				  "2606:4700:110:83d5:b153:a1ec:f7a4:7d83/128"
+			  ],
+			  "private_key": "0D6uRan8wP5qYdni4hF/Vs/heLM5gT3GUgEYGPhO3l4=",
+			  "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+			  "reserved": [
+				  213,
+				  116,
+				  42
+			  ],
+			  "mtu": 1384,
+			  "workers": 2,
+			  "detour": "direct",
+			  "tag": "WARP-MAIN"
+		},
+		{
+			  "type": "wireguard",
+			  "server": "188.114.99.135",
+			  "server_port": 1180,
+			  "local_address": [
+				  "172.16.0.2/32",
+				  "2606:4700:110:83d5:b153:a1ec:f7a4:7d83/128"
+			  ],
+			  "private_key": "mOhCw+Qib5kinGboORTUqC/fcSBxCLPN8TLSMC6eLmQ=",
+			  "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+			  "reserved": [
+				  219,
+				  72,
+				  92
+			  ],
+			  "mtu": 1384,
+			  "workers": 2,
+			  "detour": "WARP-MAIN",
+			  "tag": "WARP-WIW"
+        }
+    ],
+    "route": {
+        "rules": [
+            {
+                "port": 53,
+                "outbound": "dns-out"
+            },
+            {
+                "inbound": "dns-in",
+                "outbound": "dns-out"
+            },
+            {
+                "network": "udp",
+                "port": 443,
+                "protocol": "quic",
+                "outbound": "block"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geosite-category-ads-all",
+                    "geosite-malware",
+                    "geosite-phishing",
+                    "geosite-cryptominers",
+                    "geoip-malware",
+                    "geoip-phishing"
+                ],
+                "outbound": "block"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir",
+                    "geoip-ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "source_ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "outbound": "block"
+            }
+        ],
+        "rule_set": [
+            {
+                "type": "remote",
+                "tag": "geosite-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-category-ads-all",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-malware",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-phishing",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-cryptominers",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-malware",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-phishing",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
+                "download_detour": "direct"
+            }
+        ],
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy"
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true
+        },
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule"
+        }
+    }
+}
