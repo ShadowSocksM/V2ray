@@ -25,6 +25,45 @@ warp://p1@auto?ifpm=m4#LocalIP&&detour=warp://p2@auto#WarpInWarp✅
 warp://162.159.192.12:942?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m4&&detour=warp://162.159.192.64:5956#warp in warp
 
 
+{
+  "outbounds":   [
+    {
+      "type": "wireguard",
+      "tag": "m4 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8a23:ebdf:1cc4:7889:60eb/128"
+      ],
+      "private_key": "8JENbeShD7wBRhbRP2rZ2G2swiN/qMquZMdhIXYE7Gg=",
+      "server": "162.159.192.169",
+      "server_port": 8319,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "esKp",
+      "mtu": 1290,
+      "fake_packets": "10-50",
+      "fake_packets_size": "10-70",
+      "fake_packets_delay": "2-8",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "warp in warp § 1",
+      "detour": "m4 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:87e5:9188:5e9c:4886:948c/128"
+      ],
+      "private_key": "CIdUz3kS7Mq4RHs78SBplh64iYKOUtErah7M0C9Ftm4=",
+      "server": "162.159.192.64",
+      "server_port": 5956,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "N4Jt",
+      "mtu": 1330
+    }
+  ]
+}
+
+
 
 
 
