@@ -1,27 +1,228 @@
-vless://d95fe325-e05b-4543-aa61-8c49338249ee@87.248.133.220:47349/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%AE%F0%9F%87%B7Iran
-vless://38720105-063f-40f5-a5eb-f3198b9b617d@172.66.44.233:443/?type=ws&encryption=none&host=aksnmaioas.pages.dev&path=%2F%3Fed%3D2048&security=tls&sni=aksnmaioas.pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%A8%F0%9F%87%A6Canada
-vless://c9e6e08b-9574-4799-97c4-91a9ae8704dc@151.101.64.155:80/?type=ws&encryption=none&host=v.co&path=%2FChannel%2CSPDNET%2CSPDNET%3Fed%3D443#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-vless://a94edb46-0734-4593-a8b5-9cd11ddc57f6@104.18.218.118:443/?type=ws&encryption=none&host=5c53ca21.vpn-aryoo.pages.dev&path=%2FTelegram-%40V2zy_Alpha%2F%3Fed%3D2560&security=tls&sni=5c53ca21.vpn-aryoo.pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-vless://e8b87dd9-cc8f-407c-a1f3-a564009fe6ee@185.146.173.161:443/?type=ws&encryption=none&host=dc1bf227.vf-8co.pages.dev&path=%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2560&security=tls&sni=dc1bf227.vf-8co.pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%B8%F0%9F%87%AASweden
-vless://e2f4d1fa-0a6d-48c3-a5bb-8b438e78af23@www.speedtest.net:443/?type=ws&encryption=none&host=119f3a0b.chikiy123w.pages.dev&path=%2F%3Fed%3D2048&security=tls&sni=119f3a0b.chikiy123w.pages.dev&fp=randomized#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-vmess://eyJhZGQiOiIzOC45OS44Mi4xNjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyMjMyNCIsInBzIjoi8J+RifCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbPCfk6Hwn4e68J+HuFVuaXRlZCBTdGF0ZXMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
-vless://66edce32-29ac-4a07-9f56-aa55ce7b98bf@151.101.2.216:80/?type=ws&encryption=none&host=Ojolat2boqol.net&path=%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D2048#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-vless://03a987de-7e12-4b38-acbc-e19c90e1cc85@104.16.14.99:443/?type=ws&encryption=none&host=ARCane-ROYAL.Pages.DEV&path=%2F&security=tls&sni=ARCane-ROYAL.Pages.DEV&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-trojan://auto@162.159.136.232:8443/?type=ws&host=e9464f45.trauma-2r4.pages.dev&path=%2F&security=tls&sni=e9464f45.trauma-2r4.pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%A8%F0%9F%87%A6Canada
-vless://4045e84e-5e3c-4f70-8ff5-c1097882a55a@172.66.47.100:443/?type=ws&encryption=none&host=bpb-worker-panel1-e4p.pages.dev&path=%2FTelegram%40Linkvws%3Fed%3D2560&security=tls&sni=BPb-WOrKeR-paneL1-e4P.PAGES.DEV&alpn=http%2F1.1&fp=randomized#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%A8%F0%9F%87%A6Canada
-vless://9a4bc15d-a7d4-4181-9485-405629c36894@185.146.173.115:443/?type=ws&encryption=none&host=king-ae1.pages.dev&path=%2F%40Telegram%40Linkvws%3Fed%3D2560&security=tls&sni=king-ae1.pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%B8%F0%9F%87%AASweden
-trojan://bpb-trojan@104.17.147.22:2053/?type=ws&host=bpb-worker-panel1-e4p.pages.dev&path=%2Ftrn6lSYIYbgvYGra0u%2FZGUucmFkaWNhbGx5LnBybw%3D%3D&security=tls&sni=bPB-worker-PANeL1-e4p.paGes.DeV&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-vless://707acaea-2ea6-44db-ad00-b195badd1aae@104.17.234.114:443/?type=ws&encryption=none&host=UNLIMITEDDEV.unlimiteddev-vpn.com&path=%2F%40UnlimitedDev----%40UnlimitedDev-----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev%3Fed%3D8080&security=tls&sni=UNLIMITEDDEV.unlimiteddev-vpn.com&fp=chrome#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-trojan://telegram-id-privatevpns@18.196.76.204:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AAGermany
-vless://e9b8543f-f56a-4edb-b326-85fd87335d4e@45.32.157.32:47437/?type=tcp&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AAGermany
-vless://2c3e2c41-4395-4df3-e788-cb9cc82beceb@81.12.27.93:52722/?type=ws&encryption=none&path=%2F#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%AE%F0%9F%87%B7Iran
-vless://e8204b9c-3e17-454f-9211-16e3fcd10240@abc.fastly80.hosting-ip.com:80/?type=ws&encryption=none&host=Abdarchiejahanam5.net&path=%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D2048#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-trojan://telegram-id-directvpn@13.51.50.37:22222/?type=tcp&security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%B8%F0%9F%87%AASweden
-vless://1363b2aa-09dd-4708-bf08-9b3a8de881dd@expressvpn_420.fastly80.hosting-ip.com:80/?type=ws&encryption=none&host=Akgn23CtiViSiOn.net&path=%2F%40ExpressVPN_420------%40ExpressVPN_420------%40ExpressVPN_420------%40ExpressVPN_420------%40ExpressVPN_420------%40ExpressVPN_420------%40ExpressVPN_420------%40ExpressVPN_420------%40%2F%3Fed%3D2048#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-vless://6c76e884-b9cf-4e3c-b308-6f61d891f886@151.101.0.155:80/?type=ws&encryption=none&host=Abnabat2chobi.net&path=%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D2048#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-vless://6e993426-cbff-4b03-bb11-9bd980f59999@nufilter.fastly80.hosting-ip.com:80/?type=ws&encryption=none&host=Abdarchiejahanam2.net&path=%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D2048#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-vless://a64f0cea-ca89-40e6-b316-b3badff1eb90@156.238.18.162:2053/?type=ws&encryption=none&host=ISAA1.PAGES.DEV&path=%D8%AA%DB%8C%D9%85%20%D8%A7%D9%86%D8%AC%D9%85%D9%86%20%D8%A7%D8%B0%D8%B1%D8%A8%D8%A7%DB%8C%D8%AC%D8%A7%D9%86%20%20%D9%84%DB%8C%D9%86%DA%A9%20t.me%2FAZARBAYJAB1&security=tls&sni=iSaA1.paGes.DEv#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-vless://fa61eebf-21a8-4d08-ac92-44fa45ee54a6@213.176.7.231:12573/?type=grpc&encryption=none#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%AE%F0%9F%87%B7Iran
-vless://a64f0cea-ca89-40e6-b316-b3badff1eb90@45.131.211.103:2096/?type=ws&encryption=none&host=ISAA1.PAGES.DEV&path=%28%D8%AA%DB%8C%D9%85%20%D8%A7%D9%86%D8%AC%D9%85%D9%86%20%D8%A7%D8%B0%D8%B1%D8%A8%D8%A7%DB%8C%D8%AC%D8%A7%D9%86%29%20%20%28AZARBAYJAB1%40%29%20%D9%84%DB%8C%D9%86%DA%A9%20t.me%2FAZARBAYJAB1&security=tls&sni=ISAA1.PAGES.DEV#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%B3%F0%9F%87%B1The%20Netherlands
-vless://a5df445d-c872-434f-9366-26416b34373b@151.101.2.165:80/?type=ws&encryption=none&host=Sarmayedaran.net&path=%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D2048#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8United%20States
-trojan://auto@162.159.135.232:8443/?type=ws&host=e9464f45.trauma-2r4.pages.dev&path=%2F&security=tls&sni=e9464f45.trauma-2r4.pages.dev#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%A8%F0%9F%87%A6Canada
+{
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "A1",
+      "server": "62.60.217.48",
+      "server_port": 22334,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f8d276f1c87c2ca7"
+      },
+      "password": "48e1982c93244fed",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "A2",
+      "server": "[2a12:5940:a693::2]",
+      "server_port": 22334,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f8d276f1c87c2ca7"
+      },
+      "password": "48e1982c93244fed",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "A3",
+      "server": "62.60.237.69",
+      "server_port": 32324,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fe423861b9da19db"
+      },
+      "password": "7eee28f68b06a380",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "A4",
+      "server": "[2a12:5940:8e6e::2]",
+      "server_port": 32324,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fe423861b9da19db"
+      },
+      "password": "7eee28f68b06a380",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "A5",
+      "server": "62.60.237.70",
+      "server_port": 45453,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fe64ada6e199a109"
+      },
+      "password": "dd4c82421b357e23",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "A6",
+      "server": "[2a12:5940:8e6f::2]",
+      "server_port": 45453,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fe64ada6e199a109"
+      },
+      "password": "dd4c82421b357e23",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A7",
+      "server": "62.60.217.48",
+      "server_port": 11223,
+      "uuid": "8481b0a8-f20b-4671-8e05-a060efece75b",
+      "password": "63cd0123c7b46eb1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A8",
+      "server": "[2a12:5940:a693::2]",
+      "server_port": 11223,
+      "uuid": "8481b0a8-f20b-4671-8e05-a060efece75b",
+      "password": "63cd0123c7b46eb1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A9",
+      "server": "62.60.237.69",
+      "server_port": 11122,
+      "uuid": "7ba09889-5638-4859-8759-38de1e048683",
+      "password": "ad207aa31e6da1f1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A10",
+      "server": "[2a12:5940:8e6e::2]",
+      "server_port": 11122,
+      "uuid": "7ba09889-5638-4859-8759-38de1e048683",
+      "password": "ad207aa31e6da1f1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A11",
+      "server": "62.60.237.70",
+      "server_port": 22233,
+      "uuid": "c5e3cba2-fca2-4d25-8cda-3956a431c981",
+      "password": "8e0abb1e4c073fb1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A12",
+      "server": "[2a12:5940:8e6f::2]",
+      "server_port": 22233,
+      "uuid": "c5e3cba2-fca2-4d25-8cda-3956a431c981",
+      "password": "8e0abb1e4c073fb1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "WARP-MAIN",
+      "detour": "direct",
+      "local_address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:8f81:d551:a0:532e:a2b3/128"
+      ],
+      "private_key": "wF4MIEolgwPyXrxK8Wr04lm2r2nsawfv+cwtP0I9SHY=",
+      "server": "162.159.192.143",
+      "server_port": 8854,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "1XQq",
+      "workers": 2,
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "WARP-WIW",
+      "detour": "WARP-MAIN",
+      "local_address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:8f81:d551:a0:532e:a2b3/128"
+      ],
+      "private_key": "wF4MIEolgwPyXrxK8Wr04lm2r2nsawfv+cwtP0I9SHY=",
+      "server": "uyawjmgsmbmqtr9tkpsq",
+      "server_port": 3854,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "SkcG",
+      "workers": 2,
+      "mtu": 1280
+    }
+  ]
+}
