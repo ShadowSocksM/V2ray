@@ -1,498 +1,228 @@
 {
-    "log": {
-        "level": "warn",
-        "timestamp": true
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "A1",
+      "server": "62.60.217.48",
+      "server_port": 22334,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f8d276f1c87c2ca7"
+      },
+      "password": "48e1982c93244fed",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
     },
-    "dns": {
-        "servers": [
-            {
-                "address": "https://94.140.14.14/dns-query",
-                "address_resolver": "dns-direct",
-                "strategy": "prefer_ipv4",
-                "tag": "dns-remote"
-            },
-            {
-                "address": "8.8.8.8",
-                "address_resolver": "dns-local",
-                "strategy": "prefer_ipv4",
-                "detour": "direc t",
-                "tag": "dns-direct"
-            },
-            {
-                "address": "local",
-                "tag": "dns-local"
-            },
-            {
-                "address": "rcode://success",
-                "tag": "dns-block"
-            }
-        ],
-        "rules": [
-            {
-                "domain_suffix": ".ir",
-                "server": "dns-direct",
-                "domain": [
-                    "2e9bc800.new-bpb-worker-panel-drk.pages.dev",
-                    "www.speedtest.net"
-                ]
-            },
-            {
-                "disable_cache": true,
-                "rule_set": [
-                    "geosite-category-ads-all",
-                    "geosite-malware",
-                    "geosite-phishing",
-                    "geosite-cryptominers"
-                ],
-                "server": "dns-block"
-            }
-        ],
-        "independent_cache": true
+    {
+      "type": "hysteria2",
+      "tag": "A2",
+      "server": "[2a12:5940:a693::2]",
+      "server_port": 22334,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f8d276f1c87c2ca7"
+      },
+      "password": "48e1982c93244fed",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
     },
-    "inbounds": [
-        {
-            "type": "direct",
-            "tag": "dns-in",
-            "listen": "127.0.0.1",
-            "listen_port": 6450,
-            "override_address": "8.8.8.8",
-            "override_port": 53
-        },
-        {
-            "type": "tun",
-            "tag": "tun-in",
-            "inet4_address": "172.19.0.1/28",
-            "inet6_address": "fdfe:dcba:9876::1/126",
-            "mtu": 9000,
-            "auto_route": true,
-            "strict_route": true,
-            "endpoint_independent_nat": true,
-            "stack": "mixed",
-            "sniff": true,
-            "sniff_override_destination": true
-        },
-        {
-            "type": "mixed",
-            "tag": "mixed-in",
-            "listen": "127.0.0.1",
-            "listen_port": 2080,
-            "sniff": true,
-            "sniff_override_destination": true
-        }
-    ],
-    "outbounds": [
-        {
-            "type": "selector",
-            "tag": "proxy",
-            "outbounds": [
-                "Best-Ping ðŸ’¥",
-                "A1",
-                "A2",
-                "A3",
-		        "A4",
-                "A5",
-                "A6",
-		        "A7",
-                "A8",
-                "A9",
-	            "A10",
-                "A11",
-                "A12",
-	        	"WARP-MAIN",
-                "WARP-WIW"
-            ]
-        },
-        {
-            "type": "urltest",
-            "tag": "Best-Ping ðŸ’¥",
-            "outbounds": [
-                "A1",
-                "A2",
-                "A3",
-		        "A4",
-                "A5",
-                "A6",
-		        "A7",
-                "A8",
-                "A9",
-	            "A10",
-                "A11",
-                "A12",
-	        	"WARP-MAIN",
-                "WARP-WIW"
-            ],
-            "url": "https://www.gstatic.com/generate_204",
-            "interval": "30s",
-            "tolerance": 50
-        },
-        {
-            "type": "direct",
-            "tag": "direct"
-        },
-        {
-            "type": "block",
-            "tag": "block"
-        },
-        {
-            "type": "dns",
-            "tag": "dns-out"
-        },
-		{
-			  "type": "hysteria2",
-			  "tag": "A1",
-			  "server": "62.60.217.48",
-			  "server_port": 22334,
-			  "obfs": {
-				"type": "salamander",
-				"password": "f8d276f1c87c2ca7"
-			  },
-			  "password": "48e1982c93244fed",
-			  "tls": {
-				"enabled": true,
-				"insecure": true
-	      }
-	    },
-	    {
-			  "type": "hysteria2",
-			  "tag": "A2",
-			  "server": "[2a12:5940:a693::2]",
-			  "server_port": 22334,
-			  "obfs": {
-				"type": "salamander",
-				"password": "f8d276f1c87c2ca7"
-			  },
-			  "password": "48e1982c93244fed",
-			  "tls": {
-				"enabled": true,
-				"insecure": true
-		  }
-		},
-		{
-			  "type": "hysteria2",
-			  "tag": "A3",
-			  "server": "62.60.237.69",
-			  "server_port": 32324,
-			  "obfs": {
-				"type": "salamander",
-				"password": "fe423861b9da19db"
-			  },
-			  "password": "7eee28f68b06a380",
-			  "tls": {
-				"enabled": true,
-				"insecure": true
-		  }
-		},
-		{
-			  "type": "hysteria2",
-			  "tag": "A4",
-			  "server": "[2a12:5940:8e6e::2]",
-			  "server_port": 32324,
-			  "obfs": {
-				"type": "salamander",
-				"password": "fe423861b9da19db"
-			  },
-			  "password": "7eee28f68b06a380",
-			  "tls": {
-				"enabled": true,
-				"insecure": true
-		  }
-		},
-		{
-			  "type": "hysteria2",
-			  "tag": "A5",
-			  "server": "62.60.237.70",
-			  "server_port": 45453,
-			  "obfs": {
-				"type": "salamander",
-				"password": "fe64ada6e199a109"
-			  },
-			  "password": "dd4c82421b357e23",
-			  "tls": {
-				"enabled": true,
-				"insecure": true
-		  }
-		},
-		{
-			  "type": "hysteria2",
-			  "tag": "A6",
-			  "server": "[2a12:5940:8e6f::2]",
-			  "server_port": 45453,
-			  "obfs": {
-				"type": "salamander",
-				"password": "fe64ada6e199a109"
-			  },
-			  "password": "dd4c82421b357e23",
-			  "tls": {
-				"enabled": true,
-				"insecure": true
-		  }
-		},
-		{
-			  "server": "62.60.217.48",
-			  "server_port": 11223,
-			  "uuid": "8481b0a8-f20b-4671-8e05-a060efece75b",
-			  "password": "63cd0123c7b46eb1",
-			  "congestion_control": "bbr",
-			  "tls": {
-				"enabled": true,
-				"insecure": true,
-				"alpn": [
-					"h3",
-					"spdy/3.1"
-				]
-			  },
-			  "tag": "A7",
-			  "type": "tuic"
-		},
-		{
-			  "server": "[2a12:5940:a693::2]",
-			  "server_port": 11223,
-			  "uuid": "8481b0a8-f20b-4671-8e05-a060efece75b",
-			  "password": "63cd0123c7b46eb1",
-			  "congestion_control": "bbr",
-			  "tls": {
-				"enabled": true,
-				"insecure": true,
-				"alpn": [
-					"h3",
-					"spdy/3.1"
-				]
-			  },
-			  "tag": "A8",
-			  "type": "tuic"
-		},
-		{
-			  "server": "62.60.237.69",
-			  "server_port": 11122,
-			  "uuid": "7ba09889-5638-4859-8759-38de1e048683",
-			  "password": "ad207aa31e6da1f1",
-			  "congestion_control": "bbr",
-			  "tls": {
-				"enabled": true,
-				"insecure": true,
-				"alpn": [
-					"h3",
-					"spdy/3.1"
-				]
-			  },
-			  "tag": "A9",
-			  "type": "tuic"
-		},
-		{
-			  "server": "[2a12:5940:8e6e::2]",
-			  "server_port": 11122,
-			  "uuid": "7ba09889-5638-4859-8759-38de1e048683",
-			  "password": "ad207aa31e6da1f1",
-			  "congestion_control": "bbr",
-			  "tls": {
-				"enabled": true,
-				"insecure": true,
-				"alpn": [
-					"h3",
-					"spdy/3.1"
-				]
-			  },
-			  "tag": "A10",
-			  "type": "tuic"
-		},
-		{
-			  "server": "62.60.237.70",
-			  "server_port": 22233,
-			  "uuid": "c5e3cba2-fca2-4d25-8cda-3956a431c981",
-			  "password": "8e0abb1e4c073fb1",
-			  "congestion_control": "bbr",
-			  "tls": {
-				"enabled": true,
-				"insecure": true,
-				"alpn": [
-					"h3",
-					"spdy/3.1"
-				]
-			  },
-			  "tag": "A11",
-			  "type": "tuic"
-		},
-		{
-			  "server": "[2a12:5940:8e6f::2]",
-			  "server_port": 22233,
-			  "uuid": "c5e3cba2-fca2-4d25-8cda-3956a431c981",
-			  "password": "8e0abb1e4c073fb1",
-			  "congestion_control": "bbr",
-			  "tls": {
-				"enabled": true,
-				"insecure": true,
-				"alpn": [
-					"h3",
-					"spdy/3.1"
-				]
-			  },
-			  "tag": "A12",
-			  "type": "tuic"
-        },
-		{
-			  "type": "wireguard",
-			  "server": "162.159.192.143",
-			  "server_port": 8854,
-			  "local_address": [
-				  "172.16.0.2/32",
-				  "2606:4700:110:8f81:d551:a0:532e:a2b3/128"
-			  ],
-			  "private_key": "wF4MIEolgwPyXrxK8Wr04lm2r2nsawfv+cwtP0I9SHY=",
-			  "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-			  "reserved": [
-				  213,
-				  116,
-				  42
-			  ],
-			  "mtu": 1280,
-			  "workers": 2,
-			  "detour": "direct",
-			  "tag": "WARP-MAIN"
-		},
-		{
-			  "type": "wireguard",
-			  "server": "[2606:4700:d0::525c:3629:135b:15bc]",
-			  "server_port": 3854,
-			  "local_address": [
-				  "172.16.0.2/32",
-				  "2606:4700:110:8f81:d551:a0:532e:a2b3/128"
-			  ],
-			  "private_key": "wF4MIEolgwPyXrxK8Wr04lm2r2nsawfv+cwtP0I9SHY=",
-			  "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-			  "reserved": [
-				  74,
-				  71,
-				  6
-			  ],
-			  "mtu": 1280,
-			  "workers": 2,
-			  "detour": "WARP-MAIN",
-			  "tag": "WARP-WIW"
-        }
-    ],
-    "route": {
-        "rules": [
-            {
-                "port": 53,
-                "outbound": "dns-out"
-            },
-            {
-                "inbound": "dns-in",
-                "outbound": "dns-out"
-            },
-            {
-                "network": "udp",
-                "port": 443,
-                "protocol": "quic",
-                "outbound": "block"
-            },
-            {
-                "ip_is_private": true,
-                "outbound": "direct"
-            },
-            {
-                "rule_set": [
-                    "geosite-category-ads-all",
-                    "geosite-malware",
-                    "geosite-phishing",
-                    "geosite-cryptominers",
-                    "geoip-malware",
-                    "geoip-phishing"
-                ],
-                "outbound": "block"
-            },
-            {
-                "rule_set": [
-                    "geosite-ir",
-                    "geoip-ir"
-                ],
-                "outbound": "direct"
-            },
-            {
-                "ip_cidr": [
-                    "224.0.0.0/3",
-                    "ff00::/8"
-                ],
-                "source_ip_cidr": [
-                    "224.0.0.0/3",
-                    "ff00::/8"
-                ],
-                "outbound": "block"
-            }
-        ],
-        "rule_set": [
-            {
-                "type": "remote",
-                "tag": "geosite-ir",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geosite-category-ads-all",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geosite-malware",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geosite-phishing",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geosite-cryptominers",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geoip-ir",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geoip-malware",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geoip-phishing",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
-                "download_detour": "direct"
-            }
-        ],
-        "auto_detect_interface": true,
-        "override_android_vpn": true,
-        "final": "proxy"
+    {
+      "type": "hysteria2",
+      "tag": "A3",
+      "server": "62.60.237.69",
+      "server_port": 32324,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fe423861b9da19db"
+      },
+      "password": "7eee28f68b06a380",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
     },
-    "experimental": {
-        "cache_file": {
-            "enabled": true
-        },
-        "clash_api": {
-            "external_controller": "0.0.0.0:9090",
-            "external_ui": "yacd",
-            "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
-            "external_ui_download_detour": "direct",
-            "secret": "",
-            "default_mode": "rule"
-        }
+    {
+      "type": "hysteria2",
+      "tag": "A4",
+      "server": "[2a12:5940:8e6e::2]",
+      "server_port": 32324,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fe423861b9da19db"
+      },
+      "password": "7eee28f68b06a380",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "A5",
+      "server": "62.60.237.70",
+      "server_port": 45453,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fe64ada6e199a109"
+      },
+      "password": "dd4c82421b357e23",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "A6",
+      "server": "[2a12:5940:8e6f::2]",
+      "server_port": 45453,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fe64ada6e199a109"
+      },
+      "password": "dd4c82421b357e23",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A7",
+      "server": "62.60.217.48",
+      "server_port": 11223,
+      "uuid": "8481b0a8-f20b-4671-8e05-a060efece75b",
+      "password": "63cd0123c7b46eb1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A8",
+      "server": "[2a12:5940:a693::2]",
+      "server_port": 11223,
+      "uuid": "8481b0a8-f20b-4671-8e05-a060efece75b",
+      "password": "63cd0123c7b46eb1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A9",
+      "server": "62.60.237.69",
+      "server_port": 11122,
+      "uuid": "7ba09889-5638-4859-8759-38de1e048683",
+      "password": "ad207aa31e6da1f1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A10",
+      "server": "[2a12:5940:8e6e::2]",
+      "server_port": 11122,
+      "uuid": "7ba09889-5638-4859-8759-38de1e048683",
+      "password": "ad207aa31e6da1f1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A11",
+      "server": "62.60.237.70",
+      "server_port": 22233,
+      "uuid": "c5e3cba2-fca2-4d25-8cda-3956a431c981",
+      "password": "8e0abb1e4c073fb1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "A12",
+      "server": "[2a12:5940:8e6f::2]",
+      "server_port": 22233,
+      "uuid": "c5e3cba2-fca2-4d25-8cda-3956a431c981",
+      "password": "8e0abb1e4c073fb1",
+      "congestion_control": "bbr",
+      "tls":       {
+        "enabled": true,
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "WARP-MAIN",
+      "detour": "direct",
+      "local_address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:8f81:d551:a0:532e:a2b3/128"
+      ],
+      "private_key": "wF4MIEolgwPyXrxK8Wr04lm2r2nsawfv+cwtP0I9SHY=",
+      "server": "162.159.192.143",
+      "server_port": 8854,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "1XQq",
+      "workers": 2,
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "WARP-WIW",
+      "detour": "WARP-MAIN",
+      "local_address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:8f81:d551:a0:532e:a2b3/128"
+      ],
+      "private_key": "wF4MIEolgwPyXrxK8Wr04lm2r2nsawfv+cwtP0I9SHY=",
+      "server": "hnnfh0dg-36urkpz8yn5",
+      "server_port": 3854,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "SkcG",
+      "workers": 2,
+      "mtu": 1280
     }
+  ]
 }
