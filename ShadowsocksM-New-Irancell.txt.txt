@@ -15,7 +15,7 @@
       {
         "tag": "dns-local",
         "address": "local",
-        "detour": "direct"FF
+        "detour": "direct"
       },
       {
         "tag": "dns-block",
