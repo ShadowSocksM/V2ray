@@ -1,272 +1,100 @@
 {
-   "dns": {
-     "final": "local-dns",
-     "rules": [
-       {
-         "clash_mode": "Global",
-         "server": "proxy-dns",
-         "source_ip_cidr": [
-           "172.19.0.0/30"
-         ]
-       },
-       {
-         "server": "proxy-dns",
-         "source_ip_cidr": [
-           "172.19.0.0/30"
-         ]
-       },
-       {
-         "clash_mode": "Direct",
-         "server": "direct-dns"
-       },
-       {
-         "rule_set": [
-           "geosite-ir"
-         ],
-         "server": "direct-dns"
-       }
-     ],
-     "servers": [
-       {
-         "address": "tcp://8.8.8.8",
-         "address_resolver": "local-dns",
-         "detour": "proxy",
-         "tag": "proxy-dns"
-       },
-       {
-         "address": "local",
-         "detour": "direct",
-         "tag": "local-dns"
-       },
-       {
-         "address": "rcode://success",
-         "tag": "block"
-       },
-       {
-         "address": "tcp://8.8.8.8",
-         "detour": "direct",
-         "tag": "direct-dns"
-       }
-     ],
-     "strategy": "prefer_ipv4"
-   },
-   "inbounds": [
-     {
-       "auto_route": true,
-       "endpoint_independent_nat": false,
-       "inet4_address": "172.19.0.1/30",
-       "mtu": 9000,
-       "platform": {
-         "http_proxy": {
-           "enabled": true,
-           "server": "127.0.0.1",
-           "server_port": 2080
-         }
-       },
-       "sniff": true,
-       "stack": "system",
-       "strict_route": false,
-       "type": "tun"
-     },
-     {
-       "listen": "127.0.0.1",
-       "listen_port": 2080,
-       "sniff": true,
-       "type": "mixed",
-       "users": []
-     }
-   ],
-   "outbounds": [
-     {
-       "outbounds": [
-         "auto",
-         "direct",
-         "0.ðŸ‡¸ðŸ‡ª",
-         "1.ðŸ‡¸ðŸ‡ª",
-         "2.ðŸ‡¸ðŸ‡ª",
-         "3.ðŸ‡¸ðŸ‡ª",
-         "4.ðŸ‡¸ðŸ‡ª",
-         "5.ðŸ‡¸ðŸ‡ª"
-       ],
-       "tag": "proxy",
-       "type": "selector"
-     },
-     {
-       "interval": "10m",
-       "outbounds": [
-         "0.ðŸ‡¸ðŸ‡ª",
-         "1.ðŸ‡¸ðŸ‡ª",
-         "2.ðŸ‡¸ðŸ‡ª",
-         "3.ðŸ‡¸ðŸ‡ª",
-         "4.ðŸ‡¸ðŸ‡ª",
-         "5.ðŸ‡¸ðŸ‡ª"
-       ],
-       "tag": "auto",
-       "tolerance": 50,
-       "type": "urltest",
-       "url": "http://www.gstatic.com/generate_204"
-     },
-     {
-       "tag": "direct",
-       "type": "direct"
-     },
-     {
-       "tag": "dns-out",
-       "type": "dns"
-     },
-     {
-       "tag": "block",
-       "type": "block"
-     },
-     {
-       "obfs": {
-         "password": "f6d407e645e57cac",
-         "type": "salamander"
-       },
-       "password": "a20e411bdcb3f2f1",
-       "server": "94.228.164.226",
-       "server_port": 11122,
-       "tag": "0.ðŸ‡¸ðŸ‡ª",
-       "tls": {
-         "enabled": true,
-         "insecure": true,
-         "server_name": "www.google.com"
-       },
-       "type": "hysteria2"
-     },
-     {
-       "obfs": {
-         "password": "f6d407e645e57cac",
-         "type": "salamander"
-       },
-       "password": "a20e411bdcb3f2f1",
-       "server": "2a0b:4140:915d::2",
-       "server_port": 11122,
-       "tag": "1.ðŸ‡¸ðŸ‡ª",
-       "tls": {
-         "enabled": true,
-         "insecure": true,
-         "server_name": "www.google.com"
-       },
-       "type": "hysteria2"
-     },
-     {
-       "obfs": {
-         "password": "e36216019498c424",
-         "type": "salamander"
-       },
-       "password": "062c01693a7cc6ac",
-       "server": "150.241.85.155",
-       "server_port": 22211,
-       "tag": "2.ðŸ‡¸ðŸ‡ª",
-       "tls": {
-         "enabled": true,
-         "insecure": true,
-         "server_name": "www.google.com"
-       },
-       "type": "hysteria2"
-     },
-     {
-       "obfs": {
-         "password": "e36216019498c424",
-         "type": "salamander"
-       },
-       "password": "062c01693a7cc6ac",
-       "server": "2a0b:4140:cd98::2",
-       "server_port": 22211,
-       "tag": "3.ðŸ‡¸ðŸ‡ª",
-       "tls": {
-         "enabled": true,
-         "insecure": true,
-         "server_name": "www.google.com"
-       },
-       "type": "hysteria2"
-     },
-     {
-       "obfs": {
-         "password": "b80d61c718c07f62",
-         "type": "salamander"
-       },
-       "password": "9c8734a9fb5e1344",
-       "server": "150.241.85.156",
-       "server_port": 33311,
-       "tag": "4.ðŸ‡¸ðŸ‡ª",
-       "tls": {
-         "enabled": true,
-         "insecure": true,
-         "server_name": "www.google.com"
-       },
-       "type": "hysteria2"
-     },
-     {
-       "obfs": {
-         "password": "b80d61c718c07f62",
-         "type": "salamander"
-       },
-       "password": "9c8734a9fb5e1344",
-       "server": "2a0b:4140:cd99::2",
-       "server_port": 33311,
-       "tag": "5.ðŸ‡¸ðŸ‡ª",
-       "tls": {
-         "enabled": true,
-         "insecure": true,
-         "server_name": "www.google.com"
-       },
-       "type": "hysteria2"
-     }
-   ],
-   "route": {
-     "auto_detect_interface": true,
-     "final": "proxy",
-     "rule_set": [
-       {
-         "download_detour": "direct",
-         "format": "binary",
-         "tag": "geosite-ads",
-         "type": "remote",
-         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs"
-       },
-       {
-         "download_detour": "direct",
-         "format": "binary",
-         "tag": "geosite-ir",
-         "type": "remote",
-         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ir.srs"
-       },
-       {
-         "download_detour": "direct",
-         "format": "binary",
-         "tag": "geoip-ir",
-         "type": "remote",
-         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/ir.srs"
-       }
-     ],
-     "rules": [
-       {
-         "clash_mode": "Direct",
-         "outbound": "direct"
-       },
-       {
-         "clash_mode": "Global",
-         "outbound": "proxy"
-       },
-       {
-         "outbound": "dns-out",
-         "protocol": "dns"
-       },
-       {
-         "outbound": "direct",
-         "rule_set": [
-           "geosite-ir",
-           "geoip-ir"
-         ]
-       },
-       {
-         "outbound": "block",
-         "rule_set": [
-           "geosite-ads"
-         ]
-       }
-     ]
-   }
- }
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "0.🇸🇪",
+      "server": "94.228.164.226",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f6d407e645e57cac"
+      },
+      "password": "a20e411bdcb3f2f1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1.🇸🇪",
+      "server": "2a0b:4140:915d::2",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f6d407e645e57cac"
+      },
+      "password": "a20e411bdcb3f2f1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2.🇸🇪",
+      "server": "150.241.85.155",
+      "server_port": 22211,
+      "obfs":       {
+        "type": "salamander",
+        "password": "e36216019498c424"
+      },
+      "password": "062c01693a7cc6ac",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3.🇸🇪",
+      "server": "2a0b:4140:cd98::2",
+      "server_port": 22211,
+      "obfs":       {
+        "type": "salamander",
+        "password": "e36216019498c424"
+      },
+      "password": "062c01693a7cc6ac",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4.🇸🇪",
+      "server": "150.241.85.156",
+      "server_port": 33311,
+      "obfs":       {
+        "type": "salamander",
+        "password": "b80d61c718c07f62"
+      },
+      "password": "9c8734a9fb5e1344",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5.🇸🇪",
+      "server": "2a0b:4140:cd99::2",
+      "server_port": 33311,
+      "obfs":       {
+        "type": "salamander",
+        "password": "b80d61c718c07f62"
+      },
+      "password": "9c8734a9fb5e1344",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    }
+  ]
+}
