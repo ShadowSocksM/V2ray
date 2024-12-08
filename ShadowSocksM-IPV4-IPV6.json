@@ -1,0 +1,38 @@
+{
+  "outbounds":   [
+    {
+      "type": "wireguard",
+      "tag": "IPV4 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8af6:376c:3d5d:375b:be38/128"
+      ],
+      "private_key": "kB/75215rOoIPxMqeZMBpeh9+iOzyJDofMBkiDgs6Fc=",
+      "server": "162.159.195.82",
+      "server_port": 2506,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "yHYe",
+      "mtu": 1330,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IPV6🇩🇪 § 1",
+      "detour": "IPV4 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8caf:55db:e919:7295:a9f6/128"
+      ],
+      "private_key": "yK7pgasVZJIhLPJjVjXlVf6Du+O3skyXAzeDgzVehUI=",
+      "server": "2606:4700:d1::1f0f:d828:b911:7ae8",
+      "server_port": 5956,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "mheK",
+      "mtu": 1330,
+      "fake_packets_mode": "m4"
+    }
+  ]
+}
