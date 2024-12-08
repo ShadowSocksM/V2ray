@@ -2,36 +2,36 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "IR § 0",
+      "tag": "WARP § 0",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:85af:4428:9434:23a4:625a/128"
+        "2606:4700:110:8b3e:e9b:9405:8036:76c6/128"
       ],
-      "private_key": "AMR8huvmkYk8fkm21RycKKKTDTjdoKZmhrQGT36BBn8=",
-      "server": "klh9-w_k_kxvqgx-ihvr",
-      "server_port": 7281,
+      "private_key": "UJ9BWwKsBSyyhdsntvz2FZ7OYLmtktn5jmdxgFG0mnw=",
+      "server": "162.159.192.157",
+      "server_port": 7156,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "/XEf",
+      "reserved": "heaa",
       "mtu": 1330,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "2-6",
+      "fake_packets": "40-100",
+      "fake_packets_size": "40-50",
+      "fake_packets_delay": "2-4",
       "fake_packets_mode": "m4"
     },
     {
       "type": "wireguard",
-      "tag": "DE § 1",
-      "detour": "IR § 0",
+      "tag": "Anon-WoW-IPv4🇩🇪 § 1",
+      "detour": "WARP § 0",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8aa7:3aeb:c824:1ed9:4e7a/128"
+        "2606:4700:110:814f:d99e:7c3a:9429:9726/128"
       ],
-      "private_key": "SCsLta3FxeRy7baXYmzlMAFL/1QsOSV6Pj9ylqw4+XQ=",
-      "server": "162.159.192.1",
-      "server_port": 988,
+      "private_key": "SCekxfFSx8NgtwHdVInaQ0wEQUSaeojg9vwU5ivk6Vo=",
+      "server": "162.159.192.157",
+      "server_port": 7156,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "atNV",
-      "mtu": 1280,
+      "reserved": "V/tJ",
+      "mtu": 1330,
       "fake_packets_mode": "m4"
     }
   ]
