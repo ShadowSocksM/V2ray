@@ -1,7 +1,100 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkUHFDbk1rdldkRlJtendNb2lrT3JZ@3.16.89.108:51089/?POST%20
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5TjVDaHpRN2VQMjY4eTdGTjJ1Y1E2@13.59.166.25:12830/?POST%20
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppSmVUNFF3SWJlRDBGbWg5SVpISFJz@34.222.15.93:62611/?POST%20
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3UGI5djJsZEpkME9oZjJQSWFGbThy@35.90.191.123:22852/?POST%20
+{
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "0.🇸🇪",
+      "server": "94.228.164.226",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f6d407e645e57cac"
+      },
+      "password": "a20e411bdcb3f2f1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1.🇸🇪",
+      "server": "2a0b:4140:915d::2",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f6d407e645e57cac"
+      },
+      "password": "a20e411bdcb3f2f1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2.🇸🇪",
+      "server": "150.241.85.155",
+      "server_port": 22211,
+      "obfs":       {
+        "type": "salamander",
+        "password": "e36216019498c424"
+      },
+      "password": "062c01693a7cc6ac",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3.🇸🇪",
+      "server": "2a0b:4140:cd98::2",
+      "server_port": 22211,
+      "obfs":       {
+        "type": "salamander",
+        "password": "e36216019498c424"
+      },
+      "password": "062c01693a7cc6ac",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4.🇸🇪",
+      "server": "150.241.85.156",
+      "server_port": 33311,
+      "obfs":       {
+        "type": "salamander",
+        "password": "b80d61c718c07f62"
+      },
+      "password": "9c8734a9fb5e1344",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5.🇸🇪",
+      "server": "2a0b:4140:cd99::2",
+      "server_port": 33311,
+      "obfs":       {
+        "type": "salamander",
+        "password": "b80d61c718c07f62"
+      },
+      "password": "9c8734a9fb5e1344",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    }
+  ]
+}
