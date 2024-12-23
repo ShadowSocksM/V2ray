@@ -1,168 +1,100 @@
 {
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns-remote",
-        "address": "https://2tnc6zpc9c.cloudflare-gateway.com/dns-query",
-        "address_resolver": "dns-direct"
-      },
-      {
-        "tag": "dns-direct",
-        "address": "78.157.42.100",
-        "address_resolver": "dns-local",
-        "detour": "direct"
-      },
-      {
-        "tag": "dns-local",
-        "address": "local",
-        "detour": "direct"
-      },
-      {
-        "tag": "dns-block",
-        "address": "rcode://success"
-      }
-    ],
-    "rules": [
-      {
-        "domain": "2tnc6zpc9c.cloudflare-gateway.com",
-        "server": "dns-direct"
-      },
-      {
-        "geosite": "category-ads-all",
-        "server": "dns-block",
-        "disable_cache": true
-      }
-    ],
-    "fakeip": {
-      "enabled": true,
-      "inet4_range": "198.18.0.0/15",
-      "inet6_range": "fc00::/18"
-    },
-    "independent_cache": true
-  },
-  "inbounds": [
-    {
-      "type": "direct",
-      "tag": "dns-in",
-      "listen": "0.0.0.0",
-      "listen_port": 6450,
-      "override_address": "8.8.8.8",
-      "override_port": 53
-    },
-    {
-      "type": "tun",
-      "tag": "tun-in",
-      "interface_name": "tun0",
-      "mtu": 9000,
-      "auto_route": true,
-      "strict_route": true,
-      "endpoint_independent_nat": true,
-      "stack": "system",
-      "sniff": true,
-      "inet4_address": "172.19.0.1/30"
-    },
-    {
-      "type": "mixed",
-      "tag": "mixed-in",
-      "listen": "0.0.0.0",
-      "listen_port": 2080,
-      "sniff": true
-    }
-  ],
-  "outbounds": [
+  "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🇸🇪 H2",
-      "domain_strategy": "prefer_ipv4",
-      "server": "for-real.hpcode.ir",
-      "server_port": 443,
-      "obfs": {
+      "tag": "🇸🇪",
+      "server": "150.241.77.174",
+      "server_port": 33344,
+      "obfs":       {
         "type": "salamander",
-        "password": "kaoIHUtTlE"
+        "password": "f64fc97d84ec14cf"
       },
-      "password": "kaoIHUtTlE",
-      "tls": {
+      "password": "5a072771500faceb",
+      "tls":       {
         "enabled": true,
-        "server_name": "for-real.hpcode.ir",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "ADn+DQA1AAAgACD+8M2QHQke/lsD3DoCAK3fX8Sp751h7nzJqN37Eua4WwAIAAEA",
-            "AQABAAMAAicnAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
+        "server_name": "www.google.com",
+        "insecure": true
       }
     },
     {
-      "type": "direct",
-      "tag": "direct"
+      "type": "hysteria2",
+      "tag": "1.🇸🇪",
+      "server": "2a0b:4140:e6c5::2",
+      "server_port": 33344,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f64fc97d84ec14cf"
+      },
+      "password": "5a072771500faceb",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     },
     {
-      "type": "direct",
-      "tag": "bypass"
+      "type": "hysteria2",
+      "tag": "2.🇸🇪",
+      "server": "150.241.77.178",
+      "server_port": 22233,
+      "obfs":       {
+        "type": "salamander",
+        "password": "108ecb57dc7a7694"
+      },
+      "password": "36a78e623720090d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     },
     {
-      "type": "block",
-      "tag": "block"
+      "type": "hysteria2",
+      "tag": "3.🇸🇪",
+      "server": "2a0b:4140:e6c6::2",
+      "server_port": 22233,
+      "obfs":       {
+        "type": "salamander",
+        "password": "108ecb57dc7a7694"
+      },
+      "password": "36a78e623720090d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     },
     {
-      "type": "dns",
-      "tag": "dns-out"
+      "type": "hysteria2",
+      "tag": "4.🇸🇪",
+      "server": "150.241.77.182",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "64da92df31fc63c1"
+      },
+      "password": "c76f08e20fb6368b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5.🇸🇪",
+      "server": "2a0b:4140:e6c7::2",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "64da92df31fc63c1"
+      },
+      "password": "c76f08e20fb6368b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "port": 53,
-        "outbound": "dns-out"
-      },
-      {
-        "inbound": "dns-in",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "block"
-      },
-      {
-        "geosite": "category-ads-all",
-        "outbound": "block"
-      },
-      {
-        "geosite": "all",
-        "outbound": "bypass"
-      },
-      {
-        "geoip": "ir",
-        "outbound": "bypass"
-      },
-      {
-        "geosite": "ads",
-        "outbound": "block"
-      },
-      {
-        "geoip": "private",
-        "outbound": "bypass"
-      },
-      {
-        "source_ip_cidr": [
-          "224.0.0.0/3",
-          "ff00::/8"
-        ],
-        "ip_cidr": [
-          "224.0.0.0/3",
-          "ff00::/8"
-        ],
-        "outbound": "block"
-      }
-    ],
-    "auto_detect_interface": true
-  }
+  ]
 }
