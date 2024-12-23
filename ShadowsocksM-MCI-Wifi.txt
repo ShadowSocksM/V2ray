@@ -3,7 +3,7 @@
     {
       "type": "shadowsocks",
       "tag": "shadowsocks § 0",
-      "server": "3.21.39.11",
+      "server": "18.191.141.40",
       "server_port": 47440,
       "method": "chacha20-ietf-poly1305",
       "password": "2PUd6gizRnyULpS0KTxOmn"
@@ -11,7 +11,7 @@
     {
       "type": "shadowsocks",
       "tag": "shadowsocks § 1",
-      "server": "18.216.56.135",
+      "server": "3.17.141.134",
       "server_port": 26126,
       "method": "chacha20-ietf-poly1305",
       "password": "z9pV9XL3eIBc3vnyGPUSBV"
@@ -19,7 +19,7 @@
     {
       "type": "shadowsocks",
       "tag": "shadowsocks § 2",
-      "server": "52.27.110.152",
+      "server": "52.32.1.146",
       "server_port": 30759,
       "method": "chacha20-ietf-poly1305",
       "password": "uQIiQwNhcsIz7NKgId2bqz"
@@ -27,7 +27,7 @@
     {
       "type": "shadowsocks",
       "tag": "shadowsocks § 3",
-      "server": "35.92.169.215",
+      "server": "34.219.157.205",
       "server_port": 56860,
       "method": "chacha20-ietf-poly1305",
       "password": "7NDyIUuEWoQMu0yPBIXQvV"
