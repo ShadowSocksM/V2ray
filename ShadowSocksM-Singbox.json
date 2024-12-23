@@ -1,241 +1,305 @@
 {
-  "log": {
-    "level": "warn",
-    "output": "box.log",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns-remote",
-        "address": "udp://1.1.1.1",
-        "address_resolver": "dns-direct"
-      },
-      {
-        "tag": "dns-trick-direct",
-        "address": "https://sky.rethinkdns.com/",
-        "detour": "direct-fragment"
-      },
-      {
-        "tag": "dns-direct",
-        "address": "1.1.1.1",
-        "address_resolver": "dns-local",
-        "detour": "direct"
-      },
-      {
-        "tag": "dns-local",
-        "address": "local",
-        "detour": "direct"
-      },
-      {
-        "tag": "dns-block",
-        "address": "rcode://success"
-      }
-    ],
-    "rules": [
-      {
-        "domain": "connectivitycheck.gstatic.com",
-        "server": "dns-remote",
-        "rewrite_ttl": 3000
-      },
-      {
-        "domain_suffix": ".ir",
-        "server": "dns-direct"
-      },
-      {
-        "rule_set": [
-          "geoip-ir",
-          "geosite-ir"
-        ],
-        "server": "dns-direct"
-      }
-    ],
-    "final": "dns-remote",
-    "static_ips": {
-      "sky.rethinkdns.com": [
-        "104.17.147.22",
-        "104.17.148.22",
-        "2a06:98c1:3121::3",
-        "2a06:98c1:3120::3",
-        "188.114.97.3",
-        "188.114.96.3"
-      ]
-    },
-    "independent_cache": true
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "tag": "tun-in",
-      "mtu": 9000,
-      "inet4_address": "172.19.0.1/28",
-      "inet6_address": "fdfe:dcba:9876::1/126",
-      "auto_route": true,
-      "strict_route": true,
-      "endpoint_independent_nat": true,
-      "stack": "gvisor",
-      "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4"
-    },
-    {
-      "type": "mixed",
-      "tag": "mixed-in",
-      "listen": "127.0.0.1",
-      "listen_port": 12334,
-      "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4"
-    },
-    {
-      "type": "direct",
-      "tag": "dns-in",
-      "listen": "127.0.0.1",
-      "listen_port": 16450
-    }
-  ],
-  "outbounds": [
-    {
-      "type": "selector",
-      "tag": "select",
-      "outbounds": [
-        "auto",
-        "🇸🇪🟡 myH24️⃣",
-        "🇸🇪🟡 myH26️⃣"
-      ],
-      "default": "auto"
-    },
-    {
-      "type": "urltest",
-      "tag": "auto",
-      "outbounds": [
-        "🇸🇪🟡 myH24️⃣",
-        "🇸🇪🟡 myH26️⃣"
-      ],
-      "url": "http://connectivitycheck.gstatic.com/generate_204",
-      "interval": "47m0s",
-      "tolerance": 1,
-      "idle_timeout": "2h21m0s"
-    },
+  "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🇸🇪🟡 myH24️⃣",
-      "server": "77.91.87.167",
-      "server_port": 2087,
-      "obfs": {
-        "type": "salamander",
-        "password": "fd784f88798796c1"
-      },
-      "password": "04bb42227f7c629c",
-      "tls": {
+      "tag": "Channel id: @ShadowProxy66🇷🇺 § 0",
+      "server": "45.140.169.231",
+      "server_port": 8080,
+      "password": "f8d473b9-5724-489e-8841-cf4565203c9e",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.google.c",
-        "insecure": true,
-        "alpn": "h3"
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇸🇪🟡 myH26️⃣",
-      "server": "2a12:5940:bbac::2",
-      "server_port": 2087,
-      "obfs": {
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 2",
+      "server": "cucc.abyssvpn.com",
+      "server_port": 31152,
+      "password": "7ca665a5-83bc-4ecf-a938-7893d901924d",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇷🇺 § 4",
+      "server": "195.58.49.173",
+      "server_port": 60807,
+      "obfs":       {
         "type": "salamander",
-        "password": "fd784f88798796c1"
+        "password": "MzliZDM5MDFhYmFlNTAyMA=="
       },
-      "password": "04bb42227f7c629c",
-      "tls": {
+      "password": "b340e37c-7bd3-41c1-930f-6bee39f75198",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.google.c",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇯🇵 § 7",
+      "server": "jpone.z342jdahhdc.cfd",
+      "server_port": 6588,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "4ff38c12-6118-4505-9b15-fddd62031db8",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇷🇺 § 26",
+      "server": "46.29.161.15",
+      "server_port": 2453,
+      "obfs":       {
+        "type": "salamander",
+        "password": "NWFiMGE5MDNlNmI5YWY1MA=="
+      },
+      "password": "3cf9fe73-aaf7-4759-96b7-968e6ef53cf9",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇷🇺 § 27",
+      "server": "176.32.39.181",
+      "server_port": 37179,
+      "obfs":       {
+        "type": "salamander",
+        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
+      },
+      "password": "e40c8b80-8bf9-4a65-ab66-44ab8a63389b",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "Channel id: @ShadowProxy66🇵🇱 § 28",
+      "server": "213.189.52.181",
+      "server_port": 54555,
+      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "password": "admin123",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "heartbeat": "10s",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
         "insecure": true,
-        "alpn": "h3"
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
       }
     },
     {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "direct",
-      "tag": "direct-fragment",
-      "tls_fragment": {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 29",
+      "server": "107.175.70.80",
+      "server_port": 16424,
+      "password": "ksGeWd8r9Rz8",
+      "tls":       {
         "enabled": true,
-        "size": "10-30",
-        "sleep": "2-8"
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "direct",
-      "tag": "bypass"
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇵🇱 § 30",
+      "server": "188.68.234.53",
+      "server_port": 24662,
+      "password": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
     },
     {
-      "type": "block",
-      "tag": "block"
-    }
-  ],
-  "route": {
-    "rules": [
-      {
-        "inbound": "dns-in",
-        "outbound": "dns-out"
-      },
-      {
-        "port": 53,
-        "outbound": "dns-out"
-      },
-      {
-        "process_name": [
-          "Hiddify",
-          "Hiddify.exe",
-          "HiddifyCli",
-          "HiddifyCli.exe"
-        ],
-        "outbound": "bypass"
-      },
-      {
-        "domain_suffix": ".ir",
-        "outbound": "direct"
-      },
-      {
-        "rule_set": [
-          "geoip-ir",
-          "geosite-ir"
-        ],
-        "outbound": "direct"
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66 § 31",
+      "server": "167.234.249.46",
+      "server_port": 444,
+      "password": "sysadmin.sysadmin",
+      "tls":       {
+        "enabled": true,
+        "server_name": "a.961229.xyz",
+        "insecure": true
       }
-    ],
-    "rule_set": [
-      {
-        "type": "remote",
-        "tag": "geoip-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geoip-ir.srs",
-        "update_interval": "120h0m0s"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-ir.srs",
-        "update_interval": "120h0m0s"
-      }
-    ],
-    "final": "select",
-    "auto_detect_interface": true,
-    "override_android_vpn": true
-  },
-  "experimental": {
-    "cache_file": {
-      "enabled": true,
-      "path": "clash.db"
     },
-    "clash_api": {
-      "external_controller": "127.0.0.1:16756",
-      "secret": "bcMSGsIjwmZY_Xzb"
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66 § 32",
+      "server": "176.32.33.100",
+      "server_port": 13782,
+      "obfs":       {
+        "type": "salamander",
+        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
+      },
+      "password": "c052b0ab-cbbc-4d85-90ea-362ef16b44dd",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66 § 33",
+      "server": "166.88.159.67",
+      "server_port": 15982,
+      "obfs":       {
+        "type": "salamander",
+        "password": "MzU2MTQ1ZGUyYmNjNWEyOA=="
+      },
+      "password": "c052b0ab-cbbc-4d85-90ea-362ef16b44dd",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66 § 34",
+      "server": "2001:19f0:1000:20d0:5400:5ff:fe19:3ba9",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "13f7ba5f"
+      },
+      "password": "4e9ee29b39a28277",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66 § 35",
+      "server": "2001:19f0:1000:18b3:5400:5ff:fe19:3f6d",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "cd29099d"
+      },
+      "password": "9bb452b106ffc217",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66 § 36",
+      "server": "192.3.85.237",
+      "server_port": 443,
+      "password": "123456",
+      "tls":       {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 37",
+      "server": "142.171.194.167",
+      "server_port": 443,
+      "password": "sysadmin.sysadmin",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 38",
+      "server": "2001:19f0:5:34a0:5400:5ff:fe19:3f6f",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "4b817757"
+      },
+      "password": "1f17cdf0578a2860",
+      "tls":       {
+        "enabled": true,
+        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66 § 39",
+      "server": "151.249.104.35",
+      "server_port": 34623,
+      "password": "09f8d33b-62ae-4cb4-89eb-00e9570f30a6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇮🇹 § 40",
+      "server": "176.32.33.158",
+      "server_port": 47173,
+      "obfs":       {
+        "type": "salamander",
+        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
+      },
+      "password": "c052b0ab-cbbc-4d85-90ea-362ef16b44dd",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Channel id: @ShadowProxy66🇨🇾 § 44",
+      "server": "www.csgo.com",
+      "server_port": 443,
+      "uuid": "33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "kr.cfyyds.filegear-sg.me",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/rongseven",
+        "headers":         {
+          "Host": "kr.cfyyds.filegear-sg.me"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Channel id: @ShadowProxy66🇭🇺 § 45",
+      "server": "86.104.75.103",
+      "server_port": 49264,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LI4obOEIDLzDjd7xYlhhTJ"
     }
-  }
+  ]
 }
