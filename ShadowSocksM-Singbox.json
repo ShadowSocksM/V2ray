@@ -1,7 +1,100 @@
-vless://465fc43c-9872-40f9-bb94-ebee934e40b4@23.227.38.135:443?security=tls&sni=eupmaq-fyvoq0da0mdvvzehshnqqcd6inl5ihzvry3fo5veeghhfkkhertre6uy.t03w4b.workers.Dev&type=ws&path=/&host=eupmaq-fyvoq0da0mdvvzehshnqqcd6inl5ihzvry3fo5veeghhfkkhertre6uy.t03w4b.workers.Dev&encryption=none#1
-vless://6f995056-7802-4a1d-bff7-61678e626c3f@20.189.104.97:443?security=tls&sni=dee33.azurewebsites.net&type=ws&path=/&host=dee33.azurewebsites.net&encryption=none#2
-vless://6f995056-7802-4a1d-bff7-61678e626c3f@13.67.9.5:443?security=tls&sni=shg2.azurewebsites.net&type=ws&path=/&host=shg2.azurewebsites.net&encryption=none#3
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@172.67.218.148:443?security=tls&sni=lITtlE-FOg-5666.NEtMoUSaVi.WorKErS.Dev&alpn=h2,http/1.1&fp=randomized&type=ws&path=/eEhGG7CNQ2HTbmMU?ed%3D2560&host=little-fog-5666.netmousavi.workers.dev&encryption=none#4
-trojan://62ab7405-f2f3-4e76-b2d8-b6b1b1fe4fd0@103.77.247.224:443?security=tls&sni=kdlsupport.zendesk.com&allowInsecure=1&type=tcp#5
-vless://4cf203fb-fc2a-4742-9f97-eeeacfed5721@37.152.191.159:8080?security=&type=tcp&path=/&headerType=http&host=fast.com&encryption=none#6
-vless://e49ce5e6-b80d-4c9e-82a8-0f14c8887a3b@141.101.90.97:443?security=tls&sni=falcunargo.e0aef55581.workers.Dev&type=ws&path=/?ed%3D2048&host=falcunargo.e0aef55581.workers.Dev&encryption=none#7
+{
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 § 0",
+      "server": "150.241.77.174",
+      "server_port": 33344,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f64fc97d84ec14cf"
+      },
+      "password": "5a072771500faceb",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 (1) § 1",
+      "server": "2a0b:4140:e6c5::2",
+      "server_port": 33344,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f64fc97d84ec14cf"
+      },
+      "password": "5a072771500faceb",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 (2) § 2",
+      "server": "150.241.77.178",
+      "server_port": 22233,
+      "obfs":       {
+        "type": "salamander",
+        "password": "108ecb57dc7a7694"
+      },
+      "password": "36a78e623720090d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 (3) § 3",
+      "server": "2a0b:4140:e6c6::2",
+      "server_port": 22233,
+      "obfs":       {
+        "type": "salamander",
+        "password": "108ecb57dc7a7694"
+      },
+      "password": "36a78e623720090d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 (4) § 4",
+      "server": "150.241.77.182",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "64da92df31fc63c1"
+      },
+      "password": "c76f08e20fb6368b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 (5) § 5",
+      "server": "2a0b:4140:e6c7::2",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "64da92df31fc63c1"
+      },
+      "password": "c76f08e20fb6368b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    }
+  ]
+}
