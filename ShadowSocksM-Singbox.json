@@ -10,6 +10,40 @@
         "enabled": true,
         "server_name": "www.bing.com",
         "insecure": true
+    }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪🟡 myH24️⃣",
+      "server": "77.91.87.167",
+      "server_port": 2087,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fd784f88798796c1"
+      },
+      "password": "04bb42227f7c629c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.c",
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪🟡 myH26️⃣",
+      "server": "2a12:5940:bbac::2",
+      "server_port": 2087,
+      "obfs":       {
+        "type": "salamander",
+        "password": "fd784f88798796c1"
+      },
+      "password": "04bb42227f7c629c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.c",
+        "insecure": true,
+        "alpn": "h3"
       }
     }
   ]
