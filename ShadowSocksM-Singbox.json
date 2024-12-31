@@ -31,8 +31,7 @@
         "server_name": "www.whatsapp.com",
         "insecure": true
       }
-    }
-    {
+      {
       "type": "hysteria2",
       "tag": "🇸🇪🟡 myH24️⃣",
       "server": "77.91.87.167",
@@ -67,3 +66,4 @@
       }
     }
   ]
+}
