@@ -1,33 +1,34 @@
 {
-  "outbounds":   [
+  "outbounds": [
     {
       "type": "hysteria2",
       "tag": "@ShadowsocksM § 0",
       "server": "91.184.242.252",
       "server_port": 443,
-      "obfs":       {
+      "obfs": {
         "type": "salamander",
         "password": "ZHr2aBtNWmYGZ8NnBfjxU7A"
       },
       "password": "kugQgm1cWt",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "www.bing.com",
         "insecure": true
       }
-{
+    },
+    {
       "type": "hysteria2",
       "tag": "🇸🇪🟡 myH24️⃣",
       "server": "77.91.87.167",
       "server_port": 2087,
-      "obfs":       {
+      "obfs": {
         "type": "salamander",
         "password": "fd784f88798796c1"
       },
       "password": "04bb42227f7c629c",
-      "tls":       {
+      "tls": {
         "enabled": true,
-        "server_name": "www.google.c",
+        "server_name": "www.google.com",
         "insecure": true,
         "alpn": "h3"
       }
@@ -37,31 +38,33 @@
       "tag": "@ShadowsocksM § 1",
       "server": "91.184.242.252",
       "server_port": 443,
-      "obfs":       {
+      "obfs": {
         "type": "salamander",
         "password": "ZHr2aBtNWmYGZ8NnBfjxU7A"
       },
       "password": "kugQgm1cWt",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "www.whatsapp.com",
         "insecure": true
       }
+    },
     {
       "type": "hysteria2",
       "tag": "🇸🇪🟡 myH26️⃣",
       "server": "2a12:5940:bbac::2",
       "server_port": 2087,
-      "obfs":       {
+      "obfs": {
         "type": "salamander",
         "password": "fd784f88798796c1"
       },
       "password": "04bb42227f7c629c",
-      "tls":       {
+      "tls": {
         "enabled": true,
-        "server_name": "www.google.c",
+        "server_name": "www.google.com",
         "insecure": true,
         "alpn": "h3"
       }
     }
+  ]
 }
