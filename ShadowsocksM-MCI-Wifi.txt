@@ -3,34 +3,34 @@
     {
       "type": "shadowsocks",
       "tag": "shadowsocks § 0",
-      "server": "3.143.253.30",
-      "server_port": 19834,
+      "server": "35.89.86.36",
+      "server_port": 31357,
       "method": "chacha20-ietf-poly1305",
-      "password": "e88LCwjTtXOkiPnvB4poTA"
+      "password": "vMLWs1qW5iYhrKPQiphtBf"
     },
     {
       "type": "shadowsocks",
       "tag": "shadowsocks § 1",
-      "server": "3.143.253.30",
-      "server_port": 19834,
+      "server": "35.89.86.36",
+      "server_port": 31357,
       "method": "chacha20-ietf-poly1305",
-      "password": "e88LCwjTtXOkiPnvB4poTA"
+      "password": "vMLWs1qW5iYhrKPQiphtBf"
     },
     {
       "type": "shadowsocks",
       "tag": "shadowsocks § 2",
-      "server": "18.191.159.89",
-      "server_port": 19232,
+      "server": "35.92.184.237",
+      "server_port": 5217,
       "method": "chacha20-ietf-poly1305",
-      "password": "HYgxuDAYfPxonhtsCFTAHj"
+      "password": "a8yXyOvxfBWLFXffVRAXUM"
     },
     {
       "type": "shadowsocks",
       "tag": "shadowsocks § 3",
-      "server": "18.191.159.89",
-      "server_port": 19232,
+      "server": "35.92.184.237",
+      "server_port": 5217,
       "method": "chacha20-ietf-poly1305",
-      "password": "HYgxuDAYfPxonhtsCFTAHj"
+      "password": "a8yXyOvxfBWLFXffVRAXUM"
     }
   ]
 }
