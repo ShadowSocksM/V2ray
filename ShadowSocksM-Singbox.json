@@ -70,6 +70,22 @@
       }
     },
     {
+            "type": "hysteria2",
+      "tag": "4.🇸🇪",
+      "server": "150.241.77.182",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "64da92df31fc63c1"
+      },
+      "password": "c76f08e20fb6368b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "🇸🇪🟡 myH26️⃣",
       "server": "2a12:5940:bbac::2",
