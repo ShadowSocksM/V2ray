@@ -13,6 +13,7 @@
     }
     },
     {
+      
             "type": "hysteria2",
       "tag": "Shadowm1",
       "server": "212.192.15.222",
@@ -68,6 +69,21 @@
         "server_name": "www.google.com",
         "insecure": true
       }
+    },
+    {
+            "type": "hysteria2",
+      "tag": "Tel:@KevinZakarian",
+      "server": "kevin.iserver.store",
+      "server_port": 8443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Telegram:@KevinZakarian"
+      },
+      "password": "Telegram:@KevinZakarian",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+     }
     },
     {
             "type": "hysteria2",
