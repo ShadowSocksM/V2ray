@@ -72,7 +72,7 @@
     },
     {
             "type": "hysteria2",
-      "tag": "Tel:@KevinZakarian",
+      "tag": "USA",
       "server": "kevin.iserver.store",
       "server_port": 8443,
       "obfs":       {
