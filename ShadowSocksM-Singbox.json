@@ -13,6 +13,30 @@
     }
     },
     {
+            "type": "hysteria2",
+      "tag": "Shadowm1",
+      "server": "212.192.15.222",
+      "server_port": 443,
+      "password": "65bdc8fb-7cc5-44df-83c8-7963c5ac8193",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.push.apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ShadowM2",
+      "server": "91.149.203.119",
+      "server_port": 443,
+      "password": "65bdc8fb-7cc5-44df-83c8-7963c5ac8193",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.push.apple.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "🇸🇪🟡 myH24️⃣",
       "server": "77.91.87.167",
@@ -27,6 +51,22 @@
         "server_name": "www.google.c",
         "insecure": true,
         "alpn": "h3"
+      }
+    },
+    {
+            "type": "hysteria2",
+      "tag": "2.🇸🇪",
+      "server": "150.241.77.178",
+      "server_port": 22233,
+      "obfs":       {
+        "type": "salamander",
+        "password": "108ecb57dc7a7694"
+      },
+      "password": "36a78e623720090d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
       }
     },
     {
