@@ -59,7 +59,7 @@
       "uuid": "c26181b5-b49e-480e-a3d5-eb1583a1f38d",
       "packet_encoding": "xudp"
       }
-    },
+    }
     {
             "type": "hysteria2",
       "tag": "🇺🇸USA",
