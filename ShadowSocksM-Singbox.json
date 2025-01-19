@@ -39,35 +39,25 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇸🇪🟡 myH24️⃣",
-      "server": "77.91.87.167",
-      "server_port": 2087,
+      "tag": "Russia2🇷🇺 § 10",
+      "server": "asghar.mikronetplus.store",
+      "server_port": 20378,
       "obfs":       {
         "type": "salamander",
-        "password": "fd784f88798796c1"
+        "password": "Telegram:Mikronet_plus"
       },
-      "password": "04bb42227f7c629c",
+      "password": "Telegram:Mikronet-plus",
       "tls":       {
-        "enabled": true,
-        "server_name": "www.google.c",
-        "insecure": true,
-        "alpn": "h3"
+        "enabled": true
       }
     },
     {
-            "type": "hysteria2",
-      "tag": "2.🇸🇪",
-      "server": "150.241.77.178",
-      "server_port": 22233,
-      "obfs":       {
-        "type": "salamander",
-        "password": "108ecb57dc7a7694"
-      },
-      "password": "36a78e623720090d",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
+      "type": "vless",
+      "tag": "🇷🇺vless-RU § 0",
+      "server": "95.142.37.74",
+      "server_port": 20011,
+      "uuid": "c26181b5-b49e-480e-a3d5-eb1583a1f38d",
+      "packet_encoding": "xudp"
       }
     },
     {
@@ -86,36 +76,30 @@
      }
     },
     {
-            "type": "hysteria2",
-      "tag": "4.🇸🇪",
-      "server": "150.241.77.182",
-      "server_port": 11122,
-      "obfs":       {
-        "type": "salamander",
-        "password": "64da92df31fc63c1"
-      },
-      "password": "c76f08e20fb6368b",
+      "type": "hysteria2",
+      "tag": "Russia1🇷🇺 § 14",
+      "server": "46.17.41.189",
+      "server_port": 50717,
+      "password": "dongtaiwang.com",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇸🇪🟡 myH26️⃣",
-      "server": "2a12:5940:bbac::2",
-      "server_port": 2087,
+      "tag": "Switzerland🇨🇭 § 15",
+      "server": "all-v4.dgi000.store",
+      "server_port": 443,
       "obfs":       {
         "type": "salamander",
-        "password": "fd784f88798796c1"
+        "password": "@azadi_az_inja_migzare"
       },
-      "password": "04bb42227f7c629c",
+      "password": "@azadi_az_inja_migzare",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.c",
-        "insecure": true,
-        "alpn": "h3"
+        "server_name": "all-v4.dgi000.store"
       }
     }
   ]
