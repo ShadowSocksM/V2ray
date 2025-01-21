@@ -1,14 +1,18 @@
 {
-  "outbounds": [
+  "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "TWN🇹🇼 § 0",
-      "server": "128.14.239.118",
-      "server_port": 37942,
-      "password": "db618f3c",
-      "tls": {
+      "tag": "https://t.me/ShadowsocksM § 0",
+      "server": "62.60.231.189",
+      "server_port": 12123,
+      "obfs":       {
+        "type": "salamander",
+        "password": "dbc688df29e582d3"
+      },
+      "password": "f8e40931bbb827df",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "www.google.com",
         "insecure": true
       }
     },
