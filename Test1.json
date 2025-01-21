@@ -1,4 +1,92 @@
 {
+        }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Shadowm1",
+      "server": "212.192.15.222",
+      "server_port": 443,
+      "password": "65bdc8fb-7cc5-44df-83c8-7963c5ac8193",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.push.apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ShadowM2",
+      "server": "91.149.203.119",
+      "server_port": 443,
+      "password": "65bdc8fb-7cc5-44df-83c8-7963c5ac8193",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.push.apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Russia2🇷🇺 § 10",
+      "server": "asghar.mikronetplus.store",
+      "server_port": 20378,
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram:Mikronet_plus"
+      },
+      "password": "Telegram:Mikronet-plus",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺vless-RU § 0",
+      "server": "95.142.37.74",
+      "server_port": 20011,
+      "uuid": "c26181b5-b49e-480e-a3d5-eb1583a1f38d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸USA",
+      "server": "kevin.iserver.store",
+      "server_port": 8443,
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram:@KevinZakarian"
+      },
+      "password": "Telegram:@KevinZakarian",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Russia1🇷🇺 § 14",
+      "server": "46.17.41.189",
+      "server_port": 50717,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Switzerland🇨🇭 § 15",
+      "server": "all-v4.dgi000.store",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "@azadi_az_inja_migzare"
+      },
+      "password": "@azadi_az_inja_migzare",
+      "tls": {
+        "enabled": true,
+        "server_name": "all-v4.dgi000.store"
   "outbounds":   [
     {
       "type": "hysteria2",
