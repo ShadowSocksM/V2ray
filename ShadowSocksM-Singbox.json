@@ -13,9 +13,8 @@
       "tls": {
         "enabled": true,
         "insecure": true
-
-        {
-  "outbounds":   [
+      }
+    },
     {
       "type": "hysteria2",
       "tag": "🇸🇪 (0) § 0",
