@@ -37,9 +37,9 @@
       "server": "s15.serv00.com",
       "server_port": 7777,
       "password": "75577117-ABCD-DCBA-AAAA-CC777775577B",
-      "tls":       {
+      "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     }
