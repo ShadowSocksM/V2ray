@@ -17,6 +17,21 @@
    }
     },
     {
+     "type": "hysteria2",
+      "tag": "🇺🇸USA",
+      "server": "kevin.iserver.store",
+      "server_port": 8443,
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram:@KevinZakarian"
+      },
+      "password": "Telegram:@KevinZakarian",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+    }
+    },
+    {
       "type": "hysteria2",
       "tag": "Denmark🇩🇰",
       "server": "s15.serv00.com",
