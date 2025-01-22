@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🇸🇪Sweden",
+      "tag": "🇸🇪 (0) § 0",
       "server": "109.120.135.123",
       "server_port": 32121,
       "obfs":       {
@@ -12,7 +12,8 @@
       "password": "4acfec01ca2b3878",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com"
+        "server_name": "www.google.com",
+        "insecure": true
       }
     }
   ]
