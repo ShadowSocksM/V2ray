@@ -68,7 +68,7 @@ hy2://4e9ee29b39a28277@[2001:19f0:1000:20d0:5400:5ff:fe19:3ba9]:443?obfs=salaman
 hy2://Telegram:%40KevinZakarian@104.36.86.160:8443?obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1&sni=kevin.iserver.store#70
 hy2://4491655e-ee96-46bf-8f60-f2ae6a2fa835@xg1.haibucuo.xyz:8444?insecure=1&sni=xg1.haibucuo.xyz#71
 hy2://02521cf2-5c11-4382-847f-6cedf3552d51@dddoxjp.naisicloud.xyz:35600?insecure=1&sni=dddoxjp.naisicloud.xyz#72
-hy2://75577117-ABCD-DCBA-AAAA-CC777775577B@s15.serv00.com:7777?insecure=1&sni=www.bing.com#73
+
 hy2://1f17cdf0578a2860@45.76.0.86:443?obfs=salamander&obfs-password=4b817757&insecure=1&sni=45.76.0.86#74
 hy2://2687510c-f33b-44fd-905f-e3fcfc5fabbc@dddoyd.naisicloud.xyz:35600?insecure=1&sni=dddoyd.naisicloud.xyz#75
 hy2://332604ec-44d3-4d5b-a01f-784ad9709f7d@meiyou-sg.jiumaojiu.org:443?mport=20501-20599&sni=meiyou-sg.jiumaojiu.org#76
