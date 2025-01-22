@@ -154,4 +154,3 @@ tuic://51552a7c-a7cf-4182-a0ab-d824e965707e:51552a7c-a7cf-4182-a0ab-d824e965707e
 tuic://ad4b23f4-afb1-4fb8-b75d-f24aa6a4811e:0LVQzbyG7FbBzE2fZPUdMkys@156.229.167.163:64274?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#156
 tuic://bc97f674-c578-4940-9234-0a1da46041b9:admin123@213.189.52.181:54555?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#157
 tuic://bc97f674-c578-4940-9234-0a1da46041b9:admin123@213.189.52.181:54555?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#158
-tuic://bc97f674-c578-4940-9234-0a1da46041b9:admin123@213.189.52.181:54555?congestion_control=cubic&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#159
