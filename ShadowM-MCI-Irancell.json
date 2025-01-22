@@ -1,5 +1,5 @@
 {
-  "countries": [
+  "outbounds": [
     {
       "type": "hysteria2",
       "tag": "🇸🇪Sweden",
@@ -13,7 +13,7 @@
       "tls": {
         "enabled": true,
         "server_name": "www.google.com",
-        "insecure": true
+        "insecure": false
       }
     }
   ]
