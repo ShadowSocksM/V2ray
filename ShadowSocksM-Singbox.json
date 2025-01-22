@@ -2,7 +2,7 @@
   "outbounds": [
     {
       "type": "tuic",
-      "tag": "tuic_server",
+      "tag": "🇵🇱Poland",
       "server": "213.189.52.181",
       "server_port": 54555,
       "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
@@ -22,7 +22,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria_server",
+      "tag": "🇸🇪Sweden",
       "server": "109.120.135.123",
       "server_port": 32121,
       "obfs": {
