@@ -24,7 +24,7 @@
       "password": "75577117-ABCD-DCBA-AAAA-CC777775577B",
       "tls":       {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "www.google.com",
         "insecure": true
       }
     }
