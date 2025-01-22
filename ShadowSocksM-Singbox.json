@@ -2,17 +2,16 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "Sweden🇸🇪 § 0",
-      "server": "62.60.231.189",
-      "server_port": 12123,
-      "obfs":       {
+      "tag": "🇺🇸USA",
+      "server": "kevin.iserver.store",
+      "server_port": 8443,
+      "obfs": {
         "type": "salamander",
-        "password": "dbc688df29e582d3"
+        "password": "Telegram:@KevinZakarian"
       },
-      "password": "f8e40931bbb827df",
-      "tls":       {
+      "password": "Telegram:@KevinZakarian",
+      "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
         "insecure": true
       }
     }
