@@ -1,22 +1,15 @@
 {
   "outbounds": [
     {
-      "type": "tuic",
-      "tag": "🇵🇱Poland",
-      "server": "213.189.52.181",
-      "server_port": 54555,
-      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
-      "password": "admin123",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "heartbeat": "10s",
-      "tls": {
+      "type": "hysteria2",
+      "tag": "73 § 0",
+      "server": "s15.serv00.com",
+      "server_port": 7777,
+      "password": "75577117-ABCD-DCBA-AAAA-CC777775577B",
+      "tls":       {
         "enabled": true,
         "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3",
-          "spdy/3.1"
+        "insecure": true
         ]
       }
     },
