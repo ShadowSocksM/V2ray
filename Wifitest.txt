@@ -1,5 +1,4 @@
 hy2://4e9ee29b39a28277@66.135.11.68:443?obfs=salamander&obfs-password=13f7ba5f&insecure=1&sni=66.135.11.68#1
-tuic://bc97f674-c578-4940-9234-0a1da46041b9:admin123@213.189.52.181:54555?congestion_control=cubic&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#2
 hy2://mSIusSz2Ku3YUWxB85cQa@a.2513142.xyz:18880?insecure=1&sni=a.2513142.xyz#3
 hy2://2b3cc655-dd8e-4258-8a05-81e895daad43@meiyou-sg.jiumaojiu.org:443?mport=20501-20599&sni=meiyou-sg.jiumaojiu.org#5
 hy2://4883ec58-f7ba-440e-a1ad-748ea662a12b@dddoxjp.naisicloud.xyz:35600?insecure=1&sni=dddoxjp.naisicloud.xyz#6
