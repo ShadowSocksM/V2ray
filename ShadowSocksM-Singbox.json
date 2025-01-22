@@ -11,22 +11,6 @@
         "server_name": "www.bing.com",
         "insecure": true
       }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇪Sweden",
-      "server": "109.120.135.123",
-      "server_port": 32121,
-      "obfs": {
-        "type": "salamander",
-        "password": "44506df0d5415cc2"
-      },
-      "password": "4acfec01ca2b3878",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
     }
   ]
 }
