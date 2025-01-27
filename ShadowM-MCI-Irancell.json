@@ -1,15 +1,25 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "Denmark🇩🇰",
-      "server": "s15.serv00.com",
-      "server_port": 7777,
-      "password": "75577117-ABCD-DCBA-AAAA-CC777775577B",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
+      "type": "vmess",
+      "tag": "Russia",
+      "server": "45.8.159.241",
+      "server_port": 33895,
+      "uuid": "398ce84e-4849-4e5f-9b1a-a56fbe233b81",
+      "security": "auto",
+      "transport":       {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "England",
+      "server": "5.39.254.196",
+      "server_port": 25385,
+      "uuid": "398ce84e-4849-4e5f-9b1a-a56fbe233b81",
+      "security": "auto",
+      "transport":       {
+        "type": "ws"
       }
     }
   ]
