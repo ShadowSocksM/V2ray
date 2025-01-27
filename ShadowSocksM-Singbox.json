@@ -1,25 +1,25 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "Netherland",
-      "server": "51.158.148.53",
-      "server_port": 8080,
-      "password": "a0605527-28e4-449c-80ee-5642cc16a8af",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
+      "type": "vmess",
+      "tag": "Russia",
+      "server": "45.8.159.241",
+      "server_port": 33895,
+      "uuid": "398ce84e-4849-4e5f-9b1a-a56fbe233b81",
+      "security": "auto",
+      "transport":       {
+        "type": "ws"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "Sweden",
-      "server": "176.124.202.137",
-      "server_port": 80,
-      "password": "a0605527-28e4-449c-80ee-5642cc16a8af",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
+      "type": "vmess",
+      "tag": "England",
+      "server": "5.39.254.196",
+      "server_port": 25385,
+      "uuid": "398ce84e-4849-4e5f-9b1a-a56fbe233b81",
+      "security": "auto",
+      "transport":       {
+        "type": "ws"
       }
     }
   ]
