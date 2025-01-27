@@ -12,6 +12,21 @@
       }
     },
     {
+      "type": "USA",
+"tag": "@KevinZakarian",
+      "server": "kevin.iserver.store",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@KevinZakarian"
+      },
+      "password": "@KevinZakarian",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "Sweden",
       "server": "176.124.202.137",
