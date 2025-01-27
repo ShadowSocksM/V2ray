@@ -1,16 +1,4 @@
-{
-  "outbounds":   [
-    {
-      "type": "hysteria2",
-      "tag": "Denmark🇩🇰",
-      "server": "s15.serv00.com",
-      "server_port": 7777,
-      "password": "75577117-ABCD-DCBA-AAAA-CC777775577B",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    }
-  ]
-}
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYR2xmQWxSeWVzNW5CekJMVHJRMGto@16.170.163.21:62990/?POST%20#1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYR2xmQWxSeWVzNW5CekJMVHJRMGto@16.170.163.21:62990/?POST%20#2
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxSERGOTlsWDRsM3EwVEVLRThkR2Vm@13.49.69.38:64731/?POST%20#3
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxSERGOTlsWDRsM3EwVEVLRThkR2Vm@13.49.69.38:64731/?POST%20#4
