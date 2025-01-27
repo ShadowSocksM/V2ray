@@ -1,27 +1,27 @@
 {
-  "outbounds":   [
+  "outbounds": [
     {
       "type": "hysteria2",
       "tag": "Netherland",
       "server": "51.158.148.53",
       "server_port": 8080,
       "password": "a0605527-28e4-449c-80ee-5642cc16a8af",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "insecure": true
       }
     },
     {
-      "type": "USA",
-"tag": "@KevinZakarian",
+      "type": "hysteria2",
+      "tag": "USA",
       "server": "kevin.iserver.store",
       "server_port": 443,
-      "obfs":       {
+      "obfs": {
         "type": "salamander",
         "password": "@KevinZakarian"
       },
       "password": "@KevinZakarian",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "insecure": true
       }
@@ -32,7 +32,7 @@
       "server": "176.124.202.137",
       "server_port": 80,
       "password": "a0605527-28e4-449c-80ee-5642cc16a8af",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "insecure": true
       }
