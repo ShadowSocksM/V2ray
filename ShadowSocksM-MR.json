@@ -1,0 +1,20 @@
+{
+ "outbounds": [
+  {
+   "type": "hysteria2",
+   "tag": "hysteria2-27094 § 0",
+   "server": "82.117.87.183",
+   "server_port": 443,
+   "obfs": {
+    "type": "salamander",
+    "password": "V2R@yM@teRS1Q2VEe"
+   },
+   "password": "rZzZr2Za3B",
+   "tls": {
+    "enabled": true,
+    "server_name": "ns.cloudflare.com",
+    "insecure": true
+   }
+  }
+ ]
+}
