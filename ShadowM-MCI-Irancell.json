@@ -2,23 +2,97 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "Netherland",
-      "server": "51.158.148.53",
-      "server_port": 8080,
-      "password": "a0605527-28e4-449c-80ee-5642cc16a8af",
+      "tag": "@ShadowsocksM1 § 0",
+      "server": "109.120.135.123",
+      "server_port": 32211,
+      "obfs":       {
+        "type": "salamander",
+        "password": "2a291382112ea43b"
+      },
+      "password": "4590ea9e596878be",
       "tls":       {
         "enabled": true,
+        "server_name": "www.google.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "Sweden",
-      "server": "176.124.202.137",
-      "server_port": 80,
-      "password": "a0605527-28e4-449c-80ee-5642cc16a8af",
+      "tag": "@ShadowsocksM2 § 1",
+      "server": "2a01:e5c0:65a8::2",
+      "server_port": 32211,
+      "obfs":       {
+        "type": "salamander",
+        "password": "2a291382112ea43b"
+      },
+      "password": "4590ea9e596878be",
       "tls":       {
         "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@ShadowsocksM3 § 2",
+      "server": "62.60.231.189",
+      "server_port": 32321,
+      "obfs":       {
+        "type": "salamander",
+        "password": "66a9aafc46516805"
+      },
+      "password": "ccbb51ec5413b2c3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@ShadowsocksM4 § 3",
+      "server": "2a01:e5c0:65a6::2",
+      "server_port": 32321,
+      "obfs":       {
+        "type": "salamander",
+        "password": "66a9aafc46516805"
+      },
+      "password": "ccbb51ec5413b2c3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@ShadowsocksM5 § 4",
+      "server": "2a01:e5c0:65a7::2",
+      "server_port": 13111,
+      "obfs":       {
+        "type": "salamander",
+        "password": "595491cda040ec2d"
+      },
+      "password": "f39f16a9c819663f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@ShadowsocksM6 § 5",
+      "server": "103.249.134.26",
+      "server_port": 13111,
+      "obfs":       {
+        "type": "salamander",
+        "password": "595491cda040ec2d"
+      },
+      "password": "f39f16a9c819663f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
         "insecure": true
       }
     }
