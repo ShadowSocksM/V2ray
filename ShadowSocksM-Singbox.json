@@ -2,7 +2,7 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "@KevinZakarian",
+      "tag": "USA",
       "server": "keviny.iserver.store",
       "server_port": 8443,
       "obfs":       {
