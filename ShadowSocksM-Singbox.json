@@ -1,14 +1,17 @@
 {
   "outbounds": [
     {
-     "type": "hysteria2",
-      "tag": "41 § 0",
-      "server": "107.149.212.189",
-      "server_port": 47085,
-      "password": "e3f4729d-2bdf-4326-a2a7-c8678da4121c",
+      "type": "hysteria2",
+      "tag": "@KevinZakarian",
+      "server": "keviny.iserver.store",
+      "server_port": 8443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@KevinZakarian"
+      },
+      "password": "@KevinZakarian",
       "tls":       {
         "enabled": true,
-        "server_name": "www.bing.com",
         "insecure": true
       }
     },
