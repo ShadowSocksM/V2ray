@@ -17,16 +17,18 @@
     },
     {
       "type": "hysteria2",
-      "tag": "USA",
-      "server": "kevin.iserver.store",
+      "tag": "126 § 128",
+      "server": "66.135.11.68",
       "server_port": 443,
-      "obfs": {
+      "obfs":       {
         "type": "salamander",
-        "password": "@KevinZakarian"
+        "password": "13f7ba5f"
       },
-      "password": "@KevinZakarian",
-      "tls": {
+      "password": "4e9ee29b39a28277",
+      "tls":       {
         "enabled": true,
+        "disable_sni": true,
+        "server_name": "66.135.11.68",
         "insecure": true
       }
     },
