@@ -17,7 +17,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "CPI3 § 0",
+      "tag": "USA2 § 0",
       "server": "45.76.0.86",
       "server_port": 443,
       "obfs":       {
