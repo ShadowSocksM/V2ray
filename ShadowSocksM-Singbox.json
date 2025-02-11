@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "freevpnhomes 1 § 0",
+      "tag": "🇸🇪 SE1 1 § 0",
       "server": "109.120.135.123",
       "server_port": 32211,
       "obfs":       {
@@ -18,7 +18,7 @@
     },
     {
               "type": "hysteria2",
-      "tag": "🔒 HYSTERIA-UDP 🇫🇷 FR-195.154.33.70:13861 § 0",
+      "tag": "🇫🇷 FR § 0",
       "server": "195.154.33.70",
       "server_port": 13861,
       "password": "dongtaiwang.com",
@@ -30,7 +30,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🔒 HYSTERIA-UDP 🇷🇺 RU-46.17.41.189:50717 § 1",
+      "tag": "🇷🇺 RU § 1",
       "server": "46.17.41.189",
       "server_port": 50717,
       "password": "dongtaiwang.com",
@@ -42,7 +42,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🔒 HYSTERIA-UDP 🇸🇪 SE-70.34.207.153:443 § 2",
+      "tag": "🇸🇪 SE § 2",
       "server": "70.34.207.153",
       "server_port": 443,
       "obfs":       {
