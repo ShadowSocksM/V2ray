@@ -14,6 +14,47 @@
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true
+    }
+    },
+    {
+              "type": "hysteria2",
+      "tag": "🔒 HYSTERIA-UDP 🇫🇷 FR-195.154.33.70:13861 § 0",
+      "server": "195.154.33.70",
+      "server_port": 13861,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔒 HYSTERIA-UDP 🇷🇺 RU-46.17.41.189:50717 § 1",
+      "server": "46.17.41.189",
+      "server_port": 50717,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔒 HYSTERIA-UDP 🇸🇪 SE-70.34.207.153:443 § 2",
+      "server": "70.34.207.153",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "d2648ec2"
+      },
+      "password": "18240b2dfdd76484",
+      "tls":       {
+        "enabled": true,
+        "disable_sni": true,
+        "server_name": "70.34.207.153",
+        "insecure": true
       }
     }
   ]
