@@ -29,15 +29,22 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇺 RU § 1",
-      "server": "46.17.41.189",
-      "server_port": 50717,
-      "password": "dongtaiwang.com",
+      "type": "tuic",
+      "tag": "147 § 147",
+      "server": "213.189.52.181",
+      "server_port": 54555,
+      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "password": "admin123",
+      "congestion_control": "cubic",
+      "udp_relay_mode": "native",
+      "heartbeat": "10s",
       "tls":       {
         "enabled": true,
         "server_name": "www.bing.com",
-        "insecure": true
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
       }
     },
     {
