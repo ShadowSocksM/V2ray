@@ -1,3 +1,6 @@
+hy2://a0605527-28e4-449c-80ee-5642cc16a8af@176.124.202.137:80?insecure=1#https://t.me/ShadowsocksM
+hy2://a0605527-28e4-449c-80ee-5642cc16a8af@51.158.148.53:8080?insecure=1#https://t.me/ShadowsocksM
+hy2://48a4317c-bc2f-4841-aed2-466dea02cfda@meiyou-lu.jiumaojiu.org:443?mport=20501-20599&sni=meiyou-lu.jiumaojiu.org#https://t.me/ShadowsocksM
 hysteria2://5f320142-628c-40e7-9e8e-5c92a914c4dc@cfjyg.chuifengji.top:15466?sni=cfjyg.chuifengji.top&insecure=1#GB%E8%8B%B1%E5%9B%BD
 hysteria2://5f320142-628c-40e7-9e8e-5c92a914c4dc@cfjdg.chuifengji.top:15461?sni=cfjdg.chuifengji.top&insecure=1#DE%E5%BE%B7%E5%9B%BD
 hysteria2://5f320142-628c-40e7-9e8e-5c92a914c4dc@cfjmg.chuifengji.top:15463?sni=cfjmg.chuifengji.top&insecure=1#US%E7%BE%8E%E5%9B%BD
