@@ -16,7 +16,7 @@ hysteria2://5f320142-628c-40e7-9e8e-5c92a914c4dc@cfjxg.chuifengji.top:15462?sni=
 hysteria2://5f320142-628c-40e7-9e8e-5c92a914c4dc@cfjxg.chuifengji.top:15462?sni=cfjxg.chuifengji.top&insecure=1#16
 hysteria2://5f320142-628c-40e7-9e8e-5c92a914c4dc@cfjxg.chuifengji.top:15462?sni=cfjxg.chuifengji.top&insecure=1#17
 hysteria2://5f320142-628c-40e7-9e8e-5c92a914c4dc@cfjxg.chuifengji.top:15462?sni=cfjxg.chuifengji.top&insecure=1#18
-hysteria2://5f320142-628c-40e7-9e8e-5c92a914c4dc@cfjxg.chuifengji.top:15462?sni=cfjxg.chuifengji.top&insecure=1#19
+
 hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@hk08hktix198h.whiteemperor.top:443?mport=20000-50000&insecure=1&sni=hk08hktix198h.whiteemperor.top#20
 hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@uk02hktix146103yunyou124.21548798653.xyz:443?mport=20000-50000&insecure=1&sni=uk02hktix146103yunyou124.21548798653.xyz#21
 hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@us16hktixrose156253.21548798653.xyz:443?mport=20000-50000&insecure=1&sni=us16hktixrose156253.21548798653.xyz#22
