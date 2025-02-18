@@ -18,13 +18,13 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇫🇷 FR § 0",
-      "server": "195.154.33.70",
-      "server_port": 13861,
-      "password": "dongtaiwang.com",
+      "tag": "DE8 § 0",
+      "server": "cfjdg.chuifengji.top",
+      "server_port": 15461,
+      "password": "5f320142-628c-40e7-9e8e-5c92a914c4dc",
       "tls":       {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "cfjdg.chuifengji.top",
         "insecure": true
       }
     },
