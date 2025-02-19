@@ -17,14 +17,17 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "DE8 § 0",
-      "server": "cfjdg.chuifengji.top",
-      "server_port": 15461,
-      "password": "5f320142-628c-40e7-9e8e-5c92a914c4dc",
+      "tag": "FreeVpnHomes-v4",
+      "server": "channelv4.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "#Z2*5%09$x3%kjC"
+      },
+      "password": "a1Bi1PIdhh",
       "tls":       {
         "enabled": true,
-        "server_name": "cfjdg.chuifengji.top",
+        "server_name": "www.leader.ir",
         "insecure": true
       }
     },
