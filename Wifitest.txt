@@ -35,6 +35,15 @@ hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@us06hktix154akm221.21548798653.xyz:44
 hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@us07hktixakrose85.21548798653.xyz:443?mport=20000-50000&insecure=1&sni=us07hktixakrose85.21548798653.xyz#34
 hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@us09hktix230h.whiteemperor.top:443?mport=20000-50000&insecure=1&sni=us09hktix230h.whiteemperor.top#35
 hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@us20hktix122.whiteemperor.top:443?mport=20000-50000&insecure=1&sni=us20hktix122.whiteemperor.top#36
+hysteria2://f158d076-5e79-492c-ae7f-f9d670e77caf@46.17.44.165:29015?sni=min.zongyunti.site&insecure=1#1358
+hysteria2://f158d076-5e79-492c-ae7f-f9d670e77caf@45.147.200.61:29015?sni=min.zongyunti.site&insecure=1#1359
+hysteria2://f158d076-5e79-492c-ae7f-f9d670e77caf@45.147.200.61:29015?sni=min.zongyunti.site&insecure=1#1360
+hysteria2://f158d076-5e79-492c-ae7f-f9d670e77caf@46.17.44.136:29116?sni=min.zongyunti.site&insecure=1#1361
+hysteria2://f158d076-5e79-492c-ae7f-f9d670e77caf@185.22.152.35:29015?sni=min.zongyunti.site&insecure=1#1362
+hysteria2://f158d076-5e79-492c-ae7f-f9d670e77caf@46.17.44.136:29015?sni=min.zongyunti.site&insecure=1#1363
+hysteria2://f158d076-5e79-492c-ae7f-f9d670e77caf@45.147.200.61:29015?sni=min.zongyunti.site&insecure=1#1364
+hysteria2://f158d076-5e79-492c-ae7f-f9d670e77caf@45.147.200.61:29015?sni=min.zongyunti.site&insecure=1#1365
+
 hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@hk07hktix49h.whiteemperor.top:443?mport=20000-50000&insecure=1&sni=hk07hktix49h.whiteemperor.top#37
 hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@hk10hktix248h.whiteemperor.top:443?mport=20000-50000&insecure=1&sni=hk10hktix248h.whiteemperor.top#38
 hy2://444dae72-ea43-4ff8-a77e-c2786a443bbd@sg01hktix18.whiteemperor.top:443?mport=20000-50000&insecure=1&sni=sg01hktix18.whiteemperor.top#39
