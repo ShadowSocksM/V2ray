@@ -1,12 +1,18 @@
 {
   "outbounds":   [
     {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 0",
-      "server": "flank1.g.edgeservers.org",
-      "server_port": 43785,
-      "method": "chacha20-ietf-poly1305",
-      "password": "bCz8VkvHoUHdjvQleJFV9A"
+      "type": "hysteria2",
+      "tag": "ShadowM § 0",
+      "server": "164.92.242.216",
+      "server_port": 48917,
+      "obfs":       {
+        "type": "salamander",
+        "password": "aa11ss22dd33ff44gg"
+      },
+      "password": "TqN44g0JwE",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
     },
     {
       "type": "shadowsocks",
