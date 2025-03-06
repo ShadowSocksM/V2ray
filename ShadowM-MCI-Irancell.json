@@ -13,6 +13,7 @@
       "tls":       {
         "enabled": true,
         "insecure": true
+      }
     },
     {
       "type": "shadowsocks",
