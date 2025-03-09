@@ -53,14 +53,18 @@
       }
     },
     {
+
       "type": "hysteria2",
-      "tag": "FR",
-      "server": "195.154.33.70",
-      "server_port": 13861,
-      "password": "dongtaiwang.com",
-      "tls": {
+      "tag": "@KevinZakarian",
+      "server": "keviny.iserver.store",
+      "server_port": 8443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@KevinZakarian"
+      },
+      "password": "@KevinZakarian",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.elena.com.co",
         "insecure": true
       }
     }
