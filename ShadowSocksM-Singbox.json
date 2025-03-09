@@ -2,17 +2,13 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "SE1 1",
-      "server": "109.120.135.123",
-      "server_port": 32211,
-      "obfs": {
-        "type": "salamander",
-        "password": "2a291382112ea43b"
-      },
-      "password": "4590ea9e596878be",
-      "tls": {
+      "tag": "7 § 0",
+      "server": "cfjyg.chuifengji.top",
+      "server_port": 15466,
+      "password": "5f320142-628c-40e7-9e8e-5c92a914c4dc",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "cfjyg.chuifengji.top",
         "insecure": true
       }
     },
