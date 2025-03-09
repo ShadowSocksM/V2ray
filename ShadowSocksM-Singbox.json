@@ -29,23 +29,15 @@
       }
     },
     {
-      "type": "tuic",
-      "tag": "147",
-      "server": "213.189.52.181",
-      "server_port": 54555,
-      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
-      "password": "admin123",
-      "congestion_control": "cubic",
-      "udp_relay_mode": "native",
-      "heartbeat": "10s",
-      "tls": {
+      "type": "hysteria2",
+      "tag": "9 § 0",
+      "server": "cfjmg.chuifengji.top",
+      "server_port": 15463,
+      "password": "5f320142-628c-40e7-9e8e-5c92a914c4dc",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3",
-          "spdy/3.1"
-        ]
+        "server_name": "cfjmg.chuifengji.top",
+        "insecure": true
       }
     },
     {
