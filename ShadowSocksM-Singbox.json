@@ -1,15 +1,18 @@
 {
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "7 § 0",
-      "server": "cfjyg.chuifengji.top",
-      "server_port": 15466,
-      "password": "5f320142-628c-40e7-9e8e-5c92a914c4dc",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cfjyg.chuifengji.top",
-        "insecure": true
+      "type": "hysteria2",
+      "tag": "SahdowM1",
+      "server": "keviny.iserver.store",
+      "server_port": 8443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@KevinZakarian"
+      },
+      "password": "@KevinZakarianA",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
       }
     },
     {
@@ -42,18 +45,12 @@
     },
     {
 
-      "type": "hysteria2",
-      "tag": "Germany1",
-      "server": "keviny.iserver.store",
-      "server_port": 8443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@KevinZakarian"
-      },
-      "password": "@KevinZakarian",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
+      "type": "shadowsocks",
+      "tag": "Netherlands (2) § 0",
+      "server": "5.35.47.122",
+      "server_port": 45635,
+      "method": "chacha20-ietf-poly1305",
+      "password": "CLphyEMQT8nbG8EImX0A2D"
       }
     }
   ]
