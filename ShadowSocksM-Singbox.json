@@ -1,18 +1,18 @@
 {
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "SahdowM1",
-      "server": "keviny.iserver.store",
-      "server_port": 8443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@KevinZakarian"
-      },
-      "password": "@KevinZakarianA",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
+      "type": "hysteria2",
+      "tag": "@KevinZakarian",
+      "server": "keviny.iserver.store",
+      "server_port": 8443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@KevinZakarian"
+      },
+      "password": "@KevinZakarianA",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
       }
     },
     {
