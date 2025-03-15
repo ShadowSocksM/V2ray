@@ -33,13 +33,16 @@
     },
     {
       "type": "hysteria2",
-      "tag": "9 § 0",
-      "server": "cfjmg.chuifengji.top",
-      "server_port": 15463,
-      "password": "5f320142-628c-40e7-9e8e-5c92a914c4dc",
+      "tag": "�% § 0",
+      "server": "164.92.242.216",
+      "server_port": 48917,
+      "obfs":       {
+        "type": "salamander",
+        "password": "aa11ss22dd33ff44gg"
+      },
+      "password": "TqN44g0JwE",
       "tls":       {
         "enabled": true,
-        "server_name": "cfjmg.chuifengji.top",
         "insecure": true
       }
     },
