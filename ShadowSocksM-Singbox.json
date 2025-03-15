@@ -1,57 +1,55 @@
 {
-  "outbounds": [
-    {
-      "type": "hysteria2",
-      "tag": "@KevinZakarian",
-      "server": "keviny.iserver.store",
-      "server_port": 8443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@KevinZakarian"
-      },
-      "password": "@KevinZakarianA",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "SE-v4",
-      "server": "channelv4.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs": {
-        "type": "salamander",
-        "password": "#Z2*5%09$x3%kjC"
-      },
-      "password": "a1Bi1PIdhh",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.leader.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "9 § 0",
-      "server": "cfjmg.chuifengji.top",
-      "server_port": 15463,
-      "password": "5f320142-628c-40e7-9e8e-5c92a914c4dc",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cfjmg.chuifengji.top",
-        "insecure": true
-      }
-    },
-    {
-
-      "type": "shadowsocks",
-      "tag": "Netherlands (2) § 0",
-      "server": "5.35.47.122",
-      "server_port": 45635,
-      "method": "chacha20-ietf-poly1305",
-      "password": "CLphyEMQT8nbG8EImX0A2D"
-      }
-    }
-  ]
+ "outbounds": [
+  {
+   "type": "hysteria2",
+   "tag": "@KevinZakarian",
+   "server": "keviny.iserver.store",
+   "server_port": 8443,
+   "obfs": {
+    "type": "salamander",
+    "password": "@KevinZakarian"
+   },
+   "password": "@KevinZakarianA",
+   "tls": {
+    "enabled": true,
+    "insecure": true
+   }
+  },
+  {
+   "type": "hysteria2",
+   "tag": "SE-v4",
+   "server": "channelv4.saghetalaie.homes",
+   "server_port": 46914,
+   "obfs": {
+    "type": "salamander",
+    "password": "#Z2*5%09$x3%kjC"
+   },
+   "password": "a1Bi1PIdhh",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.leader.ir",
+    "insecure": true
+   }
+  },
+  {
+   "type": "hysteria2",
+   "tag": "9 § 0",
+   "server": "cfjmg.chuifengji.top",
+   "server_port": 15463,
+   "password": "5f320142-628c-40e7-9e8e-5c92a914c4dc",
+   "tls": {
+    "enabled": true,
+    "server_name": "cfjmg.chuifengji.top",
+    "insecure": true
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "Netherlands (2) § 0",
+   "server": "5.35.47.122",
+   "server_port": 45635,
+   "method": "chacha20-ietf-poly1305",
+   "password": "CLphyEMQT8nbG8EImX0A2D"
+  }
+ ]
 }
