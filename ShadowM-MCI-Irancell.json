@@ -1,43 +1,128 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "ShadowM § 0",
-      "server": "164.92.242.216",
-      "server_port": 48917,
-      "obfs":       {
-        "type": "salamander",
-        "password": "aa11ss22dd33ff44gg"
+      "type": "vless",
+      "tag": "1 - VLESS F - Domain : 443",
+      "domain_strategy": "ipv4_only",
+      "tls_fragment":       {
+        "enabled": true,
+        "size": "100-200",
+        "sleep": "1-1"
       },
-      "password": "TqN44g0JwE",
+      "server": "openai.com",
+      "server_port": 443,
+      "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
       "tls":       {
         "enabled": true,
-        "insecure": true
+        "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
+        "alpn": "h2,http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 1",
-      "server": "flank2.g.edgeservers.org",
-      "server_port": 15780,
-      "method": "chacha20-ietf-poly1305",
-      "password": "GzhVCuAiOAmyfHC6KesHBL"
+      "type": "vless",
+      "tag": "2 - VLESS F - Domain : 443",
+      "domain_strategy": "ipv4_only",
+      "tls_fragment":       {
+        "enabled": true,
+        "size": "100-200",
+        "sleep": "1-1"
+      },
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
+      "tls":       {
+        "enabled": true,
+        "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
+        "alpn": "h2,http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 2",
-      "server": "flank3.g.edgeservers.org",
-      "server_port": 54590,
-      "method": "chacha20-ietf-poly1305",
-      "password": "x9CLmvtStnUITovXBClxhu"
+      "type": "vless",
+      "tag": "3 - VLESS F - Domain : 443",
+      "domain_strategy": "ipv4_only",
+      "tls_fragment":       {
+        "enabled": true,
+        "size": "100-200",
+        "sleep": "1-1"
+      },
+      "server": "footofan.com",
+      "server_port": 443,
+      "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
+      "tls":       {
+        "enabled": true,
+        "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
+        "alpn": "h2,http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 3",
-      "server": "flank4.g.edgeservers.org",
-      "server_port": 7584,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ZnU8yOY4AzV3fR3E7iNBm4"
+      "type": "vless",
+      "tag": "4 - VLESS F - Domain : 443",
+      "domain_strategy": "ipv4_only",
+      "tls_fragment":       {
+        "enabled": true,
+        "size": "100-200",
+        "sleep": "1-1"
+      },
+      "server": "thailandnet65.ir",
+      "server_port": 443,
+      "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
+      "tls":       {
+        "enabled": true,
+        "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
+        "alpn": "h2,http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     }
   ]
 }
