@@ -1,35 +1,3042 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "v6",
-      "server": "channelv6.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "#Z2*5%09$x3%kjC"
-      },
-      "password": "a1Bi1PIdhh",
+      "type": "trojan",
+      "tag": "Node-torjan.xn--xhq44j.eu.org § 0",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "tg-fq521free",
       "tls":       {
         "enabled": true,
-        "server_name": "www.leader.ir",
-        "insecure": true
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/torjan.xn--xhq44j.eu.org/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "1.v4",
-      "server": "channelv4.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "#Z2*5%09$x3%kjC"
-      },
-      "password": "a1Bi1PIdhh",
+      "type": "vless",
+      "tag": "telegram ⚡️ DailyV2ry#Node-news5.testsnew.com § 1",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "10525b84-7f6e-43ef-912b-87434df813f4",
       "tls":       {
         "enabled": true,
-        "server_name": "www.leader.ir",
-        "insecure": true
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news5.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🌈 DailyV2ry#Node-news5.testsnew.com § 2",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "10525b84-7f6e-43ef-912b-87434df813f4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news5.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🎪 DailyV2ry#Node-news5.testsnew.com § 3",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "10525b84-7f6e-43ef-912b-87434df813f4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news5.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "همه اینترنت ها-vpfreen#Node-hajlab.ucdavis.edu § 4",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "123904cc-488d-46f2-bab5-dacb73e757ed",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/hajlab.ucdavis.edu/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🎪 DailyV2ry#Node-news3.testsnew.com § 5",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "588e0c52-44bc-4d24-9833-8bd2af532c58",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news3.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🎯 DailyV2ry#Node-news3.testsnew.com § 6",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "588e0c52-44bc-4d24-9833-8bd2af532c58",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news3.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🚀 DailyV2ry#Node-news3.testsnew.com § 7",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "588e0c52-44bc-4d24-9833-8bd2af532c58",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news3.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🎯 DailyV2ry#Node-news6.testsnew.com § 8",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "5c6460ab-5eb1-41c0-8187-6a57d7cfbfab",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news6.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-AK801.890617.XYZ § 9",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "6040a753-e35b-4384-8713-96f3c639b621",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/AK801.890617.XYZ/qzS0GzXjVWvcbs2HOmaeWimvT3",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "jampht8t/#Node-playemlive.com#jampht8t § 10",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "73039c19-caee-48e5-af88-e6c74197c1a1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/playemlive.com",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Moftinet2/#Node-powerpow.wfft.ir#Moftinet2 § 11",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/powerpow.wfft.ir",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "shokhmiplus/#Node-powerpow.wfft.ir#shokhmiplus § 12",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/powerpow.wfft.ir",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🌺 DailyV2ry#Node-FbDeLhXw2.RiCkTmOuSe.iNfO § 13",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/FbDeLhXw2.RiCkTmOuSe.iNfO/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🎪 DailyV2ry#Node-FbDeLhXw5.RiCkTmOuSe.iNfO § 14",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/FbDeLhXw5.RiCkTmOuSe.iNfO/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🍊 DailyV2ry#Node-JeCxIqDm.kOtTaRy.iNfO § 15",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/JeCxIqDm.kOtTaRy.iNfO/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🎪 DailyV2ry#Node-PzIaKfXb5.RiPlEtOoRy.iNfO § 16",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/PzIaKfXb5.RiPlEtOoRy.iNfO/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🌈 DailyV2ry#Node-TySqHaWi2.RoCkStOnEy.iNfO § 17",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/TySqHaWi2.RoCkStOnEy.iNfO/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🚀 DailyV2ry#Node-VpCgKtHa5.RoCkStOnEy.iNfO § 18",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/VpCgKtHa5.RoCkStOnEy.iNfO/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram ☂️ DailyV2ry#Node-news1.testsnew.com § 19",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "8e3230a4-2867-4087-9b4b-27e54ef7cb10",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news1.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🍀 DailyV2ry#Node-news1.testsnew.com § 20",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "8e3230a4-2867-4087-9b4b-27e54ef7cb10",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news1.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🍊 DailyV2ry#Node-news1.testsnew.com § 21",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "8e3230a4-2867-4087-9b4b-27e54ef7cb10",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news1.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🎪 DailyV2ry#Node-news1.testsnew.com § 22",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "8e3230a4-2867-4087-9b4b-27e54ef7cb10",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news1.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Moftinet3/v6445828875#Node-m236.inaonehorseopensleigh.com#Moftinet3 § 23",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "9d9787be-736a-47f0-82a9-8eb4bf06be17",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/m236.inaonehorseopensleigh.com",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "shokhmiplus/v6445828875#Node-m236.inaonehorseopensleigh.com#shokhmiplus § 24",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "9d9787be-736a-47f0-82a9-8eb4bf06be17",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/m236.inaonehorseopensleigh.com",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram ☂️ DailyV2ry#Node-news.testsnew.com § 25",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "9e6268cf-7b62-4baf-86b1-6d44f4984b2b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "telegram 🌺 DailyV2ry#Node-news.testsnew.com § 26",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "9e6268cf-7b62-4baf-86b1-6d44f4984b2b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/news.testsnew.com/wss",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-abqwg.ulysses-doshaboone.info § 27",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/abqwg.ulysses-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-awgwq.victoria-doshaboone.info § 28",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/awgwq.victoria-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-bsavo.victoria-doshaboone.info § 29",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/bsavo.victoria-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-ejpwh.isabella-doshaboone.info § 30",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ejpwh.isabella-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-ejyxf.samuel-doshaboone.info § 31",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ejyxf.samuel-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-fhtum.william-doshaboone.info § 32",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/fhtum.william-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-hrfwp.patrick-shaboone.info § 33",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/hrfwp.patrick-shaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-ooyax.isabella-doshaboone.info § 34",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ooyax.isabella-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-shcom.abigail-doshaboone.info § 35",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/shcom.abigail-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-tbfgy.samuel-doshaboone.info § 36",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/tbfgy.samuel-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-vcmti.samuel-doshaboone.info § 37",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/vcmti.samuel-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-vgqjs.william-doshaboone.info § 38",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/vgqjs.william-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-xrued.madison-doshaboone.info § 39",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/xrued.madison-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Node-yjyhn.samuel-doshaboone.info § 40",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "cd2e9541-3fce-4d95-9bec-919d884f911e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/yjyhn.samuel-doshaboone.info/tiger",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "Node-irvideo.cfd § 41",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "e537f2f5-2a0c-4f59-92c9-832ca6433bf3",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/irvideo.cfd/linkws",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Node-wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc § 42",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc/linkvws",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-bangladeshipatri.com § 43",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "669d0ac7b5b64ebbb1abb75d5d540a5c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/bangladeshipatri.com/6b777a91",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-tr.amclub.us.kg § 44",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "amclubs2024",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/tr.amclub.us.kg",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-tb.promote.icu § 45",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "blue2024",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/tb.promote.icu",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-im.ylks.xyz § 46",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "NISHIKUITAN222",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/im.ylks.xyz/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-zb.ylks.xyz § 47",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "NISHIKUITAN111",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/zb.ylks.xyz/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-notdirect.howhealthyistoomajreally.homes § 48",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "e35026da-e985-49ca-b43b-276062a535a6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/notdirect.howhealthyistoomajreally.homes/ilb9fuWfuqWDjlQrGCkIH66kMFPa",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-ngepx.ambercc.filegear-sg.me § 49",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ngepx.ambercc.filegear-sg.me",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-XC.890603.pP.uA § 50",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "ba6b9e44-3ea3-405d-a9eb-d5fcda84fdda",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/XC.890603.pP.uA/KXc8P40jGtEKiqQASULQ4Era5IOo",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-BOSTOn04.890614.XYZ § 51",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/BOSTOn04.890614.XYZ/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-ssjj.esslh.filegear-sg.me § 52",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "SSorg",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ssjj.esslh.filegear-sg.me/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-BOsToN01.818185.GGff.NET § 53",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/BOsToN01.818185.GGff.NET/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-bostON03.818185.XYZ § 54",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/bostON03.818185.XYZ/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-zamim340.ggff.net § 55",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/zamim340.ggff.net",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-jobscareerforstudent.com § 56",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "b4e8771997c94732acbc9ec4d19c2589",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/jobscareerforstudent.com/6b777a91",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-boston03.890604.FILEGEAr-SG.ME § 57",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/boston03.890604.FILEGEAr-SG.ME/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-jobscareerfortoday.com § 58",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/jobscareerfortoday.com/6b777a91",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-yaml7.ggff.net § 59",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "yaml777",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/yaml7.ggff.net/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-df6xxxx.2031.pp.ua § 60",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "85950277-f447-48f0-9ead-aaf6d5ff3cad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/df6xxxx.2031.pp.ua/I4L1BP2DQVYmx5NYQ76MGGq",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-BOsTon01.890614.FILEgeaR-SG.ME § 61",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/BOsTon01.890614.FILEgeaR-SG.ME/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-US7-04.890606.XYz § 62",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "4d04b30c-ef7b-4a07-8f9e-f581ec171f8a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/US7-04.890606.XYz/Zseq8mE8wMzbGFtV",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-md1.safecdn.site § 63",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "936c6853-6bbf-4e24-8667-ec5b2fc275b3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/md1.safecdn.site/Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-agepy.ambercc.filegear-sg.me § 64",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/agepy.ambercc.filegear-sg.me/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-BOStON05.890603.XYz § 65",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/BOStON05.890603.XYz/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-c2.validbv3528.eu.org § 66",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Ng35283528",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/c2.validbv3528.eu.org",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-za.ylks.xyz § 67",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "NISHIKUITAN111",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/za.ylks.xyz//",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-main.xicun.us.kg § 68",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "trojan",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/main.xicun.us.kg",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-b.promote.icu § 69",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "blue2024",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/b.promote.icu/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-md1.safecdn.site § 70",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "936c6853-6bbf-4e24-8667-ec5b2fc275b3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/md1.safecdn.site/Telegram@FreeV2Alpha",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-tabnak.ITN24.IR § 71",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "QmxV21qnHf",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/tabnak.ITN24.IR",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-tws23.kallepache.store § 72",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "a0514d9b-d109-47fd-b173-1e7f83268f21",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/tws23.kallepache.store/update",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-BOSton01.890604.GGff.NeT § 73",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/BOSton01.890604.GGff.NeT/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-td.promote.icu § 74",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "blue2024",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/td.promote.icu",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-ta.promote.icu § 75",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "blue2024",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ta.promote.icu",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-yy8x1.890602.xyz § 76",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6040a753-e35b-4384-8713-96f3c639b621",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/yy8x1.890602.xyz/WxWOWO1YA9bs2HOmaeWimvT3",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-BoSTon03.890614.XYz § 77",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/BoSTon03.890614.XYz/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-agepu.ambercc.filegear-sg.me § 78",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/agepu.ambercc.filegear-sg.me/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-08jzus.zdzdzd.xyz § 79",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "WOeXShhJpL",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/08jzus.zdzdzd.xyz/juzigongyi",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-BoStoN01.890614.GGff.neT § 80",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/BoStoN01.890614.GGff.neT/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-BoSTON03.862224.ggFf.neT § 81",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/BoSTON03.862224.ggFf.neT/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-tr.amclub.us.kg § 82",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "amclubs2024",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/tr.amclub.us.kg/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-mehrnews.ITN24.IR § 83",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "edZItoAdBZ",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/mehrnews.ITN24.IR/14755/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-agepa.ambercc.filegear-sg.me § 84",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/agepa.ambercc.filegear-sg.me",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-jobscareerforlawyers.com § 85",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "dba20dcb635e430fa4d3bfc303a149d2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/jobscareerforlawyers.com/6b777a91",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-huangshang9.zone.id § 86",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "85950277-f447-48f0-9ead-aaf6d5ff3cad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/huangshang9.zone.id/I4L1BP2DQVYmx5NYQ76MGGq",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-c2.validbv3528.eu.org § 87",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Ng35283528",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/c2.validbv3528.eu.org/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-app.soft10.ir § 88",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "e53ecb38-1974-4cca-b640-039e1f310710",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/app.soft10.ir/rIQYIUFzZ8PfAZpXO7Ci",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-za.ylks.xyz § 89",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "NISHIKUITAN111",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/za.ylks.xyz/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-uS7-03.890606.xYZ § 90",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "4d04b30c-ef7b-4a07-8f9e-f581ec171f8a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/uS7-03.890606.xYZ/Zseq8mE8wMzbGFtV",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-bpb-hd.aaronchin.xyz § 91",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/bpb-hd.aaronchin.xyz/tr",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-vbbb.ylks2024.us.kg § 92",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "71ed6628-5870-4d19-8a52-f2a3ba3d4898",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/vbbb.ylks2024.us.kg/youlingkaishi",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-jobscareertoday.com § 93",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/jobscareertoday.com/6b777a91",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-pscresearch.faculty.ucdavis.edu § 94",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "f8bb4ae1-2358-4a76-ab75-2a6bc94272d6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/pscresearch.faculty.ucdavis.edu",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-agepy.ambercc.filegear-sg.me § 95",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/agepy.ambercc.filegear-sg.me/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-ngepy.ambercc.filegear-sg.me § 96",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ngepy.ambercc.filegear-sg.me",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-Freedomisnear.onetwothree123.ir § 97",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "7wzLwK55Dw",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/Freedomisnear.onetwothree123.ir/19992/mehdi",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-bpb-hd.aaronchin.xyz § 98",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/bpb-hd.aaronchin.xyz/tr#Telegram@Selinc",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-ngepo.ambercc.filegear-sg.me § 99",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ngepo.ambercc.filegear-sg.me/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-ny02.818185.xyz § 100",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "a1925233-669e-4068-b740-d77f41986c43",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ny02.818185.xyz/ntYHBqnVdmD26DxDtOnU",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-zmaoz.faculty.ucdavis.edu. § 101",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "29e0206a-2cef-4c8d-aa4b-dd7a43748167",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/zmaoz.faculty.ucdavis.edu.",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-series-v1.samanehha.co § 102",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "0b65bb06-6b28-487a-8e3c-820dda51e977",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/series-v1.samanehha.co/43xf5zgeApzDAfhOHq",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-boStoN01.852224.gGff.nET § 103",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "6d898085-bf6a-449b-9763-0073d4dc2ce0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/boStoN01.852224.gGff.nET/Q3cz2AWTPMCtDGV1L6R1Jz18eIUw",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-us6-01zl.huangshang.ggff.net § 104",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/us6-01zl.huangshang.ggff.net/ILLcisbMYUd6MQzxVoMQ",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-qq.vvii.us.kg § 105",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/qq.vvii.us.kg/tr",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-ageph.ambercc.filegear-sg.me § 106",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ageph.ambercc.filegear-sg.me",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-usa03.rtx.al § 107",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "b80Iy90Fma",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/usa03.rtx.al/cfyyds",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-bpb.my79801.com § 108",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/bpb.my79801.com/tr",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-qq.vvii.us.kg § 109",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/qq.vvii.us.kg/tr",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-Fgh9JkR5.890617.xYz § 110",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "d67cfeaf-b277-44ac-ab99-9dd02a7c5299",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/Fgh9JkR5.890617.xYz/lWljHWvIMOj85lz42MdhsCLV",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-ngepz.ambercc.filegear-sg.me § 111",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ngepz.ambercc.filegear-sg.me",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-tc.promote.icu § 112",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "blue2024",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/tc.promote.icu/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-301.pOORiAm.ir § 113",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Pooria",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/301.pOORiAm.ir",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-redfree8w.pooriam.ir § 114",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Pooria",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/redfree8w.pooriam.ir/trJF1XisQEbWZpxEHh",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-main.xicun.us.kg § 115",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "trojan",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/main.xicun.us.kg/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-newyork.huangshang.ddns-ip.net § 116",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "7285ff92-0504-4022-a236-64e87d79d2f7",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/newyork.huangshang.ddns-ip.net/kcZCBL02F1uNblTGnel4M2",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-zeming13.us.kg § 117",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/zeming13.us.kg/tr?ed",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-agept.ambercc.filegear-sg.me § 118",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "Aimer",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/agept.ambercc.filegear-sg.me/",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Node-10jzus.zdzdzd.xyz § 119",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "password": "WOeXShhJpL",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/10jzus.zdzdzd.xyz/juzigongyi",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Node-jahfkjha.cfd § 120",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/jahfkjha.cfd/linkws",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Node-linde06.indiavideo.sbs § 121",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/linde06.indiavideo.sbs/linkws",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Node-afrhms16v.bestxray.buzz § 122",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/afrhms16v.bestxray.buzz/linkws",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Node-beyonddsz.cfd § 123",
+      "server": "trojanworker.mehdipost675.workers.dev",
+      "server_port": 443,
+      "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojanworker.mehdipost675.workers.dev",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/beyonddsz.cfd/linkws",
+        "headers":         {
+          "Host": "trojanworker.mehdipost675.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     }
   ]
