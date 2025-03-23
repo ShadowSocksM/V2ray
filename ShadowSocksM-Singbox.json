@@ -2,17 +2,16 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "v6",
-      "server": "channelv6.saghetalaie.homes",
-      "server_port": 46914,
+      "tag": "6",
+      "server": "keviny.iserver.store",
+      "server_port": 8443,
       "obfs":       {
         "type": "salamander",
-        "password": "#Z2*5%09$x3%kjC"
+        "password": "@KevinZakarian"
       },
-      "password": "a1Bi1PIdhh",
+      "password": "@KevinZakarian1",
       "tls":       {
         "enabled": true,
-        "server_name": "www.leader.ir",
         "insecure": true
       }
     },
