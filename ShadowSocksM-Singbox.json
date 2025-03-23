@@ -28,7 +28,21 @@
       "tls":       {
         "enabled": true,
         "server_name": "www.leader.ir",
-        "insecure": true
+      nsecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🆔@m3hdio1🎯Config_No_349 § 0",
+      "server": "support.farsonline24.ir",
+      "server_port": 29245,
+      "obfs":       {
+        "type": "salamander",
+        "password": "YNYCvpvlr2bwEy"
+      },
+      "password": "bM9CCOOCk6",
+      "tls":       {
+        "enabled": true
       }
     }
   ]
