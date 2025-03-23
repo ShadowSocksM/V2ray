@@ -28,7 +28,7 @@
       "tls":       {
         "enabled": true,
         "server_name": "www.leader.ir",
-      nsecure": true
+      "insecure": true
       }
     },
     {
