@@ -28,11 +28,11 @@
       "tls":       {
         "enabled": true,
         "server_name": "www.leader.ir",
-      "insecure": true
+        "insecure": true
       }
     },
     {
-    "type": "tuic",
+      "type": "tuic",
       "tag": "TUIC-UDP 🇬🇧 § 2",
       "server": "31.25.237.9",
       "server_port": 52849,
@@ -50,6 +50,6 @@
           "spdy/3.1"
         ]
       }
-    },
+    }
   ]
 }
