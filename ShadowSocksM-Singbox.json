@@ -32,18 +32,25 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "8767",
-      "server": "support.farsonline24.ir",
-      "server_port": 29245,
-      "obfs":       {
-        "type": "salamander",
-        "password": "YNYCvpvlr2bwEy"
-      },
-      "password": "bM9CCOOCk6",
+    "type": "tuic",
+      "tag": "TUIC-UDP 🇬🇧 § 2",
+      "server": "31.25.237.9",
+      "server_port": 52849,
+      "uuid": "7c81d0a8-8e23-44d4-94b5-56d33b7af07d",
+      "password": "7c81d0a8-8e23-44d4-94b5-56d33b7af07d",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "heartbeat": "10s",
       "tls":       {
-        "enabled": true
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn":         [
+          "h3",
+          "spdy/3.1"
+        ]
       }
+    },
     }
   ]
 }
