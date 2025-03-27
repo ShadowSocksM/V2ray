@@ -16,6 +16,38 @@
       }
     },
     {
+      type": "hysteria2",
+      "tag": "v6",
+      "server": "channel1v6.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "#Z2*5%09$x3%kjC"
+      },
+      "password": "a1Bi1PIdhh",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1.v4",
+      "server": "channel1v4.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "#Z2*5%09$x3%kjC"
+      },
+      "password": "a1Bi1PIdhh",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "1.v4",
       "server": "channelv4.saghetalaie.homes",
