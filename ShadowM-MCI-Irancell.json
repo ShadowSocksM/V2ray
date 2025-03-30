@@ -1,128 +1,36 @@
 {
   "outbounds":   [
     {
-      "type": "vless",
-      "tag": "1 - VLESS F - Domain : 443",
-      "domain_strategy": "ipv4_only",
-      "tls_fragment":       {
-        "enabled": true,
-        "size": "100-200",
-        "sleep": "1-1"
-      },
-      "server": "openai.com",
-      "server_port": 443,
-      "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
-        "alpn": "h2,http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 0",
+      "server": "sto1.a.edgeservers.org",
+      "server_port": 30567,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ITnnODRBZqDONp8xGdubal"
     },
     {
-      "type": "vless",
-      "tag": "2 - VLESS F - Domain : 443",
-      "domain_strategy": "ipv4_only",
-      "tls_fragment":       {
-        "enabled": true,
-        "size": "100-200",
-        "sleep": "1-1"
-      },
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
-        "alpn": "h2,http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 1",
+      "server": "sto2.a.edgeservers.org",
+      "server_port": 39649,
+      "method": "chacha20-ietf-poly1305",
+      "password": "zCbrIk12Qlg9YcERdnzjoh"
     },
     {
-      "type": "vless",
-      "tag": "3 - VLESS F - Domain : 443",
-      "domain_strategy": "ipv4_only",
-      "tls_fragment":       {
-        "enabled": true,
-        "size": "100-200",
-        "sleep": "1-1"
-      },
-      "server": "footofan.com",
-      "server_port": 443,
-      "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
-        "alpn": "h2,http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 2",
+      "server": "sto3.a.edgeservers.org",
+      "server_port": 57236,
+      "method": "chacha20-ietf-poly1305",
+      "password": "l3NufmWKwcM7jaf6JT9GwS"
     },
     {
-      "type": "vless",
-      "tag": "4 - VLESS F - Domain : 443",
-      "domain_strategy": "ipv4_only",
-      "tls_fragment":       {
-        "enabled": true,
-        "size": "100-200",
-        "sleep": "1-1"
-      },
-      "server": "thailandnet65.ir",
-      "server_port": 443,
-      "uuid": "24d9a79e-de35-45dc-ad02-ffbb5ed403a7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
-        "alpn": "h2,http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 3",
+      "server": "sto4.a.edgeservers.org",
+      "server_port": 57462,
+      "method": "chacha20-ietf-poly1305",
+      "password": "0DSUcac06jBA2vkQv46Jph"
     }
   ]
 }
