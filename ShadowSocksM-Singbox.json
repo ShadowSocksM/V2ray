@@ -17,6 +17,25 @@
       }
     },
     {
+      type": "hysteria2",
+      "tag": "🇳🇱 I08",
+      "domain_strategy": "ipv4_only",
+      "server": "chopper.88981401.xyz",
+      "server_port": 0,
+      "server_ports": "35000:45000",
+      "hop_interval": "10s",
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
+      "tls": {
+        "enabled": true,
+                "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "1.v4",
       "server": "channel1v4.saghetalaie.homes",
