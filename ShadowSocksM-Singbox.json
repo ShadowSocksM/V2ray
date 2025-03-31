@@ -14,8 +14,11 @@
         "enabled": true,
         "server_name": "https://app-measurement.com/",
         "insecure": true
+        }
+    },
+    {
         "type": "hysteria2",
-      "tag": "Amsterdam-GetAFreeNode § 0",
+      "tag": "Amsterdam § 0",
       "server": "92.112.126.122",
       "server_port": 22904,
       "password": "090b8ae3-3f8a-41c2-8fd2-517e2d2a6f8a",
