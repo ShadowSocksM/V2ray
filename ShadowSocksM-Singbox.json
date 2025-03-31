@@ -2,52 +2,17 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "v6",
-      "server": "channel1v6.saghetalaie.homes",
-      "server_port": 46914,
+      "tag": "hysteria2 § 0",
+      "server": "185.252.215.125",
+      "server_port": 32228,
       "obfs":       {
         "type": "salamander",
-        "password": "#Z2*5%09$x3%kjC"
+        "password": "HESOYAM"
       },
-      "password": "a1Bi1PIdhh",
+      "password": "nGsZFbg32n",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-      type": "hysteria2",
-      "tag": "🇳🇱 I08",
-      "domain_strategy": "ipv4_only",
-      "server": "chopper.88981401.xyz",
-      "server_port": 0,
-      "server_ports": "35000:45000",
-      "hop_interval": "10s",
-      "obfs": {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
-      "password": "Telegram-->@Ln2Ray",
-      "tls": {
-        "enabled": true,
-                "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "1.v4",
-      "server": "channel1v4.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "#Z2*5%09$x3%kjC"
-      },
-      "password": "a1Bi1PIdhh",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "https://app-measurement.com/",
         "insecure": true
       }
     }
