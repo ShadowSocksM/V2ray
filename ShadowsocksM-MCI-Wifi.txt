@@ -3,34 +3,74 @@
     {
       "type": "shadowsocks",
       "tag": "shadowsocks § 0",
-      "server": "sto1.a.edgeservers.org",
-      "server_port": 30567,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ITnnODRBZqDONp8xGdubal"
+      "server": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpydFI0WVg3NHZ3cVJKdTlNR0gzZTF",
+      "server_port": 443,
+      "method": "none",
+      "password": ""
     },
     {
       "type": "shadowsocks",
-      "tag": "shadowsocks § 1",
-      "server": "sto2.a.edgeservers.org",
-      "server_port": 39649,
+      "tag": "🇺🇸 US None § 1",
+      "server": "166.88.131.195",
+      "server_port": 52952,
       "method": "chacha20-ietf-poly1305",
-      "password": "zCbrIk12Qlg9YcERdnzjoh"
+      "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj"
     },
     {
       "type": "shadowsocks",
-      "tag": "shadowsocks § 2",
-      "server": "sto3.a.edgeservers.org",
-      "server_port": 57236,
+      "tag": "🇺🇸 US None § 2",
+      "server": "166.88.131.195",
+      "server_port": 52952,
       "method": "chacha20-ietf-poly1305",
-      "password": "l3NufmWKwcM7jaf6JT9GwS"
+      "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj"
     },
     {
       "type": "shadowsocks",
-      "tag": "shadowsocks § 3",
-      "server": "sto4.a.edgeservers.org",
-      "server_port": 57462,
+      "tag": "🇺🇸 US Dallas § 3",
+      "server": "23.150.248.235",
+      "server_port": 6679,
+      "method": "aes-256-gcm",
+      "password": "TEzjfAYq2IjtuoS"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 US Atlanta § 4",
+      "server": "92.118.112.111",
+      "server_port": 18622,
       "method": "chacha20-ietf-poly1305",
-      "password": "0DSUcac06jBA2vkQv46Jph"
+      "password": "gmYDzSG6K35s8b19oY4fGz"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 US Phoenix § 5",
+      "server": "173.244.56.6",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 US Dallas § 6",
+      "server": "23.150.248.235",
+      "server_port": 5003,
+      "method": "aes-256-gcm",
+      "password": "g5MeD6Ft3CWlJId"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 US Washington § 7",
+      "server": "23.154.136.148",
+      "server_port": 6679,
+      "method": "aes-256-gcm",
+      "password": "TEzjfAYq2IjtuoS"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 US Reston § 8",
+      "server": "69.50.93.10",
+      "server_port": 7307,
+      "method": "aes-256-gcm",
+      "password": "FoOiGlkAA9yPEGP"
     }
   ]
 }
