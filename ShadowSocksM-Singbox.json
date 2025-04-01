@@ -17,11 +17,11 @@
         }
     },
     {
-        "type": "hysteria2",
-      "tag": "Amsterdam § 0",
-      "server": "92.112.126.122",
-      "server_port": 22904,
-      "password": "090b8ae3-3f8a-41c2-8fd2-517e2d2a6f8a",
+      "type": "hysteria2",
+      "tag": "Como § 0",
+      "server": "23.132.228.217",
+      "server_port": 41072,
+      "password": "e0e3e179-2fd9-4794-b5f5-5729e9907ec2",
       "tls":       {
         "enabled": true,
         "server_name": "dxobg4azmk.gafnode.sbs"
