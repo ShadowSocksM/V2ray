@@ -2,29 +2,66 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "hysteria2 § 0",
-      "server": "185.252.215.125",
-      "server_port": 32228,
+      "tag": "2.Hysteria2 channel Server 2",
+      "server": "channel2.saghetalaie.homes",
+      "server_port": 46914,
       "obfs":       {
         "type": "salamander",
-        "password": "HESOYAM"
+        "password": "&O#28YB5qK!5t#U"
       },
-      "password": "nGsZFbg32n",
+      "password": "freehomesvpn",
       "tls":       {
         "enabled": true,
-        "server_name": "https://app-measurement.com/",
+        "server_name": "www.google.com",
         "insecure": true
-        }
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "Como § 0",
-      "server": "23.132.228.217",
-      "server_port": 41072,
-      "password": "e0e3e179-2fd9-4794-b5f5-5729e9907ec2",
+      "tag": "3.Hysteria2 channel Server 3",
+      "server": "channel3.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
       "tls":       {
         "enabled": true,
-        "server_name": "dxobg4azmk.gafnode.sbs"
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4.Hysteria2 channel Server 4",
+      "server": "channel4.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5.Hysteria2 channel Server 5",
+      "server": "channel5.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
       }
     }
   ]
