@@ -1,25 +1,163 @@
-hy2://14bdcd31-8a9f-4cf1-8fcc-60045900357d@us.10101251.xyz:3002/?sni=us.10101251.xyz#1
-
-hy2://2429bee3-e0c1-47dd-b420-75e6512b184b@132.145.105.88:30300/?insecure=1&sni=www.bing.com#2
-
-hy2://dongtaiwang.com@51.159.226.1:61770/?insecure=1&sni=www.bing.com#3
-
-hy2://dongtaiwang.com@46.17.41.5:12904/?insecure=1&sni=apple.com#4
-
-hy2://dongtaiwang.com@195.154.33.70:59967/?insecure=1&sni=www.bing.com#5
-
-hy2://c8ed6f77-3a96-46f9-9959-79118f9c1019@85.194.246.115:53252/?insecure=1&sni=www.bing.com#6
-
-hy2://18463200c271aa6d@45.63.116.113:443/?insecure=1&sni=vkvd127.mycdn.me&obfs=salamander&obfs-password=6c80ade6#7
-
-hy2://5CBqBh6MeDq6GajcilBiDg%3D%3D@192-227-152-86.nip.io:61001/?insecure=1&sni=192-227-152-86.nip.io#7
-
-hy2://b72ba5d5-2d5e-45b7-93b5-236d343baa7c@164.152.19.229:47262/?insecure=1&sni=www.bing.com#9
-
-hy2://dongtaiwang.com@108.181.5.133:15544/?insecure=1&sni=apple.com#10
-
-hy2://dongtaiwang.com@46.17.41.217:4395/?insecure=1&sni=www.bing.com#11
-
-hy2://dongtaiwang.com@46.29.163.171:35751/?insecure=1&sni=www.bing.com#12
-
-hy2://db4e9143@cc.w1997.eu.org:66/?insecure=1&sni=www.bing.com#13
+{
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "1 § 0",
+      "server": "us.10101251.xyz",
+      "server_port": 3002,
+      "password": "14bdcd31-8a9f-4cf1-8fcc-60045900357d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "us.10101251.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2 § 1",
+      "server": "132.145.105.88",
+      "server_port": 30300,
+      "password": "2429bee3-e0c1-47dd-b420-75e6512b184b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3 § 2",
+      "server": "51.159.226.1",
+      "server_port": 61770,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4 § 3",
+      "server": "46.17.41.5",
+      "server_port": 12904,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5 § 4",
+      "server": "195.154.33.70",
+      "server_port": 59967,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "6 § 5",
+      "server": "85.194.246.115",
+      "server_port": 53252,
+      "password": "c8ed6f77-3a96-46f9-9959-79118f9c1019",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "7 § 6",
+      "server": "45.63.116.113",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "6c80ade6"
+      },
+      "password": "��:�m4sn�i��",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vkvd127.mycdn.me",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "7 § 7",
+      "server": "192-227-152-86.nip.io",
+      "server_port": 61001,
+      "password": "� j�x:��܊Pb",
+      "tls":       {
+        "enabled": true,
+        "server_name": "192-227-152-86.nip.io",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "9 § 8",
+      "server": "164.152.19.229",
+      "server_port": 47262,
+      "password": "b72ba5d5-2d5e-45b7-93b5-236d343baa7c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "10 § 9",
+      "server": "108.181.5.133",
+      "server_port": 15544,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "11 § 10",
+      "server": "46.17.41.217",
+      "server_port": 4395,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "12 § 11",
+      "server": "46.29.163.171",
+      "server_port": 35751,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "13 § 12",
+      "server": "cc.w1997.eu.org",
+      "server_port": 66,
+      "password": "db4e9143",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    }
+  ]
+}
