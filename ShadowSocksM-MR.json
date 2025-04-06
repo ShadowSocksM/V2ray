@@ -1,19 +1,60 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "USA § 0",
-      "server": "207.148.22.93",
-      "server_port": 443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "cd29099d"
-      },
-      "password": "9bb452b106ffc217",
+      "type": "vless",
+      "tag": "0 § 0",
+      "server": "2a01:4f8:c010:1ec9::1",
+      "server_port": 2096,
+      "uuid": "d7710bd4-a578-44f6-a552-10fa2a979379",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "insecure": true
-      }
+        "server_name": "www.sciencedirect.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "RAsLkhfNFHgxNydzxz9kjTpb3SjW_NZpa8adJWJ-1gA",
+          "short_id": "c345c4cd"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "2 § 1",
+      "server": "blauer.com",
+      "server_port": 80,
+      "uuid": "d7710bd4-a578-44f6-a552-10fa2a979379",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "mmmsera.com"
+        },
+        "max_early_data": 2056,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "4 § 2",
+      "server": "rasmus.app",
+      "server_port": 80,
+      "uuid": "d7710bd4-a578-44f6-a552-10fa2a979379",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "umetous.com"
+        },
+        "max_early_data": 2056,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     }
   ]
 }
