@@ -23,3 +23,8 @@ hy2://dongtaiwang.com@46.17.41.217:4395/?insecure=1&sni=www.bing.com#11
 hy2://dongtaiwang.com@46.29.163.171:35751/?insecure=1&sni=www.bing.com#12
 
 hy2://db4e9143@cc.w1997.eu.org:66/?insecure=1&sni=www.bing.com#13
+
+hy2://18463200c271aa6d@45.63.116.113:443/?insecure=1&sni=vkvd127.mycdn.me&obfs=salamander&obfs-password=6c80ade6#
+hy2://dongtaiwang.com@46.17.41.5:12904/?insecure=1&sni=apple.com#
+hy2://cfe032e4-1bc3-454f-9d09-301b0aea08ff@192.18.145.7:45979/?insecure=1&sni=www.bing.com#
+hy2://b72ba5d5-2d5e-45b7-93b5-236d343baa7c@164.152.19.229:47262/?insecure=1&sni=www.bing.com#
