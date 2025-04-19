@@ -1,30 +1,138 @@
-hy2://14bdcd31-8a9f-4cf1-8fcc-60045900357d@us.10101251.xyz:3002/?sni=us.10101251.xyz#1
-
-hy2://2429bee3-e0c1-47dd-b420-75e6512b184b@132.145.105.88:30300/?insecure=1&sni=www.bing.com#2
-
-hy2://dongtaiwang.com@51.159.226.1:61770/?insecure=1&sni=www.bing.com#3
-
-hy2://dongtaiwang.com@46.17.41.5:12904/?insecure=1&sni=apple.com#4
-
-hy2://dongtaiwang.com@195.154.33.70:59967/?insecure=1&sni=www.bing.com#5
-
-hy2://c8ed6f77-3a96-46f9-9959-79118f9c1019@85.194.246.115:53252/?insecure=1&sni=www.bing.com#6
-
-hy2://18463200c271aa6d@45.63.116.113:443/?insecure=1&sni=vkvd127.mycdn.me&obfs=salamander&obfs-password=6c80ade6#7
-
-hy2://5CBqBh6MeDq6GajcilBiDg%3D%3D@192-227-152-86.nip.io:61001/?insecure=1&sni=192-227-152-86.nip.io#8
-
-hy2://b72ba5d5-2d5e-45b7-93b5-236d343baa7c@164.152.19.229:47262/?insecure=1&sni=www.bing.com#9
-
-hy2://dongtaiwang.com@108.181.5.133:15544/?insecure=1&sni=apple.com#10
-
-hy2://dongtaiwang.com@46.17.41.217:4395/?insecure=1&sni=www.bing.com#11
-
-hy2://dongtaiwang.com@46.29.163.171:35751/?insecure=1&sni=www.bing.com#12
-
-hy2://db4e9143@cc.w1997.eu.org:66/?insecure=1&sni=www.bing.com#13
-
-hy2://18463200c271aa6d@45.63.116.113:443/?insecure=1&sni=vkvd127.mycdn.me&obfs=salamander&obfs-password=6c80ade6#
-hy2://dongtaiwang.com@46.17.41.5:12904/?insecure=1&sni=apple.com#
-hy2://cfe032e4-1bc3-454f-9d09-301b0aea08ff@192.18.145.7:45979/?insecure=1&sni=www.bing.com#
-hy2://b72ba5d5-2d5e-45b7-93b5-236d343baa7c@164.152.19.229:47262/?insecure=1&sni=www.bing.com#
+{
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪DE/ (2)Hy2 OpenVPN TCP  § 0",
+      "server": "channel2.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪SW(5)Hy2 OpenVPN TCP § 1",
+      "server": "channel5.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪SW(4)Hy2 OpenVPN TCP § 2",
+      "server": "channel4.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪SW Hy2 [2a0b:4140:38c3::2] § 3",
+      "server": "2a0b:4140:38c3::2",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1 🇬🇧🇳🇱-🇩🇪OpenVPN TCP § 4",
+      "server": "p5.punchline.ir",
+      "server_port": 14055,
+      "obfs":       {
+        "type": "salamander",
+        "password": "AOICMIWHB892R8LNKDQX"
+      },
+      "password": "7G96UmkT0I",
+      "tls":       {
+        "enabled": true,
+        "server_name": "/?@EVAY_VPNCopy-az-chahnnel-EVAY_VPN",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2 🇬🇧🇳🇱-🇩🇪OpenVPN TCP § 5",
+      "server": "p5.punchline.ir",
+      "server_port": 48149,
+      "obfs":       {
+        "type": "salamander",
+        "password": "QOXMQNCOI891E2IACJ"
+      },
+      "password": "7G96UmkT0I",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3 🇬🇧🇳🇱-🇩🇪OpenVPN TCP § 6",
+      "server": "p5.punchline.ir",
+      "server_port": 54075,
+      "obfs":       {
+        "type": "salamander",
+        "password": "qqodmxm9822E2Q8OC"
+      },
+      "password": "7G96UmkT0I",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵 JP-Tokyo-Hy2-IPv6 § 7",
+      "server": "2406:da14:11e0:21bd:88f4:28ed:6a51:d9cc",
+      "server_port": 16275,
+      "password": "qG7l6nLxLE67yhNCSapSAssL4A",
+      "tls":       {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸us-California 107.167.18.102:8443 § 8",
+      "server": "b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net",
+      "server_port": 8443,
+      "password": "7af3db60-b2d9-11ef-88ab-f23c913c8d2b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net",
+        "insecure": true
+      }
+    }
+  ]
+}
