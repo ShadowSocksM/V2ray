@@ -66,52 +66,6 @@
     },
     {
       "type": "hysteria2",
-      "tag": "1 🇬🇧🇳🇱-🇩🇪OpenVPN TCP § 4",
-      "server": "p5.punchline.ir",
-      "server_port": 14055,
-      "obfs":       {
-        "type": "salamander",
-        "password": "AOICMIWHB892R8LNKDQX"
-      },
-      "password": "7G96UmkT0I",
-      "tls":       {
-        "enabled": true,
-        "server_name": "/?@EVAY_VPNCopy-az-chahnnel-EVAY_VPN",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "2 🇬🇧🇳🇱-🇩🇪OpenVPN TCP § 5",
-      "server": "p5.punchline.ir",
-      "server_port": 48149,
-      "obfs":       {
-        "type": "salamander",
-        "password": "QOXMQNCOI891E2IACJ"
-      },
-      "password": "7G96UmkT0I",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "3 🇬🇧🇳🇱-🇩🇪OpenVPN TCP § 6",
-      "server": "p5.punchline.ir",
-      "server_port": 54075,
-      "obfs":       {
-        "type": "salamander",
-        "password": "qqodmxm9822E2Q8OC"
-      },
-      "password": "7G96UmkT0I",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "🇯🇵 JP-Tokyo-Hy2-IPv6 § 7",
       "server": "2406:da14:11e0:21bd:88f4:28ed:6a51:d9cc",
       "server_port": 16275,
