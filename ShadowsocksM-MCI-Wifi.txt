@@ -2,8 +2,8 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🇩🇪DE/ (2)Hy2 OpenVPN TCP  § 0",
-      "server": "channel2.saghetalaie.homes",
+      "tag": "🇸🇪SW(4)Hy2 OpenVPN TCP § 2",
+      "server": "channel4.saghetalaie.homes",
       "server_port": 46914,
       "obfs":       {
         "type": "salamander",
