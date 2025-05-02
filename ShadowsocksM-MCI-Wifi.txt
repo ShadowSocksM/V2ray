@@ -34,25 +34,48 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇯🇵 JP-Tokyo-Hy2-IPv6 § 7",
-      "server": "2406:da14:11e0:21bd:88f4:28ed:6a51:d9cc",
-      "server_port": 16275,
-      "password": "qG7l6nLxLE67yhNCSapSAssL4A",
+      "tag": "t.me/+8scEQdMMYf9iYzdk 🇵🇱 § 1",
+      "server": "45.144.50.66",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "WpLCJDaYhJfKcvRnexTVomoC2lmaXmE0JgwFlCaWjRbK"
+      },
+      "password": "Ykrl939LpM",
       "tls":       {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸us-California 107.167.18.102:8443 § 8",
-      "server": "b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net",
-      "server_port": 8443,
-      "password": "7af3db60-b2d9-11ef-88ab-f23c913c8d2b",
+      "tag": "1 § 0",
+      "server": "sinavm.sinabigo.ir",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Bia-SiNAVM-Telegram-SiNAVM-@SiNAVM-SiNAVM"
+      },
+      "password": "Bia-SiNAVM-SiNAVM-SiNAVM-SiNAVM",
       "tls":       {
         "enabled": true,
-        "server_name": "b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net",
+        "server_name": "sinavm.sinabigo.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2 🇨🇭🇨🇭 § 0",
+      "server": "188.213.129.51",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Qa*xp6jMpKo&J4k2ebY%KihAetRC4ysk3$iDGiHz9S&U"
+      },
+      "password": "v0TujbWS9e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
         "insecure": true
       }
     }
