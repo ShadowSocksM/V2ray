@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🇸🇪SW(5)Hy2 OpenVPN TCP § 1",
+      "tag": "🇸🇪SW(5) § 1",
       "server": "channel5.saghetalaie.homes",
       "server_port": 46914,
       "obfs":       {
@@ -34,7 +34,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "t.me/+8scEQdMMYf9iYzdk 🇵🇱 § 1",
+      "tag": "3 🇵🇱 § 1",
       "server": "45.144.50.66",
       "server_port": 443,
       "obfs":       {
