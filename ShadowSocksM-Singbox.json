@@ -2,15 +2,15 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "2.Hysteria2 channel Server 2",
-      "server": "channel2.saghetalaie.homes",
+      "tag": "🇸🇪SW OpenVPN2 TCP § 2",
+      "server": "channel4.saghetalaie.homes",
       "server_port": 46914,
-      "obfs":       {
+      "obfs": {
         "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
+        "password": "\u0026O#28YB5qK!5t#U"
       },
       "password": "freehomesvpn",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true
@@ -18,15 +18,15 @@
     },
     {
       "type": "hysteria2",
-      "tag": "3.Hysteria2 channel Server 3",
-      "server": "channel3.saghetalaie.homes",
+      "tag": "🇸🇪SW OpenVPN1 § 1",
+      "server": "channel5.saghetalaie.homes",
       "server_port": 46914,
-      "obfs":       {
+      "obfs": {
         "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
+        "password": "\u0026O#28YB5qK!5t#U"
       },
       "password": "freehomesvpn",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true
