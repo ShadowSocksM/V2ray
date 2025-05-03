@@ -1,60 +1,68 @@
 {
   "outbounds":   [
     {
-      "type": "vless",
-      "tag": "0 § 0",
-      "server": "2a01:4f8:c010:1ec9::1",
-      "server_port": 2096,
-      "uuid": "d7710bd4-a578-44f6-a552-10fa2a979379",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "🇸🇪SW OpenVPN2 TCP § 2",
+      "server": "channel4.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs": {
+        "type": "salamander",
+        "password": "\u0026O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪SW OpenVPN1 § 1",
+      "server": "channel5.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs": {
+        "type": "salamander",
+        "password": "\u0026O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4.Hysteria2 channel Server 4",
+      "server": "channel4.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
       "tls":       {
         "enabled": true,
-        "server_name": "www.sciencedirect.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "RAsLkhfNFHgxNydzxz9kjTpb3SjW_NZpa8adJWJ-1gA",
-          "short_id": "c345c4cd"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     },
     {
-      "type": "vless",
-      "tag": "2 § 1",
-      "server": "blauer.com",
-      "server_port": 80,
-      "uuid": "d7710bd4-a578-44f6-a552-10fa2a979379",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "mmmsera.com"
-        },
-        "max_early_data": 2056,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+      "type": "hysteria2",
+      "tag": "5.Hysteria2 channel Server 5",
+      "server": "channel5.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
       },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "4 § 2",
-      "server": "rasmus.app",
-      "server_port": 80,
-      "uuid": "d7710bd4-a578-44f6-a552-10fa2a979379",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "umetous.com"
-        },
-        "max_early_data": 2056,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     }
   ]
 }
