@@ -1,66 +1,158 @@
+
 {
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🇸🇪SW OpenVPN2 TCP § 2",
-      "server": "channel4.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs": {
-        "type": "salamander",
-        "password": "\u0026O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇪SW OpenVPN1 § 1",
-      "server": "channel5.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs": {
-        "type": "salamander",
-        "password": "\u0026O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "4.Hysteria2 channel Server 4",
-      "server": "channel4.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpn",
+      "tag": "🔒 🇺🇸 US-10 § 0",
+      "server": "107.172.190.228",
+      "server_port": 52171,
+      "password": "2213c15d-8d6d-4e4f-986b-ddd59eedc45a",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🔒 🇺🇸 US-10 § 1",
+      "server": "108.181.24.77",
+      "server_port": 11512,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": " HYSTERIA-UDP 🇫🇷 FR-19 § 2",
+      "server": "195.154.200.178",
+      "server_port": 46938,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "5.Hysteria2 channel Server 5",
-      "server": "channel5.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpn",
+      "tag": "🔒 🇰🇷 KR-14 § 3",
+      "server": "146.56.102.200",
+      "server_port": 34237,
+      "password": "b4dd408a-542d-4898-8d43-47dcad8255e8",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "anycast.us.kg",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔒  🇺🇸 US-10 § 4",
+      "server": "107.175.34.118",
+      "server_port": 3002,
+      "password": "14bdcd31-8a9f-4cf1-8fcc-60045900357d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "us.10101251.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔒  🇺🇸 US45 § 5",
+      "server": "193.25.215.154",
+      "server_port": 443,
+      "password": "d44279ff-16ff-4d16-beca-8a46ad7ddbc5",
+      "tls":       {
+        "enabled": true,
+        "server_name": "123.1234567890spcloud.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔒 🇺🇸 US-15 § 6",
+      "server": "156.229.160.130",
+      "server_port": 443,
+      "password": "04d1fa77-25ee-4f14-9325-2a3d1a2e929e",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🔒 🇫🇷 FR-18 § 7",
+      "server": "195.154.200.40",
+      "server_port": 15010,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🔒 🇷🇺 RU-4469 § 8",
+      "server": "46.17.41.174",
+      "server_port": 10469,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🔒 🇷🇺 RU-17 § 9",
+      "server": "176.32.35.226",
+      "server_port": 62003,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🔒 🇺🇸 US-20 § 10",
+      "server": "208.87.243.187",
+      "server_port": 40528,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+
+"insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔒🇺🇸 US-108 § 11",
+      "server": "108.181.5.130",
+      "server_port": 65232,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
         "insecure": true
       }
     }
