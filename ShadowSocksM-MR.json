@@ -1,5 +1,12 @@
 {
-  "outbounds":   [
+  "tun": {
+    "enable": true,
+    "stack": "system",
+    "mtu": 9000,
+    "auto_route": true,
+    "strict_route": false
+  },
+  "outbounds": [
     {
       "type": "shadowsocks",
       "tag": "🇺🇸US-144 | 4.946MB § 0",
