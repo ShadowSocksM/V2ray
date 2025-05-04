@@ -1,68 +1,12 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "🇸🇪SW OpenVPN2 TCP § 2",
-      "server": "channel4.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs": {
-        "type": "salamander",
-        "password": "\u0026O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇪SW OpenVPN1 § 1",
-      "server": "channel5.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs": {
-        "type": "salamander",
-        "password": "\u0026O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "4.Hysteria2 channel Server 4",
-      "server": "channel4.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpn",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "5.Hysteria2 channel Server 5",
-      "server": "channel5.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpn",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇺🇸US-144 | 4.946MB § 0",
+      "server": "144.126.146.38",
+      "server_port": 30100,
+      "method": "chacha20-ietf-poly1305",
+      "password": "741ddced-e6ee-4175-9c1a-e524009f9045"
     }
   ]
 }
