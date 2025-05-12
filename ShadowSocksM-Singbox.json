@@ -18,7 +18,7 @@
     },
     {
      "type": "hysteria2",
-      "tag": "t.me/+8scEQdMMYf9iYzdk 🇩🇪 § 0",
+      "tag": "6 🇩🇪 § 0",
       "server": "150.241.101.253",
       "server_port": 443,
       "obfs":       {
@@ -50,7 +50,7 @@
     },
     {
     "type": "hysteria2",
-      "tag": "proxy",
+      "tag": "1983",
       "domain_strategy": "prefer_ipv4",
       "server": "tw00.xueshan.shop",
       "server_port": 14120,
