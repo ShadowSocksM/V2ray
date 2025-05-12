@@ -17,18 +17,18 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇸🇪SW OpenVPN1 § 1",
-      "server": "channel5.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs": {
+     "type": "hysteria2",
+      "tag": "t.me/+8scEQdMMYf9iYzdk 🇩🇪 § 0",
+      "server": "150.241.101.253",
+      "server_port": 443,
+      "obfs":       {
         "type": "salamander",
-        "password": "\u0026O#28YB5qK!5t#U"
+        "password": "KwKAOfQa*xp6jMpKo&J4k2ebY%KihAetRC4ysk3$iDGiHz9S&U"
       },
-      "password": "freehomesvpn",
-      "tls": {
+      "password": "Q25mvgmoLb",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     },
