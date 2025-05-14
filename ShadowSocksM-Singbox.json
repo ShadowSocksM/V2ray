@@ -1,4 +1,58 @@
-hy2://5gi8342LF4@bac.aelen.ggff.net:52045/?obfs=salamander&obfs-password=Cui080924#%E2%9A%A1%EF%B8%8F%20%40mobilesignal%20%28Hysteria%29
-hysteria://176.32.35.226:62003/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%E2%9A%A1%EF%B8%8F%20%40mobilesignal%20%28Hysteria%29
-hysteria://195.154.200.40:15010/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=100&downmbps=100&alpn=h3#%E2%9A%A1%EF%B8%8F%20%40mobilesignal%20%28Hysteria%29
-hy2://nfsn666@ld-arm.nfsn666.gq:8888/?insecure=1&sni=ld-arm.nfsn666.gq#%E2%9A%A1%EF%B8%8F%20%40mobilesignal%20%28Hysteria%29
+{
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "⚡️ @mobilesignal (Hysteria) § 0",
+      "server": "bac.aelen.ggff.net",
+      "server_port": 52045,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Cui080924"
+      },
+      "password": "5gi8342LF4",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "⚡️ @mobilesignal (Hysteria) § 1",
+      "server": "176.32.35.226",
+      "server_port": 62003,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "⚡️ @mobilesignal (Hysteria) § 2",
+      "server": "195.154.200.40",
+      "server_port": 15010,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "⚡️ @mobilesignal (Hysteria) § 3",
+      "server": "ld-arm.nfsn666.gq",
+      "server_port": 8888,
+      "password": "nfsn666",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ld-arm.nfsn666.gq",
+        "insecure": true
+      }
+    }
+  ]
+}
