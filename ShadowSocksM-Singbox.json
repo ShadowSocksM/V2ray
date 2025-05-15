@@ -2,13 +2,61 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🅼🅴🅷🅳🅸 § 0",
+      "tag": "ُSRV1",
+      "server": "channel1.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "SRV2",
+      "server": "channel2.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "SRV-B1",
       "server": "108.181.5.130",
       "server_port": 57773,
       "password": "dongtaiwang.com",
       "tls":       {
         "enabled": true,
         "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "SRV3",
+      "server": "channel3.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
         "insecure": true
       }
     }
