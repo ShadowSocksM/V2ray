@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "ُSRV1",
+      "tag": "SRV1",
       "server": "channel1.saghetalaie.homes",
       "server_port": 46914,
       "obfs":       {
