@@ -1,16 +1,16 @@
 {
-  "outbounds": [
+  "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "SE1 1",
-      "server": "109.120.135.123",
-      "server_port": 32211,
-      "obfs": {
+      "tag": "0.🔥FREE HOMES VPN🔥",
+      "server": "channel1.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
         "type": "salamander",
-        "password": "2a291382112ea43b"
+        "password": "&O#28YB5qK!5t#U"
       },
-      "password": "4590ea9e596878be",
-      "tls": {
+      "password": "freehomesvpn",
+      "tls":       {
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true
@@ -18,49 +18,33 @@
     },
     {
       "type": "hysteria2",
-      "tag": "SE-v4",
-      "server": "channelv4.saghetalaie.homes",
+      "tag": "1.🔥FREE HOMES VPN🔥",
+      "server": "channel2.saghetalaie.homes",
       "server_port": 46914,
-      "obfs": {
+      "obfs":       {
         "type": "salamander",
-        "password": "#Z2*5%09$x3%kjC"
+        "password": "&O#28YB5qK!5t#U"
       },
-      "password": "a1Bi1PIdhh",
-      "tls": {
+      "password": "freehomesvpn",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.leader.ir",
+        "server_name": "www.google.com",
         "insecure": true
       }
     },
     {
-      "type": "tuic",
-      "tag": "147",
-      "server": "213.189.52.181",
-      "server_port": 54555,
-      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
-      "password": "admin123",
-      "congestion_control": "cubic",
-      "udp_relay_mode": "native",
-      "heartbeat": "10s",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3",
-          "spdy/3.1"
-        ]
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "FR",
-      "server": "195.154.33.70",
-      "server_port": 13861,
-      "password": "dongtaiwang.com",
-      "tls": {
+      "tag": "2.🔥FREE HOMES VPN🔥",
+      "server": "channel3.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpn",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.elena.com.co",
+        "server_name": "www.google.com",
         "insecure": true
       }
     }
