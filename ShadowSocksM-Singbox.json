@@ -2,10 +2,10 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "UDP 🇨🇦  § 0",
-      "server": "155.248.216.247",
-      "server_port": 30300,
-      "password": "2429bee3-e0c1-47dd-b420-75e6512b184b",
+      "tag": "77 § 0",
+      "server": "64.181.207.162",
+      "server_port": 47262,
+      "password": "b72ba5d5-2d5e-45b7-93b5-236d343baa7c",
       "tls":       {
         "enabled": true,
         "server_name": "www.bing.com",
