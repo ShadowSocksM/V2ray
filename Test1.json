@@ -1,4 +1,6 @@
 {
+  "outbounds":   [
+    {
   "type": "hysteria2",
   "tag": "77 § 0",
   "server": "64.181.207.162",
@@ -11,4 +13,5 @@
     "insecure": true
       }
     }
-  
+  ]
+}
