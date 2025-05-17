@@ -14,7 +14,7 @@
   "outbounds": [
     {
       "type": "wireguard",
-      "tag": "WARP § 0",
+      "tag": "warp0",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:81bf:8055:f5d:16bb:24ba/128"
@@ -29,12 +29,11 @@
       "fake_packets_size": "50-100",
       "fake_packets_delay": "3-6",
       "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
-      "tag": "A-WoW-IPv4🇩🇪 § 1",
-      "detour": "WARP § 0",
-      "local_address": [
-        "172.16.0.2/24",
-        "2606:4700:110:85d1:15af:e475:9327:9f19/128"
-      ],
+    }
+  ],
+  "route": {
+    "final": "warp0",
+    "auto_detect_interface": true,
+    "rules": []
+  }
+}
