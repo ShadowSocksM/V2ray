@@ -6,7 +6,6 @@
       "server": "64.181.207.162",
       "server_port": 47262,
       "password": "b72ba5d5-2d5e-45b7-93b5-236d343baa7c",
-      "mtu": 9000,
       "tls":       {
         "enabled": true,
         "server_name": "www.bing.com",
