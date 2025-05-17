@@ -1,6 +1,41 @@
 {
   "outbounds":   [
     {
+      "type": "wireguard",
+      "tag": "WARP § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:81bf:8055:f5d:16bb:24ba/128"
+      ],
+      "private_key": "wIKEO1TohpuietjyhFDKgIHzCptZZs7xwrMsN1cJAUg=",
+      "server": "188.114.98.0",
+      "server_port": 7152,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "+0hM",
+      "mtu": 1330,
+      "fake_packets": "50-100",
+      "fake_packets_size": "50-100",
+      "fake_packets_delay": "3-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "A-WoW-IPv4🇩🇪 § 1",
+      "detour": "WARP § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:85d1:15af:e475:9327:9f19/128"
+      ],
+      "private_key": "4CezA9A9tv41fjzPAaXMMExJVKK04NiBbBV4nnjG13Y=",
+      "server": "188.114.98.0",
+      "server_port": 908,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "wojy",
+      "mtu": 1330,
+      "fake_packets_mode": "m4"
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "0.🔥FREE HOMES VPN🔥",
       "server": "channel1.saghetalaie.homes",
