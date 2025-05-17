@@ -22,3 +22,4 @@ hy2://b8bd42a9-551f-419d-b70d-4aefdd2cb074@208.87.242.79:443/?mport=20000-55000&
 hysteria://185.22.155.71:10803/?insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=1000&downmbps=1000&alpn=h3#22
 hy2://Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM@sinavm.ru:8080/?insecure=1&obfs=salamander&obfs-password=Bia-Telegram__SiNAVM-SiNAVM__Bia__SiNAVM#23
 hysteria2://nfsn666@ld-arm.nfsn666.gq:8888?security=tls&insecure=1&sni=ld-arm.nfsn666.gq#24
+hysteria2://A5auPryPRZ@plndhs2GpRWsKMfkmrAmW.mhrbanovi2010.fun:443?security=tls&obfs=salamander&obfs-password=KwKAOfQa*xp6jMpKo%26J4k2ebY%25KihAetRC4ysk3%24iDGiHz9S%26U&insecure=1&sni=www.bing.com#25
