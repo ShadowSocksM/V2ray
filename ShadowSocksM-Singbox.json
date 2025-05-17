@@ -52,17 +52,13 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ُSRV1",
-      "server": "channel1.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpn",
+      "tag": "85 § 0",
+      "server": "108.181.23.241",
+      "server_port": 443,
+      "password": "b8bd42a9-551f-419d-b70d-4aefdd2cb074",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     },
