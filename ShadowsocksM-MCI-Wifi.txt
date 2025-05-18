@@ -33,3 +33,10 @@ hysteria2://b8bd42a9-551f-419d-b70d-4aefdd2cb074@208.87.242.79:443?security=tls&
 hysteria2://6b389472-9094-4c8a-a780-3d371b2eade5@45.76.82.254:25444?security=tls&obfs=salamander&obfs-password=3JuQOL32nT5rUt1nNxAX&insecure=1&sni=vkvd127.mycdn.me#32
 hysteria2://KYPSpQi9oC@77.239.112.132:14055?security=tls&obfs=salamander&obfs-password=v2raybluecrystal2&insecure=1&sni=77.239.112.132#33
 hysteria2://KYPSpQi9oC@77.239.112.132:54075?security=tls&obfs=salamander&obfs-password=v2raybluecrystal&insecure=1&sni=77.239.112.132#34
+hysteria2://fcfea73c-d5c6-484c-b5ae-caf9fee6be6a@185.85.242.177:1443?sni=gbr1.587458.xyz&insecure=0#35
+hysteria2://nfsn666@192.9.129.48:8888?sni=sj-arm.nfsn666.gq&insecure=1#36
+hysteria2://dongtaiwang.com@108.181.5.130:57773?sni=apple.com&insecure=1#37
+hysteria2://Bia-SiNAVM-SiNAVM-SiNAVM-SiNAVM@sinavm.sinabigo.ir:443?sni=sinavm.sinabigo.ir&obfs=salamander&obfs-password=Bia-SiNAVM-Telegram-SiNAVM-%40SiNAVM-SiNAVM&insecure=0#38
+hysteria2://Bia-SiNAVM-SiNAVM-SiNAVM-SiNAVM@sinavm.sinabigo.ir:443?alpn=h3&fastopen=0&obfs=salamander&obfs-password=Bia-SiNAVM-Telegram-SiNAVM-%40SiNAVM-SiNAVM#39
+hysteria2://5a132527-c9ef-4066-8b1a-5584ff5dfb10@tk-007.xiaoxiaobujidao.xyz:443?security=tls&insecure=0&sni=tk-007.xiaoxiaobujidao.xyz#40
+hysteria2://dongtaiwang.com@46.29.163.171:32555?security=tls&insecure=1&sni=apple.com#41
