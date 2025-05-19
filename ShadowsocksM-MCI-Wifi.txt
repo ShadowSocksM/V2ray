@@ -40,3 +40,4 @@ hysteria2://Bia-SiNAVM-SiNAVM-SiNAVM-SiNAVM@sinavm.sinabigo.ir:443?sni=sinavm.si
 hysteria2://Bia-SiNAVM-SiNAVM-SiNAVM-SiNAVM@sinavm.sinabigo.ir:443?alpn=h3&fastopen=0&obfs=salamander&obfs-password=Bia-SiNAVM-Telegram-SiNAVM-%40SiNAVM-SiNAVM#39
 hysteria2://5a132527-c9ef-4066-8b1a-5584ff5dfb10@tk-007.xiaoxiaobujidao.xyz:443?security=tls&insecure=0&sni=tk-007.xiaoxiaobujidao.xyz#40
 hysteria2://dongtaiwang.com@46.29.163.171:32555?security=tls&insecure=1&sni=apple.com#41
+hysteria2://nfsn666@hk.nfsn666.gq:8888?security=tls&insecure=1&sni=hk.nfsn666.gq#42
