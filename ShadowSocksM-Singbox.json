@@ -52,29 +52,25 @@
     },
     {
       "type": "hysteria2",
-      "tag": "85 § 0",
-      "server": "108.181.23.241",
-      "server_port": 443,
-      "password": "b8bd42a9-551f-419d-b70d-4aefdd2cb074",
+      "tag": "Iraq",
+      "server": "jiangzhiylk.54264944.xyz",
+      "server_port": 43999,
+      "password": "0ce50a63-64e9-499e-aab1-bc226963c0f0",
       "tls":       {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "jiangzhiylk.54264944.xyz",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "home2",
-      "server": "channel2.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpnchannel2",
+      "tag": "France-1x",
+      "server": "jiangzhifg.54264944.xyz",
+      "server_port": 43999,
+      "password": "0ce50a63-64e9-499e-aab1-bc226963c0f0",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "jiangzhifr.54264944.xyz",
         "insecure": true
               }
     },
@@ -108,17 +104,13 @@
     },
     {
       "type": "hysteria2",
-      "tag": "home4",
-      "server": "channel4.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpnchannel4",
+      "tag": "Germany",
+      "server": "jiangzhidg.54264944.xyz",
+      "server_port": 43999,
+      "password": "0ce50a63-64e9-499e-aab1-bc226963c0f0",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "jiangzhidg.54264944.xyz",
         "insecure": true
       }
     }
