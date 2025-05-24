@@ -2,13 +2,13 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "US_4_0",
-      "server": "107.175.32.131",
-      "server_port": 40266,
-      "password": "93c16258-48e0-4c72-928c-06434e394540",
-      "tls": {
+      "tag": "Germany",
+      "server": "jiangzhidg.54264944.xyz",
+      "server_port": 43999,
+      "password": "0ce50a63-64e9-499e-aab1-bc226963c0f0",
+      "tls":       {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "jiangzhidg.54264944.xyz",
         "insecure": true
       }
     },
