@@ -14,7 +14,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "US_3_2",
+      "tag": "US_3",
       "server": "108.181.5.130",
       "server_port": 57773,
       "password": "dongtaiwang.com",
@@ -26,7 +26,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "US_2_1",
+      "tag": "US_2",
       "server": "64.181.207.162",
       "server_port": 47262,
       "password": "b72ba5d5-2d5e-45b7-93b5-236d343baa7c",
@@ -38,7 +38,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "HOMES_VPN",
+      "tag": "HOVPN",
       "server": "channel2.saghetalaie.homes",
       "server_port": 46914,
       "obfs": {
@@ -54,7 +54,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria_kevin",
+      "tag": "hyskev",
       "server": "kevinz.iserver.store",
       "server_port": 8443,
       "obfs": {
