@@ -1,12 +1,12 @@
 {
-  "outbounds":   [
+  "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "🇺🇸4  § 0",
+      "tag": "US_4_0",
       "server": "107.175.32.131",
       "server_port": 40266,
       "password": "93c16258-48e0-4c72-928c-06434e394540",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "www.bing.com",
         "insecure": true
@@ -14,11 +14,11 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸3 § 2",
+      "tag": "US_3_2",
       "server": "108.181.5.130",
       "server_port": 57773,
       "password": "dongtaiwang.com",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "apple.com",
         "insecure": true
@@ -26,11 +26,11 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸2 § 1",
+      "tag": "US_2_1",
       "server": "64.181.207.162",
       "server_port": 47262,
       "password": "b72ba5d5-2d5e-45b7-93b5-236d343baa7c",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "www.bing.com",
         "insecure": true
@@ -38,12 +38,12 @@
     },
     {
       "type": "hysteria2",
-      "tag": "1HOMES VPN",
+      "tag": "HOMES_VPN",
       "server": "channel2.saghetalaie.homes",
       "server_port": 46914,
       "obfs": {
         "type": "salamander",
-        "password": "\u0026O#28YB5qK!5t#U"
+        "password": "&O#28YB5qK!5t#U"
       },
       "password": "freehomesvpnchannel3",
       "tls": {
@@ -54,29 +54,17 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸1 § 42",
-      "server": "192.227.152.86",
-      "server_port": 61001,
-      "password": "� j�x:��܊Pb",
-      "tls":       {
+      "tag": "hysteria_kevin",
+      "server": "kevinz.iserver.store",
+      "server_port": 8443,
+      "obfs": {
+        "type": "salamander",
+        "password": "KevinZakarian"
+      },
+      "password": "KevinZakarian",
+      "tls": {
         "enabled": true,
-        "server_name": "192-227-152-86.nip.io",
         "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "hysteria",
-      "server": "kevinz.iserver.store",
-      "server_port": 8443,
-      "obfs": {
-        "type": "salamander",
-        "password": "KevinZakarian"
-      },
-      "password": "KevinZakarian",
-      "tls": {
-        "enabled": true,
-        "insecure": true
       }
     }
   ]
