@@ -1,56 +1,126 @@
 {
-  "outbounds": [
-    {
-      "type": "selector",
-      "tag": "proxy",
-      "outbounds": [
-        "auto",
-        "direct",
-        "hysteria"
-      ],
-      "default": "hysteria"
-    },
-    {
-      "type": "urltest",
-      "tag": "auto",
-      "outbounds": [
-        "hysteria"
-      ],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m30s",
-      "tolerance": 50
-    },
-    {
-      "type": "direct",
-      "tag": "direct",
-      "domain_strategy": "prefer_ipv4"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "hysteria",
-      "server": "kevinz.iserver.store",
-      "server_port": 8443,
-      "obfs": {
-        "type": "salamander",
-        "password": "KevinZakarian"
-      },
-      "password": "KevinZakarian",
-      "tls": {
-        "enabled": true,
-        "insecure": true
+  "outbounds":   [
+    {
+      "type": "wireguard",
+      "tag": "warp0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:81bf:8055:f5d:16bb:24ba/128"
+      ],
+      "private_key": "wIKEO1TohpuietjyhFDKgIHzCptZZs7xwrMsN1cJAUg=",
+      "server": "188.114.98.0",
+      "server_port": 7152,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "+0hM",
+      "mtu": 1330,
+      "fake_packets": "50-100",
+      "fake_packets_size": "50-100",
+      "fake_packets_delay": "3-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "ipv4_de_1",
+      "detour": "warp0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:85d1:15af:e475:9327:9f19/128"
+      ],
+      "private_key": "4CezA9A9tv41fjzPAaXMMExJVKK04NiBbBV4nnjG13Y=",
+      "server": "188.114.98.0",
+      "server_port": 908,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "wojy",
+      "mtu": 1330,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "home1",
+      "server": "channel1.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpnchannel1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
       }
     },
     {
-    "type": "hysteria2",
-      "tag": "France-1x",
-      "server": "jiangzhifg.54264944.xyz",
-      "server_port": 43999,
-      "password": "0ce50a63-64e9-499e-aab1-bc226963c0f0",
+      "type": "hysteria2",
+      "tag": "85 § 0",
+      "server": "108.181.23.241",
+      "server_port": 443,
+      "password": "b8bd42a9-551f-419d-b70d-4aefdd2cb074",
       "tls":       {
         "enabled": true,
-        "server_name": "jiangzhifr.54264944.xyz",
+        "server_name": "www.bing.com",
         "insecure": true
-      }
-    }
-  ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "home2",
+      "server": "channel2.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpnchannel2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+              }
+    },
+    {
+    "type": "hysteria2",
+      "tag": "77 § 0",
+      "server": "64.181.207.162",
+      "server_port": 47262,
+      "password": "b72ba5d5-2d5e-45b7-93b5-236d343baa7c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "home3",
+      "server": "channel3.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpnchannel3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "home4",
+      "server": "channel4.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpnchannel4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    }
+  ]
 }
