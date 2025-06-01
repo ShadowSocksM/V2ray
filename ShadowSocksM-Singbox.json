@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "NIR-1@JavidnamanIran § 0",
+      "tag": "NIR-1 § 0",
       "server": "JNIR-1.pichondan.com",
       "server_port": 35000,
       "obfs":       {
@@ -17,7 +17,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "JNIR-1-IPv6@JavidnamanIran § 1",
+      "tag": "JNIR-2 § 1",
       "server": "JNIR-1.pichondan.com",
       "server_port": 35000,
       "obfs":       {
@@ -47,7 +47,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "JNIR-2-IPv6@JavidnamanIran § 3",
+      "tag": "NIR-3 § 3",
       "server": "JNIR-2.pichondan.com",
       "server_port": 35000,
       "obfs":       {
@@ -62,7 +62,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "NIR-3@JavidnamanIran § 4",
+      "tag": "NIR-4 § 4",
       "server": "JNIR-3.pichondan.com",
       "server_port": 35000,
       "obfs":       {
@@ -77,7 +77,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "IR-3-IPv6@JavidnamanIran § 5",
+      "tag": "NIR-5 § 5",
       "server": "JNIR-3.pichondan.com",
       "server_port": 35000,
       "obfs":       {
@@ -92,7 +92,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "IR-5@JavidnamanIran § 6",
+      "tag": "NIR-6 § 6",
       "server": "JNIR-5.pichondan.com",
       "server_port": 35000,
       "obfs":       {
@@ -107,7 +107,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "NIR-5-IPv6@JavidnamanIran § 7",
+      "tag": "NIR-7 § 7",
       "server": "JNIR-5.pichondan.com",
       "server_port": 35000,
       "obfs":       {
