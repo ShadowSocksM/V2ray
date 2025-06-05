@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "Shadow66 § 0",
+      "tag": "Channel id: @ShadowProxy66 § 0",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8c82:fa42:ed93:ab9b:b652/128"
@@ -20,7 +20,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "Shadow69 § 1",
+      "tag": "Channel id: @ShadowProxy66 § 1",
       "detour": "Channel id: @ShadowProxy66 § 0",
       "local_address":       [
         "172.16.0.2/24",
