@@ -1,36 +1,52 @@
 {
   "outbounds":   [
     {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 0",
-      "server": "sto1.a.edgeservers.org",
-      "server_port": 30567,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ITnnODRBZqDONp8xGdubal"
+      "type": "hysteria2",
+      "tag": "0",
+      "server": "channel1.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpnchannel3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     },
     {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 1",
-      "server": "sto2.a.edgeservers.org",
-      "server_port": 39649,
-      "method": "chacha20-ietf-poly1305",
-      "password": "zCbrIk12Qlg9YcERdnzjoh"
+      "type": "hysteria2",
+      "tag": "1",
+      "server": "channel2.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpnchannel3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     },
     {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 2",
-      "server": "sto3.a.edgeservers.org",
-      "server_port": 57236,
-      "method": "chacha20-ietf-poly1305",
-      "password": "l3NufmWKwcM7jaf6JT9GwS"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 3",
-      "server": "sto4.a.edgeservers.org",
-      "server_port": 57462,
-      "method": "chacha20-ietf-poly1305",
-      "password": "0DSUcac06jBA2vkQv46Jph"
+      "type": "hysteria2",
+      "tag": "2",
+      "server": "channel3.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpnchannel3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     }
   ]
 }
