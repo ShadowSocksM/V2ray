@@ -2,39 +2,39 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "WARP § 0",
+      "tag": "𓄂ʷᵃʳᵖᵢₚᵥ₄𓆃 § 0",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:81bf:8055:f5d:16bb:24ba/128"
+        "2606:4700:110:8ea3:1bb9:6ec8:2288:41dd/128"
       ],
-      "private_key": "wIKEO1TohpuietjyhFDKgIHzCptZZs7xwrMsN1cJAUg=",
-      "server": "188.114.98.0",
+      "private_key": "iFy7FfMJKWz8pHnlV9PKDeMKMKVUieomKeWJNvbSsWI=",
+      "server": "188.114.98.61",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "+0hM",
+      "reserved": "XnGg",
       "mtu": 1330,
-      "fake_packets": "50-100",
+      "fake_packets": "40-80",
       "fake_packets_size": "50-100",
-      "fake_packets_delay": "3-6",
+      "fake_packets_delay": "2-4",
       "fake_packets_mode": "m4"
     },
     {
       "type": "wireguard",
-      "tag": "A-WoW-IPv4🇩🇪 § 1",
-      "detour": "WARP § 0",
+      "tag": "WoW IPv4 § 1",
+      "detour": "𓄂ʷᵃʳᵖᵢₚᵥ₄𓆃 § 0",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:85d1:15af:e475:9327:9f19/128"
+        "2606:4700:110:8d44:7a9c:ca5d:dada:37c/128"
       ],
-      "private_key": "4CezA9A9tv41fjzPAaXMMExJVKK04NiBbBV4nnjG13Y=",
-      "server": "188.114.98.0",
+      "private_key": "wFfckmZgVtuuZkCFpZpAr7Qd1dOrXPMWQyvXLwcmwVU=",
+      "server": "188.114.96.224",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "wojy",
+      "reserved": "BE5y",
       "mtu": 1330,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "3-6",
+      "fake_packets": "2-4",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
       "fake_packets_mode": "m4"
     }
   ]
