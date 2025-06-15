@@ -2,25 +2,17 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "shadoowvpnn🇩🇪 § 0",
-      "server": "154.92.9.176",
-      "server_port": 443,
-      "uuid": "ec8a65ad-aafc-4095-9b8c-ea10890ca629",
-      "tls":       {
-        "enabled": true,
-        "server_name": "rostam.29394900.xyz",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
+      "tag": "2 § 0",
+      "server": "151.101.64.155",
+      "server_port": 80,
+      "uuid": "fadebdad-95ba-4f69-a16a-b0f0b7845483",
       "transport":       {
         "type": "ws",
-        "path": "/Javid-SHAH-KingRezaPahlavi/",
+        "path": "/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
         "headers":         {
-          "Host": "rostam.29394900.xyz"
+          "Host": "Lightning6.ir"
         },
-        "max_early_data": 2560,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
