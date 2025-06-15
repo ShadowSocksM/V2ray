@@ -1,3 +1,4 @@
 vless://8c15cc84-2bec-f384-6044-399800ead842@vssweb.ir:40100/?encryption=none&flow=&host=vssweb.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI&type=tcp&headerType=http#1
 vless://0d01cf89-4cb7-485d-98f2-248c7c7123e2@snap.online24net.ir:55555/?type=tcp&encryption=none&flow=&sni=stackoverflow.com&fp=chrome&security=reality&pbk=iN6Mxm-XgB9_nfgRHxdE3QX9XJpAY-EHv-EtvAIkYx4&sid=ea83a8b0#2
 vless://e7b74458-1a32-4631-8a4e-76b03c224f8c@tun3.fastlink.cfd:26277/?encryption=none&flow=&host=www.sayad.top&path=%2F&type=tcp&headerType=http#3
+vless://730f02b4-a187-4498-b3fa-9e9f1dccf47c@89.116.180.7:8880/?type=httpupgrade&encryption=none&flow=&host=dl1.mcinet.xyz.&path=%2F#4
