@@ -1,1 +1,2 @@
-vless://8c15cc84-2bec-f384-6044-399800ead842@vssweb.ir:40100/?encryption=none&flow=&host=vssweb.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI&type=tcp&headerType=http#%F16
+vless://8c15cc84-2bec-f384-6044-399800ead842@vssweb.ir:40100/?encryption=none&flow=&host=vssweb.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI&type=tcp&headerType=http#1
+vless://0d01cf89-4cb7-485d-98f2-248c7c7123e2@snap.online24net.ir:55555/?type=tcp&encryption=none&flow=&sni=stackoverflow.com&fp=chrome&security=reality&pbk=iN6Mxm-XgB9_nfgRHxdE3QX9XJpAY-EHv-EtvAIkYx4&sid=ea83a8b0#2
