@@ -1,32 +1,548 @@
-vless://96de985e-7be8-4317-b707-01c9db6a8819@testdev7.alirezatik.ir:443/?type=ws&encryption=none&flow=&host=testdev7.alirezatik.ir&path=%2Fvideo&security=tls&sni=testdev7.alirezatik.ir&allowInsecure=1&fp=safari#%F0%9F%94%B4%F0%9F%87%B8%F0%9F%87%AA%20%D8%A7%D9%86%D9%82%D8%B6%D8%A7%3A92%20%7C%D8%AD%D8%AC%D9%85%3A%2090.00%20GB
-vless://96de985e-7be8-4317-b707-01c9db6a8819@testdev11.alirezatik.ir:8443/?type=tcp&encryption=none&flow=&security=tls&sni=testdev11.alirezatik.ir&alpn=h3&fp=chrome#%F0%9F%94%B4%F0%9F%87%B9%F0%9F%87%B7%20Turkey
-vless://96de985e-7be8-4317-b707-01c9db6a8819@test.afghantehran.ir:8443/?type=xhttp&encryption=none&flow=&security=tls&sni=test.afghantehran.ir&alpn=h2&allowInsecure=1&fp=chrome#%F0%9F%94%B4%F0%9F%87%BA%F0%9F%87%B8%20USA
-vless://96de985e-7be8-4317-b707-01c9db6a8819@testdev10.alirezatik.ir:8443/?type=xhttp&encryption=none&flow=&security=tls&sni=testdev10.alirezatik.ir&alpn=h2&fp=safari#%F0%9F%94%B4%F0%9F%87%B3%F0%9F%87%B1%20Netherland
-vless://96de985e-7be8-4317-b707-01c9db6a8819@85.133.241.79:1000/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%A9%F0%9F%87%AA%20germany%20%20%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@62.60.222.204:4042/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%A9%F0%9F%87%AA%20germany%20%20%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@81.12.96.203:6074/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%B3%F0%9F%87%B1%20Netherland%20%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@81.12.96.246:6071/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%AB%F0%9F%87%AE%20%20Finland%20%20%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@95.38.153.111:6071/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%AB%F0%9F%87%AE%20%20Finland%20%20%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@5.57.38.156:4042/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%B9%F0%9F%87%B7%20Turkey%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@5.57.38.176:4042/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%B9%F0%9F%87%B7%20Turkey%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@81.12.96.209:3092/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%A9%F0%9F%87%AA%20germany%20%20%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@78.39.57.84:3092/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%A9%F0%9F%87%AA%20germany%20%20%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@62.60.221.144:6062/?type=tcp&encryption=none&flow=#%F0%9F%94%B5%F0%9F%87%B9%F0%9F%87%B7%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@94.182.136.248:6099/?type=tcp&encryption=none&flow=&security=tls&sni=www.esfahanrestaurant.ir&alpn=h3&fp=chrome#%F0%9F%94%B5%F0%9F%87%A6%F0%9F%87%B9Vienna%28%DA%A9%D9%85%20%D8%B3%D8%B1%D8%B9%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C%20%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@www.esfahanrestaurant.ir:443/?type=tcp&encryption=none&flow=&security=tls&alpn=h3&allowInsecure=1&fp=chrome#%F0%9F%94%B4%F0%9F%87%A6%F0%9F%87%B9Vienna
-vless://96de985e-7be8-4317-b707-01c9db6a8819@blog2.shirazres.ir:443/?type=tcp&encryption=none&flow=&security=tls&sni=blog2.shirazres.ir&alpn=h3&fp=chrome#%F0%9F%94%B4%F0%9F%87%AB%F0%9F%87%AE%20Finland
-vless://96de985e-7be8-4317-b707-01c9db6a8819@blog.fardares.ir:443/?type=tcp&encryption=none&flow=&security=tls&sni=blog.fardares.ir&alpn=h2&allowInsecure=1&fp=chrome#%F0%9F%94%B4%F0%9F%87%BA%F0%9F%87%B8%20USA%20%28GEMINI%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@www.alitehran.ir:443/?type=tcp&encryption=none&flow=&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome#%F0%9F%94%B4%F0%9F%87%A9%F0%9F%87%AA%20Germany
-hy2://96de985e-7be8-4317-b707-01c9db6a8819@testdev7.alirezatik.ir:4431/?sni=testdev7.alirezatik.ir#%F0%9F%9F%A2%F0%9F%87%B8%F0%9F%87%AA%20%20%40Pars_ProxyBot%20%28Game%29
-hy2://96de985e-7be8-4317-b707-01c9db6a8819@testdev6.alirezatik.ir:4431/?sni=testdev6.alirezatik.ir#%F0%9F%9F%A2%F0%9F%87%AB%F0%9F%87%AE%20%20%40Pars_ProxyBot%20%28Game%29
-hy2://96de985e-7be8-4317-b707-01c9db6a8819@testdev4.alirezatik.ir:4431/?sni=testdev4.alirezatik.ir#%F0%9F%9F%A2%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%28Game%29
-hy2://96de985e-7be8-4317-b707-01c9db6a8819@testdev10.alirezatik.ir:4431/?insecure=1&sni=testdev10.alirezatik.ir#%F0%9F%9F%A2%F0%9F%87%B3%F0%9F%87%B1%20Netherland%20%28Game%2C%20Gemini%29
-hy2://96de985e-7be8-4317-b707-01c9db6a8819@testdev11.alirezatik.ir:4431/?insecure=1&sni=testdev11.alirezatik.ir#%F0%9F%9F%A2%F0%9F%87%B9%F0%9F%87%B7%20Turkey
-hy2://96de985e-7be8-4317-b707-01c9db6a8819@www.esfahanrestaurant.ir:4431/?sni=www.esfahanrestaurant.ir#%F0%9F%9F%A2%F0%9F%87%A6%F0%9F%87%B9%20%20Vienna
-vless://96de985e-7be8-4317-b707-01c9db6a8819@esfahanrestaurant.ir:8443/?type=xhttp&encryption=none&flow=&security=tls&sni=esfahanrestaurant.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome#%F0%9F%9F%A3%F0%9F%87%A6%F0%9F%87%B9Vienna
-vless://96de985e-7be8-4317-b707-01c9db6a8819@esfahanrestaurant.ir:443/?type=ws&encryption=none&flow=&host=esfahanrestaurant.ir&path=%2Fvideo&security=tls&sni=esfahanrestaurant.ir&alpn=h3&allowInsecure=1&fp=chrome#%F0%9F%9F%A3%F0%9F%87%A6%F0%9F%87%B9Vienna-
-vless://96de985e-7be8-4317-b707-01c9db6a8819@www.speedtest.net:443/?type=ws&encryption=none&flow=&host=net.afghanreza.ir&path=%2Fvideo&security=tls&sni=net.afghanreza.ir&allowInsecure=1&fp=safari#%F0%9F%9F%A3%F0%9F%87%B3%F0%9F%87%B1%20Netherland%20%28Gemini%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@www.speedtest.net:443/?type=ws&encryption=none&flow=&host=afghanreza.ir&path=%2Fvideo&security=tls&sni=afghanreza.ir&allowInsecure=1&fp=safari#%F0%9F%9F%A3%F0%9F%87%B8%F0%9F%87%AA%20sweaden
-vless://96de985e-7be8-4317-b707-01c9db6a8819@www.speedtest.net:443/?type=ws&encryption=none&flow=&host=test.shirazres.ir&path=%2Fvideo&security=tls&sni=test.shirazres.ir&alpn=h2%2Chttp%2F1.1&fp=chrome#%F0%9F%9F%A3%F0%9F%87%AB%F0%9F%87%AE%20Finland%28Spotify%29
-vless://96de985e-7be8-4317-b707-01c9db6a8819@webmail.alirezatik.ir:443/?type=ws&encryption=none&flow=&host=abadanberezileteh.ir&path=%2Fvideo&security=tls&sni=abadanberezileteh.ir&allowInsecure=1#%F0%9F%9F%A3%F0%9F%87%A9%F0%9F%87%AA%20Germany
-vless://96de985e-7be8-4317-b707-01c9db6a8819@www.mohammadravan.ir:8443/?type=ws&encryption=none&flow=&host=www.mohammadravan.ir&path=%2Ftr&security=tls&sni=www.mohammadravan.ir&allowInsecure=1#%F0%9F%9F%A3%F0%9F%87%B9%F0%9F%87%B7%20Turkey
+{
+  "outbounds":   [
+    {
+      "type": "vless",
+      "tag": "🔴🇸🇪 انقضا:92 |حجم: 90.00 GB § 0",
+      "server": "testdev7.alirezatik.ir",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "testdev7.alirezatik.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/video",
+        "headers":         {
+          "Host": "testdev7.alirezatik.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔴🇹🇷 Turkey § 1",
+      "server": "testdev11.alirezatik.ir",
+      "server_port": 8443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "testdev11.alirezatik.ir",
+        "alpn": "h3",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "xray",
+      "tag": "🔴🇺🇸 USA § 2",
+      "udp_over_tcp": false,
+      "xconfig":       {
+        "protocol": "vless",
+        "settings":         {
+          "vnext":           [
+            {
+              "address": "test.afghantehran.ir",
+              "port": 8443,
+              "users":               [
+                {
+                  "encryption": "none",
+                  "id": "96de985e-7be8-4317-b707-01c9db6a8819"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings":         {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings":           {
+            "allowInsecure": true,
+            "alpn":             [
+              "h2"
+            ],
+            "fingerprint": "chrome",
+            "rejectUnknownSni": false,
+            "serverName": "test.afghantehran.ir"
+          },
+          "xhttpSettings":           {
+            "host": "",
+            "path": "/"
+          }
+        },
+        "tag": "🔴🇺🇸 USA"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "🔴🇳🇱 Netherland § 3",
+      "udp_over_tcp": false,
+      "xconfig":       {
+        "protocol": "vless",
+        "settings":         {
+          "vnext":           [
+            {
+              "address": "testdev10.alirezatik.ir",
+              "port": 8443,
+              "users":               [
+                {
+                  "encryption": "none",
+                  "id": "96de985e-7be8-4317-b707-01c9db6a8819"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings":         {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings":           {
+            "allowInsecure": false,
+            "alpn":             [
+              "h2"
+            ],
+            "fingerprint": "safari",
+            "rejectUnknownSni": false,
+            "serverName": "testdev10.alirezatik.ir"
+          },
+          "xhttpSettings":           {
+            "host": "",
+            "path": "/"
+          }
+        },
+        "tag": "🔴🇳🇱 Netherland"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇩🇪 germany  (کم سرعت-اضطراری ) § 4",
+      "server": "85.133.241.79",
+      "server_port": 1000,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇩🇪 germany  (کم سرعت-اضطراری ) § 5",
+      "server": "62.60.222.204",
+      "server_port": 4042,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇳🇱 Netherland (کم سرعت-اضطراری ) § 6",
+      "server": "81.12.96.203",
+      "server_port": 6074,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇫🇮  Finland  (کم سرعت-اضطراری ) § 7",
+      "server": "81.12.96.246",
+      "server_port": 6071,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇫🇮  Finland  (کم سرعت-اضطراری ) § 8",
+      "server": "95.38.153.111",
+      "server_port": 6071,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇹🇷 Turkey(کم سرعت-اضطراری ) § 9",
+      "server": "5.57.38.156",
+      "server_port": 4042,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇹🇷 Turkey(کم سرعت-اضطراری ) § 10",
+      "server": "5.57.38.176",
+      "server_port": 4042,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇩🇪 germany  (کم سرعت-اضطراری ) § 11",
+      "server": "81.12.96.209",
+      "server_port": 3092,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇩🇪 germany  (کم سرعت-اضطراری ) § 12",
+      "server": "78.39.57.84",
+      "server_port": 3092,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇹🇷(کم سرعت-اضطراری ) § 13",
+      "server": "62.60.221.144",
+      "server_port": 6062,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇦🇹Vienna(کم سرعت-اضطراری ) § 14",
+      "server": "94.182.136.248",
+      "server_port": 6099,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.esfahanrestaurant.ir",
+        "alpn": "h3",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔴🇦🇹Vienna § 15",
+      "server": "www.esfahanrestaurant.ir",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔴🇫🇮 Finland § 16",
+      "server": "blog2.shirazres.ir",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "blog2.shirazres.ir",
+        "alpn": "h3",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔴🇺🇸 USA (GEMINI) § 17",
+      "server": "blog.fardares.ir",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "blog.fardares.ir",
+        "insecure": true,
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔴🇩🇪 Germany § 18",
+      "server": "www.alitehran.ir",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "disable_sni": true,
+        "alpn":         [
+          "h3",
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🟢🇸🇪  @Pars_ProxyBot (Game) § 19",
+      "server": "testdev7.alirezatik.ir",
+      "server_port": 4431,
+      "password": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "testdev7.alirezatik.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🟢🇫🇮  @Pars_ProxyBot (Game) § 20",
+      "server": "testdev6.alirezatik.ir",
+      "server_port": 4431,
+      "password": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "testdev6.alirezatik.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🟢🇩🇪 Germany (Game) § 21",
+      "server": "testdev4.alirezatik.ir",
+      "server_port": 4431,
+      "password": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "testdev4.alirezatik.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🟢🇳🇱 Netherland (Game, Gemini) § 22",
+      "server": "testdev10.alirezatik.ir",
+      "server_port": 4431,
+      "password": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "testdev10.alirezatik.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🟢🇹🇷 Turkey § 23",
+      "server": "testdev11.alirezatik.ir",
+      "server_port": 4431,
+      "password": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "testdev11.alirezatik.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🟢🇦🇹  Vienna § 24",
+      "server": "www.esfahanrestaurant.ir",
+      "server_port": 4431,
+      "password": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.esfahanrestaurant.ir"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "🟣🇦🇹Vienna § 25",
+      "udp_over_tcp": false,
+      "xconfig":       {
+        "protocol": "vless",
+        "settings":         {
+          "vnext":           [
+            {
+              "address": "esfahanrestaurant.ir",
+              "port": 8443,
+              "users":               [
+                {
+                  "encryption": "none",
+                  "id": "96de985e-7be8-4317-b707-01c9db6a8819"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings":         {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings":           {
+            "allowInsecure": false,
+            "alpn":             [
+              "h3",
+              "h2",
+              "http/1.1"
+            ],
+            "fingerprint": "chrome",
+            "rejectUnknownSni": false,
+            "serverName": "esfahanrestaurant.ir"
+          },
+          "xhttpSettings":           {
+            "host": "",
+            "path": "/"
+          }
+        },
+        "tag": "🟣🇦🇹Vienna"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🟣🇦🇹Vienna- § 26",
+      "server": "esfahanrestaurant.ir",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "esfahanrestaurant.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/video",
+        "headers":         {
+          "Host": "esfahanrestaurant.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🟣🇳🇱 Netherland (Gemini) § 27",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "net.afghanreza.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/video",
+        "headers":         {
+          "Host": "net.afghanreza.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🟣🇸🇪 sweaden § 28",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "afghanreza.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/video",
+        "headers":         {
+          "Host": "afghanreza.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🟣🇫🇮 Finland(Spotify) § 29",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "test.shirazres.ir",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/video",
+        "headers":         {
+          "Host": "test.shirazres.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🟣🇩🇪 Germany § 30",
+      "server": "webmail.alirezatik.ir",
+      "server_port": 443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "abadanberezileteh.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/video",
+        "headers":         {
+          "Host": "abadanberezileteh.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🟣🇹🇷 Turkey § 31",
+      "server": "www.mohammadravan.ir",
+      "server_port": 8443,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.mohammadravan.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/tr",
+        "headers":         {
+          "Host": "www.mohammadravan.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
