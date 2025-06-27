@@ -124,7 +124,7 @@
     },
     {
       "type": "vless",
-      "tag": " germany  (کم سرعت-اضطراری ) § 4",
+      "tag": " germany  (7  ) § 4",
       "server": "85.133.241.79",
       "server_port": 1000,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -132,7 +132,7 @@
     },
     {
       "type": "vless",
-      "tag": " germany  (کم سرعت-اضطراری ) § 5",
+      "tag": " germany  (8 ) § 5",
       "server": "62.60.222.204",
       "server_port": 4042,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -140,7 +140,7 @@
     },
     {
       "type": "vless",
-      "tag": " Netherland (کم سرعت-اضطراری ) § 6",
+      "tag": " Netherland (کم 9 ) § 6",
       "server": "81.12.96.203",
       "server_port": 6074,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -164,7 +164,7 @@
     },
     {
       "type": "vless",
-      "tag": " Turkey(کم سرعت-اضطراری ) § 9",
+      "tag": " Turkey(88 ) § 9",
       "server": "5.57.38.156",
       "server_port": 4042,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -172,7 +172,7 @@
     },
     {
       "type": "vless",
-      "tag": " Turkey(کم سرعت-اضطراری ) § 10",
+      "tag": " Turkey(888  ) § 10",
       "server": "5.57.38.176",
       "server_port": 4042,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -180,7 +180,7 @@
     },
     {
       "type": "vless",
-      "tag": " germany  (کم سرعت-اضطراری ) § 11",
+      "tag": " germany  (989 ) § 11",
       "server": "81.12.96.209",
       "server_port": 3092,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -188,7 +188,7 @@
     },
     {
       "type": "vless",
-      "tag": " germany  (کم سرعت-اضطراری ) § 12",
+      "tag": " germany  (989 ) § 12",
       "server": "78.39.57.84",
       "server_port": 3092,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -298,7 +298,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🟢🇫🇮  @Pars_ProxyBot (Game) § 20",
+      "tag": "8 (Game) § 20",
       "server": "testdev6.alirezatik.ir",
       "server_port": 4431,
       "password": "96de985e-7be8-4317-b707-01c9db6a8819",
