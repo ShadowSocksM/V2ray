@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "90.00 GB § 0",
+      "tag": "🔴🇸🇪 انقضا:92 |حجم: 90.00 GB  § 0",
       "server": "testdev7.alirezatik.ir",
       "server_port": 443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -27,7 +27,7 @@
     },
     {
       "type": "vless",
-      "tag": "Turkey § 1",
+      "tag": "🔴🇹🇷 Turkey § 1",
       "server": "testdev11.alirezatik.ir",
       "server_port": 8443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -43,88 +43,8 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "xray",
-      "tag": "USA § 2",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "test.afghantehran.ir",
-              "port": 8443,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "96de985e-7be8-4317-b707-01c9db6a8819"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings":           {
-            "allowInsecure": true,
-            "alpn":             [
-              "h2"
-            ],
-            "fingerprint": "chrome",
-            "rejectUnknownSni": false,
-            "serverName": "test.afghantehran.ir"
-          },
-          "xhttpSettings":           {
-            "host": "",
-            "path": "/"
-          }
-        },
-        "tag": " USA"
-      }
-    },
-    {
-      "type": "xray",
-      "tag": " Netherland § 3",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "testdev10.alirezatik.ir",
-              "port": 8443,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "96de985e-7be8-4317-b707-01c9db6a8819"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings":           {
-            "allowInsecure": false,
-            "alpn":             [
-              "h2"
-            ],
-            "fingerprint": "safari",
-            "rejectUnknownSni": false,
-            "serverName": "testdev10.alirezatik.ir"
-          },
-          "xhttpSettings":           {
-            "host": "",
-            "path": "/"
-          }
-        },
-        "tag": " Netherland"
-      }
-    },
-    {
       "type": "vless",
-      "tag": " germany  (7  ) § 4",
+      "tag": "🔵🇩🇪 germany  (کم سرعت-اضطراری )  § 2",
       "server": "85.133.241.79",
       "server_port": 1000,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -132,7 +52,7 @@
     },
     {
       "type": "vless",
-      "tag": " germany  (8 ) § 5",
+      "tag": "🔵🇩🇪 germany  (کم سرعت-اضطراری )  § 3",
       "server": "62.60.222.204",
       "server_port": 4042,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -140,7 +60,15 @@
     },
     {
       "type": "vless",
-      "tag": " Netherland ( 9 ) § 6",
+      "tag": "🔵🇩🇪 germany  (کم سرعت-اضطراری )  § 4",
+      "server": "62.60.222.204",
+      "server_port": 4044,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇳🇱 Netherland (کم سرعت-اضطراری )  § 5",
       "server": "81.12.96.203",
       "server_port": 6074,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -148,7 +76,7 @@
     },
     {
       "type": "vless",
-      "tag": "  Finland  (954 ) § 7",
+      "tag": "🔵🇫🇮  Finland  (کم سرعت-اضطراری )  § 6",
       "server": "81.12.96.246",
       "server_port": 6071,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -156,7 +84,7 @@
     },
     {
       "type": "vless",
-      "tag": "  Finland  (545 ) § 8",
+      "tag": "🔵🇫🇮  Finland  (کم سرعت-اضطراری )  § 7",
       "server": "95.38.153.111",
       "server_port": 6071,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -164,15 +92,15 @@
     },
     {
       "type": "vless",
-      "tag": " Turkey(88 ) § 9",
-      "server": "5.57.38.156",
+      "tag": "🔵🇫🇮  Finland  (کم سرعت-اضطراری )  § 8",
+      "server": "85.133.238.64",
       "server_port": 4042,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": " Turkey(888  ) § 10",
+      "tag": "🔵🇹🇷 Turkey(کم سرعت-اضطراری )  § 9",
       "server": "5.57.38.176",
       "server_port": 4042,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -180,7 +108,7 @@
     },
     {
       "type": "vless",
-      "tag": " germany  (989 ) § 11",
+      "tag": "🔵🇩🇪 germany  (کم سرعت-اضطراری )  § 10",
       "server": "81.12.96.209",
       "server_port": 3092,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -188,7 +116,7 @@
     },
     {
       "type": "vless",
-      "tag": " germany  (989 ) § 12",
+      "tag": "🔵🇩🇪 germany  (کم سرعت-اضطراری )  § 11",
       "server": "78.39.57.84",
       "server_port": 3092,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -196,7 +124,7 @@
     },
     {
       "type": "vless",
-      "tag": "6 § 13",
+      "tag": "🔵🇬🇧(کم سرعت-اضطراری )  § 12",
       "server": "62.60.221.144",
       "server_port": 6062,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -204,7 +132,15 @@
     },
     {
       "type": "vless",
-      "tag": "Vienna(8 ) § 14",
+      "tag": "🔵🇫🇮 (کم سرعت-اضطراری )  § 13",
+      "server": "62.60.221.144",
+      "server_port": 4042,
+      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔵🇦🇹Vienna(کم سرعت-اضطراری )  § 14",
       "server": "94.182.136.248",
       "server_port": 6099,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -221,7 +157,7 @@
     },
     {
       "type": "vless",
-      "tag": "Vienna § 15",
+      "tag": "🔴🇦🇹Vienna § 15",
       "server": "www.esfahanrestaurant.ir",
       "server_port": 443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -235,7 +171,7 @@
     },
     {
       "type": "vless",
-      "tag": " Finland § 16",
+      "tag": "🔴🇫🇮 Finland § 16",
       "server": "blog2.shirazres.ir",
       "server_port": 443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -252,7 +188,7 @@
     },
     {
       "type": "vless",
-      "tag": " USA (GEMINI) § 17",
+      "tag": "🔴🇺🇸 USA (GEMINI) § 17",
       "server": "blog.fardares.ir",
       "server_port": 443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -270,7 +206,7 @@
     },
     {
       "type": "vless",
-      "tag": " Germany § 18",
+      "tag": "🔴🇩🇪 Germany § 18",
       "server": "www.alitehran.ir",
       "server_port": 443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -287,7 +223,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "  (548) § 19",
+      "tag": "🟢🇸🇪  @Pars_ProxyBot (Game) § 19",
       "server": "testdev7.alirezatik.ir",
       "server_port": 4431,
       "password": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -298,7 +234,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "8 (Game) § 20",
+      "tag": "🟢🇫🇮  @Pars_ProxyBot (Game) § 20",
       "server": "testdev6.alirezatik.ir",
       "server_port": 4431,
       "password": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -309,7 +245,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": " Germany (Game) § 21",
+      "tag": "🟢🇩🇪 Germany (Game) § 21",
       "server": "testdev4.alirezatik.ir",
       "server_port": 4431,
       "password": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -320,7 +256,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": " Netherland (Game, Gemini) § 22",
+      "tag": "🟢🇳🇱 Netherland (Game, Gemini) § 22",
       "server": "testdev10.alirezatik.ir",
       "server_port": 4431,
       "password": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -332,7 +268,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": " Turkey § 23",
+      "tag": "🟢🇹🇷 Turkey § 23",
       "server": "testdev11.alirezatik.ir",
       "server_port": 4431,
       "password": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -344,7 +280,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "Vienna § 24",
+      "tag": "🟢🇦🇹  Vienna  § 24",
       "server": "www.esfahanrestaurant.ir",
       "server_port": 4431,
       "password": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -354,50 +290,8 @@
       }
     },
     {
-      "type": "xray",
-      "tag": "Vienna § 25",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "esfahanrestaurant.ir",
-              "port": 8443,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "96de985e-7be8-4317-b707-01c9db6a8819"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings":           {
-            "allowInsecure": false,
-            "alpn":             [
-              "h3",
-              "h2",
-              "http/1.1"
-            ],
-            "fingerprint": "chrome",
-            "rejectUnknownSni": false,
-            "serverName": "esfahanrestaurant.ir"
-          },
-          "xhttpSettings":           {
-            "host": "",
-            "path": "/"
-          }
-        },
-        "tag": "Vienna"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "Vienna- § 26",
+      "tag": "🟣🇦🇹Vienna- § 25",
       "server": "esfahanrestaurant.ir",
       "server_port": 443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -422,7 +316,7 @@
     },
     {
       "type": "vless",
-      "tag": " Netherland (Gemini) § 27",
+      "tag": "🟣🇳🇱 Netherland (Gemini) § 26",
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -447,7 +341,7 @@
     },
     {
       "type": "vless",
-      "tag": " sweaden § 28",
+      "tag": "🟣🇸🇪 sweaden  § 27",
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -472,7 +366,7 @@
     },
     {
       "type": "vless",
-      "tag": " Finland(Spotify) § 29",
+      "tag": "🟣🇫🇮 Finland(Spotify) § 28",
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
@@ -495,33 +389,61 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": " Germany § 30",
-      "server": "webmail.alirezatik.ir",
-      "server_port": 443,
-      "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
-      "tls":       {
-        "enabled": true,
-        "server_name": "abadanberezileteh.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/video",
-        "headers":         {
-          "Host": "abadanberezileteh.ir"
+      "type": "xray",
+      "tag": "🟣🇩🇪 Germany § 29",
+      "xray_outbound_raw":       {
+        "protocol": "vless",
+        "settings":         {
+          "vnext":           [
+            {
+              "address": "webmail.alirezatik.ir",
+              "port": 443,
+              "users":               [
+                {
+                  "encryption": "none",
+                  "flow": "",
+                  "id": "96de985e-7be8-4317-b707-01c9db6a8819"
+                }
+              ]
+            }
+          ]
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "streamSettings":         {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings":           {
+            "allowInsecure": false,
+            "alpn":             [
+              "http/1.1"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "abadanberezileteh.ir"
+          },
+          "wsSettings":           {
+            "headers":             {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            },
+            "host": "abadanberezileteh.ir",
+            "path": "/video"
+          }
+        },
+        "tag": "🟣🇩🇪 Germany"
       },
-      "packet_encoding": "xudp"
+      "xray_fragment":       {
+        "packets": "",
+        "length": "",
+        "interval": "",
+        "host1_header": "",
+        "host1_domain": "",
+        "host2_header": "",
+        "host2_domain": ""
+      },
+      "xray_loglevel": ""
     },
     {
       "type": "vless",
-      "tag": " Turkey § 31",
+      "tag": "🟣🇹🇷 Turkey § 30",
       "server": "www.mohammadravan.ir",
       "server_port": 8443,
       "uuid": "96de985e-7be8-4317-b707-01c9db6a8819",
