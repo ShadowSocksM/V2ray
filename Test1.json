@@ -2,50 +2,17 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "0.🔥FREE HOMES VPN🔥",
-      "server": "channel1.saghetalaie.homes",
-      "server_port": 46914,
+      "tag": "🔒 HYSTERIA-UDP 🇩🇪 DE-77.90.52.69:35000 § 0",
+      "server": "77.90.52.69",
+      "server_port": 35000,
       "obfs":       {
         "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
       },
-      "password": "freehomesvpnchannel3",
+      "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-     "type": "hysteria2",
-      "tag": "0",
-      "server": "channel1.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpnchannel3",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "1.🔥FREE HOMES VPN🔥",
-      "server": "channel2.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpnchannel3",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
+        "server_name": "pichondan.com"
       }
     }
   ]
