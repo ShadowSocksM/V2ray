@@ -1,28 +1,6 @@
 {
   "outbounds":   [
     {
-      "type": "trojan",
-      "tag": "3 § 0",
-      "server": "mizban.sabapardaziran.ir",
-      "server_port": 2083,
-      "password": "YU65ZmfhrTCo",
-      "tls":       {
-        "enabled": true,
-        "server_name": "mizban.sabapardaziran.ir",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "httpupgrade",
-        "path": "/%F0%9F%86%94@M3HDIO1",
-        "headers":         {
-          "Host": "mizban.sabapardaziran.ir"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
       "tag": "🔒 HYSTERIA-UDP 🇳🇱 NL-206.71.158.40:35000 § 0",
       "server": "206.71.158.40",
@@ -35,51 +13,6 @@
       "tls":       {
         "enabled": true,
         "server_name": "pichondan.com"
-      
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "2 § 1",
-      "server": "mizban.sabapardaziran.ir",
-      "server_port": 2083,
-      "password": "w7W87OpV9ysD",
-      "tls":       {
-        "enabled": true,
-        "server_name": "mizban.sabapardaziran.ir",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "httpupgrade",
-        "path": "/%F0%9F%86%94@M3HDIO1",
-        "headers":         {
-          "Host": "mizban.sabapardaziran.ir"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "1 § 2",
-      "server": "mizban.sabapardaziran.ir",
-      "server_port": 2083,
-      "password": "zJ4A1QlNTB9K",
-      "tls":       {
-        "enabled": true,
-        "server_name": "mizban.sabapardaziran.ir",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "httpupgrade",
-        "path": "/%F0%9F%86%94@M3HDIO1",
-        "headers":         {
-          "Host": "mizban.sabapardaziran.ir"
-        }
       }
     }
   ]
