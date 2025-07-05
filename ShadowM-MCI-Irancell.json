@@ -2,135 +2,283 @@
   "outbounds":   [
     {
       "type": "http",
-      "tag": "🇷🇺 EMS",
-      "server": "prox-ru.pointtoserver.com",
-      "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇧🇪 EMS",
-      "server": "prox-be.pointtoserver.com",
-      "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇬🇧 EMS",
-      "server": "prox-uk.pointtoserver.com",
-      "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇩🇪 EMS",
-      "server": "prox-de.pointtoserver.com",
-      "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇳🇴 EMS",
-      "server": "prox-no.pointtoserver.com",
-      "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇹🇷 EMS",
+      "tag": "http § 0",
       "server": "prox-tr.pointtoserver.com",
-      "server_port": 10799,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
     },
     {
       "type": "http",
-      "tag": "🇫🇮 EMS",
+      "tag": "http § 1",
       "server": "prox-fi.pointtoserver.com",
       "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
     },
     {
       "type": "http",
-      "tag": "🇸🇪 EMS",
-      "server": "prox-se.pointtoserver.com",
+      "tag": "http § 2",
+      "server": "prox-ro.pointtoserver.com",
       "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
     },
     {
       "type": "http",
-      "tag": "🇮🇹 EMS",
-      "server": "prox-it.pointtoserver.com",
-      "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇫🇷 EMS",
+      "tag": "http § 3",
       "server": "prox-fr.pointtoserver.com",
       "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
     },
     {
       "type": "http",
-      "tag": "🇺🇲 EMS",
-      "server": "prox-us.pointtoserver.com",
+      "tag": "http § 4",
+      "server": "prox-se.pointtoserver.com",
       "server_port": 10780,
-      "username": "purevpn0s12300644",
-      "password": "ioqn613v",
-      "headers":       {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 5",
+      "server": "prox-ae.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 6",
+      "server": "prox-al.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 7",
+      "server": "prox-at.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s10104588",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 8",
+      "server": "prox-au.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 9",
+      "server": "prox-be.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 10",
+      "server": "prox-bg.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 11",
+      "server": "prox-br.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 12",
+      "server": "prox-ca.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 13",
+      "server": "prox-ch.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 14",
+      "server": "prox-cl.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 15",
+      "server": "prox-cr.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 16",
+      "server": "prox-cy.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 17",
+      "server": "prox-cz.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 18",
+      "server": "prox-de.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 19",
+      "server": "prox-dk.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 20",
+      "server": "prox-dy.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 21",
+      "server": "prox-ee.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 22",
+      "server": "prox-es.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 23",
+      "server": "prox-vn.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 24",
+      "server": "prox-ua.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 25",
+      "server": "prox-ge.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 26",
+      "server": "prox-gr.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 27",
+      "server": "prox-hk.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 28",
+      "server": "prox-hu.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 29",
+      "server": "prox-in.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 30",
+      "server": "prox-is.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 31",
+      "server": "prox-it.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 32",
+      "server": "prox-jp.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 33",
+      "server": "prox-lt.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
+    },
+    {
+      "type": "http",
+      "tag": "http § 34",
+      "server": "prox-nl.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "dUsOF552ZXVAWD"
     }
   ]
 }
