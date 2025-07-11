@@ -2,17 +2,16 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "1 § 0",
-      "server": "77.90.52.69",
-      "server_port": 35000,
+      "tag": "69 § 0",
+      "server": "knock.zone1.center",
+      "server_port": 443,
       "obfs":       {
         "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+        "password": "The_Sefr-salamdash"
       },
-      "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi",
+      "password": "user12.myserverSEFR097",
       "tls":       {
-        "enabled": true,
-        "server_name": "pichondan.com"
+        "enabled": true
       }
     }
   ]
