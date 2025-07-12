@@ -1,18 +1,12 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "69 § 0",
-      "server": "knock.zone1.center",
+      "type": "shadowsocks",
+      "tag": "EVA_PRT_Safe § 0",
+      "server": "31.129.22.32",
       "server_port": 443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "The_Sefr-salamdash"
-      },
-      "password": "user12.myserverSEFR097",
-      "tls":       {
-        "enabled": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "GTIZXGoe0wkt"
     }
   ]
 }
