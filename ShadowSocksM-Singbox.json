@@ -2,8 +2,8 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🇩🇪 DE § 0",
-      "server": "77.90.52.69",
+      "tag": "H0 § 0",
+      "server": "JNIR-3.pichondan.com",
       "server_port": 35000,
       "obfs":       {
         "type": "salamander",
