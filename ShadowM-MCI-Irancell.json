@@ -1,12 +1,19 @@
 {
   "outbounds":   [
     {
-      "type": "shadowsocks",
-      "tag": "EVA_PRT_Safe § 0",
-      "server": "31.129.22.32",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "GTIZXGoe0wkt"
+      "type": "hysteria2",
+      "tag": "80 § 0",
+      "server": "206.71.158.40",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi",
+      "tls":       {
+        "enabled": true,
+        "server_name": "pichondan.com"
+      }
     }
   ]
 }
