@@ -1,19 +1,17 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "🔒 HYSTERIA-UDP 🇳🇱 NL-206.71.158.40:35000 § 0",
+      "type": "vless",
+      "tag": "Iran § 0",
       "server": "206.71.158.40",
-      "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      "server_port": 80,
+      "uuid": "b5c1b004-cd05-1ef2-f6ff-edda2e47d538",
+      "transport":       {
+        "type": "ws",
+        "path": "/Javid-SHAH-KingRezaPahlavi/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
-      "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi",
-      "tls":       {
-        "enabled": true,
-        "server_name": "pichondan.com"
-      }
+      "packet_encoding": "xudp"
     }
   ]
 }
