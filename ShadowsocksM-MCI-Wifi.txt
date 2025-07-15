@@ -1,17 +1,12 @@
 {
-  "outbounds":   [
+  "outbounds": [
     {
-      "type": "vless",
-      "tag": "Iran § 0",
-      "server": "206.71.158.40",
-      "server_port": 80,
-      "uuid": "b5c1b004-cd05-1ef2-f6ff-edda2e47d538",
-      "transport":       {
-        "type": "ws",
-        "path": "/Javid-SHAH-KingRezaPahlavi/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "EVA_PRT_Optimized_Safe § 0",
+      "server": "31.129.22.32",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "GTIZXGoe0wkt"
     }
   ]
 }
