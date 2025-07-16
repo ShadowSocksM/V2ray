@@ -1,19 +1,46 @@
 {
   "outbounds":   [
     {
+      "type": "vless",
+      "tag": "Alborz",
+      "server": "157.180.33.125",
+      "server_port": 80,
+      "uuid": "9603de7d-1248-a741-1d69-7e1a0fb9e693",
+      "transport":       {
+        "type": "ws",
+        "path": "/Javid-SHAH-KingRezaPahlavi/"
+      }
+    },
+    {
       "type": "hysteria2",
-      "tag": "80 § 0",
-      "server": "206.71.158.40",
-      "server_port": 35000,
+      "tag": "Zagros",
+      "server": "157.180.33.125",
+      "server_port": 33331,
       "obfs":       {
         "type": "salamander",
         "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
       },
-      "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi",
+      "password": "9603de7d1248a7411d697e1a0fb9e693",
       "tls":       {
         "enabled": true,
-        "server_name": "pichondan.com"
+        "server_name": "kermanshah.hideus.xyz"
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Damavand",
+      "server": "157.180.33.125",
+      "server_port": 62005,
+      "method": "chacha20-ietf-poly1305",
+      "password": "9603de7d1248a7411d697e1a0fb9e693"
+    },
+    {
+      "type": "vmess",
+      "tag": "Sabalan",
+      "server": "157.180.33.125",
+      "server_port": 62002,
+      "uuid": "9603de7d-1248-a741-1d69-7e1a0fb9e693",
+      "security": ""
     }
   ]
 }
