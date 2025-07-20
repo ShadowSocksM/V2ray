@@ -1,118 +1,19 @@
 {
   "outbounds":   [
     {
-      "type": "vless",
-      "tag": "wearestand-Sweden",
-      "server": "damp-cherry-4620.vpnetwork3567.workers.dev",
-      "server_port": 443,
-      "uuid": "563B4029-2161-7E31-FA35-1B21441AE537",
+      "type": "hysteria2",
+      "tag": "CA-test2 § 0",
+      "server": "caca.yinheyz.cfd",
+      "server_port": 33756,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "be35fa9d-4d82-4af2-b7ba-2fa178de7145",
       "tls":       {
         "enabled": true,
-        "server_name": "damp-cherry-4620.vpnetwork3567.workers.dev",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "damp-cherry-4620.vpnetwork3567.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "wearestand-Germany",
-      "server": "wild-resonance-23be.vpnetwork3567.workers.dev",
-      "server_port": 443,
-      "uuid": "563B4029-2161-7E31-FA35-1B21441AE537",
-      "tls":       {
-        "enabled": true,
-        "server_name": "wild-resonance-23be.vpnetwork3567.workers.dev",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "wild-resonance-23be.vpnetwork3567.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "wearestand-Swiss",
-      "server": "square-shape-a8b4.vpnetwork3567.workers.dev",
-      "server_port": 443,
-      "uuid": "563B4029-2161-7E31-FA35-1B21441AE537",
-      "tls":       {
-        "enabled": true,
-        "server_name": "square-shape-a8b4.vpnetwork3567.workers.dev",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "square-shape-a8b4.vpnetwork3567.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "wearestand-Belgium",
-      "server": "muddy-frost-4e2d.vpnetwork3567.workers.dev",
-      "server_port": 443,
-      "password": "563B4029-2161-7E31-FA35-1B21441AE537",
-      "tls":       {
-        "enabled": true,
-        "server_name": "muddy-frost-4e2d.vpnetwork3567.workers.dev",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "muddy-frost-4e2d.vpnetwork3567.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "wearestand-Turkey",
-      "server": "still-bar-5702.vpnetwork3567.workers.dev",
-      "server_port": 443,
-      "uuid": "563B4029-2161-7E31-FA35-1B21441AE537",
-      "tls":       {
-        "enabled": true,
-        "server_name": "still-bar-5702.vpnetwork3567.workers.dev",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "still-bar-5702.vpnetwork3567.workers.dev"
-        }
+        "server_name": "caca.yinheyz.cfd",
+        "insecure": true
       }
     }
   ]
