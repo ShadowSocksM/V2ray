@@ -64,15 +64,18 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "IraneAzad 513 § 5",
-      "server": "46.17.41.217",
-      "server_port": 30033,
+   "type": "hysteria2",
+      "tag": "q_141",
+      "server": "51.159.111.32",
+      "server_port": 31180,
+      "up_mbps": 10,
+      "down_mbps": 100,
       "password": "dongtaiwang.com",
-      "tls":       {
+      "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": "h3"
       }
     }
   ]
