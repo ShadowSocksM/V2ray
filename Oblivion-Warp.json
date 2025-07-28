@@ -13,10 +13,6 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "6oh8",
       "mtu": 1330,
-      "fake_packets": "1-5",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
-      "fake_packets_mode": "m4"
     }
   ]
 }
