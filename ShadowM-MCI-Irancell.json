@@ -2,17 +2,113 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "CA-test2 § 0",
+      "tag": "US",
+      "server": "usus.yinheyz.cfd",
+      "server_port": 33856,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "tls":       {
+        "enabled": true,
+        "server_name": "usus.yinheyz.cfd",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "CA",
       "server": "caca.yinheyz.cfd",
       "server_port": 33756,
       "obfs":       {
         "type": "salamander",
         "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
       },
-      "password": "be35fa9d-4d82-4af2-b7ba-2fa178de7145",
+      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
       "tls":       {
         "enabled": true,
         "server_name": "caca.yinheyz.cfd",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "FR",
+      "server": "frfr.yinheyz.cfd",
+      "server_port": 33426,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "tls":       {
+        "enabled": true,
+        "server_name": "frfr.yinheyz.cfd",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "SG",
+      "server": "sgsg.yinheyz.cfd",
+      "server_port": 33686,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sgsg.yinheyz.cfd",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "GB",
+      "server": "gbgb.yinheyz.cfd",
+      "server_port": 33996,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "tls":       {
+        "enabled": true,
+        "server_name": "gbgb.yinheyz.cfd",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "IN",
+      "server": "inin.yinheyz.cfd",
+      "server_port": 33756,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "tls":       {
+        "enabled": true,
+        "server_name": "inin.yinheyz.cfd",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "NL",
+      "server": "nlnl.yinheyz.cfd",
+      "server_port": 33856,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "tls":       {
+        "enabled": true,
+        "server_name": "nlnl.yinheyz.cfd",
         "insecure": true
       }
     }
