@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "london @Deamnet کانال",
+      "tag": "london",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
       "server": "109.169.22.75",
@@ -17,7 +17,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "nuremberg @Deamnet کانال",
+      "tag": "nuremberg",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
       "server": "162.55.219.168",
@@ -32,7 +32,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "amsterdam @Deamnet کانال",
+      "tag": "amsterdam",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
       "server": "50.7.176.133",
@@ -47,7 +47,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "kyiv @Deamnet کانال",
+      "tag": "kyiv",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
       "server": "31.42.186.176",
@@ -62,7 +62,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "moscow @Deamnet کانال",
+      "tag": "moscow",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
       "server": "94.131.113.88",
@@ -77,7 +77,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "london1 @Deamnet کانال",
+      "tag": "london1",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
       "server": "88.150.154.27",
@@ -92,7 +92,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "london2 @Deamnet کانال",
+      "tag": "london2",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
       "server": "109.169.22.75",
@@ -107,7 +107,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "chisinau @Deamnet کانال",
+      "tag": "chisinau",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
       "server": "193.233.203.43",
@@ -122,7 +122,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "newyorkcity @Deamnet کانال",
+      "tag": "newyorkcity",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
       "server": "192.223.24.121",
