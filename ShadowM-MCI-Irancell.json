@@ -2,113 +2,91 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "US",
-      "server": "usus.yinheyz.cfd",
-      "server_port": 33856,
+      "tag": "🇩🇪H2 - Berlin",
+      "server": "45.138.99.213",
+      "server_port": 8443,
       "obfs":       {
         "type": "salamander",
-        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+        "password": "FarzanehDreams"
       },
-      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "password": "5oITDYnNW7",
       "tls":       {
         "enabled": true,
-        "server_name": "usus.yinheyz.cfd",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "CA",
-      "server": "caca.yinheyz.cfd",
-      "server_port": 33756,
+      "tag": "🇺🇸H2 - Utah",
+      "server": "144.172.106.192",
+      "server_port": 8443,
       "obfs":       {
         "type": "salamander",
-        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+        "password": "TabassomDreams"
       },
-      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "password": "BZnk2SlPkq",
       "tls":       {
         "enabled": true,
-        "server_name": "caca.yinheyz.cfd",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "FR",
-      "server": "frfr.yinheyz.cfd",
-      "server_port": 33426,
+      "tag": "🇬🇧H2 - London",
+      "server": "54.36.225.180",
+      "server_port": 8443,
       "obfs":       {
         "type": "salamander",
-        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+        "password": "KevinZakarian"
       },
-      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "password": "@KevinZakarian",
       "tls":       {
         "enabled": true,
-        "server_name": "frfr.yinheyz.cfd",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "SG",
-      "server": "sgsg.yinheyz.cfd",
-      "server_port": 33686,
+      "tag": "🇺🇸H2 - Atlanta",
+      "server": "129.212.182.3",
+      "server_port": 8443,
       "obfs":       {
         "type": "salamander",
-        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+        "password": "KevinZakarian"
       },
-      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "password": "@KevinZakarian",
       "tls":       {
         "enabled": true,
-        "server_name": "sgsg.yinheyz.cfd",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "GB",
-      "server": "gbgb.yinheyz.cfd",
-      "server_port": 33996,
+      "tag": "🇹🇷H2 - Istanbul",
+      "server": "103.83.86.119",
+      "server_port": 8443,
       "obfs":       {
         "type": "salamander",
-        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+        "password": "KevinZakarian"
       },
-      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "password": "aFs3HWCicZ",
       "tls":       {
         "enabled": true,
-        "server_name": "gbgb.yinheyz.cfd",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "IN",
-      "server": "inin.yinheyz.cfd",
-      "server_port": 33756,
+      "tag": "🇫🇷H2 - Paris",
+      "server": "35.180.251.237",
+      "server_port": 54789,
       "obfs":       {
         "type": "salamander",
-        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+        "password": "MOhsenpiMI1370"
       },
-      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
+      "password": "JMbuUvn2sX",
       "tls":       {
         "enabled": true,
-        "server_name": "inin.yinheyz.cfd",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "NL",
-      "server": "nlnl.yinheyz.cfd",
-      "server_port": 33856,
-      "obfs":       {
-        "type": "salamander",
-        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
-      },
-      "password": "a013224b-d859-42c7-9613-471a0b4153ea",
-      "tls":       {
-        "enabled": true,
-        "server_name": "nlnl.yinheyz.cfd",
         "insecure": true
       }
     }
