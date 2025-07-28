@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "🇮🇷 hamedp71 - IPv4-1",
+      "tag": "IPv4-1",
       "local_address":       [
         "172.16.0.2/32",
         "2001:db8:1::1/128"
@@ -16,7 +16,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "🇩🇪 hamedp71 - IPv4-1",
+      "tag": "IPv4-2",
       "detour": "🇮🇷 hamedp71 - IPv4-2",
       "local_address":       [
         "172.16.0.2/32",
@@ -31,7 +31,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "🇮🇷 hamedp71 - IPv4-2",
+      "tag": "IPv4-3",
       "local_address":       [
         "172.16.0.2/32",
         "2001:db8:1::1/128"
@@ -45,8 +45,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "🇩🇪 hamedp71 - IPv4-2",
-      "detour": "🇮🇷 hamedp71 - IPv4-2",
+      "tag": "IPv4-4",
+      "detour": "IPv4-4",
       "local_address":       [
         "172.16.0.2/32",
         "2001:db8:1::1/128"
@@ -60,7 +60,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "🇮🇷 hamedp71 - IPv6",
+      "tag": "2 - IPv6",
       "local_address":       [
         "172.16.0.2/32",
         "2001:db8:1::1/128"
@@ -75,7 +75,7 @@
     {
       "type": "wireguard",
       "tag": "🇸🇪 hamedp71 - IPv6",
-      "detour": "🇮🇷 hamedp71 - IPv6",
+      "detour": "1 - IPv6",
       "local_address":       [
         "172.16.0.2/32",
         "2001:db8:1::1/128"
