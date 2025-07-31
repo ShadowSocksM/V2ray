@@ -2,10 +2,10 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "london",
+      "tag": "kyiv",
       "local_address": "10.1.33.145/32",
       "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
-      "server": "109.169.22.75",
+      "server": "31.42.186.176",
       "server_port": 60100,
       "peer_public_key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
       "reserved": "AAAA",
