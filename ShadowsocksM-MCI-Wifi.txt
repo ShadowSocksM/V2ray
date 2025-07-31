@@ -16,19 +16,20 @@
       }
     },
     {
-   "type": "hysteria2",
+      "type": "hysteria2",
       "tag": "0 VPN",
       "server": "channel1.saghetalaie.homes",
       "server_port": 46914,
-      "obfs":       {
+      "password": "freehomesvpnchannel3",
+      "obfs": {
         "type": "salamander",
         "password": "&O#28YB5qK!5t#U"
       },
-      "password": "freehomesvpnchannel3",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true
+      }
     },
     {
       "type": "hysteria2",
@@ -39,11 +40,3 @@
       "obfs": {
         "type": "salamander",
         "password": "VPNy.net-@VPNynet"
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    }
-  ]
-}
