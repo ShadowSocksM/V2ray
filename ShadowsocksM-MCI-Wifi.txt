@@ -13,6 +13,8 @@
       "tls": {
         "enabled": true,
         "insecure": true
+    },
+    {
    "type": "hysteria2",
       "tag": "0 VPN",
       "server": "channel1.saghetalaie.homes",
