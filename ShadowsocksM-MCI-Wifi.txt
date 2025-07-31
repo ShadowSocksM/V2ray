@@ -1,31 +1,31 @@
 {
-  "outbounds":   [
+  "outbounds": [
     {
-    "type": "hysteria2",
-      "tag": "Berlin",
-      "server": "45.138.99.213",
-      "server_port": 8443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "FarzanehDreams"
-      },
-      "password": "5oITDYnNW7",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
+      "type": "hysteria2",
+      "tag": "Berlin",
+      "server": "45.138.99.213",
+      "server_port": 8443,
+      "password": "5oITDYnNW7",
+      "obfs": {
+        "type": "salamander",
+        "password": "FarzanehDreams"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "Public",
       "server": "kevin.vpny.online",
       "server_port": 11001,
-      "obfs":       {
+      "password": "VPNy.net-@VPNynet",
+      "obfs": {
         "type": "salamander",
         "password": "VPNy.net-@VPNynet"
       },
-      "password": "VPNy.net-@VPNynet",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "insecure": true
       }
