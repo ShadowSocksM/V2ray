@@ -2,21 +2,6 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "Berlin",
-      "server": "45.138.99.213",
-      "server_port": 8443,
-      "password": "5oITDYnNW7",
-      "obfs": {
-        "type": "salamander",
-        "password": "FarzanehDreams"
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "0 VPN",
       "server": "channel1.saghetalaie.homes",
       "server_port": 46914,
