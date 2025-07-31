@@ -1,8 +1,23 @@
 {
   "outbounds":   [
     {
+    "type": "hysteria2",
+      "tag": "Berlin",
+      "server": "45.138.99.213",
+      "server_port": 8443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "FarzanehDreams"
+      },
+      "password": "5oITDYnNW7",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
-      "tag": "Public-Config-Not-Private-1",
+      "tag": "Public",
       "server": "kevin.vpny.online",
       "server_port": 11001,
       "obfs":       {
