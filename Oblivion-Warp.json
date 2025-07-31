@@ -9,7 +9,7 @@
       "server_port": 60100,
       "peer_public_key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
       "reserved": "AAAA",
-      "mtu": 1330,
+      "mtu": 9000,
       "fake_packets": "40-100",
       "fake_packets_size": "40-80",
       "fake_packets_delay": "2-8",
