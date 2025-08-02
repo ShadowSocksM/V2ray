@@ -14,22 +14,22 @@
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true
-     }
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "IRCP-1
-@Ln2Ray",
+      "tag": "IRCP-1 @Ln2Ray",
       "server": "gavazn.lnmarketplace.net",
       "server_port": 45000,
-      "obfs":       {
+      "password": "Telegram-->@Ln2Ray",
+      "obfs": {
         "type": "salamander",
         "password": "Telegram-->@Ln2Ray"
       },
-      "password": "Telegram-->@Ln2Ray",
-      "tls":       {
+      "tls": {
         "enabled": true,
-        "server_name": "gavazn.55994421.xyz"
+        "server_name": "gavazn.55994421.xyz",
+        "insecure": true
       }
     },
     {
@@ -37,14 +37,15 @@
       "tag": "IPv4",
       "server": "dir.cybsecguru.com",
       "server_port": 35000,
-      "obfs":       {
+      "password": "27c96fb9-1de0-4856-ada2-432ab05b0d17",
+      "obfs": {
         "type": "salamander",
         "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
       },
-      "password": "27c96fb9-1de0-4856-ada2-432ab05b0d17",
-      "tls":       {
+      "tls": {
         "enabled": true,
-        "server_name": "jnir.pichondan.com"
+        "server_name": "jnir.pichondan.com",
+        "insecure": true
       }
     },
     {
@@ -52,18 +53,16 @@
       "tag": "IP4-1",
       "server": "YAPC-1.adamhayward.co.uk",
       "server_port": 35000,
-      "obfs":       {
+      "password": "Yet-Another-Public-Config-1",
+      "obfs": {
         "type": "salamander",
         "password": "Yet-Another-Public-Config-1"
       },
-      "password": "Yet-Another-Public-Config-1",
-      "tls":       {
+      "tls": {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
       }
     }
   ]
 }
-
-
-
