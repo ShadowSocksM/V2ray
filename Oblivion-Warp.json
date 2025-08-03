@@ -1,19 +1,31 @@
 {
   "outbounds":   [
-    {
-      "type": "wireguard",
-      "tag": "kyiv",
-      "local_address": "10.1.33.145/32",
-      "private_key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
-      "server": "31.42.186.176",
-      "server_port": 60100,
-      "peer_public_key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
-      "reserved": "AAAA",
-      "mtu": 9000,
-      "fake_packets": "40-100",
-      "fake_packets_size": "40-80",
-      "fake_packets_delay": "2-8",
-      "fake_packets_mode": "m4"
-    }
+{
+"tag": "WARP_27",
+"reserved": [3, 99, 199],
+"mtu": 1280,
+"fake_packets": "5-10",
+"fake_packets_size": "40-100",
+"fake_packets_delay": "20-250",
+"fake_packets_mode": "m4",
+"private_key": "UA626RDUKoY/Ngie1gOQKt15cKYhUm8A+vZaJk9h1ks=",
+"type": "wireguard",
+"local_address": ["172.16.0.2/32", "2606:4700:110:8fe1:e4f0:6d5:c7ca:4c08/128"],
+"peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+"server": "8.6.112.186",
+"server_port": 5279
+},
+  {
+   "type": "wireguard",
+   "tag": "WARPinWARP_55",
+   "detour": "WARP_27",
+   "local_address": ["172.16.0.2/32", "2606:4700:110:8681:2c6c:9b3f:7a73:6959/128"],
+   "private_key": "mGTzuibdLOlES7eytTr5VbytED9ytjrKJgZqnL/r01I=",
+   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+   "reserved": [83, 176, 202],
+   "mtu": 1200,
+   "server": "188.114.97.39",
+   "server_port": 4177
+  }
   ]
 }
