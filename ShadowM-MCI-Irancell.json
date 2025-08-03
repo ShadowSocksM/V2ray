@@ -2,92 +2,17 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🇩🇪H2 - Berlin",
-      "server": "45.138.99.213",
-      "server_port": 8443,
+      "tag": "JNI",
+      "server": "dir.cybsecguru.com",
+      "server_port": 35000,
       "obfs":       {
         "type": "salamander",
-        "password": "FarzanehDreams"
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
       },
-      "password": "5oITDYnNW7",
+      "password": "27c96fb9-1de0-4856-ada2-432ab05b0d17",
       "tls":       {
         "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸H2 - Utah",
-      "server": "144.172.106.192",
-      "server_port": 8443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "TabassomDreams"
-      },
-      "password": "BZnk2SlPkq",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇬🇧H2 - London",
-      "server": "54.36.225.180",
-      "server_port": 8443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "KevinZakarian"
-      },
-      "password": "@KevinZakarian",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸H2 - Atlanta",
-      "server": "129.212.182.3",
-      "server_port": 8443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "KevinZakarian"
-      },
-      "password": "@KevinZakarian",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇷H2 - Istanbul",
-      "server": "103.83.86.119",
-      "server_port": 8443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "KevinZakarian"
-      },
-      "password": "aFs3HWCicZ",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇷H2 - Paris",
-      "server": "35.180.251.237",
-      "server_port": 54789,
-      "obfs":       {
-        "type": "salamander",
-        "password": "MOhsenpiMI1370"
-      },
-      "password": "JMbuUvn2sX",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
+        "server_name": "jnir.pichondan.com"
       }
     }
   ]
