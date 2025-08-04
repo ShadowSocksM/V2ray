@@ -1,11 +1,16 @@
-http://purevpn0s12300644:ioqn613v@prox-ru.pointtoserver.com:10780#🇷🇺_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-be.pointtoserver.com:10780#🇧🇪_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-uk.pointtoserver.com:10780#🇬🇧_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-de.pointtoserver.com:10780#🇩🇪_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-no.pointtoserver.com:10780#🇳🇴_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-tr.pointtoserver.com:10799#🇹🇷_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-fi.pointtoserver.com:10780#🇫🇮_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-se.pointtoserver.com:10780#🇸🇪_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-it.pointtoserver.com:10780#🇮🇹_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-fr.pointtoserver.com:10780#🇫🇷_EMS_JNIR
-http://purevpn0s12300644:ioqn613v@prox-us.pointtoserver.com:10780#🇺🇲_EMS_JNIR
+{
+  "outbounds":   [
+    {
+      "type": "http",
+      "tag": "🇷🇺HTTP",
+      "server": "62.76.234.166",
+      "server_port": 5555,
+      "username": "Peweza",
+      "password": "@Pewezavpn",
+      "headers":       {
+        "host": "example.com",
+        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
+      }
+    }
+  ]
+}
