@@ -2,17 +2,18 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "JNI",
-      "server": "dir.cybsecguru.com",
-      "server_port": 35000,
+      "tag": "Public-Config-Not-Private-1 § 0",
+      "server": "kevin.vpny.online",
+      "server_port": 11001,
       "obfs":       {
         "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+        "password": "VPNy.net-@VPNynet"
       },
-      "password": "27c96fb9-1de0-4856-ada2-432ab05b0d17",
+      "password": "VPNy.net-@VPNynet",
       "tls":       {
         "enabled": true,
-        "server_name": "jnir.pichondan.com"
+        "server_name": "kevin.vpny.online",
+        "insecure": true
       }
     }
   ]
