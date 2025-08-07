@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "Mahdi germany § 0",
+      "tag": "Ger § 0",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8043:fc5b:321f:2834:e1e8/128"
@@ -21,7 +21,7 @@
     {
       "type": "wireguard",
       "tag": "Yy § 1",
-      "detour": "Mahdi germany § 0",
+      "detour": "Ger § 0",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:83ac:7785:36d6:ccee:682d/128"
