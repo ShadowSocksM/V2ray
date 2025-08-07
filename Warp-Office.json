@@ -1,31 +1,41 @@
 {
   "outbounds":   [
-{
-"tag": "WARP_27",
-"reserved": [3, 99, 199],
-"mtu": 1280,
-"fake_packets": "5-10",
-"fake_packets_size": "40-100",
-"fake_packets_delay": "20-250",
-"fake_packets_mode": "m4",
-"private_key": "UA626RDUKoY/Ngie1gOQKt15cKYhUm8A+vZaJk9h1ks=",
-"type": "wireguard",
-"local_address": ["172.16.0.2/32", "2606:4700:110:8fe1:e4f0:6d5:c7ca:4c08/128"],
-"peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-"server": "8.34.70.102",
-"server_port": 2408
-},
-  {
-   "type": "wireguard",
-   "tag": "WARPinWARP_55",
-   "detour": "WARP_27",
-   "local_address": ["172.16.0.2/32", "2606:4700:110:8681:2c6c:9b3f:7a73:6959/128"],
-   "private_key": "mGTzuibdLOlES7eytTr5VbytED9ytjrKJgZqnL/r01I=",
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": [83, 176, 202],
-   "mtu": 1200,
-   "server": "188.114.97.39",
-   "server_port": 4177
-  }
+    {
+      "type": "wireguard",
+      "tag": "Ger § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8043:fc5b:321f:2834:e1e8/128"
+      ],
+      "private_key": "kG6ecuQLAUnqeZny/EVqTgnIqh2eAlYZUfPQ53Mf6EQ=",
+      "server": "8.34.146.156",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "mNOx",
+      "mtu": 1330,
+      "fake_packets": "30-40",
+      "fake_packets_size": "40-50",
+      "fake_packets_delay": "7-8",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Yy § 1",
+      "detour": "Ger § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:83ac:7785:36d6:ccee:682d/128"
+      ],
+      "private_key": "6IEYaYKiEQq8J2uYosHqVnPXtzLoCmqT3mBVRPAHvV0=",
+      "server": "188.114.98.224",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "7UOV",
+      "mtu": 1330,
+      "fake_packets": "2-4",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    }
   ]
 }
