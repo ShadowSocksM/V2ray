@@ -12,8 +12,8 @@
 "type": "wireguard",
 "local_address": ["172.16.0.2/32", "2606:4700:110:8fe1:e4f0:6d5:c7ca:4c08/128"],
 "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-"server": "188.114.99.7",
-"server_port": 1002
+"server": "162.159.192.253",
+"server_port": 7152
 },
   {
    "type": "wireguard",
