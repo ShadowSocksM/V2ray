@@ -1,4 +1,3 @@
-My Temp shadowsocks:
 {
   "outbounds":   [
     {
@@ -61,13 +60,8 @@ My Temp shadowsocks:
       "tls":       {
         "enabled": true,
         "server_name": "gavazn.55994421.xyz"
-      }
-    }
-  ]
-}
-
-{
-  "outbounds":   [
+   }
+    },
     {
       "type": "hysteria2",
       "tag": "🇳🇱HYSTERIA2 § 0",
@@ -113,3 +107,4 @@ My Temp shadowsocks:
     }
   ]
 }
+
