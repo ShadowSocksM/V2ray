@@ -47,21 +47,6 @@
     },
     {
       "type": "hysteria2",
-      "tag": "NL-2IPv6",
-      "server": "2a14:3f87:f001:9::a",
-      "server_port": 45000,
-      "obfs": {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
-      "password": "Telegram-->@Ln2Ray",
-      "tls": {
-        "enabled": true,
-        "server_name": "gavazn.55994421.xyz"
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "NL-3",
       "server": "YAPC-1.adamhayward.co.uk",
       "server_port": 36400,
@@ -75,22 +60,8 @@
         "server_name": "YAPC-1.afshin.ir",
         "insecure": true
       }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "HYSTERIA2-2",
-      "server": "212.115.41.93",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "Mzc5NTA3"
-      },
-      "password": "d84be3ca-d0b6-4bd0-9b61-db86d7c65969",
-      "tls": {
-        "enabled": true,
-        "server_name": "aparat.com"
-      }
     }
   ]
 }
+
 
