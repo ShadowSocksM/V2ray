@@ -2,7 +2,7 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "NL-YAPC-1",
+      "tag": "NL-1",
       "server": "YAPC-1.adamhayward.co.uk",
       "server_port": 35000,
       "obfs": {
@@ -17,7 +17,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "NL-YAPC-1-IPv6",
+      "tag": "NL-IPv6",
       "server": "YAPC-1.adamhayward.co.uk",
       "server_port": 35000,
       "obfs": {
@@ -32,7 +32,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "NL-IRCP-1",
+      "tag": "NL-2",
       "server": "gavazn.lnmarketplace.net",
       "server_port": 45000,
       "obfs": {
@@ -47,7 +47,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "NL-IRCP-1-IPv6",
+      "tag": "NL-2IPv6",
       "server": "2a14:3f87:f001:9::a",
       "server_port": 45000,
       "obfs": {
@@ -62,7 +62,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "NL-HYSTERIA2-0",
+      "tag": "NL-3",
       "server": "YAPC-1.adamhayward.co.uk",
       "server_port": 36400,
       "obfs": {
@@ -73,18 +73,6 @@
       "tls": {
         "enabled": true,
         "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "Canada-1",
-      "server": "108.181.5.130",
-      "server_port": 63015,
-      "password": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
         "insecure": true
       }
     },
@@ -105,3 +93,4 @@
     }
   ]
 }
+
