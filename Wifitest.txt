@@ -1,20 +1,115 @@
-hy2://2429bee3-e0c1-47dd-b420-75e6512b184b@155.248.216.247:30300/?insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%A8%F0%9F%87%A6%20CA-155.248.216.247%3A30300
-hy2://b8bd42a9-551f-419d-b70d-4aefdd2cb074@208.87.242.215:443/?mport=20000-55000&insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-208.87.242.215%3A443
-hy2://b8bd42a9-551f-419d-b70d-4aefdd2cb074@108.181.23.241:443/?mport=20000-55000&insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.23.241%3A443
-hy2://KYPSpQi9oC@77.239.112.132:14055/?insecure=1&obfs=salamander&obfs-password=v2raybluecrystal2#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-77.239.112.132%3A14055
-hy2://b4dd408a-542d-4898-8d43-47dcad8255e8@146.56.102.200:34237/?insecure=1&sni=anycast.us.kg#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B0%F0%9F%87%B7%20KR-146.56.102.200%3A34237
-hysteria://176.32.35.226:62003/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B7%F0%9F%87%BA%20RU-176.32.35.226%3A62003
-hy2://KYPSpQi9oC@77.239.112.132:54075/?insecure=1&obfs=salamander&obfs-password=v2raybluecrystal#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-77.239.112.132%3A54075
-hysteria://195.154.200.40:15010/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=100&downmbps=100&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AB%F0%9F%87%B7%20FR-195.154.200.40%3A15010
-hysteria://208.87.243.151:17549/?insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=1000&downmbps=1000&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-208.87.243.151%3A17549
-hy2://b72ba5d5-2d5e-45b7-93b5-236d343baa7c@64.181.207.162:47262/?insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-64.181.207.162%3A47262
-hy2://dongtaiwang.com@108.181.5.130:57773/?insecure=1&sni=apple.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.5.130%3A57773
-hysteria://195.154.200.178:46938/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AB%F0%9F%87%B7%20FR-195.154.200.178%3A46938
-hy2://b8bd42a9-551f-419d-b70d-4aefdd2cb074@108.181.23.255:443/?mport=20000-55000&insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.23.255%3A443
-hy2://b4dd408a-542d-4898-8d43-47dcad8255e8@129.150.40.3:23587/?insecure=1&sni=anycast.us.kg#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B8%F0%9F%87%AC%20SG-129.150.40.3%3A23587
-hysteria://108.181.24.77:11512/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.24.77%3A11512
-hysteria://208.87.243.187:40528/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=100&downmbps=100&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-208.87.243.187%3A40528
-hy2://5CBqBh6MeDq6GajcilBiDg%3D%3D@192.227.152.86:61001/?insecure=1&sni=192-227-152-86.nip.io#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-192.227.152.86%3A61001
-hy2://b8bd42a9-551f-419d-b70d-4aefdd2cb074@208.87.242.189:443/?mport=20000-55000&insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-208.87.242.189%3A443
-hy2://b8bd42a9-551f-419d-b70d-4aefdd2cb074@208.87.242.79:443/?mport=20000-55000&insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-208.87.242.79%3A443
-hysteria://185.22.155.71:10803/?insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=1000&downmbps=1000&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B7%F0%9F%87%BA%20RU-185.22.155.71%3A10803
+My Temp shadowsocks:
+{
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 𝐘𝐀𝐏𝐂-1",
+      "server": "YAPC-1.adamhayward.co.uk",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 𝐘𝐀𝐏𝐂-1-IPv6",
+      "server": "YAPC-1.adamhayward.co.uk",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 IRCP-1
+@Ln2Ray",
+      "server": "gavazn.lnmarketplace.net",
+      "server_port": 45000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
+      "tls":       {
+        "enabled": true,
+        "server_name": "gavazn.55994421.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 IRCP-1-IPv6
+@Ln2Ray",
+      "server": "2a14:3f87:f001:9::a",
+      "server_port": 45000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
+      "tls":       {
+        "enabled": true,
+        "server_name": "gavazn.55994421.xyz"
+      }
+    }
+  ]
+}
+
+{
+  "outbounds":   [
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱HYSTERIA2 § 0",
+      "server": "YAPC-1.adamhayward.co.uk",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Canada § 1",
+      "server": "108.181.5.130",
+      "server_port": 63015,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria2 § 2",
+      "server": "212.115.41.93",
+      "server_port": 443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Mzc5NTA3"
+      },
+      "password": "d84be3ca-d0b6-4bd0-9b61-db86d7c65969",
+      "tls":       {
+        "enabled": true,
+        "server_name": "aparat.com"
+      }
+    }
+  ]
+}
