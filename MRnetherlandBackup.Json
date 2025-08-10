@@ -1,0 +1,66 @@
+{
+  "outbounds": [
+    {
+      "type": "hysteria2",
+      "tag": "NL-1",
+      "server": "YAPC-1.adamhayward.co.uk",
+      "server_port": 35000,
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "NL-IPv6",
+      "server": "YAPC-1.adamhayward.co.uk",
+      "server_port": 35000,
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "NL-2",
+      "server": "gavazn.lnmarketplace.net",
+      "server_port": 45000,
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
+      "tls": {
+        "enabled": true,
+        "server_name": "gavazn.55994421.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "NL-3",
+      "server": "YAPC-1.adamhayward.co.uk",
+      "server_port": 36400,
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    }
+  ]
+}
+
