@@ -1,20 +1,65 @@
 {
-  "outbounds":   [
+  "outbounds": [
     {
-      "type": "vless",
-      "tag": "Netherland § 0",
-      "server": "172.66.40.99",
-      "server_port": 80,
-      "uuid": "8c2aef39-f7c4-4596-b13f-6524b023d43a",
-      "transport":       {
-        "type": "ws",
-        "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "headers":         {
-          "Host": "f.zedmodeon.ip-ddns.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+      "type": "hysteria2",
+      "tag": "NL-1",
+      "server": "YAPC-1.adamhayward.co.uk",
+      "server_port": 35000,
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
       },
-      "packet_encoding": "xudp"
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "NL-IPv6",
+      "server": "YAPC-1.adamhayward.co.uk",
+      "server_port": 35000,
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "NL-2",
+      "server": "gavazn.lnmarketplace.net",
+      "server_port": 45000,
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
+      "tls": {
+        "enabled": true,
+        "server_name": "gavazn.55994421.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "NL-3",
+      "server": "YAPC-1.adamhayward.co.uk",
+      "server_port": 36400,
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
     }
   ]
 }
