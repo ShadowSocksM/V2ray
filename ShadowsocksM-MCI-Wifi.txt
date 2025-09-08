@@ -2,67 +2,65 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "0 VPN",
-      "server": "channel1.saghetalaie.homes",
-      "server_port": 46914,
-      "password": "freehomesvpnchannel3",
-      "obfs": {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "IRCP-1 @Ln2Ray",
-      "server": "gavazn.lnmarketplace.net",
-      "server_port": 45000,
-      "password": "Telegram-->@Ln2Ray",
-      "obfs": {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gavazn.55994421.xyz",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "IPv4",
-      "server": "dir.cybsecguru.com",
-      "server_port": 35000,
-      "password": "27c96fb9-1de0-4856-ada2-432ab05b0d17",
-      "obfs": {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jnir.pichondan.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "IP4-1",
-      "server": "YAPC-1.adamhayward.co.uk",
-      "server_port": 35000,
-      "password": "Yet-Another-Public-Config-1",
-      "obfs": {
+      "tag": "Argo_vpnn (15) § 0",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 36300,
+      "obfs":       {
         "type": "salamander",
         "password": "Yet-Another-Public-Config-1"
       },
-      "tls": {
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Netherland § 0",
+      "server": "2a14:3f87:f001:13::a",
+      "server_port": 36300,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Argo_vpnn (16) § 0",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Germany  § 0",
+      "server": "2a12:5940:1680::2",
+      "server_port": 45000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
+      "tls":       {
+        "enabled": true,
+        "server_name": "gavazn.55994421.xyz",
         "insecure": true
       }
     }
   ]
 }
+
