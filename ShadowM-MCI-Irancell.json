@@ -2,18 +2,34 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "Public-Config-Not-Private-1 § 0",
-      "server": "kevin.vpny.online",
-      "server_port": 11001,
+      "tag": "IPV4Iran",
+      "server": "dir.cybsecguru.com",
+      "server_port": 40000,
       "obfs":       {
         "type": "salamander",
-        "password": "VPNy.net-@VPNynet"
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
       },
-      "password": "VPNy.net-@VPNynet",
+      "password": "406034dd-4b2a-41f5-8405-cf3dedd5760f",
       "tls":       {
         "enabled": true,
-        "server_name": "kevin.vpny.online",
-        "insecure": true
+        "server_name": "jnir.pichondan.com",
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "IPv6Iran",
+      "server": "dir.cybsecguru.com",
+      "server_port": 40000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "406034dd-4b2a-41f5-8405-cf3dedd5760f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com",
+        "alpn": "h3"
       }
     }
   ]
