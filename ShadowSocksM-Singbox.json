@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "IraneAzad_Net_565 § 0",
+      "tag": "IraneAzad § 0",
       "server": "208.87.243.187",
       "server_port": 22222,
       "password": "dongtaiwang.com",
@@ -14,4 +14,5 @@
     }
   ]
 }
+
 
