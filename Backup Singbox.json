@@ -107,6 +107,23 @@
         "method": "GET"
       },
       "packet_encoding": "xudp"
+
+
+
+            "type": "hysteria2",
+      "tag": "Papop1 § 0",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "alpn": "h3"
     }
   ]
 }
+
