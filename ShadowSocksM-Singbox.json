@@ -2,19 +2,16 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "Papop1 § 0",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36400,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
+      "tag": "IraneAzad_Net_565 § 0",
+      "server": "208.87.243.187",
+      "server_port": 22222,
+      "password": "dongtaiwang.com",
       "tls":       {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "alpn": "h3"
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     }
   ]
 }
+
