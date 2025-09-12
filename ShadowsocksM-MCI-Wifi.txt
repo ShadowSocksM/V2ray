@@ -1,10 +1,43 @@
 {
-  "outbounds": [
+  "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "Argo_vpnn (15) § 0",
+      "tag": "7 § 0",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "6bf726db-fb0b-405b-899a-3e263f092eda",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "8 § 1",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "1fdb6b30-5371-4ff8-a001-efdc4b43d79b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "9 § 2",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "10 § 3",
       "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36300,
+      "server_port": 36600,
       "obfs":       {
         "type": "salamander",
         "password": "Yet-Another-Public-Config-1"
@@ -12,55 +45,141 @@
       "password": "Yet-Another-Public-Config-1",
       "tls":       {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "Netherland § 0",
-      "server": "2a14:3f87:f001:13::a",
-      "server_port": 36300,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "Argo_vpnn (16) § 0",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36400,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "Germany  § 0",
-      "server": "2a12:5940:1680::2",
-      "server_port": 45000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
-      "password": "Telegram-->@Ln2Ray",
-      "tls":       {
-        "enabled": true,
-        "server_name": "gavazn.55994421.xyz",
+        "server_name": "YAPC-1.afshin.ir",
         "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "11 § 4",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "ebbeef45-0fd8-40cd-aca5-1e2ce18abeff",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "12 § 5",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "413c8b50-96bf-4457-82f2-54dfa8685f53",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "13 § 6",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "5eaa121d-4362-444d-8219-29b02c35303a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "14 § 7",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "48c2c901-72e6-46d4-ac78-169d73264cbf",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "15 § 8",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "4685eb2a-5ddb-4dc6-9e53-f0c90d6124c1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "16 § 9",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "1045aedf-053c-4585-875d-e2fc3f3ea6dd",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "1 § 10",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "e31ad3e6-e341-42ac-bdc7-bea02d126fc1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2 § 11",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3 § 12",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "0cb527d9-6117-4bcf-a52b-1704b3458cef",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4 § 13",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "c6e02cd8-ce11-40f0-afeb-e2c412b6cc3a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5 § 14",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "55ca7a9e-cf90-49df-b14a-9346c59b73b9",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "6 § 15",
+      "server": "185.126.255.78",
+      "server_port": 57206,
+      "password": "29fbd51f-03c8-4d76-849a-436e54d58317",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
       }
     }
   ]
 }
-
