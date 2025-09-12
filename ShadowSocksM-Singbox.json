@@ -2,17 +2,22 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "IraneAzad § 0",
-      "server": "208.87.243.187",
-      "server_port": 22222,
-      "password": "dongtaiwang.com",
+      "tag": "@Daily_Configs § 0",
+      "server": "gavazn.lnmarketplace.net",
+      "server_port": 45000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
       "tls":       {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "gavazn.55994421.xyz",
         "insecure": true
       }
     }
   ]
 }
+
 
 
