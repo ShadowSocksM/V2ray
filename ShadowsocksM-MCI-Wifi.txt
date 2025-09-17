@@ -18,7 +18,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "14 § 0",
+      "tag": "15 § 0",
       "server": "gavazn.lnmarketplace.net",
       "server_port": 45000,
       "obfs":       {
@@ -34,7 +34,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "14 § 0",
+      "tag": "17 § 0",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 35000,
       "obfs":       {
@@ -205,4 +205,5 @@
     }
   ]
 }
+
 
