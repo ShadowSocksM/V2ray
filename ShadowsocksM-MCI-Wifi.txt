@@ -18,7 +18,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "15 § 0",
+      "tag": "1 § 0",
       "server": "gavazn.lnmarketplace.net",
       "server_port": 45000,
       "obfs":       {
@@ -34,7 +34,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "17 § 0",
+      "tag": "2 § 0",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 35000,
       "obfs":       {
@@ -50,7 +50,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "18 § 3",
+      "tag": "3 § 3",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "48c2c901-72e6-46d4-ac78-169d73264cbf",
@@ -72,7 +72,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "1 § 10 § 5",
+      "tag": "4 § 5",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "e31ad3e6-e341-42ac-bdc7-bea02d126fc1",
@@ -83,7 +83,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "13 § 0",
+      "tag": "5 § 0",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36400,
       "obfs":       {
@@ -110,7 +110,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "16 § 9 § 8",
+      "tag": "7 § 8",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "1045aedf-053c-4585-875d-e2fc3f3ea6dd",
@@ -121,7 +121,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "12 § 9",
+      "tag": "8 § 9",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
@@ -132,7 +132,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "3 § 12 § 10",
+      "tag": "9 § 12 § 10",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "0cb527d9-6117-4bcf-a52b-1704b3458cef",
@@ -143,7 +143,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "5 § 11",
+      "tag": "10 § 11",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "55ca7a9e-cf90-49df-b14a-9346c59b73b9",
@@ -154,7 +154,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "8 § 1 § 12",
+      "tag": "11 § 12",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "1fdb6b30-5371-4ff8-a001-efdc4b43d79b",
@@ -165,7 +165,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "10 § 3 § 13",
+      "tag": "12 § 13",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36600,
       "obfs":       {
@@ -181,7 +181,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "11 § 2",
+      "tag": "13 § 2",
       "server": "2.daka778.top",
       "server_port": 33657,
       "password": "65a94070-168c-4ef7-bd09-6460d494f490",
@@ -193,7 +193,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "6 § 1",
+      "tag": "14 § 1",
       "server": "6.daka778.top",
       "server_port": 33657,
       "password": "65a94070-168c-4ef7-bd09-6460d494f490",
@@ -205,6 +205,7 @@
     }
   ]
 }
+
 
 
 
