@@ -50,7 +50,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "14 § 7 § 3",
+      "tag": "18 § 3",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "48c2c901-72e6-46d4-ac78-169d73264cbf",
@@ -143,7 +143,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "5 § 14 § 11",
+      "tag": "5 § 11",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "55ca7a9e-cf90-49df-b14a-9346c59b73b9",
@@ -205,5 +205,6 @@
     }
   ]
 }
+
 
 
