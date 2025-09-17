@@ -1,36 +1,51 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "12 § 5 § 0",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "413c8b50-96bf-4457-82f2-54dfa8685f53",
+"type": "hysteria2",
+      "tag": "0",
+      "server": "channel1.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpnchannel3",
       "tls":       {
         "enabled": true,
-        "server_name": "real.getafreenode.sbs"
+        "server_name": "www.google.com",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "11 § 4 § 1",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "ebbeef45-0fd8-40cd-aca5-1e2ce18abeff",
+      "tag": "14 § 0",
+      "server": "gavazn.lnmarketplace.net",
+      "server_port": 45000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
       "tls":       {
         "enabled": true,
-        "server_name": "real.getafreenode.sbs"
+        "server_name": "gavazn.55994421.xyz",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "13 § 6 § 2",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "5eaa121d-4362-444d-8219-29b02c35303a",
+      "tag": "14 § 0",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
       "tls":       {
         "enabled": true,
-        "server_name": "real.getafreenode.sbs"
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
       }
     },
     {
@@ -68,13 +83,18 @@
     },
     {
       "type": "hysteria2",
-      "tag": "7 § 0 § 6",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "6bf726db-fb0b-405b-899a-3e263f092eda",
+      "tag": "13 § 0",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
       "tls":       {
         "enabled": true,
-        "server_name": "real.getafreenode.sbs"
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
       }
     },
     {
@@ -101,7 +121,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "2 § 11 § 9",
+      "tag": "12 § 9",
       "server": "185.126.255.78",
       "server_port": 57206,
       "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
@@ -161,25 +181,28 @@
     },
     {
       "type": "hysteria2",
-      "tag": "9 § 2 § 14",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e",
+      "tag": "11 § 2",
+      "server": "2.daka778.top",
+      "server_port": 33657,
+      "password": "65a94070-168c-4ef7-bd09-6460d494f490",
       "tls":       {
         "enabled": true,
-        "server_name": "real.getafreenode.sbs"
+        "server_name": "2.daka778.top",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "4 § 13 § 15",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "c6e02cd8-ce11-40f0-afeb-e2c412b6cc3a",
+      "tag": "6 § 1",
+      "server": "6.daka778.top",
+      "server_port": 33657,
+      "password": "65a94070-168c-4ef7-bd09-6460d494f490",
       "tls":       {
         "enabled": true,
-        "server_name": "real.getafreenode.sbs"
+        "server_name": "6.daka778.top",
+        "insecure": true
       }
     }
   ]
 }
+
