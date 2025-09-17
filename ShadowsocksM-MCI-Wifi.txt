@@ -165,22 +165,6 @@
     },
     {
       "type": "hysteria2",
-      "tag": "12 § 13",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36600,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "13 § 2",
       "server": "2.daka778.top",
       "server_port": 33657,
@@ -205,6 +189,7 @@
     }
   ]
 }
+
 
 
 
