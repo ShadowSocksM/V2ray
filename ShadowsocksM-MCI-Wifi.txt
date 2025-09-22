@@ -34,55 +34,6 @@
     },
     {
       "type": "hysteria2",
-      "tag": "2 § 0",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "3 § 3",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "48c2c901-72e6-46d4-ac78-169d73264cbf",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "15 § 4",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "4685eb2a-5ddb-4dc6-9e53-f0c90d6124c1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "4 § 5",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "e31ad3e6-e341-42ac-bdc7-bea02d126fc1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "5 § 0",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36400,
@@ -99,96 +50,35 @@
     },
     {
       "type": "hysteria2",
-      "tag": "6 § 15 § 7",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "29fbd51f-03c8-4d76-849a-436e54d58317",
+      "tag": "15 § 1",
+      "server": "206.71.158.37",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
       "tls":       {
         "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "7 § 8",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "1045aedf-053c-4585-875d-e2fc3f3ea6dd",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "8 § 9",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "9 § 12 § 10",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "0cb527d9-6117-4bcf-a52b-1704b3458cef",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "10 § 11",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "55ca7a9e-cf90-49df-b14a-9346c59b73b9",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "11 § 12",
-      "server": "185.126.255.78",
-      "server_port": 57206,
-      "password": "1fdb6b30-5371-4ff8-a001-efdc4b43d79b",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "13 § 2",
-      "server": "2.daka778.top",
-      "server_port": 33657,
-      "password": "65a94070-168c-4ef7-bd09-6460d494f490",
-      "tls":       {
-        "enabled": true,
-        "server_name": "2.daka778.top",
+        "server_name": "YAPC-1.afshin.ir",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "14 § 1",
-      "server": "6.daka778.top",
-      "server_port": 33657,
-      "password": "65a94070-168c-4ef7-bd09-6460d494f490",
+      "tag": "14 § 0",
+      "server": "208.87.243.187",
+      "server_port": 22222,
+      "password": "dongtaiwang.com",
       "tls":       {
         "enabled": true,
-        "server_name": "6.daka778.top",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     }
   ]
 }
+
 
 
 
