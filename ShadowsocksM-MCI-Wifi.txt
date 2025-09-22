@@ -1,64 +1,39 @@
 {
-  "outbounds":   [
+  "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "1 § 0",
+      "tag": "gavazn_45000",
       "server": "gavazn.lnmarketplace.net",
       "server_port": 45000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
+      "obfs": { "type": "salamander", "password": "Telegram-->@Ln2Ray" },
       "password": "Telegram-->@Ln2Ray",
-      "tls":       {
-        "enabled": true,
-        "server_name": "gavazn.55994421.xyz",
-        "insecure": true
-      }
+      "tls": { "enabled": true, "server_name": "gavazn.55994421.xyz", "insecure": true }
     },
     {
       "type": "hysteria2",
-      "tag": "5 § 0",
+      "tag": "yapc2_36400",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36400,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
+      "obfs": { "type": "salamander", "password": "Yet-Another-Public-Config-1" },
       "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
+      "tls": { "enabled": true, "server_name": "YAPC-1.afshin.ir", "insecure": true }
     },
     {
       "type": "hysteria2",
-      "tag": "15 § 1",
+      "tag": "yapc1_35000",
       "server": "206.71.158.37",
       "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
+      "obfs": { "type": "salamander", "password": "Yet-Another-Public-Config-1" },
       "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
+      "tls": { "enabled": true, "server_name": "YAPC-1.afshin.ir", "insecure": true }
     },
     {
       "type": "hysteria2",
-      "tag": "14 § 0",
+      "tag": "bing_22222",
       "server": "208.87.243.187",
       "server_port": 22222,
       "password": "dongtaiwang.com",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
+      "tls": { "enabled": true, "server_name": "www.bing.com", "insecure": true }
     }
   ]
 }
