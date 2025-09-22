@@ -18,7 +18,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "IRCP-1 @Ln2Ray",
+      "tag": "088",
       "server": "gavazn.lnmarketplace.net",
       "server_port": 45000,
       "obfs":       {
@@ -66,3 +66,4 @@
     }
   ]
 }
+
