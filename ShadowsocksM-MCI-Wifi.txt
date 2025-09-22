@@ -2,17 +2,17 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "0 VPN",
-      "server": "channel1.saghetalaie.homes",
-      "server_port": 46914,
+      "tag": "1 § 0",
+      "server": "gavazn.lnmarketplace.net",
+      "server_port": 45000,
       "obfs":       {
         "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
+        "password": "Telegram-->@Ln2Ray"
       },
-      "password": "freehomesvpnchannel3",
+      "password": "Telegram-->@Ln2Ray",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "gavazn.55994421.xyz",
         "insecure": true
       }
     },
@@ -66,5 +66,6 @@
     }
   ]
 }
+
 
 
