@@ -1,32 +1,16 @@
 {
-  "outbounds": [
+  "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "yapc1_35000",
-      "server": "206.71.158.37",
-      "server_port": 35000,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "auth_str": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "gavazn_45000",
+      "tag": "1 § 0",
       "server": "gavazn.lnmarketplace.net",
       "server_port": 45000,
-      "obfs": {
+      "obfs":       {
         "type": "salamander",
-        "password": "Telegram-%40Ln2Ray"
+        "password": "Telegram-->@Ln2Ray"
       },
-      "auth_str": "Telegram-@Ln2Ray",
-      "tls": {
+      "password": "Telegram-->@Ln2Ray",
+      "tls":       {
         "enabled": true,
         "server_name": "gavazn.55994421.xyz",
         "insecure": true
@@ -34,15 +18,15 @@
     },
     {
       "type": "hysteria2",
-      "tag": "yapc2_36400",
+      "tag": "5 § 0",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36400,
-      "obfs": {
+      "obfs":       {
         "type": "salamander",
         "password": "Yet-Another-Public-Config-1"
       },
-      "auth_str": "Yet-Another-Public-Config-1",
-      "tls": {
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
         "enabled": true,
         "server_name": "YAPC-1.afshin.ir",
         "insecure": true
@@ -50,11 +34,27 @@
     },
     {
       "type": "hysteria2",
-      "tag": "bing_22222",
+      "tag": "15 § 1",
+      "server": "206.71.158.37",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "14 § 0",
       "server": "208.87.243.187",
       "server_port": 22222,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
+      "password": "dongtaiwang.com",
+      "tls":       {
         "enabled": true,
         "server_name": "www.bing.com",
         "insecure": true
