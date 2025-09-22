@@ -50,8 +50,8 @@
     },
     {
       "type": "hysteria2",
-      "tag": "IP4-1",
-      "server": "YAPC-1.adamhayward.co.uk",
+      "tag": "03 § 1",
+      "server": "206.71.158.37",
       "server_port": 35000,
       "obfs":       {
         "type": "salamander",
@@ -66,4 +66,5 @@
     }
   ]
 }
+
 
