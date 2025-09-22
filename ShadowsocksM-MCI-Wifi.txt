@@ -33,18 +33,18 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "IPv4",
-      "server": "dir.cybsecguru.com",
+"type": "hysteria2",
+      "tag": "22 § 0",
+      "server": "yapc-1.adamhayward.co.uk",
       "server_port": 35000,
       "obfs":       {
         "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+        "password": "Yet-Another-Public-Config-1"
       },
-      "password": "27c96fb9-1de0-4856-ada2-432ab05b0d17",
+      "password": "Yet-Another-Public-Config-1",
       "tls":       {
         "enabled": true,
-        "server_name": "jnir.pichondan.com",
+        "server_name": "YAPC-1.afshin.ir",
         "insecure": true
       }
     },
@@ -66,3 +66,4 @@
     }
   ]
 }
+
