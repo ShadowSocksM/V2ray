@@ -2,41 +2,99 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "1 § 0",
-      "server": "gavazn.lnmarketplace.net",
-      "server_port": 45000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
-      "password": "Telegram-->@Ln2Ray",
+      "tag": "🇨🇦 Canada - Toronto 🌎 HY2-UDP-TLS 4⃣ § 0",
+      "server": "40.233.102.224",
+      "server_port": 30300,
+      "password": "2429bee3-e0c1-47dd-b420-75e6512b184b",
       "tls":       {
         "enabled": true,
-        "server_name": "gavazn.55994421.xyz",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "088",
-      "server": "gavazn.lnmarketplace.net",
-      "server_port": 45000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
-      "password": "Telegram-->@Ln2Ray",
+      "tag": "🇩🇪 Germany - Frankfurt am Main 🌍 HY2-UDP-TLS 4⃣ § 1",
+      "server": "77.223.214.193",
+      "server_port": 31468,
+      "password": "79c4fe11-9787-406b-bf94-c1c1dbf59e28",
       "tls":       {
         "enabled": true,
-        "server_name": "gavazn.55994421.xyz",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     },
     {
-"type": "hysteria2",
-      "tag": "22 § 0",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 35000,
+      "type": "hysteria2",
+      "tag": "🇩🇪 Germany - NA 🌍 HY2-UDP-TLS 4⃣ § 2",
+      "server": "84.200.87.248",
+      "server_port": 2056,
+      "password": "45b46edb-679b-4ea5-befd-88c05bb94f80",
+      "tls":       {
+        "enabled": true,
+        "server_name": "de.eyucdn.xyz",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪 Germany - Nuremberg 🌍 HY2-UDP-TLS 4⃣ § 3",
+      "server": "91.132.146.90",
+      "server_port": 37015,
+      "password": "c7f34b2d-85c6-49a4-ab33-5b53bea859a4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "xg.foldjc.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇫🇷 France - Paris 🌍 HY1-UDP-TLS 4⃣ § 4",
+      "server": "195.154.200.40",
+      "server_port": 15010,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇬🇧 United Kingdom - Hackney 🌍 HY2-UDP-TLS 4⃣ § 5",
+      "server": "158.41.110.234",
+      "server_port": 10820,
+      "password": "7GEEGxAfgQaVPQX0PGk7lIuj3I",
+      "tls":       {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 6",
+      "server": "195.133.79.116",
+      "server_port": 33659,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "95d2db5c-e604-4afe-9869-e8c50dac1bfa",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hl.dport.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 7",
+      "server": "206.71.158.37",
+      "server_port": 36400,
       "obfs":       {
         "type": "salamander",
         "password": "Yet-Another-Public-Config-1"
@@ -50,7 +108,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "03 § 1",
+      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 8",
       "server": "206.71.158.37",
       "server_port": 35000,
       "obfs":       {
@@ -63,9 +121,168 @@
         "server_name": "YAPC-1.afshin.ir",
         "insecure": true
       }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 9",
+      "server": "206.71.158.37",
+      "server_port": 36300,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 10",
+      "server": "206.71.158.37",
+      "server_port": 36600,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 11",
+      "server": "185.92.220.240",
+      "server_port": 30205,
+      "obfs":       {
+        "type": "salamander",
+        "password": "GdQ4bgvT8RFwuWi2"
+      },
+      "password": "8864aa9f-7517-4fd5-aef1-32050eb3095d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "net2025.afsharidempire.uk",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 12",
+      "server": "195.133.79.116",
+      "server_port": 33659,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "5fbe139f-c1e0-4b92-bb3c-7f68035962c3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hl.dport.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 13",
+      "server": "206.71.158.37",
+      "server_port": 35200,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇳🇱 Netherlands - Haarlem 🌍 HY1-UDP-TLS 4⃣ § 14",
+      "server": "51.159.226.1",
+      "server_port": 49003,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 Sweden - Stockholm 🌍 HY2-UDP-TLS 4⃣ § 15",
+      "server": "70.34.215.221",
+      "server_port": 20335,
+      "obfs":       {
+        "type": "salamander",
+        "password": "U1wBrYQyFm"
+      },
+      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+      "tls":       {
+        "enabled": true,
+        "server_name": "drhystuichdfy.samanidempire.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇺🇸 United States - Los Angeles 🌎 HY1-UDP-TLS 4⃣ § 16",
+      "server": "208.87.243.187",
+      "server_port": 15823,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇺🇸 United States - Los Angeles 🌎 HY1-UDP-TLS 4⃣ § 17",
+      "server": "108.181.24.77",
+      "server_port": 37872,
+      "up_mbps": 10,
+      "down_mbps": 50,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 United States - Los Angeles 🌎 HY2-UDP-TLS 4⃣ § 18",
+      "server": "108.181.5.130",
+      "server_port": 63015,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 United States - Los Angeles 🌎 HY2-UDP-TLS 4⃣ § 19",
+      "server": "208.87.243.187",
+      "server_port": 22222,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
     }
   ]
 }
-
-
-
