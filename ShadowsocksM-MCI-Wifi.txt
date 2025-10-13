@@ -1,58 +1,10 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "🇨🇦 Canada - Toronto 🌎 HY2-UDP-TLS 4⃣ § 0",
-      "server": "40.233.102.224",
-      "server_port": 30300,
-      "password": "2429bee3-e0c1-47dd-b420-75e6512b184b",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪 Germany - Frankfurt am Main 🌍 HY2-UDP-TLS 4⃣ § 1",
-      "server": "77.223.214.193",
-      "server_port": 31468,
-      "password": "79c4fe11-9787-406b-bf94-c1c1dbf59e28",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪 Germany - NA 🌍 HY2-UDP-TLS 4⃣ § 2",
-      "server": "84.200.87.248",
-      "server_port": 2056,
-      "password": "45b46edb-679b-4ea5-befd-88c05bb94f80",
-      "tls":       {
-        "enabled": true,
-        "server_name": "de.eyucdn.xyz",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪 Germany - Nuremberg 🌍 HY2-UDP-TLS 4⃣ § 3",
-      "server": "91.132.146.90",
-      "server_port": 37015,
-      "password": "c7f34b2d-85c6-49a4-ab33-5b53bea859a4",
-      "tls":       {
-        "enabled": true,
-        "server_name": "xg.foldjc.top",
-        "insecure": true
-      }
-    },
-    {
       "type": "hysteria",
-      "tag": "🇫🇷 France - Paris 🌍 HY1-UDP-TLS 4⃣ § 4",
-      "server": "195.154.200.40",
-      "server_port": 15010,
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 0",
+      "server": "208.87.243.187",
+      "server_port": 15823,
       "up_mbps": 100,
       "down_mbps": 100,
       "auth_str": "dongtaiwang.com",
@@ -64,51 +16,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇬🇧 United Kingdom - Hackney 🌍 HY2-UDP-TLS 4⃣ § 5",
-      "server": "158.41.110.234",
-      "server_port": 10820,
-      "password": "7GEEGxAfgQaVPQX0PGk7lIuj3I",
-      "tls":       {
-        "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 6",
-      "server": "195.133.79.116",
-      "server_port": 33659,
-      "obfs":       {
-        "type": "salamander",
-        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
-      },
-      "password": "95d2db5c-e604-4afe-9869-e8c50dac1bfa",
-      "tls":       {
-        "enabled": true,
-        "server_name": "hl.dport.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 7",
-      "server": "206.71.158.37",
-      "server_port": 36400,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 8",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 1",
       "server": "206.71.158.37",
       "server_port": 35000,
       "obfs":       {
@@ -123,9 +31,53 @@
       }
     },
     {
+      "type": "hysteria",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 2",
+      "server": "51.159.226.1",
+      "server_port": 49003,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 9",
-      "server": "206.71.158.37",
+      "tag": "Channel id: @ShadowProxy66🇬🇧 § 3",
+      "server": "81.168.83.89",
+      "server_port": 2083,
+      "obfs":       {
+        "type": "salamander",
+        "password": "khameniiko@smad@ret"
+      },
+      "password": "YwuvGJk36B",
+      "tls":       {
+        "enabled": true,
+        "server_name": "kotlet.arshiacomplus.dpdns.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "Channel id: @ShadowProxy66🇫🇷 § 4",
+      "server": "62.210.127.217",
+      "server_port": 40099,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 5",
+      "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36300,
       "obfs":       {
         "type": "salamander",
@@ -140,23 +92,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 10",
-      "server": "206.71.158.37",
-      "server_port": 36600,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 11",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 6",
       "server": "185.92.220.240",
       "server_port": 30205,
       "obfs":       {
@@ -172,25 +108,246 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 12",
-      "server": "195.133.79.116",
-      "server_port": 33659,
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 7",
+      "server": "net2025.afsharidempire.uk",
+      "server_port": 30205,
       "obfs":       {
         "type": "salamander",
-        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+        "password": "GdQ4bgvT8RFwuWi2"
       },
-      "password": "5fbe139f-c1e0-4b92-bb3c-7f68035962c3",
+      "password": "8864aa9f-7517-4fd5-aef1-32050eb3095d",
       "tls":       {
         "enabled": true,
-        "server_name": "hl.dport.top",
+        "server_name": "net2025.afsharidempire.uk",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 13",
-      "server": "206.71.158.37",
-      "server_port": 35200,
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 8",
+      "server": "03e37e-330-co-4.9966661.xyz",
+      "server_port": 3000,
+      "password": "8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "03e37e-330-co.9966661.xyz"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "Channel id: @ShadowProxy66🇫🇷 § 9",
+      "server": "195.154.200.40",
+      "server_port": 15010,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 10",
+      "server": "113.192.61.19",
+      "server_port": 63979,
+      "password": "9772ecf2-6732-4bfb-a8b1-f48af577c76c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 11",
+      "server": "206.71.158.23",
+      "server_port": 45000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
+      "tls":       {
+        "enabled": true,
+        "server_name": "gavazn.55994421.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 12",
+      "server": "31.57.241.25",
+      "server_port": 7009,
+      "password": "30c075af-9555-4671-b70e-43e3cfb2e707",
+      "tls":       {
+        "enabled": true,
+        "server_name": "d.eans.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇭🇰 § 13",
+      "server": "hkhub.xg-hub.icu",
+      "server_port": 25782,
+      "obfs":       {
+        "type": "salamander",
+        "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+      },
+      "password": "74f135a0-6ff1-4024-90e7-a6e3f542525a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hkhub.xg-hub.icu",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇩🇪 § 14",
+      "server": "77.90.41.197",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "5f89ac2a-b6d6-4c66-98d8-39c4d552138c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 15",
+      "server": "206.71.158.40",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "5f89ac2a-b6d6-4c66-98d8-39c4d552138c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 16",
+      "server": "206.71.158.41",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "5f89ac2a-b6d6-4c66-98d8-39c4d552138c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 17",
+      "server": "dir.cybsecguru.com",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "5f89ac2a-b6d6-4c66-98d8-39c4d552138c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇵🇭 § 18",
+      "server": "61.245.11.112",
+      "server_port": 40443,
+      "password": "q0eTS+luMW6XeLHtGDbd+rY7",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇵🇱 § 19",
+      "server": "83.168.90.27",
+      "server_port": 40443,
+      "password": "P5lfCW7FQzJBXyuTbn8p7AyE",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 20",
+      "server": "6a471e-20-4.9966661.xyz",
+      "server_port": 3000,
+      "password": "abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "6a471e-20.9966661.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇨🇦 § 21",
+      "server": "150.230.28.100",
+      "server_port": 45979,
+      "password": "cfe032e4-1bc3-454f-9d09-301b0aea08ff",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇭🇰 § 22",
+      "server": "38.207.133.174",
+      "server_port": 443,
+      "password": "sysadmin.sysadmin",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hk.372870.xyz",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 23",
+      "server": "142.214.159.240",
+      "server_port": 24334,
+      "password": "ac091e61-c7c7-4436-9a0f-da8b734b1c1d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 24",
+      "server": "208.87.243.187",
+      "server_port": 22222,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 25",
+      "server": "2a14:3f87:f001:13::a",
+      "server_port": 36400,
       "obfs":       {
         "type": "salamander",
         "password": "Yet-Another-Public-Config-1"
@@ -203,85 +360,228 @@
       }
     },
     {
-      "type": "hysteria",
-      "tag": "🇳🇱 Netherlands - Haarlem 🌍 HY1-UDP-TLS 4⃣ § 14",
-      "server": "51.159.226.1",
-      "server_port": 49003,
-      "up_mbps": 11,
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
-      "tls":       {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇸🇪 Sweden - Stockholm 🌍 HY2-UDP-TLS 4⃣ § 15",
-      "server": "70.34.215.221",
-      "server_port": 20335,
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 26",
+      "server": "gavazn.lnmarketplace.net",
+      "server_port": 45000,
       "obfs":       {
         "type": "salamander",
-        "password": "U1wBrYQyFm"
+        "password": "Telegram-->@Ln2Ray"
       },
-      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+      "password": "Telegram-->@Ln2Ray",
       "tls":       {
         "enabled": true,
-        "server_name": "drhystuichdfy.samanidempire.org",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria",
-      "tag": "🇺🇸 United States - Los Angeles 🌎 HY1-UDP-TLS 4⃣ § 16",
-      "server": "208.87.243.187",
-      "server_port": 15823,
-      "up_mbps": 100,
-      "down_mbps": 100,
-      "auth_str": "dongtaiwang.com",
-      "tls":       {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria",
-      "tag": "🇺🇸 United States - Los Angeles 🌎 HY1-UDP-TLS 4⃣ § 17",
-      "server": "108.181.24.77",
-      "server_port": 37872,
-      "up_mbps": 10,
-      "down_mbps": 50,
-      "auth_str": "dongtaiwang.com",
-      "tls":       {
-        "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "gavazn.55994421.xyz",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸 United States - Los Angeles 🌎 HY2-UDP-TLS 4⃣ § 18",
-      "server": "108.181.5.130",
-      "server_port": 63015,
-      "password": "dongtaiwang.com",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 27",
+      "server": "2a14:3f87:f001:9::a",
+      "server_port": 45000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
       "tls":       {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "gavazn.55994421.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 28",
+      "server": "ce044a-330.9966661.xyz",
+      "server_port": 3000,
+      "password": "8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ce044a-330.9966661.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇯🇵 § 29",
+      "server": "dv-jp-4.9966661.xyz",
+      "server_port": 3000,
+      "password": "abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "dv-jp.9966661.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 30",
+      "server": "2a14:3f87:f001:1a::a",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "5f89ac2a-b6d6-4c66-98d8-39c4d552138c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 31",
+      "server": "2a0c:4ac1:8::2ae",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "5f89ac2a-b6d6-4c66-98d8-39c4d552138c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇳🇱 § 32",
+      "server": "2a0c:4ac1:8::1cb",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "5f89ac2a-b6d6-4c66-98d8-39c4d552138c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇩🇪 § 33",
+      "server": "2a0c:4ac1:8::121",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "5f89ac2a-b6d6-4c66-98d8-39c4d552138c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 34",
+      "server": "108.165.213.197",
+      "server_port": 23891,
+      "password": "c232f411-96b5-4b07-b2f7-66a434725ffb",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fus01.mistea.top",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸 United States - Los Angeles 🌎 HY2-UDP-TLS 4⃣ § 19",
-      "server": "208.87.243.187",
-      "server_port": 22222,
-      "password": "dongtaiwang.com",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 35",
+      "server": "107.174.41.42",
+      "server_port": 57131,
+      "password": "aad0f592-2bcb-452e-a858-fd05622a0db1",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 36",
+      "server": "2001:470:1f04:24e:cf93:2356:cbd8:1212",
+      "server_port": 57132,
+      "password": "aad0f592-2bcb-452e-a858-fd05622a0db1",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇨🇦 § 37",
+      "server": "40.233.103.51",
+      "server_port": 47262,
+      "password": "862e90e1-2f26-4506-b8b9-0adf20da05fc",
       "tls":       {
         "enabled": true,
         "server_name": "www.bing.com",
         "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 38",
+      "server": "03e37e-330-co-2.9966661.xyz",
+      "server_port": 3000,
+      "password": "8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "03e37e-330-co.9966661.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 39",
+      "server": "03e37e-330-co.9966661.xyz",
+      "server_port": 3000,
+      "password": "abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "03e37e-330-co.9966661.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 40",
+      "server": "00fd98-20-2.9966661.xyz",
+      "server_port": 3000,
+      "password": "abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "00fd98-20.9966661.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 41",
+      "server": "74c5a9-20.9966661.xyz",
+      "server_port": 3000,
+      "password": "abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "74c5a9-20.9966661.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 42",
+      "server": "ce044a-330-5.9966661.xyz",
+      "server_port": 3000,
+      "password": "abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ce044a-330.9966661.xyz"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Channel id: @ShadowProxy66🇺🇸 § 43",
+      "server": "fd0017-20-5.9966661.xyz",
+      "server_port": 3000,
+      "password": "abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fd0017-20.9966661.xyz"
       }
     }
   ]
