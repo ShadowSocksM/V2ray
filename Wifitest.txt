@@ -2,38 +2,46 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 𝐘𝐀𝐏𝐂-1",
-      "server": "YAPC-1.adamhayward.co.uk",
-      "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
+      "tag": "@v2ray_configs_pool § 0",
+      "server": "de3.oomz.ru",
+      "server_port": 30000,
+      "password": "faa8b629-13ea-4ccd-94dd-ff1615cb1ba1",
       "tls":       {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
+        "server_name": "bing.com",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 𝐘𝐀𝐏𝐂-1-IPv6",
-      "server": "YAPC-1.adamhayward.co.uk",
-      "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
+      "tag": "@v2ray_configs_pool § 1",
+      "server": "nl1.oomz.ru",
+      "server_port": 30000,
+      "password": "faa8b629-13ea-4ccd-94dd-ff1615cb1ba1",
       "tls":       {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
+        "server_name": "bing.comr♡ya",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 IRCP-1
-@Ln2Ray",
+      "tag": "@v2ray_configs_pool § 2",
+      "server": "81.168.83.89",
+      "server_port": 2083,
+      "obfs":       {
+        "type": "salamander",
+        "password": "khameniiko@smad@ret"
+      },
+      "password": "YwuvGJk36B",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@v2ray_configs_pool § 3",
       "server": "gavazn.lnmarketplace.net",
       "server_port": 45000,
       "obfs":       {
@@ -43,30 +51,15 @@
       "password": "Telegram-->@Ln2Ray",
       "tls":       {
         "enabled": true,
-        "server_name": "gavazn.55994421.xyz"
+        "server_name": "gavazn.55994421.xyz",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 IRCP-1-IPv6
-@Ln2Ray",
-      "server": "2a14:3f87:f001:9::a",
-      "server_port": 45000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
-      "password": "Telegram-->@Ln2Ray",
-      "tls":       {
-        "enabled": true,
-        "server_name": "gavazn.55994421.xyz"
-   }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱HYSTERIA2 § 0",
-      "server": "YAPC-1.adamhayward.co.uk",
-      "server_port": 36400,
+      "tag": "@v2ray_configs_pool § 4",
+      "server": "206.71.158.37",
+      "server_port": 36600,
       "obfs":       {
         "type": "salamander",
         "password": "Yet-Another-Public-Config-1"
@@ -80,31 +73,18 @@
     },
     {
       "type": "hysteria2",
-      "tag": "Canada § 1",
-      "server": "108.181.5.130",
-      "server_port": 63015,
-      "password": "dongtaiwang.com",
-      "tls":       {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "hysteria2 § 2",
-      "server": "212.115.41.93",
-      "server_port": 443,
+      "tag": "@v2ray_configs_pool § 5",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 36300,
       "obfs":       {
         "type": "salamander",
-        "password": "Mzc5NTA3"
+        "password": "Yet-Another-Public-Config-1"
       },
-      "password": "d84be3ca-d0b6-4bd0-9b61-db86d7c65969",
+      "password": "Yet-Another-Public-Config-1",
       "tls":       {
         "enabled": true,
-        "server_name": "aparat.com"
+        "server_name": "YAPC-1.afshin.ir"
       }
     }
   ]
 }
-
