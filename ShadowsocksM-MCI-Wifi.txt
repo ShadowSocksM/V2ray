@@ -1,89 +1,111 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "@v2ray_configs_pool § 0",
-      "server": "de3.oomz.ru",
-      "server_port": 30000,
-      "password": "faa8b629-13ea-4ccd-94dd-ff1615cb1ba1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "@v2ray_configs_pool § 1",
-      "server": "nl1.oomz.ru",
-      "server_port": 30000,
-      "password": "faa8b629-13ea-4ccd-94dd-ff1615cb1ba1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "bing.comr♡ya",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "@v2ray_configs_pool § 2",
-      "server": "81.168.83.89",
-      "server_port": 2083,
-      "obfs":       {
-        "type": "salamander",
-        "password": "khameniiko@smad@ret"
+      "type": "vless",
+      "tag": "🇳🇱 TheCommit - [VLESS - httpupgrade]",
+      "server": "panel.thecommit.site",
+      "server_port": 8880,
+      "uuid": "28f609a0-ce33-4431-97be-64d650d78157",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "password": "YwuvGJk36B",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
+      "transport":       {
+        "type": "httpupgrade"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "@v2ray_configs_pool § 3",
-      "server": "gavazn.lnmarketplace.net",
-      "server_port": 45000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
+      "type": "trojan",
+      "tag": "🇳🇱 TheCommit - [Trojan - grpc]",
+      "server": "panel.thecommit.site",
+      "server_port": 6320,
+      "password": "QFak5CueqncGuzoHKv7YfQ",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "password": "Telegram-->@Ln2Ray",
-      "tls":       {
-        "enabled": true,
-        "server_name": "gavazn.55994421.xyz",
-        "insecure": true
+      "transport":       {
+        "type": "grpc",
+        "service_name": "6320trojan",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "@v2ray_configs_pool § 4",
-      "server": "206.71.158.37",
-      "server_port": 36600,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
+      "type": "vless",
+      "tag": "🇳🇱 TheCommit - [VLESS - tcp]",
+      "server": "panel.thecommit.site",
+      "server_port": 8080,
+      "uuid": "28f609a0-ce33-4431-97be-64d650d78157",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "@v2ray_configs_pool § 5",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36300,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
+      "type": "shadowsocks",
+      "tag": "🇳🇱 TheCommit - [Shadowsocks - tcp]",
+      "server": "panel.thecommit.site",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "FRhULIWoSMstj_hhSurq2Q",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇳🇱 TheCommit - [VMess - tcp]",
+      "server": "panel.thecommit.site",
+      "server_port": 9090,
+      "uuid": "50853a9c-a5d9-48ce-aee9-56b308fbd975",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 TheCommit - [http - tcp]",
+      "server": "panel.thecommit.site",
+      "server_port": 8949,
+      "uuid": "28f609a0-ce33-4431-97be-64d650d78157",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "password": "Yet-Another-Public-Config-1",
+      "transport":       {
+        "type": "http",
+        "host": "mdundo.com",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 TheCommit - [Direct - tcp]",
+      "server": "panel.thecommit.site",
+      "server_port": 1001,
+      "uuid": "28f609a0-ce33-4431-97be-64d650d78157",
       "tls":       {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
+        "server_name": "refersion.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik"
+        }
+      },
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
       }
     }
   ]
