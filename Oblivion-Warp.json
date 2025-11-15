@@ -19,23 +19,114 @@
       "fake_packets_mode": "m4"
     },
     {
-         "type": "wireguard",
-      "tag": "🟡Berlin § 1",
-      "detour": "⚪️Tehran § 0",
+      "type": "wireguard",
+      "tag": "HttpProxyGo § 0",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8797:6573:62d8:b948:1206/128"
+        "2606:4700:110:82e2:14e3:789b:fbaa:ea8d/128"
       ],
-      "private_key": "kF25cjCBagyMPlKF3LxSfkPQHIY3AK2A0TXUQzesBk0=",
-      "server": "188.114.99.22",
+      "private_key": "SFUEaXRhw7dCgtFWhCm5wy5T+dBqcG9Iy3qOTtxg7mw=",
+      "server": "162.159.195.1",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "AGCz",
+      "reserved": "7MlV",
       "mtu": 1330,
-      "fake_packets": "1-2",
+      "fake_packets": "20-30",
+      "fake_packets_size": "10-20",
+      "fake_packets_delay": "1-2",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WoW IPv4 § 1",
+      "detour": "HttpProxyGo § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8230:ddbd:a365:ef41:ff81/128"
+      ],
+      "private_key": "iO8TgBHnvCf/Y04TZ5StMAKDB5qBkh53J/XFvccEKWY=",
+      "server": "162.159.195.1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "6gGk",
+      "mtu": 1330,
+      "fake_packets": "2-4",
       "fake_packets_size": "10-30",
       "fake_packets_delay": "10-30",
-      "fake_packets_mode": "m5"
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "HttpProxyGo § 2",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8287:32af:f678:7caf:aaba/128"
+      ],
+      "private_key": "QGKP/oZY3etfy+5vF+fifnoGLAzopTnvUOhwN6bZuk4=",
+      "server": "162.159.195.1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "0f1r",
+      "mtu": 1330,
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-30",
+      "fake_packets_delay": "1-2",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "HttpProxyGo § 3",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8dc4:84c9:c398:f0c6:da94/128"
+      ],
+      "private_key": "uPztzyi1oIYP24/jLDuntzmwNfkIcwoog8fpM9glDUs=",
+      "server": "162.159.195.1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "NEAQ",
+      "mtu": 1330,
+      "fake_packets": "10-20",
+      "fake_packets_size": "10-20",
+      "fake_packets_delay": "1-2",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "HttpProxyGo § 4",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8694:bb38:7fbc:e7ed:bfa9/128"
+      ],
+      "private_key": "4NTtLll+G91g9JRUlOwFs/5dNnYCMnrEkyah4o0SdEY=",
+      "server": "162.159.192.1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "p5KC",
+      "mtu": 1330,
+      "fake_packets": "20-30",
+      "fake_packets_size": "10-20",
+      "fake_packets_delay": "1-2",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WoW IPv4 Detour § 5",
+      "detour": "HttpProxyGo § 4",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8f65:dbd6:2c7b:9879:e3ad/128"
+      ],
+      "private_key": "OMctYoBmrAlhUDAWrq5wnGHupm402oni2GAWE2MgRFM=",
+      "server": "2606:4700:d0::a29f:c001",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "pUl3",
+      "mtu": 1330,
+      "fake_packets": "2-4",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
     }
   ]
-}   
+} 
