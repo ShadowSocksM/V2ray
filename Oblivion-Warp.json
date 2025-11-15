@@ -38,7 +38,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "WoW1 IPv4 § 1",
+      "tag": "WoW IPv4 § 1",
       "detour": "HttpProxyGo § 0",
       "local_address":       [
         "172.16.0.2/24",
@@ -111,7 +111,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "WoW2 IPv4 Detour § 5",
+      "tag": "WoW IPv4 Detour § 5",
       "detour": "HttpProxyGo § 4",
       "local_address":       [
         "172.16.0.2/24",
