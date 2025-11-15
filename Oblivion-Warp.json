@@ -19,4 +19,23 @@
       "fake_packets_mode": "m4"
     },
     {
-      
+         "type": "wireguard",
+      "tag": "🟡Berlin § 1",
+      "detour": "⚪️Tehran § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8797:6573:62d8:b948:1206/128"
+      ],
+      "private_key": "kF25cjCBagyMPlKF3LxSfkPQHIY3AK2A0TXUQzesBk0=",
+      "server": "188.114.99.22",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "AGCz",
+      "mtu": 1330,
+      "fake_packets": "1-2",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m5"
+    }
+  ]
+}   
