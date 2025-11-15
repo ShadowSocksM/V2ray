@@ -93,7 +93,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp4 § 4",
+      "tag": "Warp § 4",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8694:bb38:7fbc:e7ed:bfa9/128"
