@@ -2,24 +2,6 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "Warpp § 15",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8b15:b0d4:ebd2:bdad:f93d/128"
-      ],
-      "private_key": "oFhjHEJO8mMYpPHXg4jaZTQR95BSD0Pmfq+2JMQ0HHA=",
-      "server": "2606:4700:d0::a29f:c001",
-      "server_port": 0,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "Cua2",
-      "mtu": 1330,
-      "fake_packets": "40-80",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
       "tag": "Warp § 0",
       "local_address":       [
         "172.16.0.2/24",
@@ -38,7 +20,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp1 § 0",
+      "tag": "HttpProxyGo § 0",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:82e2:14e3:789b:fbaa:ea8d/128"
@@ -75,7 +57,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp2 § 2",
+      "tag": "HttpProxyGo § 2",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8287:32af:f678:7caf:aaba/128"
@@ -93,7 +75,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp3 § 3",
+      "tag": "HttpProxyGo § 3",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8dc4:84c9:c398:f0c6:da94/128"
@@ -148,4 +130,3 @@
     }
   ]
 } 
-
