@@ -20,7 +20,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "HttpProxyGo § 0",
+      "tag": "Warp1 § 0",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:82e2:14e3:789b:fbaa:ea8d/128"
@@ -57,7 +57,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "HttpProxyGo § 2",
+      "tag": "Warp2 § 2",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8287:32af:f678:7caf:aaba/128"
@@ -75,7 +75,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "HttpProxyGo § 3",
+      "tag": "Warp3 § 3",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8dc4:84c9:c398:f0c6:da94/128"
@@ -93,7 +93,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "HttpProxyGo § 4",
+      "tag": "Warp § 4",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8694:bb38:7fbc:e7ed:bfa9/128"
