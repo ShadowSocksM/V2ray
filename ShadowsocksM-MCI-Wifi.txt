@@ -1,18 +1,24 @@
 {
   "outbounds":   [
     {
-"type": "hysteria2",
-      "tag": "Chan § 0",
-      "server": "bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com",
-      "server_port": 443,
-      "password": "331cae90-f7e9-11ed-b4e2-f23c913c8d2b",
+      "type": "hysteria2",
+      "tag": "SoshianT",
+      "server": "channel2.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "freehomesvpnchannel3",
       "tls":       {
         "enabled": true,
-        "server_name": "bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com"
+        "server_name": "www.google.com",
+        "insecure": true
       }
     }
   ]
 }
+
 
 
 
