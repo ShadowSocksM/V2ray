@@ -2,34 +2,16 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "Warp § 0",
+      "tag": "Soshiant § 0",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8b15:b0d4:ebd2:bdad:f93d/128"
+        "2606:4700:110:84a5:d2ae:9a5:9473:e9b1/128"
       ],
-      "private_key": "oFhjHEJO8mMYpPHXg4jaZTQR95BSD0Pmfq+2JMQ0HHA=",
-      "server": "2606:4700:d0::a29f:c001",
-      "server_port": 0,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "Cua2",
-      "mtu": 1330,
-      "fake_packets": "40-80",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
-      "tag": "HttpProxyGo § 0",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:82e2:14e3:789b:fbaa:ea8d/128"
-      ],
-      "private_key": "SFUEaXRhw7dCgtFWhCm5wy5T+dBqcG9Iy3qOTtxg7mw=",
+      "private_key": "WFkZJqZekRzy+AcjJ2j+2PCdIggDsdB7DatUNaXwfEc=",
       "server": "162.159.195.1",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "7MlV",
+      "reserved": "SnhK",
       "mtu": 1330,
       "fake_packets": "20-30",
       "fake_packets_size": "10-20",
@@ -39,16 +21,16 @@
     {
       "type": "wireguard",
       "tag": "WoW IPv4 § 1",
-      "detour": "HttpProxyGo § 0",
+      "detour": "Soshiant § 0",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8230:ddbd:a365:ef41:ff81/128"
+        "2606:4700:110:85da:3651:a3b5:4580:6c03/128"
       ],
-      "private_key": "iO8TgBHnvCf/Y04TZ5StMAKDB5qBkh53J/XFvccEKWY=",
+      "private_key": "0F/cin1aVUNRf6jhm53KxEYEYuIRc2EeuelYhWzBCUk=",
       "server": "162.159.195.1",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "6gGk",
+      "reserved": "kCJ3",
       "mtu": 1330,
       "fake_packets": "2-4",
       "fake_packets_size": "10-30",
@@ -57,16 +39,16 @@
     },
     {
       "type": "wireguard",
-      "tag": "HttpProxyGo § 2",
+      "tag": "Soshiant § 2",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8287:32af:f678:7caf:aaba/128"
+        "2606:4700:110:8937:f96d:3bee:a482:d8a4/128"
       ],
-      "private_key": "QGKP/oZY3etfy+5vF+fifnoGLAzopTnvUOhwN6bZuk4=",
+      "private_key": "UM0oXggdDOkBa8o8zGZZMgQPS22A3vVz9qxZQmEu3EA=",
       "server": "162.159.195.1",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "0f1r",
+      "reserved": "6hh6",
       "mtu": 1330,
       "fake_packets": "10-20",
       "fake_packets_size": "20-30",
@@ -75,16 +57,16 @@
     },
     {
       "type": "wireguard",
-      "tag": "HttpProxyGo § 3",
+      "tag": "Soshiant § 3",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8dc4:84c9:c398:f0c6:da94/128"
+        "2606:4700:110:89a5:50ec:6907:84e5:fa92/128"
       ],
-      "private_key": "uPztzyi1oIYP24/jLDuntzmwNfkIcwoog8fpM9glDUs=",
+      "private_key": "8Ht3Gm2+bdF6Rf16LfyQG+dYX5KF/2iNkH2bNkxk5mo=",
       "server": "162.159.195.1",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "NEAQ",
+      "reserved": "e17w",
       "mtu": 1330,
       "fake_packets": "10-20",
       "fake_packets_size": "10-20",
@@ -93,16 +75,16 @@
     },
     {
       "type": "wireguard",
-      "tag": "HttpProxyGo § 4",
+      "tag": "Soshiant § 4",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8694:bb38:7fbc:e7ed:bfa9/128"
+        "2606:4700:110:8266:175d:fc52:43a0:944a/128"
       ],
-      "private_key": "4NTtLll+G91g9JRUlOwFs/5dNnYCMnrEkyah4o0SdEY=",
+      "private_key": "oPLQS8B5aX3Chs7R3T8Ze7uRa1TArH7PYSZPSAQIO2I=",
       "server": "162.159.192.1",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "p5KC",
+      "reserved": "AO14",
       "mtu": 1330,
       "fake_packets": "20-30",
       "fake_packets_size": "10-20",
@@ -112,16 +94,16 @@
     {
       "type": "wireguard",
       "tag": "WoW IPv4 Detour § 5",
-      "detour": "HttpProxyGo § 4",
+      "detour": "Soshiant § 4",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8f65:dbd6:2c7b:9879:e3ad/128"
+        "2606:4700:110:8955:46fa:fdd8:89c9:37c0/128"
       ],
-      "private_key": "OMctYoBmrAlhUDAWrq5wnGHupm402oni2GAWE2MgRFM=",
+      "private_key": "YFwp6pW7ZWofTisl8sntgb1pIyF9gOrnKLm+DI62RWM=",
       "server": "2606:4700:d0::a29f:c001",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "pUl3",
+      "reserved": "fwPx",
       "mtu": 1330,
       "fake_packets": "2-4",
       "fake_packets_size": "10-30",
@@ -129,4 +111,4 @@
       "fake_packets_mode": "m4"
     }
   ]
-} 
+}
