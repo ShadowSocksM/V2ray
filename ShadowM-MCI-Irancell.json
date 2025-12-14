@@ -2,34 +2,66 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "IPV4Iran",
-      "server": "dir.cybsecguru.com",
-      "server_port": 40000,
+      "tag": "1.🔥FREE HOMES VPN🔥",
+      "server": "channel1.saghetalaie.homes",
+      "server_port": 46914,
       "obfs":       {
         "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+        "password": "&O#28YB5qK!5t#U"
       },
-      "password": "406034dd-4b2a-41f5-8405-cf3dedd5760f",
+      "password": "freehomesvpnchannel3",
       "tls":       {
         "enabled": true,
-        "server_name": "jnir.pichondan.com",
-        "alpn": "h3"
+        "server_name": "www.google.com",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "IPv6Iran",
-      "server": "dir.cybsecguru.com",
-      "server_port": 40000,
+      "tag": "2.🔥FREE HOMES VPN🔥",
+      "server": "channel2.saghetalaie.homes",
+      "server_port": 46914,
       "obfs":       {
         "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+        "password": "&O#28YB5qK!5t#U"
       },
-      "password": "406034dd-4b2a-41f5-8405-cf3dedd5760f",
+      "password": "freehomesvpnchannel3",
       "tls":       {
         "enabled": true,
-        "server_name": "jnir.pichondan.com",
-        "alpn": "h3"
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3.🔥FREE HOMES VPN🔥",
+      "server": "channel3.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "yhqy5AHofQq",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4.🔥FREE HOMES VPN🔥",
+      "server": "channel4.saghetalaie.homes",
+      "server_port": 46914,
+      "obfs":       {
+        "type": "salamander",
+        "password": "&O#28YB5qK!5t#U"
+      },
+      "password": "yhqy5AHofQq",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
       }
     }
   ]
