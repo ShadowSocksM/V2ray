@@ -1,16 +1,15 @@
 {
-  "outbounds":   [
-    {
       "type": "hysteria2",
-      "tag": "635 § 0",
-      "server": "77.90.41.197",
+      "tag": "36 § 0",
+      "server": "206.71.158.41",
       "server_port": 35000,
       "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
       "tls":       {
         "enabled": true,
-        "server_name": "api.kermanshahi.org"
+        "server_name": "jnir.pichondan.com"
       }
     }
   ]
 }
+
 
