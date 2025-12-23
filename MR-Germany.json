@@ -1,29 +1,16 @@
 {
   "outbounds":   [
     {
-      "type": "vless",
-      "tag": "🇩🇪 Germany",
-      "server": "77.221.157.36",
-      "server_port": 8443,
-      "uuid": "4bb55fc9-537f-405b-908c-3d269f07b490",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "635 § 0",
+      "server": "77.90.41.197",
+      "server_port": 35000,
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
       "tls":       {
         "enabled": true,
-        "server_name": "service.fantoff.online",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "AdT9tmePDlJajWDSKM_I7Sn1PyYrbCTTBBfhbi_ZMyI",
-          "short_id": "7e91b5a9c040d01a"
-        }
-      },
-      "multiplex":       {
-        "protocol": "h2mux",
-        "max_streams": 8
+        "server_name": "api.kermanshahi.org"
       }
     }
   ]
 }
+
