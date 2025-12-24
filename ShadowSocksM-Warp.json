@@ -2,40 +2,113 @@
   "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "⚪️Tehran § 0",
+      "tag": "Soshiant § 0",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8808:4893:84d0:5325:8246/128"
+        "2606:4700:110:84a5:d2ae:9a5:9473:e9b1/128"
       ],
-      "private_key": "8FDtb0lKpKDFU+hZkg17hjhMrd9WCUyEU3XBoQ1tp1M=",
-      "server": "188.114.96.214",
+      "private_key": "WFkZJqZekRzy+AcjJ2j+2PCdIggDsdB7DatUNaXwfEc=",
+      "server": "162.159.195.1",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "6oh8",
+      "reserved": "SnhK",
       "mtu": 1330,
-      "fake_packets": "1-3",
+      "fake_packets": "20-30",
+      "fake_packets_size": "10-20",
+      "fake_packets_delay": "1-2",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WoW IPv4 § 1",
+      "detour": "Soshiant § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:85da:3651:a3b5:4580:6c03/128"
+      ],
+      "private_key": "0F/cin1aVUNRf6jhm53KxEYEYuIRc2EeuelYhWzBCUk=",
+      "server": "162.159.195.1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "kCJ3",
+      "mtu": 1330,
+      "fake_packets": "2-4",
       "fake_packets_size": "10-30",
       "fake_packets_delay": "10-30",
       "fake_packets_mode": "m4"
     },
     {
       "type": "wireguard",
-      "tag": "🟡Berlin § 1",
-      "detour": "⚪️Tehran § 0",
+      "tag": "Soshiant § 2",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8797:6573:62d8:b948:1206/128"
+        "2606:4700:110:8937:f96d:3bee:a482:d8a4/128"
       ],
-      "private_key": "kF25cjCBagyMPlKF3LxSfkPQHIY3AK2A0TXUQzesBk0=",
-      "server": "188.114.99.22",
+      "private_key": "UM0oXggdDOkBa8o8zGZZMgQPS22A3vVz9qxZQmEu3EA=",
+      "server": "162.159.195.1",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "AGCz",
+      "reserved": "6hh6",
       "mtu": 1330,
-      "fake_packets": "1-2",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-30",
+      "fake_packets_delay": "1-2",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Soshiant § 3",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:89a5:50ec:6907:84e5:fa92/128"
+      ],
+      "private_key": "8Ht3Gm2+bdF6Rf16LfyQG+dYX5KF/2iNkH2bNkxk5mo=",
+      "server": "162.159.195.1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "e17w",
+      "mtu": 1330,
+      "fake_packets": "10-20",
+      "fake_packets_size": "10-20",
+      "fake_packets_delay": "1-2",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Soshiant § 4",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8266:175d:fc52:43a0:944a/128"
+      ],
+      "private_key": "oPLQS8B5aX3Chs7R3T8Ze7uRa1TArH7PYSZPSAQIO2I=",
+      "server": "162.159.192.1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "AO14",
+      "mtu": 1330,
+      "fake_packets": "20-30",
+      "fake_packets_size": "10-20",
+      "fake_packets_delay": "1-2",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WoW IPv4 Detour § 5",
+      "detour": "Soshiant § 4",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8955:46fa:fdd8:89c9:37c0/128"
+      ],
+      "private_key": "YFwp6pW7ZWofTisl8sntgb1pIyF9gOrnKLm+DI62RWM=",
+      "server": "2606:4700:d0::a29f:c001",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "fwPx",
+      "mtu": 1330,
+      "fake_packets": "2-4",
       "fake_packets_size": "10-30",
       "fake_packets_delay": "10-30",
-      "fake_packets_mode": "m5"
+      "fake_packets_mode": "m4"
     }
   ]
 }
