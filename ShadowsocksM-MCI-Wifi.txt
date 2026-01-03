@@ -1,16 +1,16 @@
 {
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "MR.Soshi",
+   "type": "hysteria2",
+      "tag": "3.🔥VPN🔥",
       "server": "channel3.saghetalaie.homes",
       "server_port": 46914,
-      "password": "yhqy5AHofQq",
-      "obfs": {
+      "obfs":       {
         "type": "salamander",
         "password": "&O#28YB5qK!5t#U"
       },
-      "tls": {
+      "password": "yhqy5AHofQq",
+      "tls":       {
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true
@@ -27,3 +27,4 @@
     }
   ]
 }
+
