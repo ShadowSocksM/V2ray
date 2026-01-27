@@ -1,6 +1,1 @@
-vless://513cfb8f-762f-4532-abb1-e3319afa84ef@p-watashi-s-vacuum-a.watashi-store.ir:443?encryption=none&security=tls&allowInsecure=true&alpn=http/1.1&fp=chrome&type=ws&host=p-watashi-s-vacuum-a.watashi-store.ir&path=/uFg11d0LM0ZJUprdaDy9VcI&packetEncoding=xudp#Direct+VLESS+WS+TLS
-trojan://513cfb8f-762f-4532-abb1-e3319afa84ef@p-watashi-s-vacuum-a.watashi-store.ir:443?security=tls&allowInsecure=true&alpn=http/1.1&fp=chrome&type=grpc&serviceName=TunService#Direct+Trojan+gRPC+TLS
-vmess://513cfb8f-762f-4532-abb1-e3319afa84ef@p-watashi-s-vacuum-a.watashi-store.ir:443?security=tls&type=ws&host=p-watashi-s-vacuum-a.watashi-store.ir&path=/u03210uo9iQCpCrdaDy9VcI&packetEncoding=xudp#Direct%20VMESS%20WS%20TLS
-vless://513cfb8f-762f-4532-abb1-e3319afa84ef@c.brimliski.com:443?encryption=none&security=tls&sni=c-watashi-f-vacuum-l.watashi-python.ir&allowInsecure=true&alpn=http/1.1&fp=chrome&type=ws&host=c-watashi-f-vacuum-l.watashi-python.ir&path=/uFg11d0LM0ZJUprdaDy9VcI&packetEncoding=xudp#CDN+VLESS+WS+TLS
-trojan://513cfb8f-762f-4532-abb1-e3319afa84ef@c.brimliski.com:443?security=tls&sni=c-watashi-f-vacuum-l.watashi-python.ir&allowInsecure=true&alpn=http/1.1&fp=chrome&type=ws&host=c-watashi-f-vacuum-l.watashi-python.ir&path=/R8N9zCJafrdaDy9VcI#CDN+Trojan+WS+TLS
-vmess://513cfb8f-762f-4532-abb1-e3319afa84ef@c.brimliski.com:443?security=tls&type=ws&host=c-watashi-f-vacuum-l.watashi-python.ir&path=/u03210uo9iQCpCrdaDy9VcI&packetEncoding=xudp#CDN%20VMESS%20WS%20TLS
+
