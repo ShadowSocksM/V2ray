@@ -1,68 +1,1275 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "1.🔥FREE HOMES VPN🔥",
-      "server": "channel1.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpnchannel3",
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 0",
+      "server": "172.64.145.38",
+      "server_port": 8443,
+      "password": "����o�l",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
+        "server_name": "konbu3yh7or1gdj6win7zyxp9e6h3ndhfpr6snxzhh.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "konbu3yh7or1gdj6win7zyxp9e6h3ndhfpr6snxzhh.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "2.🔥FREE HOMES VPN🔥",
-      "server": "channel2.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpnchannel3",
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 1",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-Yam?ed=512",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 2",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#?ed=512",
+        "headers":         {
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 3",
+      "server": "172.64.145.18",
+      "server_port": 8443,
+      "password": "7a5fwj8eye7s",
+      "tls":       {
+        "enabled": true,
+        "server_name": "wd73uardmf9arlztris4hp6rt06k3166qnnlhah1ii8mvxuw2y6ssnfbrh6o.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "wd73uardmf9arlztris4hp6rt06k3166qnnlhah1ii8mvxuw2y6ssnfbrh6o.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "3.🔥FREE HOMES VPN🔥",
-      "server": "channel3.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "yhqy5AHofQq",
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 4",
+      "server": "GRA.IPCL0UD.COM",
+      "server_port": 443,
+      "uuid": "70f7b45a-dbf8-42a1-adc3-3e9124591c98",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
+        "server_name": "jetbrains.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "ecfRlCGezg7UQ-iyJAdmtzhswMYOrXYO1ROLVdvhhl0",
+          "short_id": "fd1dff035d0d8f56"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 5",
+      "server": "cdn.bio4cdn.com",
+      "server_port": 2053,
+      "uuid": "��",
+      "tls":       {
+        "enabled": true,
+        "server_name": "bio.bio4cdn.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/weborder",
+        "headers":         {
+          "Host": "bio.bio4cdn.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 6",
+      "server": "104.17.166.123",
+      "server_port": 8443,
+      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 7",
+      "server": "172.64.145.38",
+      "server_port": 8443,
+      "uuid": "5fd4bd07-bac9-47a4-93de-16473159876b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "gslkk28g25ow5r1a4nwg0fq0fp0u1jbpyy77uuxp2tmnzukcr1qvdz2x3dx.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "gslkk28g25ow5r1a4nwg0fq0fp0u1jbpyy77uuxp2tmnzukcr1qvdz2x3dx.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 8",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-VPNMAAN_VPNMAAN_VPNMAAN_VPNMAAN_VPNMAAN?ed=512",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 9",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=512",
+        "headers":         {
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 10",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-ICV2RAY_ICV2RAY_ICV2RAY_ICV2RAY_ICV2RAY?ed=512",
+        "headers":         {
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 11",
+      "server": "172.64.154.125",
+      "server_port": 8443,
+      "password": "z3rqndeos4nh",
+      "tls":       {
+        "enabled": true,
+        "server_name": "566n4gjxgs6erko5jep85cltuyrqdospuafzkxqlrukpwg3ww2.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "566n4gjxgs6erko5jep85cltuyrqdospuafzkxqlrukpwg3ww2.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "4.🔥FREE HOMES VPN🔥",
-      "server": "channel4.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "yhqy5AHofQq",
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 12",
+      "server": "104.17.166.123",
+      "server_port": 8443,
+      "password": "f6apy2t8ze0w",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
+        "server_name": "gwb8zasq75zp0vkeyrhtufsppgrbto2udnsxlyanl2e3froihncjjfrb.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "gwb8zasq75zp0vkeyrhtufsppgrbto2udnsxlyanl2e3froihncjjfrb.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 13",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 14",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed",
+        "headers":         {
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 15",
+      "server": "104.17.163.123",
+      "server_port": 8443,
+      "password": "x79svebo1f7b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "5m2b654fvfrv.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "5m2b654fvfrv.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 16",
+      "server": "172.64.149.99",
+      "server_port": 8443,
+      "uuid": "2ddeb056-17d4-421e-a318-39428733d4a2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "8p3cfl0ripm.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "8p3cfl0ripm.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 17",
+      "server": "172.64.154.125",
+      "server_port": 8443,
+      "uuid": "c72b67c0-9179-44e0-9a12-1b0ad9e6f556",
+      "tls":       {
+        "enabled": true,
+        "server_name": "8iwpz0mfftbsw8s90q6bc0rto.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "8iwpz0mfftbsw8s90q6bc0rto.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 18",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-ICV2RAY_ICV2RAY_ICV2RAY_ICV2RAY_ICV2RAY?ed=512",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 19",
+      "server": "104.17.165.123",
+      "server_port": 8443,
+      "uuid": "1a6a27ba-e087-4a84-a038-aecd8a25a86e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "x6wg6r95gt8a53cr4yi9duze3wgnajbbjk10tphgfphrxx1kmb1awoz.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "x6wg6r95gt8a53cr4yi9duze3wgnajbbjk10tphgfphrxx1kmb1awoz.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 20",
+      "server": "172.64.145.38",
+      "server_port": 8443,
+      "uuid": "bb8c74a1-abc1-4511-b100-9876e30cb65c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "xfjd79v2tjscrm6jqo.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+        "headers":         {
+          "Host": "xfjd79v2tjscrm6jqo.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 21",
+      "server": "www.visa.com",
+      "server_port": 8443,
+      "password": "okna73k5vt25",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mmteffux9bx6x1tujfzkrqzlh8809.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "mmteffux9bx6x1tujfzkrqzlh8809.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 22",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 23",
+      "server": "www.visa.com",
+      "server_port": 8443,
+      "uuid": "9466a855-5ba0-4d2e-a6e6-a5c1b77c621b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "udt5efr85af1qg64s4qh8jmwakiqrgyyxvm2kc2w.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "udt5efr85af1qg64s4qh8jmwakiqrgyyxvm2kc2w.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 24",
+      "server": "172.64.153.22",
+      "server_port": 8443,
+      "password": "9iuw92dfpvlm",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ob85lxpyonvy4y1crfcx2wrmrr.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "ob85lxpyonvy4y1crfcx2wrmrr.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 25",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 26",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed",
+        "headers":         {
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 27",
+      "server": "172.64.149.99",
+      "server_port": 8443,
+      "password": "tw04krrjv1m6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yn3l39ghsfzlhk1xh0pbywn3rtfr2.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "yn3l39ghsfzlhk1xh0pbywn3rtfr2.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 28",
+      "server": "104.17.166.123",
+      "server_port": 8443,
+      "uuid": "d31efa40-0d96-4040-9789-0d5910670fe5",
+      "tls":       {
+        "enabled": true,
+        "server_name": "u2zazy8ncky89ay8ahiet1ydi9fucb5dgfbrp5recn9n.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "u2zazy8ncky89ay8ahiet1ydi9fucb5dgfbrp5recn9n.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 29",
+      "server": "104.17.164.123",
+      "server_port": 8443,
+      "uuid": "16bb01c3-442b-4b09-8935-088bf50283f8",
+      "tls":       {
+        "enabled": true,
+        "server_name": "uqe0k8eq1y1werf27q2uz2m3v6rm1maloour.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "uqe0k8eq1y1werf27q2uz2m3v6rm1maloour.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 30",
+      "server": "172.64.153.22",
+      "server_port": 8443,
+      "uuid": "e53a92c7-4a78-49cc-ab01-917661058b9a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "egaxhxw0p031z8iyfgjt9fyhhb1hwj4vr3gn0xoxqu901o8ruij.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "egaxhxw0p031z8iyfgjt9fyhhb1hwj4vr3gn0xoxqu901o8ruij.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 31",
+      "server": "172.64.145.18",
+      "server_port": 8443,
+      "uuid": "7602a5bf-e163-418e-87d0-2e72f531800d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "eat86xanttp3f0xoryl5.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "eat86xanttp3f0xoryl5.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 32",
+      "server": "104.17.165.123",
+      "server_port": 8443,
+      "uuid": "f85f60b1-2b96-49e9-8bde-b656d1516df0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 33",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "b56472a0-a042-4d68-872b-b7b4388fd82f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "kc8z2qnbff17ve5nyn53zqyyobsebcmvkyaklw4kdqw6bntvmfrxqx6j00zo.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "kc8z2qnbff17ve5nyn53zqyyobsebcmvkyaklw4kdqw6bntvmfrxqx6j00zo.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 34",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=512",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 35",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN?ed=512",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 36",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+        "headers":         {
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 37",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "max_early_data": 512,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 38",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "6nwf5rauksz8126xm.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "6nwf5rauksz8126xm.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 39",
+      "server": "104.17.163.123",
+      "server_port": 8443,
+      "uuid": "83adcc98-ac23-4e51-9ae0-788a73fd9939",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 40",
+      "server": "104.17.164.123",
+      "server_port": 8443,
+      "password": "3ljg5jx8ypwc",
+      "tls":       {
+        "enabled": true,
+        "server_name": "8ifr3yt3q8f1re.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "8ifr3yt3q8f1re.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 41",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-Confixio_Confixio_Confixio_Confixio_Confixio?ed=512",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 42",
+      "server": "172.64.145.38",
+      "server_port": 8443,
+      "uuid": "bb8c74a1-abc1-4511-b100-9876e30cb65c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "xfjd79v2tjscrm6jqo.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "xfjd79v2tjscrm6jqo.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 43",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "password": "u2k1jh0og5vn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "oq788320mz7kfruyec7b0q1l4bojfire1bp9lmu7.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "oq788320mz7kfruyec7b0q1l4bojfire1bp9lmu7.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 44",
+      "server": "104.21.6.48",
+      "server_port": 8443,
+      "uuid": "f85f60b1-2b96-49e9-8bde-b656d1516df0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 45",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=#Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN?ed=512",
+        "headers":         {
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 46",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "�w�߮",
+      "tls":       {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=?ed=512",
+        "headers":         {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 47",
+      "server": "172.64.153.235",
+      "server_port": 8443,
+      "uuid": "f94fc28f-688f-43aa-92a0-621f6255451c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "il8fd4w6j293nc2uzjc6xkwko6ohe43k845a76c2nl6su5q19ivkrboek9.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "il8fd4w6j293nc2uzjc6xkwko6ohe43k845a76c2nl6su5q19ivkrboek9.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 48",
+      "server": "104.17.165.123",
+      "server_port": 8443,
+      "password": "4wsc50fdyqeq",
+      "tls":       {
+        "enabled": true,
+        "server_name": "rsosx0ofzeyjahe4gb4sk16zbzqfi4r7z2ubfujth9ebgf5tli7di.zjde5.de5.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "rsosx0ofzeyjahe4gb4sk16zbzqfi4r7z2ubfujth9ebgf5tli7di.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "💫 @PewezaVPN (تلگرام) § 49",
+      "server": "104.17.163.123",
+      "server_port": 8443,
+      "password": "n875vm39ii96",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fflved5b71of0dhntg2ier40sswwuydkqf.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "fflved5b71of0dhntg2ier40sswwuydkqf.zjde5.de5.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 50",
+      "server": "172.64.145.38",
+      "server_port": 8443,
+      "uuid": "9e685fe3-e0f9-482d-939c-200a3f89b363",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vyznthvt7f5fr.zjde5.de5.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers":         {
+          "Host": "vyznthvt7f5fr.zjde5.de5.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "💫 @PewezaVPN (تلگرام) § 51",
+      "server": "7.zaravds.sbs",
+      "server_port": 1020,
+      "uuid": "2e656916-a233-43f3-b840-b8d921549201",
+      "packet_encoding": "xudp"
     }
   ]
 }
