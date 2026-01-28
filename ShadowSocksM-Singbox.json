@@ -1,1 +1,18 @@
-vless://f5625677-7d60-4bea-a9ed-43b596fa0c9c@alman.hitraveling.sbs:58777?encryption=none&type=http&host=speedtest.net&path=/&method=GET&packetEncoding=xudp#70
+{
+  "outbounds":   [
+    {
+      "type": "vless",
+      "tag": "70 § 0",
+      "server": "alman.hitraveling.sbs",
+      "server_port": 58777,
+      "uuid": "f5625677-7d60-4bea-a9ed-43b596fa0c9c",
+      "transport":       {
+        "type": "http",
+        "host": "speedtest.net",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
