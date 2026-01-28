@@ -1,25 +1,28 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "MR ",
-      "server": "channel1.saghetalaie.homes",
-      "server_port": 46914,
-      "obfs":       {
-        "type": "salamander",
-        "password": "&O#28YB5qK!5t#U"
-      },
-      "password": "freehomesvpnchannel3",
+      "type": "vless",
+      "tag": "69 § 0",
+      "server": "ipo.mastermarly.ir",
+      "server_port": 443,
+      "uuid": "b1a9c885-e53b-4b19-b4c7-b259cba543e7",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
+        "server_name": "nur-xn.mastermarly.ir",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/path",
+        "headers":         {
+          "Host": "nur-xn.mastermarly.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     }
   ]
 }
-
-
-
-
-
