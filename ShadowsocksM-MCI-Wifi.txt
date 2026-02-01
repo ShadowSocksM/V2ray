@@ -1,8 +1,286 @@
-trojan://bpb-trojan@94.140.0.1:443?security=tls&sni=singbox.lu567890.us.kg&type=ws&path=%2Ftr%3Fed%3D2560&host=singbox.lu567890.us.kg&fp=chrome&allowInsecure=1#SingBox10
-vless://73203536-b99b-44bd-83bf-6b25d5254340@78.157.59.163:54436?type=grpc&encryption=none#SingBox8
-vless://bb8c74a1-abc1-4511-b100-9876e30cb65c@172.64.145.38:8443?security=tls&sni=xfjd79v2tjscrm6jqo.zjde5.de5.net&type=ws&path=%2F%3Fed%3D2560&host=xfjd79v2tjscrm6jqo.zjde5.de5.net&alpn=http/1.1#SingBox9
-vless://4525c260-df3c-4f62-b8f1-f4f5f305694b@66.81.247.155:443?security=tls&sni=yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net&type=ws&path=%2F%3Fed%3D512&host=yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net&fp=chrome#SingBox11
-vmess://eyJhZGQiOiI1Ny4xMjkuMjguNjQiLCJhaWQiOiIwIiwiaG9zdCI6IndybWVsbXd4bGYuZ2t0ZXZscnF6bndxcW96eS5mYWJwZnM2Nmdpem1ub2poY3ZxeHdsLmt5dHJjZnpxbGE4N2d2Z3ZzNmM3a2pucnVidWguY2MiLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiU2luZ0JveDMiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInNuaSI6IndybWVsbXd4bGYuZ2t0ZXZscnF6bndxcW96eS5mYWJwZnM2Nmdpem1ub2poY3ZxeHdsLmt5dHJjZnpxbGE4N2d2Z3ZzNmM3a2pucnVidWguY2MiLCJ2IjoiMiJ9
-vmess://eyJhZGQiOiI1Ny4xMjkuNjQuMTU3IiwiYWlkIjoiMCIsImhvc3QiOiJjaGF0Z3B0LmNvbSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0IjoiNDQzIiwicHMiOiJTaW5nQm94NCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwic25pIjoiY2hhdGdwdC5jb20iLCJ2IjoiMiJ9
-vmess://eyJhZGQiOiI1Ny4xMjkuMjQuMTI1IiwiYWlkIjoiMCIsImhvc3QiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IlNpbmdCb3gyIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJzbmkiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwidiI6IjIifQ==
-vmess://eyJhZGQiOiIxNDEuOTQuMTU1LjIyOSIsImFpZCI6IjAiLCJob3N0IjoiZWNoby53ZWJzb2NrZXQub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IlNpbmdCb3g2IiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJzbmkiOiJlY2hvLndlYnNvY2tldC5vcmciLCJ2IjoiMiJ9
+{
+  "outbounds":   [
+    {
+      "type": "vless",
+      "tag": "🟢mehdi123|1.72 KB/10.0 GB|28ِDay's",
+      "server": "1.1.1.1",
+      "server_port": 4433,
+      "uuid": "200fc855-4280-4967-8234-b1e5b58470f6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "1.1.1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪Melli A | 🟢",
+      "server": "losi.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "varzesh3.com",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇱🇺Melli B | 🟢",
+      "server": "pis.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "excoino.com",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸Melli C | 🟢",
+      "server": "nar.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "khamenei.ir",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪Melli D | 🟢",
+      "server": "ma.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "excoino.com",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪Melli E | 🟢",
+      "server": "bey.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "excoino.com",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇸🇦Melli F | 🟢",
+      "server": "Rock.JKerm.com",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "khamenei.ir",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇿Melli G | 🟢",
+      "server": "lala.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "excoino.com",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇹Melli H | 🟢",
+      "server": "was.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "khamenei.ir",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇮Melli I | 🟢",
+      "server": "check.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "khamenei.ir",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷Melli J | 🟢",
+      "server": "dars.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "khamenei.ir",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷Melli K | 🟢",
+      "server": "dars.justmanagexd.ir",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "khamenei.ir",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇶Iraq | 🚀",
+      "server": "seke.jkerm.com",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "www.speedtest.net",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇷Turkey | 🚀",
+      "server": "choo.jkerm.com",
+      "server_port": 443,
+      "uuid": "a4254448-6652-4727-a015-b989b45ec9f2",
+      "security": "",
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "http",
+        "host": "www.speedtest.net",
+        "path": "/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    }
+  ]
+}
