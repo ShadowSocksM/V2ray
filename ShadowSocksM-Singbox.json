@@ -1,357 +1,182 @@
 {
   "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com",
+      "dot.pub": [
+        "1.12.12.12",
+        "120.53.53.53"
+      ],
+      "dns.alidns.com": [
+        "223.5.5.5",
+        "223.6.6.6",
+        "2400:3200::1",
+        "2400:3200:baba::1"
+      ],
+      "one.one.one.one": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "dns.cloudflare.com": [
+        "104.16.132.229",
+        "104.16.133.229",
+        "2606:4700::6810:84e5",
+        "2606:4700::6810:85e5"
+      ],
+      "cloudflare-dns.com": [
+        "104.16.248.249",
+        "104.16.249.249",
+        "2606:4700::6810:f8f9",
+        "2606:4700::6810:f9f9"
+      ],
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ],
+      "dns.quad9.net": [
+        "9.9.9.9",
+        "149.112.112.112",
+        "2620:fe::fe",
+        "2620:fe::9"
+      ],
+      "common.dot.dns.yandex.net": [
+        "77.88.8.8",
+        "77.88.8.1",
+        "2a02:6b8::feed:0ff",
+        "2a02:6b8:0:1::feed:0ff"
+      ]
+    },
     "servers": [
-      {
-        "tag": "proxy-dns",
-        "address": "tcp://8.8.4.4",
-        "address_resolver": "local-dns",
-        "detour": "proxy"
-      },
-      {
-        "tag": "local-dns",
-        "address": "local",
-        "detour": "direct"
-      },
-      {
-        "tag": "direct-dns",
-        "address": "tcp://8.8.8.8",
-        "detour": "direct"
-      }
-    ],
-    "rules": [
-      {
-        "source_ip_cidr": [
-          "172.19.0.0/30",
-          "fdfe:dcba:9876::1/126"
-        ],
-        "clash_mode": "Global",
-        "server": "proxy-dns"
-      },
-      {
-        "source_ip_cidr": [
-          "172.19.0.0/30",
-          "fdfe:dcba:9876::1/126"
-        ],
-        "server": "proxy-dns"
-      },
-      {
-        "clash_mode": "Direct",
-        "server": "direct-dns"
-      },
-      {
-        "rule_set": "geosite-ir",
-        "server": "direct-dns"
-      }
-    ],
-    "final": "local-dns",
-    "strategy": "prefer_ipv4"
+      "2.188.21.130"
+    ]
   },
   "inbounds": [
     {
-      "type": "tun",
-      "mtu": 9000,
-      "address": [
-        "172.19.0.1/30",
-        "fdfe:dcba:9876::1/126"
-      ],
-      "auto_route": true,
-      "stack": "system",
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 2080
-        }
-      }
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "socks"
     },
     {
-      "type": "mixed",
       "listen": "127.0.0.1",
-      "listen_port": 2080
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
     }
   ],
+  "log": {
+    "loglevel": "warning"
+  },
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "proxy",
-      "outbounds": [
-        "auto",
-        "direct",
-        "SingBox10",
-        "SingBox8",
-        "SingBox9",
-        "SingBox11",
-        "SingBox3",
-        "SingBox4",
-        "SingBox2",
-        "SingBox6"
-      ]
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "d2fog4flcfgb8c.cloudfront.net",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "id": "e070e567-7996-45a9-9016-0143420946ef",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": ""
+          },
+          "path": "/8536cb1926c24bbc99d7bd93350ec564"
+        }
+      },
+      "tag": "proxy"
     },
     {
-      "type": "urltest",
-      "tag": "auto",
-      "outbounds": [
-        "SingBox10",
-        "SingBox8",
-        "SingBox9",
-        "SingBox11",
-        "SingBox3",
-        "SingBox4",
-        "SingBox2",
-        "SingBox6"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "7m0s",
-      "tolerance": 30
-    },
-    {
-      "type": "direct",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
       "tag": "direct"
     },
     {
-      "type": "trojan",
-      "tag": "SingBox10",
-      "server": "94.140.0.1",
-      "server_port": 443,
-      "password": "bpb-trojan",
-      "tls": {
-        "enabled": true,
-        "server_name": "singbox.lu567890.us.kg",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
         }
       },
-      "transport": {
-        "type": "ws",
-        "path": "/tr?ed=2560",
-        "headers": {
-          "Host": "singbox.lu567890.us.kg"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "SingBox8",
-      "server": "78.157.59.163",
-      "server_port": 54436,
-      "uuid": "73203536-b99b-44bd-83bf-6b25d5254340",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "SingBox9",
-      "server": "172.64.145.38",
-      "server_port": 8443,
-      "uuid": "bb8c74a1-abc1-4511-b100-9876e30cb65c",
-      "tls": {
-        "enabled": true,
-        "server_name": "xfjd79v2tjscrm6jqo.zjde5.de5.net",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "xfjd79v2tjscrm6jqo.zjde5.de5.net"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "SingBox11",
-      "server": "66.81.247.155",
-      "server_port": 443,
-      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-      "tls": {
-        "enabled": true,
-        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=512",
-        "headers": {
-          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vmess",
-      "tag": "SingBox3",
-      "server": "57.129.28.64",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "SingBox4",
-      "server": "57.129.64.157",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "chatgpt.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "chatgpt.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "SingBox2",
-      "server": "57.129.24.125",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "SingBox6",
-      "server": "141.94.155.229",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "echo.websocket.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "echo.websocket.org"
-        }
-      }
+      "tag": "block"
     }
   ],
-  "route": {
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "remarks": "IP_CF",
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
-        "action": "sniff"
-      },
-      {
-        "clash_mode": "Direct",
-        "outbound": "direct"
-      },
-      {
-        "clash_mode": "Global",
-        "outbound": "proxy"
-      },
-      {
-        "protocol": "dns",
-        "action": "hijack-dns"
-      },
-      {
-        "rule_set": [
-          "geoip-private",
-          "geosite-private",
-          "geosite-ir",
-          "geoip-ir"
+        "ip": [
+          "2.188.21.130"
         ],
-        "outbound": "direct"
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
       },
       {
-        "rule_set": "geosite-ads",
-        "action": "reject",
-        "method": "default"
+        "ip": [
+          "2.188.21.130"
+        ],
+        "outboundTag": "direct",
+        "port": "53",
+        "type": "field"
       }
-    ],
-    "rule_set": [
-      {
-        "type": "remote",
-        "tag": "geosite-ads",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-private",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geoip-private",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geoip-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs",
-        "download_detour": "direct"
-      }
-    ],
-    "final": "proxy",
-    "auto_detect_interface": true
-  }
+    ]
+  },
+  "stats": {}
 }
