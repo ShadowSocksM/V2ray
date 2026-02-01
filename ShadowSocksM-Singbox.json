@@ -1,182 +1,27 @@
 {
-  "dns": {
-    "hosts": {
-      "domain:googleapis.cn": "googleapis.com",
-      "dot.pub": [
-        "1.12.12.12",
-        "120.53.53.53"
-      ],
-      "dns.alidns.com": [
-        "223.5.5.5",
-        "223.6.6.6",
-        "2400:3200::1",
-        "2400:3200:baba::1"
-      ],
-      "one.one.one.one": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ],
-      "dns.cloudflare.com": [
-        "104.16.132.229",
-        "104.16.133.229",
-        "2606:4700::6810:84e5",
-        "2606:4700::6810:85e5"
-      ],
-      "cloudflare-dns.com": [
-        "104.16.248.249",
-        "104.16.249.249",
-        "2606:4700::6810:f8f9",
-        "2606:4700::6810:f9f9"
-      ],
-      "dns.google": [
-        "8.8.8.8",
-        "8.8.4.4",
-        "2001:4860:4860::8888",
-        "2001:4860:4860::8844"
-      ],
-      "dns.quad9.net": [
-        "9.9.9.9",
-        "149.112.112.112",
-        "2620:fe::fe",
-        "2620:fe::9"
-      ],
-      "common.dot.dns.yandex.net": [
-        "77.88.8.8",
-        "77.88.8.1",
-        "2a02:6b8::feed:0ff",
-        "2a02:6b8:0:1::feed:0ff"
-      ]
-    },
-    "servers": [
-      "2.188.21.130"
-    ]
-  },
-  "inbounds": [
+  "outbounds":   [
     {
-      "listen": "127.0.0.1",
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
+      "type": "trojan",
+      "tag": "88 § 0",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "password": "humanity",
+      "tls":       {
         "enabled": true,
-        "routeOnly": false
+        "server_name": "www.gossipglove.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
-      "tag": "socks"
-    },
-    {
-      "listen": "127.0.0.1",
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "d2fog4flcfgb8c.cloudfront.net",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "id": "e070e567-7996-45a9-9016-0143420946ef",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "show": false
+      "transport":       {
+        "type": "ws",
+        "path": "/assignment",
+        "headers":         {
+          "Host": "www.gossipglove.com"
         },
-        "wsSettings": {
-          "headers": {
-            "Host": ""
-          },
-          "path": "/8536cb1926c24bbc99d7bd93350ec564"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    }
-  ],
-  "policy": {
-    "levels": {
-      "8": {
-        "connIdle": 300,
-        "downlinkOnly": 1,
-        "handshake": 4,
-        "uplinkOnly": 1
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
     }
-  },
-  "remarks": "IP_CF",
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "ip": [
-          "2.188.21.130"
-        ],
-        "outboundTag": "proxy",
-        "port": "53",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "2.188.21.130"
-        ],
-        "outboundTag": "direct",
-        "port": "53",
-        "type": "field"
-      }
-    ]
-  },
-  "stats": {}
+  ]
 }
