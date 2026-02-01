@@ -1,26 +1,18 @@
 {
   "outbounds":   [
     {
-      "type": "trojan",
-      "tag": "88 § 0",
-      "server": "172.64.152.23",
-      "server_port": 443,
-      "password": "humanity",
+      "type": "hysteria2",
+      "tag": "878",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
       "tls":       {
         "enabled": true,
-        "server_name": "www.gossipglove.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/assignment",
-        "headers":         {
-          "Host": "www.gossipglove.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "server_name": "api.kermanshahi.org"
       }
     }
   ]
