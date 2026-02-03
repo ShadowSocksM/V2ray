@@ -1,15 +1,28 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "🇩🇪 47 - DE § 0",
-      "server": "5.175.249.174",
-      "server_port": 35000,
-      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "type": "vless",
+      "tag": "🇸🇪 433 - SE § 0",
+      "server": "dojman.global.ssl.fastly.net",
+      "server_port": 443,
+      "uuid": "68a9cce7-2923-4ff4-832f-3c3d8800009e",
       "tls":       {
         "enabled": true,
-        "server_name": "api.kermanshahi.org"
-      }
+        "server_name": "dojman.global.ssl.fastly.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/containers/fi",
+        "headers":         {
+          "Host": "dojman.global.ssl.fastly.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     }
   ]
 }
