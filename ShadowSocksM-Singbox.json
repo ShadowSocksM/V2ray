@@ -2,13 +2,9 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "878",
+      "tag": "🇩🇪 47 - DE § 0",
       "server": "5.175.249.174",
       "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
       "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
       "tls":       {
         "enabled": true,
