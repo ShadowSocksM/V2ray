@@ -1,1 +1,1 @@
-vless://36213657-e751-478b-a5d7-547eef892af9@dojman.global.ssl.fastly.net:443?encryption=none&security=tls&sni=dojman.global.ssl.fastly.net&allowInsecure=true&alpn=http/1.1&fp=chrome&type=ws&host=dojman.global.ssl.fastly.net&path=/containers/fi&packetEncoding=xudp#1
+vless://dd376e9e-7dae-4b8d-914b-4563bee76803@94.183.150.59:80?encryption=none&packetEncoding=xudp#meli
