@@ -1,18 +1,1 @@
-{
-  "outbounds":   [
-    {
-      "type": "vless",
-      "tag": "2-DE § 0",
-      "server": "remote1.iranman.shop",
-      "server_port": 11343,
-      "uuid": "6308e87b-7cb3-41c8-9d50-9116b97a3070",
-      "transport":       {
-        "type": "http",
-        "host": "speedtest.net",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    }
-  ]
-}
+vless://e6ec1d89-17fc-4de7-af89-81cd51022526@144.31.116.148:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg&security=reality&sni=apple.com&type=tcp#99
