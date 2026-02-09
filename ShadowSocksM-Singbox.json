@@ -2,23 +2,15 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "🇸🇪 433 - SE § 0",
-      "server": "dojman.global.ssl.fastly.net",
-      "server_port": 443,
-      "uuid": "68a9cce7-2923-4ff4-832f-3c3d8800009e",
-      "tls":       {
-        "enabled": true,
-        "server_name": "dojman.global.ssl.fastly.net",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "1-DE § 0",
+      "server": "imgur.com",
+      "server_port": 80,
+      "uuid": "6fe32852-5f46-4090-8306-f5b419d6a469",
       "transport":       {
         "type": "ws",
         "path": "/containers/fi",
         "headers":         {
-          "Host": "dojman.global.ssl.fastly.net"
+          "Host": "madar-benyamin-salavat.global.ssl.fastly.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
