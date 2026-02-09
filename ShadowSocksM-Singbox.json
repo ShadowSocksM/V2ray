@@ -2,15 +2,22 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "2-DE § 0",
-      "server": "remote1.iranman.shop",
-      "server_port": 11343,
-      "uuid": "6308e87b-7cb3-41c8-9d50-9116b97a3070",
-      "transport":       {
-        "type": "http",
-        "host": "speedtest.net",
-        "path": "/",
-        "method": "GET"
+      "tag": "99 § 0",
+      "server": "144.31.116.148",
+      "server_port": 8443,
+      "uuid": "e6ec1d89-17fc-4de7-af89-81cd51022526",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg"
+        }
       },
       "packet_encoding": "xudp"
     }
