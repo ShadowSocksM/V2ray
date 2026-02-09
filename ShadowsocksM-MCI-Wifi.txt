@@ -1,1 +1,18 @@
-vless://dd376e9e-7dae-4b8d-914b-4563bee76803@94.183.150.59:80?encryption=none&packetEncoding=xudp#meli
+{
+  "outbounds":   [
+    {
+      "type": "vless",
+      "tag": "2-DE § 0",
+      "server": "remote1.iranman.shop",
+      "server_port": 11343,
+      "uuid": "6308e87b-7cb3-41c8-9d50-9116b97a3070",
+      "transport":       {
+        "type": "http",
+        "host": "speedtest.net",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
