@@ -2,17 +2,15 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "1-DE § 0",
-      "server": "imgur.com",
-      "server_port": 80,
-      "uuid": "6fe32852-5f46-4090-8306-f5b419d6a469",
+      "tag": "2-DE § 0",
+      "server": "remote1.iranman.shop",
+      "server_port": 11343,
+      "uuid": "6308e87b-7cb3-41c8-9d50-9116b97a3070",
       "transport":       {
-        "type": "ws",
-        "path": "/containers/fi",
-        "headers":         {
-          "Host": "madar-benyamin-salavat.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "host": "speedtest.net",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     }
