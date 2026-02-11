@@ -1,541 +1,54 @@
 {
   "outbounds":   [
     {
-      "type": "xray",
-      "tag": "1 § 0",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "140.248.128.0",
-              "port": 80,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "d4c244cd-fb79-478a-be50-7ea889491270"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "xhttpSettings":           {
-            "host": "hazaranetwork.bh",
-            "mode": "auto",
-            "path": "/xhttp"
-          }
-        },
-        "tag": "1"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "2 § 1",
-      "server": "3.127.218.13",
-      "server_port": 443,
-      "uuid": "ccab17f9-00a7-4493-c4a6-bbdd9e22166e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "xray",
-      "tag": "3 § 2",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "140.248.128.0",
-              "port": 80,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "d4c244cd-fb79-478a-be50-7ea889491270"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "xhttpSettings":           {
-            "host": "hazaranetwork.bh",
-            "mode": "auto",
-            "path": "/xhttp"
-          }
-        },
-        "tag": "3"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "4 § 3",
-      "server": "3.127.218.13",
-      "server_port": 443,
-      "uuid": "ccab17f9-00a7-4493-c4a6-bbdd9e22166e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "5 § 4",
-      "server": "3.127.218.13",
-      "server_port": 443,
-      "uuid": "ccab17f9-00a7-4493-c4a6-bbdd9e22166e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "6 § 5",
-      "server": "riali22.carpet-carpet-carped.ir",
-      "server_port": 2018,
-      "uuid": "352f047c-3176-4271-9bc6-3f7d33ee03c7",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚪馃嚭庐锔廟ussia漏锔廙oscow馃吙锔弍ing:60.17ms § 0",
+      "server": "meow-msc.nethcloud.top",
+      "server_port": 8443,
+      "uuid": "bf9931be-a7fd-46b3-9919-b858299e9f65",
       "tls":       {
         "enabled": true,
-        "server_name": "ub.com",
+        "server_name": "wikihow.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ",
+          "short_id": "8bd29483ded126b4"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚛馃嚜庐锔廏ermany漏锔廘imburg an der Lahn馃吙锔弍ing:44.81ms § 1",
+      "server": "wolfb04.serverp1anel.ir",
+      "server_port": 8080,
+      "uuid": "61076cc8-6d63-4dbf-80b9-6c6d70f934ab",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "chatgpt.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "pY4Vwx68IazGJq4BPHFVAXzmQhOz9DmKjpNM2CSxehc",
-          "short_id": "83f404"
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
         }
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "7 § 6",
-      "server": "pol2.creativelife.monster",
-      "server_port": 37962,
-      "uuid": "f84ca8d7-ef38-4c82-b3a1-fd800bcf4ac5",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "8 § 7",
-      "server": "pol2.creativelife.monster",
-      "server_port": 37962,
-      "uuid": "711e0d97-10eb-4437-a4a0-f558aec7ec20",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "9 § 8",
-      "server": "o2.nimatiem.de",
-      "server_port": 5555,
-      "uuid": "e15c4737-dfeb-49f7-9569-e802476b03b9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "10 § 9",
-      "server": "cf.008500.xyz",
-      "server_port": 443,
-      "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
-      "tls":       {
-        "enabled": true,
-        "server_name": "powered-by-surena.user68f797c2f3e1b.workers.dev",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "powered-by-surena.user68f797c2f3e1b.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "xray",
-      "tag": "11 § 10",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "140.248.128.0",
-              "port": 80,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "d4c244cd-fb79-478a-be50-7ea889491270"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "xhttpSettings":           {
-            "host": "hazaranetwork.bh",
-            "mode": "auto",
-            "path": "/xhttp"
-          }
-        },
-        "tag": "11"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "12 § 11",
-      "server": "3.127.218.13",
-      "server_port": 443,
-      "uuid": "ccab17f9-00a7-4493-c4a6-bbdd9e22166e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "13 § 12",
-      "server": "pol2.creativelife.monster",
-      "server_port": 49873,
-      "uuid": "54924f51-98d1-43ea-acfc-97e5cddb2fdc",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "14 § 13",
-      "server": "172.67.213.180",
-      "server_port": 443,
-      "uuid": "b52370db-a4af-43e3-9e4c-a7e7115fcecb",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fic.ketabv.ir",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/s55dLF15ddokB1leJ#NETMelliAnti----NETMelliAnti----NETMelliAnti",
-        "headers":         {
-          "Host": "fic.ketabv.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "15 § 14",
-      "server": "pol2.creativelife.monster",
-      "server_port": 37962,
-      "uuid": "e5567a8c-bc5d-4417-97a0-67fb80099788",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "16 § 15",
-      "server": "OV2.liiliil.ir",
-      "server_port": 40301,
-      "uuid": "46b36337-3aa9-4733-97a3-3487a7efc4eb",
-      "transport":       {
-        "type": "http",
-        "host": "soft98.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "xray",
-      "tag": "17 § 16",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "140.248.128.0",
-              "port": 80,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "d4c244cd-fb79-478a-be50-7ea889491270"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "xhttpSettings":           {
-            "host": "hazaranetwork.bh",
-            "mode": "auto",
-            "path": "/xhttp"
-          }
-        },
-        "tag": "17"
-      }
-    },
-    {
-      "type": "xray",
-      "tag": "18 § 17",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "140.248.128.0",
-              "port": 80,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "d4c244cd-fb79-478a-be50-7ea889491270"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "xhttpSettings":           {
-            "host": "hazaranetwork.bh",
-            "mode": "auto",
-            "path": "/xhttp"
-          }
-        },
-        "tag": "18"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "19 § 18",
-      "server": "pol2.creativelife.monster",
-      "server_port": 49873,
-      "uuid": "54924f51-98d1-43ea-acfc-97e5cddb2fdc",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "xray",
-      "tag": "20 § 19",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "speedtest.net",
-              "port": 80,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "a26bbed7-a286-4840-84bc-dc102c526777"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "xhttpSettings":           {
-            "host": "iran.boltboost.gg",
-            "mode": "auto",
-            "path": "/category/music"
-          }
-        },
-        "tag": "20"
-      }
-    },
-    {
-      "type": "xray",
-      "tag": "21 § 20",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "speedtest.net",
-              "port": 80,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "a26bbed7-a286-4840-84bc-dc102c526777"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "xhttpSettings":           {
-            "host": "iran.boltboost.gg",
-            "mode": "auto",
-            "path": "/category/music"
-          }
-        },
-        "tag": "21"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "22 § 21",
-      "server": "riali22.carpet-carpet-carped.ir",
-      "server_port": 2018,
-      "uuid": "352f047c-3176-4271-9bc6-3f7d33ee03c7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ub.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "pY4Vwx68IazGJq4BPHFVAXzmQhOz9DmKjpNM2CSxehc",
-          "short_id": "83f404"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "23 § 22",
-      "server": "5.175.249.174",
-      "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
-      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-      "tls":       {
-        "enabled": true,
-        "server_name": "api.kermanshahi.org"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "24 § 23",
-      "server": "5.175.249.174",
-      "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
-      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-      "tls":       {
-        "enabled": true,
-        "server_name": "api.kermanshahi.org"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "25 § 24",
-      "server": "5.175.249.174",
-      "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
-      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-      "tls":       {
-        "enabled": true,
-        "server_name": "api.kermanshahi.org"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "26 § 25",
-      "server": "5.175.249.174",
-      "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
-      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-      "tls":       {
-        "enabled": true,
-        "server_name": "api.kermanshahi.org"
-      }
-    },
-    {
-      "type": "xray",
-      "tag": "27 § 26",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "speedtest.net",
-              "port": 80,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "a26bbed7-a286-4840-84bc-dc102c526777"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "xhttpSettings":           {
-            "host": "iran.boltboost.gg",
-            "mode": "auto",
-            "path": "/category/music"
-          }
-        },
-        "tag": "27"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "28 § 27",
-      "server": "5.175.249.174",
-      "server_port": 35000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
-      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-      "tls":       {
-        "enabled": true,
-        "server_name": "api.kermanshahi.org"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "29 § 28",
-      "server": "94.182.169.82",
-      "server_port": 8085,
-      "uuid": "ff8ed07c-f05e-4343-9307-6dbb644d2ce5",
-      "transport":       {
-        "type": "http",
-        "host": "telewebion.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "30 § 29",
-      "server": "H3.FASTSPEEDS.IR",
-      "server_port": 2053,
-      "uuid": "��x}�<��\��",
-      "tls":       {
-        "enabled": true,
-        "server_name": "aslan-ukp1.ip-venzo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚠馃嚪庐锔廔ran漏锔廡ehr膩n馃吙锔弍ing:164.68ms § 2",
+      "server": "vip.warzonmobile.xyz",
+      "server_port": 8081,
+      "uuid": "db33e291-1d4d-4b85-8c4b-85c326f9fa18",
       "transport":       {
         "type": "ws",
         "path": "/ws",
@@ -544,24 +57,29 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "shadowsocks",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚨馃嚤庐锔廝oland漏锔廤arsaw (Praga-P贸艂noc)馃吙锔弍ing:72.35ms § 3",
+      "server": "51.68.146.248",
+      "server_port": 10011,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a792ff4b517fdf1c"
+    },
+    {
       "type": "vless",
-      "tag": "31 § 30",
-      "server": "108.162.195.247",
-      "server_port": 2087,
-      "uuid": "ww6�M=���k�",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚞馃嚙庐锔廢nited Kingdom漏锔廘ondon馃吙锔弍ing:48.55ms § 4",
+      "server": "vip1.kaixincloud.top",
+      "server_port": 2053,
+      "uuid": "e5f8a9f6-f164-479b-b3b5-b90f213c7145",
       "tls":       {
         "enabled": true,
-        "server_name": "finlav1.bupiq.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "ir1.airpanel.top",
+        "alpn": "http/1.1"
       },
       "transport":       {
         "type": "ws",
         "path": "/",
         "headers":         {
-          "Host": "finlav1.bupiq.com"
+          "Host": "ir1.airpanel.top"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -569,13 +87,401 @@
     },
     {
       "type": "vless",
-      "tag": "33 § 31",
-      "server": "f1.springpaatogh8.store",
-      "server_port": 8443,
-      "uuid": "41c55d8d-44dd-4437-90ff-4c1eb869a67c",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚠馃嚪庐锔廔ran漏锔廡ehran (District 6)馃吙锔弍ing:21.4ms § 5",
+      "server": "94.183.150.62",
+      "server_port": 7772,
+      "uuid": "bd680b6a-45d3-4558-81a5-57d3f19bd17f",
+      "transport":       {
+        "type": "http",
+        "host": "anten.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:44.03ms § 6",
+      "server": "chatgpt.com",
+      "server_port": 2082,
+      "uuid": "3e06f94f-c224-480c-962f-1d7d4615c15c",
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "iiu-172525262726262-jsvssgshshs.maxgh5766.ir.",
+        "path": "/www.speedtest.net-www.speedtest.net-www.speedtest.net-www.speedtest.net-www.speedtest.net-www.speedtest.net-www.speedtest.net-www.speedtest.net-www.speedtest.net-www.speedtest.net-www.speedtest.net?ed=27226"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:21.93ms § 7",
+      "server": "104.16.250.22",
+      "server_port": 2053,
+      "uuid": "e5f8a9f6-f164-479b-b3b5-b90f213c7145",
       "tls":       {
         "enabled": true,
-        "server_name": "digikala.sorza.ir",
+        "server_name": "ir1.airpanel.top",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "ir1.airpanel.top"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:22.08ms § 8",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "uuid": "8196d16d-855b-42bc-80f4-b5db138c5572",
+      "tls":       {
+        "enabled": true,
+        "server_name": "test2.testrobot.site",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/randomibash043"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚘馃嚤庐锔廇lbania漏锔廘abinot-Fush毛馃吙锔弍ing:32.09ms § 9",
+      "server": "185.177.238.57",
+      "server_port": 443,
+      "uuid": "d9dc0172-2bb6-4ada-8d5a-f182297be5b9",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "al.cdn.stun.su",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
+          "short_id": "616dbb46ca288c32"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:21.7ms § 10",
+      "server": "104.16.202.106",
+      "server_port": 2053,
+      "uuid": "6b47700e-0784-4737-ab49-a47c6ad1425b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "wt1.v2sub.sbs",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/WioNjdhwowoHsiwow",
+        "headers":         {
+          "Host": "wt.v2sub.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:21.94ms § 11",
+      "server": "104.18.4.130",
+      "server_port": 443,
+      "uuid": "e765eb5b-8442-40e3-9532-857ba5ececa7",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vbox.ping-box.com",
+        "alpn": "h2"
+      },
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:46.87ms § 12",
+      "server": "nodejs.org",
+      "server_port": 80,
+      "uuid": "ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a",
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed",
+        "headers":         {
+          "Host": "WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY."
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚝馃嚪庐锔廎rance漏锔廝aris馃吙锔弍ing:48.55ms § 13",
+      "server": "vip1.kaixincloud.top",
+      "server_port": 2053,
+      "uuid": "e5f8a9f6-f164-479b-b3b5-b90f213c7145",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ir1.airpanel.top",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "ir1.airpanel.top"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚛馃嚜庐锔廏ermany漏锔廎reilassing (Hofham)馃吙锔弍ing:54.07ms § 14",
+      "server": "partners.dissertationhelpspecialist.com",
+      "server_port": 443,
+      "uuid": "251dafad-fae3-4ba2-b3cf-ef5eab796851",
+      "tls":       {
+        "enabled": true,
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "ZcgOydOxZfr51VUnsTqCGVGJYME6a_cOZ3L4fPvgkTo"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twix",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚰庐锔廋uracao漏锔廤illemstad馃吙锔弍ing:21.98ms § 15",
+      "server": "62.72.166.138",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sni.111000.indevs.in",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:21.9ms § 16",
+      "server": "188.114.96.3",
+      "server_port": 443,
+      "uuid": "0dbad6ba-be87-46e1-ab90-30c53ef1878d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "drive.speegy.club",
+        "insecure": true,
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/sreztjsterw4j"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:61.09ms § 17",
+      "server": "chatgpt.com",
+      "server_port": 2053,
+      "uuid": "420f263b-b01e-4f12-bb43-fe34a4d54ced",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.mostanadpersian.ir",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "cdn.mostanadpersian.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:21.9ms § 18",
+      "server": "188.114.96.3",
+      "server_port": 443,
+      "method": "none",
+      "password": "0dbad6ba-be87-46e1-ab90-30c53ef1878d"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚭馃嚫庐锔廢nited States漏锔廗ing of Prussia馃吙锔弍ing:48.33ms § 19",
+      "server": "cloud.infomusicirani.ir",
+      "server_port": 2053,
+      "uuid": "420f263b-b01e-4f12-bb43-fe34a4d54ced",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.mostanadpersian.ir",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "cdn.mostanadpersian.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚛馃嚜庐锔廏ermany漏锔廎alkenstein馃吙锔弍ing:52.45ms § 20",
+      "server": "nl.zeepo.ir",
+      "server_port": 443,
+      "method": "none",
+      "password": "29b40c3d-8b30-d91d-707b-24e9063f7726"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚠馃嚪庐锔廔ran漏锔廡ehran馃吙锔弍ing:103.53ms § 21",
+      "server": "185.137.27.220",
+      "server_port": 4443,
+      "uuid": "ae13cc17-d059-467f-b43e-b943f064b809",
+      "tls":       {
+        "enabled": true,
+        "server_name": "speedtest1.irancell.ir.prod.hosts.ooklaserver.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚠馃嚪庐锔廔ran漏锔廡ehran馃吙锔弍ing:126.78ms § 22",
+      "server": "amir.behnamweb.fun",
+      "server_port": 1234,
+      "uuid": "e49726ab-3438-4004-b351-dd9d6d9b0da5",
+      "transport":       {
+        "type": "http",
+        "host": "speedtest.net",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚠馃嚪庐锔廔ran漏锔廡ehran馃吙锔弍ing:103.53ms § 23",
+      "server": "185.137.27.220",
+      "server_port": 4443,
+      "method": "none",
+      "password": "ae13cc17-d059-467f-b43e-b943f064b809"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:61.09ms § 24",
+      "server": "chatgpt.com",
+      "server_port": 2053,
+      "method": "none",
+      "password": "420f263b-b01e-4f12-bb43-fe34a4d54ced"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚭馃嚫庐锔廢nited States漏锔廗ing of Prussia馃吙锔弍ing:48.33ms § 25",
+      "server": "cloud.infomusicirani.ir",
+      "server_port": 2053,
+      "method": "none",
+      "password": "420f263b-b01e-4f12-bb43-fe34a4d54ced"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廙ontreal馃吙锔弍ing:44.77ms § 26",
+      "server": "fastly.zone-server-irani.ir",
+      "server_port": 80,
+      "method": "none",
+      "password": "420f263b-b01e-4f12-bb43-fe34a4d54ced"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚠馃嚪庐锔廔ran漏锔廡ehran馃吙锔弍ing:126.78ms § 27",
+      "server": "amir.behnamweb.fun",
+      "server_port": 1234,
+      "method": "none",
+      "password": "e49726ab-3438-4004-b351-dd9d6d9b0da5"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廙ontreal馃吙锔弍ing:43.44ms § 28",
+      "server": "python.org",
+      "server_port": 80,
+      "uuid": "007ef8a4-08b6-43b3-a4cd-17b8236bddf2",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "fdsgszd.global.ssl.fastly.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚫馃嚚庐锔廠eychelles漏锔廣ictoria馃吙锔弍ing:44.62ms § 29",
+      "server": "cfcdn.zopli.ir",
+      "server_port": 443,
+      "uuid": "d3502a00-833a-46dc-8b1f-d401d51f6e4a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn-is.fxcdn.ir",
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
@@ -584,8 +490,164 @@
       "transport":       {
         "type": "ws",
         "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚫馃嚚庐锔廠eychelles漏锔廣ictoria馃吙锔弍ing:44.62ms § 30",
+      "server": "cfcdn.zopli.ir",
+      "server_port": 443,
+      "uuid": "d3502a00-833a-46dc-8b1f-d401d51f6e4a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn-nl.lopzo.ir",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚫馃嚚庐锔廠eychelles漏锔廣ictoria馃吙锔弍ing:44.62ms § 31",
+      "server": "cfcdn.zopli.ir",
+      "server_port": 443,
+      "uuid": "d3502a00-833a-46dc-8b1f-d401d51f6e4a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn-no.lopzo.ir",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚫馃嚚庐锔廠eychelles漏锔廣ictoria馃吙锔弍ing:44.62ms § 32",
+      "server": "cfcdn.zopli.ir",
+      "server_port": 443,
+      "uuid": "d3502a00-833a-46dc-8b1f-d401d51f6e4a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn-az.fxcdn.ir",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚦馃嚤庐锔廡he Netherlands漏锔廌ronten馃吙锔弍ing:55.44ms § 33",
+      "server": "av.nexconnx.com",
+      "server_port": 8080,
+      "uuid": "19a1e5b1-6289-4fe6-9aad-be285510942d",
+      "transport":       {
+        "type": "http",
+        "host": "check-host.net",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚛馃嚜庐锔廏ermany漏锔廎rankfurt am Main馃吙锔弍ing:22.01ms § 34",
+      "server": "3.68.94.66",
+      "server_port": 19592,
+      "uuid": "7d680304-b026-48fd-d8bf-6aa209b424c5",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚭馃嚫庐锔廢nited States漏锔廠an Francisco馃吙锔弍ing:52.59ms § 35",
+      "server": "cp4.azangooo.ir",
+      "server_port": 2053,
+      "uuid": "bd680b6a-45d3-4558-81a5-57d3f19bd17f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "MS_swde8f699a400458da-sfX.digitstocks.ir",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
         "headers":         {
-          "Host": "digikala.sorza.ir"
+          "Host": "cpt1.digitstocks.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:21.77ms § 36",
+      "server": "172.67.213.180",
+      "server_port": 443,
+      "uuid": "c4b3fb2b-6ea0-4825-82d0-e315a0898f46",
+      "tls":       {
+        "enabled": true,
+        "server_name": "dec.ketabv.ir",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/sy5RZsmo3iYVIROnda#TELEGRAM-anotherme_night---%23TELEGRAM-anotherme_night---%23TELEGRAM-anotherme_night---%23TELEGRAM-anotherme_night---%23TELEGRAM-anotherme_night",
+        "headers":         {
+          "Host": "dec.ketabv.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚛馃嚜庐锔廏ermany漏锔廘imburg an der Lahn馃吙锔弍ing:22.5ms § 37",
+      "server": "51.75.70.204",
+      "server_port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sni.111000.dynv6.net",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?Telegram+%40app_bedal=",
+        "headers":         {
+          "Host": "sni.111000.dynv6.net"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -594,13 +656,22 @@
     },
     {
       "type": "vless",
-      "tag": "34 § 32",
-      "server": "www.speedtest.net",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚛馃嚜庐锔廏ermany漏锔廎alkenstein馃吙锔弍ing:25.95ms § 38",
+      "server": "91.107.179.39",
+      "server_port": 22595,
+      "uuid": "0ac82530-7efa-4df0-9c95-1643aff9256f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:21.92ms § 39",
+      "server": "104.17.147.22",
       "server_port": 443,
-      "uuid": "c9fe0338-8647-404f-afdc-01a343fe62b4",
+      "uuid": "c4b3fb2b-6ea0-4825-82d0-e315a0898f46",
       "tls":       {
         "enabled": true,
-        "server_name": "finlav1.bupiq.com",
+        "server_name": "dec.ketabv.ir",
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
@@ -608,9 +679,9 @@
       },
       "transport":       {
         "type": "ws",
-        "path": "/",
+        "path": "/sy5RZsmo3iYVIROnda#Telegram-VIP1v2rayNG%20-Telegram-VIP1v2rayNG-Telegram-VIP1v2rayNG-Telegram-VIP1v2rayNG-Telegram-VIP1v2rayNG-Telegram-VIP1v2rayNG-Telegram-VIP1v2rayNG-Telegram",
         "headers":         {
-          "Host": "finlav1.bupiq.com"
+          "Host": "dec.ketabv.ir"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -618,13 +689,51 @@
     },
     {
       "type": "vless",
-      "tag": "35 § 33",
-      "server": "162.159.194.86",
-      "server_port": 2053,
-      "uuid": "0ca5f765-977e-448e-9707-bda2b5dbc2a2",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚝馃嚠庐锔廎inland漏锔廐elsinki馃吙锔弍ing:64.97ms § 40",
+      "server": "my.kiomars.shop",
+      "server_port": 6664,
+      "uuid": "bd680b6a-45d3-4558-81a5-57d3f19bd17f",
       "tls":       {
         "enabled": true,
-        "server_name": "finlav1.bupiq.com",
+        "server_name": "tgju.org",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM",
+          "short_id": "c3b6ed4da7a983c7"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:21.92ms § 41",
+      "server": "172.66.128.70",
+      "server_port": 80,
+      "uuid": "4c97ec3e-3527-48c5-80ff-b715463896ba",
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed",
+        "headers":         {
+          "Host": "kIndhEArTeD-PARkb5Rjo2juEr.sPorTLaNd.COMpAny."
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:22.46ms § 42",
+      "server": "172.64.155.209",
+      "server_port": 443,
+      "uuid": "c4b3fb2b-6ea0-4825-82d0-e315a0898f46",
+      "tls":       {
+        "enabled": true,
+        "server_name": "dec.ketabv.ir",
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
@@ -632,9 +741,9 @@
       },
       "transport":       {
         "type": "ws",
-        "path": "/",
+        "path": "/sy5RZsmo3iYVIROnda#TELEGRAM-anotherme_night---%23TELEGRAM-anotherme_night---%23TELEGRAM-anotherme_night---%23TELEGRAM-anotherme_night---%23TELEGRAM-anotherme_night",
         "headers":         {
-          "Host": "finlav1.bupiq.com"
+          "Host": "dec.ketabv.ir"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -642,21 +751,63 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "36 § 34",
-      "server": "78.38.246.150",
-      "server_port": 8446,
-      "method": "chacha20-poly1305",
-      "password": "6e3e43f4-12b7-42f1-8b93-41a152d5612d"
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚭馃嚫庐锔廢nited States漏锔廟eston馃吙锔弍ing:109.72ms § 43",
+      "server": "147.135.77.6",
+      "server_port": 11201,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7f9cb9aef317f096"
     },
     {
       "type": "vless",
-      "tag": "37 § 35",
-      "server": "t3.euro2nova.com",
-      "server_port": 8880,
-      "uuid": "6a17a495-c6b6-4991-9007-2a7415b14453",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚭馃嚫庐锔廢nited States漏锔廠ecaucus馃吙锔弍ing:105.22ms § 44",
+      "server": "199.119.137.95",
+      "server_port": 2053,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sni.111000.indevs.in",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed",
+        "headers":         {
+          "Host": "sni.111000.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "馃憠馃啍@v2ray_configs_pool馃摗馃嚝馃嚪庐锔廎rance漏锔廝aris馃吙锔弍ing:51.57ms § 45",
+      "server": "fr-gt-01.com",
+      "server_port": 8443,
+      "uuid": "6f192450-a1ed-4072-898b-0dd55c4e3437",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA",
+          "short_id": "364994a6f61fc955"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray_configs_pool馃摗馃嚛馃嚜庐锔廏ermany漏锔廎rankfurt am Main馃吙锔弍ing:100.59ms § 46",
+      "server": "91.234.147.72",
+      "server_port": 6663,
+      "uuid": "bd680b6a-45d3-4558-81a5-57d3f19bd17f",
       "transport":       {
         "type": "http",
-        "host": "filimo.com",
         "path": "/",
         "method": "GET"
       },
@@ -664,83 +815,58 @@
     },
     {
       "type": "vless",
-      "tag": "39 § 36",
-      "server": "82.22.174.61",
-      "server_port": 1574,
-      "uuid": "a77aa668-8201-452a-82fa-72126fe05594",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "xray",
-      "tag": "40 § 37",
-      "udp_over_tcp": false,
-      "xconfig":       {
-        "protocol": "vless",
-        "settings":         {
-          "vnext":           [
-            {
-              "address": "no.tan3.ir",
-              "port": 2053,
-              "users":               [
-                {
-                  "encryption": "none",
-                  "id": "1621caa6-2a23-4364-919b-1276ab6ca81a"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings":         {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings":           {
-            "allowInsecure": false,
-            "alpn":             [
-              "h2"
-            ],
-            "fingerprint": "chrome",
-            "rejectUnknownSni": false,
-            "serverName": "ax.tan3.ir"
-          },
-          "xhttpSettings":           {
-            "extra":             {
-              "noGRPCHeader": false,
-              "scMaxConcurrentPosts": 100,
-              "scMaxEachPostBytes": 1000000,
-              "scMinPostsIntervalMs": 30,
-              "xPaddingBytes": "100-1000"
-            },
-            "host": "ax.tan3.ir",
-            "mode": "auto",
-            "path": "/"
-          }
-        },
-        "tag": "40"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "41 § 38",
-      "server": "liad.maf-tahas.ir",
+      "tag": "@v2ray_configs_pool馃摗馃嚚馃嚘庐锔廋anada漏锔廡oronto馃吙锔弍ing:21.86ms § 47",
+      "server": "104.25.255.94",
       "server_port": 443,
-      "uuid": "30689d42-d2f2-4495-a49b-dd0fdba10fb8",
+      "uuid": "dd6af632-e4bb-400a-922f-43f75ec89d64",
       "tls":       {
         "enabled": true,
-        "server_name": "harro-likeh2.sdcards1.ir",
+        "server_name": "api-uk.nping.ir",
+        "alpn": "h2",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
       "transport":       {
-        "type": "ws",
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "api-uk.nping.ir",
+        "path": "/v1/api/sync/f47ac10b58cc4372a5670e02b2c3d479"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray_configs_pool馃摗馃嚛馃嚜庐锔廏ermany漏锔廎rankfurt am Main馃吙锔弍ing:100.79ms § 48",
+      "server": "91.234.147.72",
+      "server_port": 6665,
+      "uuid": "bd680b6a-45d3-4558-81a5-57d3f19bd17f",
+      "transport":       {
+        "type": "http",
         "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "@v2ray_configs_pool馃摗馃嚝馃嚠庐锔廎inland漏锔廐elsinki馃吙锔弍ing:74.48ms § 49",
+      "server": "my.kiomars.shop",
+      "server_port": 6620,
+      "uuid": "bd680b6a-45d3-4558-81a5-57d3f19bd17f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "tgju.org",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM",
+          "short_id": "c3b6ed4da7a983c7"
+        }
       },
       "packet_encoding": "xudp"
     }
