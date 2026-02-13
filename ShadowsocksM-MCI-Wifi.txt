@@ -1,6 +1,2 @@
-vless://d4c244cd-fb79-478a-be50-7ea889491270@140.248.128.0:80?mode=auto&path=%2Fxhttp&security=none&encryption=none&host=hazaranetwork.bh&type=xhttp#1
-vless://ccab17f9-00a7-4493-c4a6-bbdd9e22166e@3.127.218.13:443?security=none&encryption=none&headerType=none&type=tcp#2
-vless://d4c244cd-fb79-478a-be50-7ea889491270@140.248.128.0:80?mode=auto&path=%2Fxhttp&security=none&encryption=none&host=hazaranetwork.bh&type=xhttp#3
-vless://ccab17f9-00a7-4493-c4a6-bbdd9e22166e@3.127.218.13:443?security=none&encryption=none&headerType=none&type=tcp#4
-vless://ccab17f9-00a7-4493-c4a6-bbdd9e22166e@3.127.218.13:443?security=none&encryption=none&headerType=none&type=tcp#5
-vless://352f047c-3176-4271-9bc6-3f7d33ee03c7@riali22.carpet-carpet-carped.ir:2018?security=reality&encryption=none&pbk=pY4Vwx68IazGJq4BPHFVAXzmQhOz9DmKjpNM2CSxehc&headerType=none&fp=firefox&type=tcp&sni=ub.com&sid=83f404#6
+vless://cca8470e-8180-44a4-9885-20b65cb2f59a@188.121.119.69:443?encryption=none&security=tls&fp=chrome&packetEncoding=xudp#1
+vless://0ec17ad5-dbda-455e-8a50-b530c28368c3@ashley.aivideoprocessor.com:80?encryption=none&type=ws&host=ashley.aivideoprocessor.com&path=/&packetEncoding=xudp#2
