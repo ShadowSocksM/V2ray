@@ -1,2 +1,4 @@
 vless://cca8470e-8180-44a4-9885-20b65cb2f59a@188.121.119.69:443?encryption=none&security=tls&fp=chrome&packetEncoding=xudp#1
 vless://0ec17ad5-dbda-455e-8a50-b530c28368c3@ashley.aivideoprocessor.com:80?encryption=none&type=ws&host=ashley.aivideoprocessor.com&path=/&packetEncoding=xudp#2
+vless://752741e4-ca51-4ec2-9ebd-e8806bfa0649@104.19.127.75:443?encryption=none&security=tls&sni=de001c.ketabv.ir&alpn=http/1.1&fp=chrome&type=ws&host=de001c.ketabv.ir&path=/uqBYRQhpA2NzSIhejwuqjz&packetEncoding=xudp#3
+
