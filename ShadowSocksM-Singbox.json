@@ -3,28 +3,177 @@
     {
       "type": "vless",
       "tag": "1 § 0",
-      "server": "188.121.119.69",
-      "server_port": 443,
-      "uuid": "cca8470e-8180-44a4-9885-20b65cb2f59a",
-      "tls":       {
-        "enabled": true,
-        "disable_sni": true
+      "server": "151.101.9.79",
+      "server_port": 80,
+      "uuid": "b5c3f136-f635-4d9f-ab18-6c775697f0d9",
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "11Svnlet-it-happen-khafesho-Sd.global.ssl.fastly.net",
+        "path": "/"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "2 § 1",
-      "server": "ashley.aivideoprocessor.com",
-      "server_port": 80,
-      "uuid": "0ec17ad5-dbda-455e-8a50-b530c28368c3",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
+      "server_port": 443,
+      "uuid": "f84ab055-3ffe-4a90-aad3-30596550b03c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "beh1.salonemojallal.ir.",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport":       {
         "type": "ws",
         "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "3 § 2",
+      "server": "104.25.148.191",
+      "server_port": 443,
+      "uuid": "798ea6aa-ebfe-4636-aee6-b17b8eafe473",
+      "tls":       {
+        "enabled": true,
+        "server_name": "de001c.ketabv.ir",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/uqBYRQhpA2NzSIhejwuqjz",
         "headers":         {
-          "Host": "ashley.aivideoprocessor.com"
+          "Host": "de001c.ketabv.ir"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "4 § 3",
+      "server": "45.12.30.95",
+      "server_port": 443,
+      "uuid": "f84ab055-3ffe-4a90-aad3-30596550b03c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "beh1.salonemojallal.ir.",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "5 § 4",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
+      "server_port": 443,
+      "uuid": "f84ab055-3ffe-4a90-aad3-30596550b03c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "beh1.salonemojallal.ir.",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "6 § 5",
+      "server": "fsat.amazon-host.com",
+      "server_port": 80,
+      "uuid": "0d79ad43-651c-411a-8cee-f7ba2f5f8cfa",
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "fr23423cdnsevicre.global.ssl.fastly.net",
+        "path": "magicmizban?ed=2048"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "7 § 6",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
+      "server_port": 443,
+      "uuid": "f84ab055-3ffe-4a90-aad3-30596550b03c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "beh1.salonemojallal.ir.",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "8 § 7",
+      "server": "45.12.30.95",
+      "server_port": 443,
+      "uuid": "f84ab055-3ffe-4a90-aad3-30596550b03c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "beh1.salonemojallal.ir.",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "9 § 8",
+      "server": "vip-80.f-sub.cfd",
+      "server_port": 1517,
+      "uuid": "991519c1-3680-49b7-bb9f-9029a7a39067",
+      "transport":       {
+        "type": "http",
+        "host": "varzesh3.com",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     }
