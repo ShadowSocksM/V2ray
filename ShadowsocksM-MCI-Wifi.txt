@@ -1,1 +1,1 @@
-vless://048ce500-05ab-485b-b224-1753d2b60730@95.174.92.11:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dk40.strelkavpn.com&fp=chrome&pbk=xfNZvP60yv5cee9Nyac7Daww3QwlAd2WDTd14jJixAk&sid=30406a9627a663&packetEncoding=xudp#13
+vless://bdf97c06-ae1f-47e9-b47a-9d9ff47b5820@zone.rs.lopzo.ir:38967?encryption=none&type=http&host=skyroom.online&method=GET&packetEncoding=xudp#13.1
