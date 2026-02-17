@@ -1,1 +1,3 @@
-vless://bdf97c06-ae1f-47e9-b47a-9d9ff47b5820@zone.rs.lopzo.ir:38967?encryption=none&type=http&host=skyroom.online&method=GET&packetEncoding=xudp#13.1
+vless://5808fea7-745a-fbd4-eb1e-616b1123c14f@ir.grbr.private-link.lornanet.ir:9174?encryption=none&type=xhttp&security=reality&sni=refersion.com&fp=safari&pbk=dQYahYS6055ghu03hkvNxv9geHCJHqASFVbXs3v1jDw&sid=e99768d076c05ab2&spx=/&path=/?ed%3D2560&mode=auto#1
+vless://427f826f-6510-b8f8-2848-6b4e6b9325ac@ir.grbr.private-link.lornanet.ir:3130?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rEfErSion.Com&fp=safari&pbk=dQYahYS6055ghu03hkvNxv9geHCJHqASFVbXs3v1jDw&sid=e99768d076c05ab2&packetEncoding=xudp#2
+vless://427f826f-6510-b8f8-2848-6b4e6b9325ac@ir.grbr.private-link.lornanet.ir:9174?encryption=none&type=xhttp&security=reality&sni=refersion.com&fp=safari&pbk=dQYahYS6055ghu03hkvNxv9geHCJHqASFVbXs3v1jDw&sid=e99768d076c05ab2&spx=/PuLaVPN/PuLaVPN/PuLaVPN//PuLaVPN%20&path=/?ed%3D2560&mode=auto#3
