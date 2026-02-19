@@ -2,37 +2,94 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "1 § 0",
-      "server": "s4.daneshvardost.com",
-      "server_port": 26480,
-      "uuid": "6919e588-cff3-4c1b-b7a3-3ca0ada5fb69",
+      "tag": "25 § 0",
+      "server": "v2a.mhlovelykimia.ir",
+      "server_port": 4001,
+      "uuid": "fdc6c1ff-a6ea-4472-acea-5d26f08fae79",
+      "transport":       {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "2 § 1",
-      "server": "185.126.3.186",
-      "server_port": 26480,
-      "uuid": "6919e588-cff3-4c1b-b7a3-3ca0ada5fb69",
+      "tag": "55 § 1",
+      "server": "78.110.123.32",
+      "server_port": 2095,
+      "uuid": "f8d3b3c4-678d-4a23-a4de-f8613a310a44",
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "3 § 2",
-      "server": "85.133.200.136",
-      "server_port": 26480,
-      "uuid": "6919e588-cff3-4c1b-b7a3-3ca0ada5fb69",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "4 § 3",
-      "server": "host.snapfood.org",
+      "tag": "65 § 2",
+      "server": "ipwit1.fastspeedx4.info",
       "server_port": 443,
-      "uuid": "79623191-ec26-4c9a-8021-50713c67dfe2",
+      "uuid": "cbf73250-e228-4fc8-95a1-3804176354be",
       "tls":       {
         "enabled": true,
-        "server_name": "snapfood.org",
+        "server_name": "default.ssl.fastly.net"
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "Afrspeedtest.global.ssl.fastly.net",
+        "path": "/dl?ed=2560",
+        "xPaddingBytes": "100-1000",
+        "scMaxEachPostBytes": "1000000-1000000",
+        "scMinPostsIntervalMs": "30-30"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "78 § 3",
+      "server": "fast1.mrsf.ir",
+      "server_port": 443,
+      "uuid": "cbf73250-e228-4fc8-95a1-3804176354be",
+      "tls":       {
+        "enabled": true,
+        "server_name": "default.ssl.fastly.net"
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "Osipanel.global.ssl.fastly.net",
+        "path": "/dl?ed=2560",
+        "xPaddingBytes": "100-1000",
+        "scMaxEachPostBytes": "1000000-1000000",
+        "scMinPostsIntervalMs": "30-30"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "45 § 4",
+      "server": "fast1.mrsf.ir",
+      "server_port": 443,
+      "uuid": "cbf73250-e228-4fc8-95a1-3804176354be",
+      "tls":       {
+        "enabled": true,
+        "server_name": "default.ssl.fastly.net"
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "Osipanel.global.ssl.fastly.net",
+        "path": "/dl?ed=2560"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "25 § 5",
+      "server": "http.tostar.ir",
+      "server_port": 443,
+      "uuid": "796d1abf-3380-4ad3-9c0f-11575e621023",
+      "tls":       {
+        "enabled": true,
+        "server_name": "http.tostar.ir",
         "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
@@ -40,21 +97,12 @@
         }
       },
       "transport":       {
-        "type": "ws",
-        "path": "/ukspeed",
+        "type": "httpupgrade",
+        "path": "/UdhD3KL2ybEo3nVleSsjHGjsiFSl0JRLUHttPuPgRaDe",
         "headers":         {
-          "Host": "snapfood.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+          "Host": "http.tostar.ir"
+        }
       },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "5 § 4",
-      "server": "simurgh.adslimit.info",
-      "server_port": 2345,
-      "uuid": "20adc847-4159-4f39-b79f-d563b660945f",
       "packet_encoding": "xudp"
     },
     {
@@ -68,22 +116,6 @@
         "mode": "auto",
         "host": "pablo-n3.digionix.ir",
         "path": "/pabloping?mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "7 § 6",
-      "server": "vip.api-tel.xyz",
-      "server_port": 43151,
-      "uuid": "5f0772ad-9db3-4cb0-b801-bd40f51fd3ea",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "vip.api-tel.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     }
