@@ -2,94 +2,41 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "25 § 0",
-      "server": "v2a.mhlovelykimia.ir",
-      "server_port": 4001,
-      "uuid": "fdc6c1ff-a6ea-4472-acea-5d26f08fae79",
-      "transport":       {
-        "type": "http",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "55 § 1",
-      "server": "78.110.123.32",
-      "server_port": 2095,
-      "uuid": "f8d3b3c4-678d-4a23-a4de-f8613a310a44",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "65 § 2",
-      "server": "ipwit1.fastspeedx4.info",
-      "server_port": 443,
-      "uuid": "cbf73250-e228-4fc8-95a1-3804176354be",
-      "tls":       {
-        "enabled": true,
-        "server_name": "default.ssl.fastly.net"
-      },
+      "tag": "1 § 0",
+      "server": "c.pabloping.cloud",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "transport":       {
         "type": "xhttp",
         "mode": "auto",
-        "host": "Afrspeedtest.global.ssl.fastly.net",
-        "path": "/dl?ed=2560",
-        "xPaddingBytes": "100-1000",
-        "scMaxEachPostBytes": "1000000-1000000",
-        "scMinPostsIntervalMs": "30-30"
+        "host": "updn.pabloping.pro",
+        "path": "/pabloping"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "78 § 3",
-      "server": "fast1.mrsf.ir",
-      "server_port": 443,
-      "uuid": "cbf73250-e228-4fc8-95a1-3804176354be",
-      "tls":       {
-        "enabled": true,
-        "server_name": "default.ssl.fastly.net"
-      },
+      "tag": "2 § 1",
+      "server": "104.16.121.147",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "transport":       {
         "type": "xhttp",
         "mode": "auto",
-        "host": "Osipanel.global.ssl.fastly.net",
-        "path": "/dl?ed=2560",
-        "xPaddingBytes": "100-1000",
-        "scMaxEachPostBytes": "1000000-1000000",
-        "scMinPostsIntervalMs": "30-30"
+        "host": "nlbv1.pabloping.pro",
+        "path": "/pabloping"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "45 § 4",
-      "server": "fast1.mrsf.ir",
-      "server_port": 443,
-      "uuid": "cbf73250-e228-4fc8-95a1-3804176354be",
+      "tag": "3 § 2",
+      "server": "glob.thisiswe.uno",
+      "server_port": 2053,
+      "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
       "tls":       {
         "enabled": true,
-        "server_name": "default.ssl.fastly.net"
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "host": "Osipanel.global.ssl.fastly.net",
-        "path": "/dl?ed=2560"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "25 § 5",
-      "server": "http.tostar.ir",
-      "server_port": 443,
-      "uuid": "796d1abf-3380-4ad3-9c0f-11575e621023",
-      "tls":       {
-        "enabled": true,
-        "server_name": "http.tostar.ir",
+        "server_name": "cd11.thisiswe.uno",
         "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
@@ -97,25 +44,40 @@
         }
       },
       "transport":       {
-        "type": "httpupgrade",
-        "path": "/UdhD3KL2ybEo3nVleSsjHGjsiFSl0JRLUHttPuPgRaDe",
+        "type": "ws",
+        "path": "/",
         "headers":         {
-          "Host": "http.tostar.ir"
-        }
+          "Host": "cd11.thisiswe.uno"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "6 § 5",
-      "server": "45.130.125.160",
+      "tag": "4 § 3",
+      "server": "104.18.32.47",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "transport":       {
         "type": "xhttp",
         "mode": "auto",
-        "host": "pablo-n3.digionix.ir",
-        "path": "/pabloping?mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn"
+        "host": "nlbv1.pabloping.pro",
+        "path": "/pabloping"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "5 § 4",
+      "server": "172.64.152.170",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "updn.pabloping.pro",
+        "path": "/pabloping"
       },
       "packet_encoding": "xudp"
     }
