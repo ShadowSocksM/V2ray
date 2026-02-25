@@ -2,7 +2,1292 @@
   "outbounds":   [
     {
       "type": "hysteria2",
-      "tag": "100 § 0",
+      "tag": "1 § 0",
+      "server": "206.71.158.37",
+      "server_port": 35200,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "2 § 1",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "3 § 2",
+      "server": "206.71.158.37",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "4 § 3",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "5 § 4",
+      "server": "130.61.50.75",
+      "server_port": 6443,
+      "password": "zhangyang",
+      "tls":       {
+        "enabled": true,
+        "server_name": "dash.cloudflare.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "6 § 5",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "7 § 6",
+      "server": "135.125.204.154",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "8 § 7",
+      "server": "2a0c:4ac1:8::121",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "9 § 8",
+      "server": "2a14:3f87:f001:1a::a",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "10 § 9",
+      "server": "77.90.41.197",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "11 § 10",
+      "server": "206.71.158.41",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "12 § 11",
+      "server": "206.71.158.40",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "13 § 12",
+      "server": "updates.kermanshahi.org",
+      "server_port": 33500,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "updates.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "14 § 13",
+      "server": "206.71.158.37",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "15 § 14",
+      "server": "2a14:3f87:f001:13::a",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "16 § 15",
+      "server": "2001:bc8:32d7:302::11",
+      "server_port": 20088,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "17 § 16",
+      "server": "206.71.158.37",
+      "server_port": 36300,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "18 § 17",
+      "server": "206.71.158.37",
+      "server_port": 36600,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "19 § 18",
+      "server": "xg.xn--mes13n8pi8x2b.shop",
+      "server_port": 21072,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "20 § 19",
+      "server": "xg.xn--mes13n8pi8x2b.shop",
+      "server_port": 21494,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "21 § 20",
+      "server": "tw.xn--mes13n8pi8x2b.shop",
+      "server_port": 21828,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "22 § 21",
+      "server": "tw.xn--mes13n8pi8x2b.shop",
+      "server_port": 21860,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "23 § 22",
+      "server": "rb.xn--mes13n8pi8x2b.shop",
+      "server_port": 21545,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "24 § 23",
+      "server": "rb.xn--mes13n8pi8x2b.shop",
+      "server_port": 21842,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "25 § 24",
+      "server": "mg.xn--mes13n8pi8x2b.shop",
+      "server_port": 21349,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "26 § 25",
+      "server": "mg.xn--mes13n8pi8x2b.shop",
+      "server_port": 21639,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "27 § 26",
+      "server": "trq.xn--mes13n8pi8x2b.shop",
+      "server_port": 21112,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "28 § 27",
+      "server": "trq.xn--mes13n8pi8x2b.shop",
+      "server_port": 21910,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "29 § 28",
+      "server": "agt.xn--mes13n8pi8x2b.shop",
+      "server_port": 21440,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "30 § 29",
+      "server": "agt.xn--mes13n8pi8x2b.shop",
+      "server_port": 21654,
+      "password": "642dc0b9-6481-4d84-ad60-3586e870f263",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "31 § 30",
+      "server": "206.71.158.37",
+      "server_port": 35200,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "32 § 31",
+      "server": "206.71.158.37",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "33 § 32",
+      "server": "206.71.158.37",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "34 § 33",
+      "server": "208.87.243.187",
+      "server_port": 22222,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "35 § 34",
+      "server": "drhystuichdfy.samanidempire.org",
+      "server_port": 20335,
+      "obfs":       {
+        "type": "salamander",
+        "password": "U1wBrYQyFm"
+      },
+      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+      "tls":       {
+        "enabled": true,
+        "server_name": "drhystuichdfy.samanidempire.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "36 § 35",
+      "server": "107.173.127.166",
+      "server_port": 25000,
+      "password": "37afff84-34bd-4db6-b24a-7d73d2ed48ce",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "37 § 36",
+      "server": "198.23.130.211",
+      "server_port": 25000,
+      "password": "37afff84-34bd-4db6-b24a-7d73d2ed48ce",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.push.apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "38 § 37",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 35200,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "39 § 38",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "40 § 39",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 36300,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "41 § 40",
+      "server": "hk1.shiyuandian.shop",
+      "server_port": 24591,
+      "password": "ae845cbd-08fb-4346-929a-e28a6f3960a8",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hk1.shiyuandian.shop",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "42 § 41",
+      "server": "mumbai-3.nezhasu.com",
+      "server_port": 443,
+      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mumbai-3.nezhasu.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "43 § 42",
+      "server": "lsdg1.lansecs.top",
+      "server_port": 58338,
+      "password": "e42a38c4-4bea-42d6-90f1-3076e12f8c51",
+      "tls":       {
+        "enabled": true,
+        "server_name": "lsdg1.lansecs.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "44 § 43",
+      "server": "70.34.215.221",
+      "server_port": 20335,
+      "obfs":       {
+        "type": "salamander",
+        "password": "U1wBrYQyFm"
+      },
+      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+      "tls":       {
+        "enabled": true,
+        "server_name": "drhystuichdfy.samanidempire.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "45 § 44",
+      "server": "dir.cybsecguru.com",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "46 § 45",
+      "server": "falankefu1.nezhasu.com",
+      "server_port": 443,
+      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
+      "tls":       {
+        "enabled": true,
+        "server_name": "falankefu1.nezhasu.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "47 § 46",
+      "server": "lsus3.lansecs.top",
+      "server_port": 58338,
+      "password": "e42a38c4-4bea-42d6-90f1-3076e12f8c51",
+      "tls":       {
+        "enabled": true,
+        "server_name": "lsus3.lansecs.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "48 § 47",
+      "server": "lundun1.nezhasu.com",
+      "server_port": 443,
+      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
+      "tls":       {
+        "enabled": true,
+        "server_name": "lundun1.nezhasu.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "49 § 48",
+      "server": "6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk",
+      "server_port": 1743,
+      "password": "17cdeb6c-f046-11ee-bdac-f23c93141fad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "50 § 49",
+      "server": "208.87.243.187",
+      "server_port": 22222,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "51 § 50",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "52 § 51",
+      "server": "206.71.158.37",
+      "server_port": 36300,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "53 § 52",
+      "server": "hl.dabache.top",
+      "server_port": 20000,
+      "obfs":       {
+        "type": "none"
+      },
+      "password": "46dff9e6-c449-4a13-98b4-4b516427575d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hl.dabache.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "54 § 53",
+      "server": "206.71.158.37",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "55 § 54",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@i"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "56 § 55",
+      "server": "172.232.207.161",
+      "server_port": 6090,
+      "obfs":       {
+        "type": "salamander",
+        "password": "etXTC5FrUoTkMu2xlBradrUQrLDMgHJ"
+      },
+      "password": "freeflyzone1:T0JYDwuNHT3pdf3x9ftRTDg0Okwszjvj",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.azki.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "57 § 56",
+      "server": "206.71.158.41",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "58 § 57",
+      "server": "206.71.158.37",
+      "server_port": 36300,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "59 § 58",
+      "server": "206.71.158.41",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "%2540JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "60 § 59",
+      "server": "dd.openaccessnode.com",
+      "server_port": 989,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
+      },
+      "password": "75193bef8d8fe82341e02dd083dc1399",
+      "tls":       {
+        "enabled": true,
+        "server_name": "dd.ircybersec.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "62 § 60",
+      "server": "206.71.158.41",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "63 § 61",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "64 § 62",
+      "server": "324d9cff-t6ngg0-t9lc3n-z93q.us.hyhuawei.com",
+      "server_port": 443,
+      "obfs":       {
+        "type": "none"
+      },
+      "password": "40639730-e027-11ea-87ad-f23c913c8d2b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "324d9cff-t6ngg0-t9lc3n-z93q.us.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "65 § 63",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "66 § 64",
+      "server": "206.71.158.37",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "67 § 65",
+      "server": "0.0.0.0",
+      "server_port": 1,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
+      },
+      "password": "75193bef8d8fe82341e02dd083dc1399",
+      "tls":       {
+        "enabled": true,
+        "server_name": "dd.ircybersec.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "68 § 66",
+      "server": "206.71.158.41",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "69 § 67",
+      "server": "77.90.41.197",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "71 § 68",
+      "server": "2a01:4f9:4b:f378::1",
+      "server_port": 13599,
+      "password": "linux.do",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "72 § 69",
+      "server": "71deac1b-t6ngg0-t8xyf4-1l0qa.us.hyhuawei.com",
+      "server_port": 443,
+      "obfs":       {
+        "type": "none"
+      },
+      "password": "0720c874-35e8-11ef-aa88-f23c913c8d2b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "71deac1b-t6ngg0-t8xyf4-1l0qa.us.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "73 § 70",
+      "server": "206.71.158.41",
+      "server_port": 35000,
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "74 § 71",
+      "server": "hk.chifanbieshuohua.club",
+      "server_port": 20190,
+      "obfs":       {
+        "type": "none"
+      },
+      "password": "34ae50b1-3cab-4aea-b834-f3b1f8a42cc1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hk.chifanbieshuohua.club",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "75 § 72",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org@freenettir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "76 § 73",
+      "server": "91.132.51.160",
+      "server_port": 844,
+      "password": "5046SHWqk6",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.refersion.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "77 § 74",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org@freenettir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "78 § 75",
+      "server": "5.175.249.174",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "79 § 76",
+      "server": "2001:bc8:1640:50eb:dc00:ff:fe57:dd6f:443",
+      "server_port": 443,
+      "obfs":       {
+        "type": "FnFgQIckcMRtKq7i"
+      },
+      "password": "71504eaf-29ac-4190-89d1-dd9ce2c9ee14",
+      "tls":       {
+        "enabled": true,
+        "server_name": "Ab.ac",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "80 § 77",
+      "server": "2a14:3f87:f001:13::a:35200",
+      "server_port": 443,
+      "obfs":       {
+        "type": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "81 § 78",
+      "server": "cb6ccdef-t53wg0-thiwul-1gcq2.hk1.hyhuawei.com",
+      "server_port": 443,
+      "obfs":       {
+        "type": "none"
+      },
+      "password": "759bf004-6137-11ec-bd7c-f23c913c8d2b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cb6ccdef-t53wg0-thiwul-1gcq2.hk1.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "82 § 79",
+      "server": "ed7340c8-t53wg0-t80cbx-1k0yf.hk2.hyhuawei.com",
+      "server_port": 443,
+      "obfs":       {
+        "type": "none"
+      },
+      "password": "9cc3c03e-21fd-11ee-a642-f23c91369f2d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ed7340c8-t53wg0-t80cbx-1k0yf.hk2.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "83 § 80",
+      "server": "8ce460ac-t6ngg0-tnkuks-wujn.us.hyhuawei.com",
+      "server_port": 443,
+      "obfs":       {
+        "type": "none"
+      },
+      "password": "51362ab6-b5e6-11ea-ad28-f23c913c8d2b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "8ce460ac-t6ngg0-tnkuks-wujn.us.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "84 § 81",
+      "server": "c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk",
+      "server_port": 1743,
+      "password": "17cdeb6c-f046-11ee-bdac-f23c93141fad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "🔒",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "85 § 82",
+      "server": "sss.ikun6.dpdns.org",
+      "server_port": 27995,
+      "password": "1y4HweESOT",
+      "tls":       {
+        "enabled": true,
+        "server_name": "azure.microsoft.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "86 § 83",
+      "server": "mg2.mangshe.xyz",
+      "server_port": 2056,
+      "password": "78c2bad7-f5f3-41f2-88cc-81de9d05040b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mg2.mangshe.xyz",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "87 § 84",
+      "server": "xjp1.mangshe.xyz",
+      "server_port": 2055,
+      "password": "78c2bad7-f5f3-41f2-88cc-81de9d05040b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "xjp1.mangshe.xyz",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "88 § 85",
+      "server": "jp7.dexlos.com",
+      "server_port": 13778,
+      "password": "95D27EEF-B7AE-4076-BA39-40FDFA3D0F61",
+      "tls":       {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "89 § 86",
+      "server": "206.71.158.37",
+      "server_port": 36400,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "password": "Yet-Another-Public-Config-1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "90 § 87",
+      "server": "de.eyucdn.xyz",
+      "server_port": 2056,
+      "password": "a084933d-0b41-4571-ae0c-7163b8c71ed1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "de.eyucdn.xyz",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "91 § 88",
+      "server": "ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com",
+      "server_port": 443,
+      "password": "a305ac08-d136-11ee-b6db-f23c91cfbbc9",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "92 § 89",
+      "server": "206.71.158.40",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "93 § 90",
+      "server": "206.71.158.41",
+      "server_port": 35000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "94 § 91",
+      "server": "sg3.oomz.ru",
+      "server_port": 30000,
+      "password": "e7965e64-e001-4e8c-8273-39c61ff4a094",
+      "tls":       {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "95 § 92",
+      "server": "tw.oomz.ru",
+      "server_port": 30000,
+      "password": "e7965e64-e001-4e8c-8273-39c61ff4a094",
+      "tls":       {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "96 § 93",
+      "server": "130.61.50.75",
+      "server_port": 6443,
+      "password": "zhangyang",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "100 § 94",
       "server": "5.175.249.174",
       "server_port": 35000,
       "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
@@ -13,7 +1298,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "101 § 1",
+      "tag": "101 § 95",
       "server": "5.175.249.174",
       "server_port": 35000,
       "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
@@ -24,7 +1309,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "102 § 2",
+      "tag": "102 § 96",
       "server": "5.175.249.174",
       "server_port": 35000,
       "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
@@ -35,7 +1320,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "103 § 3",
+      "tag": "103 § 97",
       "server": "5.175.249.174",
       "server_port": 35000,
       "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
@@ -46,7 +1331,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "104 § 4",
+      "tag": "104 § 98",
       "server": "5.175.249.174",
       "server_port": 35000,
       "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
@@ -57,7 +1342,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "105 § 5",
+      "tag": "105 § 99",
       "server": "5.175.249.174",
       "server_port": 35000,
       "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
@@ -68,7 +1353,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "106 § 6",
+      "tag": "106 § 100",
       "server": "5.175.249.174",
       "server_port": 35000,
       "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
