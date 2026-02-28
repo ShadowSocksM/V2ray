@@ -1,114 +1,51 @@
 {
-  "outbounds":   [
-    {
-      "type": "vless",
-      "tag": "36 § 0",
-      "server": "ip3.iranvatanam.com",
-      "server_port": 2053,
-      "uuid": "8cdd2e6d-21f7-4d49-9c84-5f7df73b9db8",
-      "tls":       {
-        "enabled": true,
-        "server_name": "info.iranvatanam.com",
-        "insecure": true,
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "info.iranvatanam.com"
-        },
-        "max_early_data": 2052,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+ "outbounds": [
+  {
+   "type": "vless",
+   "tag": "12 § 0",
+   "server": "144.31.63.7",
+   "server_port": 443,
+   "uuid": "851aa636-6d4b-40e1-b484-f14ad697d2a1",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "deout.funvideorus.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
     },
-    {
-      "type": "vless",
-      "tag": "73 § 1",
-      "server": "37.139.35.53",
-      "server_port": 443,
-      "uuid": "c501c66b-c6c2-456b-b604-80393b83d67f",
-      "tls":       {
-        "enabled": true,
-        "server_name": "eh.vk.com",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "_oEGDYSSHrqmbHEUoHbp6YnmNTcXTVdWXcDmpi3JdH0",
-          "short_id": "aefbcf7fc283bd55"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "service_name": "UpdateService",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "74 § 2",
-      "server": "45.130.125.160",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "host": "atus.pabloping.pro",
-        "path": "/pabloping"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "77 § 3",
-      "server": "104.18.32.47",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "host": "nlbv1.pabloping.pro",
-        "path": "/pabloping"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "80 § 4",
-      "server": "fastly1.fastspeeds.ir",
-      "server_port": 80,
-      "uuid": "8cdd2e6d-21f7-4d49-9c84-5f7df73b9db8",
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "host": "khanahmadiforever.global.ssl.fastly.net",
-        "path": "/magicmizban?ed=2048",
-        "xPaddingBytes": "100-1000",
-        "scMaxEachPostBytes": "1000000-1000000",
-        "scMinPostsIntervalMs": "30-30",
-        "xmux":         {
-          "maxConcurrency": "16-32",
-          "maxConnections": "",
-          "cMaxReuseTimes": "64-128",
-          "hMaxRequestTimes": "800-900",
-          "hMaxReusableSecs": "",
-          "hKeepAlivePeriod": 0
-        }
-      },
-      "packet_encoding": "xudp"
+    "reality": {
+     "enabled": true,
+     "public_key": "4YI0QbJYHCyl4-VWZPWAMccOmUW0c_XDE_rEZc-dNC0"
     }
-  ],
-  "endpoints":   [
-  ]
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "60 § 1",
+   "server": "188.114.99.160",
+   "server_port": 8443,
+   "uuid": "0525f54a-568b-4f0b-89e5-c2666e800d83",
+   "tls": {
+    "enabled": true,
+    "server_name": "matoride.adaspoloandco.com",
+    "alpn": "http/1.1",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/downloader",
+    "headers": {
+     "Host": "matoride.adaspoloandco.com"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  }
+ ],
+ "endpoints": []
 }
