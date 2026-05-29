@@ -2,27 +2,29 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "3ms § 0",
-      "server": "172.67.74.224",
-      "server_port": 2096,
-      "uuid": "de8b874f-0b15-440c-b257-ce68852ffad0",
+      "tag": "DiBo § 0",
+      "server": "50.85.80.187",
+      "server_port": 12217,
+      "uuid": "4e4d0a09-55f6-454d-98e5-0a8aed6a03e7",
       "tls":       {
         "enabled": true,
-        "server_name": "42369075530f8c99.hozheen.ir",
-        "alpn": "http/1.1",
+        "server_name": "www.apple.com",
+        "alpn": "h2",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "5NrYPyQB-JlYMwahPmlg5GNTACYuMts24B9HKT3Vk0o",
+          "short_id": "21af"
         }
       },
       "transport":       {
-        "type": "ws",
-        "path": "/ws",
-        "headers":         {
-          "Host": "com.hozheen.ir"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "grpc",
+        "service_name": "mci.ir",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     }
