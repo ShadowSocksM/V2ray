@@ -1,79 +1,32 @@
 {
-  "outbounds": [
+  "outbounds":   [
     {
-      "type": "trojan",
-      "tag": "Mci 1",
-      "server": "165.215.250.160",
-      "server_port": 443,
-      "password": "Mitivpn",
-      "tls": {
+      "type": "vless",
+      "tag": "3ms § 0",
+      "server": "172.67.74.224",
+      "server_port": 2096,
+      "uuid": "de8b874f-0b15-440c-b257-ce68852ffad0",
+      "tls":       {
         "enabled": true,
-        "server_name": "my.hitgram.ir",
-        "insecure": true,
-        "alpn": ["http/1.1"],
-        "utls": {
+        "server_name": "42369075530f8c99.hozheen.ir",
+        "alpn": "http/1.1",
+        "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
-      "transport": {
+      "transport":       {
         "type": "ws",
-        "path": "/?ed=mitivpn",
-        "headers": {
-          "Host": "my.hitgram.ir"
+        "path": "/ws",
+        "headers":         {
+          "Host": "com.hozheen.ir"
         },
+        "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Mci 2",
-      "server": "165.215.250.160",
-      "server_port": 443,
-      "password": "Mitivpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "panel.hitgram.ir",
-        "insecure": true,
-        "alpn": ["http/1.1"],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=mitivpn",
-        "headers": {
-          "Host": "panel.hitgram.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Mci 3",
-      "server": "165.215.250.160",
-      "server_port": 443,
-      "password": "Mitivpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.hitgram.ir",
-        "insecure": true,
-        "alpn": ["http/1.1"],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=mitivpn",
-        "headers": {
-          "Host": "www.hitgram.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "packet_encoding": "xudp"
     }
+  ],
+  "endpoints":   [
   ]
 }
