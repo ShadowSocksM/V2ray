@@ -1,51 +1,85 @@
 {
- "outbounds": [
-  {
-   "type": "vless",
-   "tag": "12 § 0",
-   "server": "144.31.63.7",
-   "server_port": 443,
-   "uuid": "851aa636-6d4b-40e1-b484-f14ad697d2a1",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "deout.funvideorus.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
+  "outbounds":   [
+    {
+      "type": "trojan",
+      "tag": "Mci  1
+
+2. @MiTiVPN -Mci  2 [165.215.250.160:443] § 0",
+      "server": "165.215.250.160",
+      "server_port": 443,
+      "password": "Mitivpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "my.hitgram.ir",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=mitivpn",
+        "headers":         {
+          "Host": "my.hitgram.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
-    "reality": {
-     "enabled": true,
-     "public_key": "4YI0QbJYHCyl4-VWZPWAMccOmUW0c_XDE_rEZc-dNC0"
-    }
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "60 § 1",
-   "server": "188.114.99.160",
-   "server_port": 8443,
-   "uuid": "0525f54a-568b-4f0b-89e5-c2666e800d83",
-   "tls": {
-    "enabled": true,
-    "server_name": "matoride.adaspoloandco.com",
-    "alpn": "http/1.1",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/downloader",
-    "headers": {
-     "Host": "matoride.adaspoloandco.com"
+    {
+      "type": "trojan",
+      "tag": "Mci  2
+
+3. @MiTiVPN -Mci  3 [165.215.250.160:443] § 1",
+      "server": "165.215.250.160",
+      "server_port": 443,
+      "password": "Mitivpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "panel.hitgram.ir",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=mitivpn",
+        "headers":         {
+          "Host": "panel.hitgram.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  }
- ],
- "endpoints": []
+    {
+      "type": "trojan",
+      "tag": "Mci  3 § 2",
+      "server": "165.215.250.160",
+      "server_port": 443,
+      "password": "Mitivpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.hitgram.ir",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?ed=mitivpnn",
+        "headers":         {
+          "Host": "www.hitgram.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    }
+  ],
+  "endpoints":   [
+  ]
 }
