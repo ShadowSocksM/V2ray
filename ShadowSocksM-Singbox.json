@@ -1,28 +1,12 @@
 {
   "outbounds":   [
     {
-      "type": "vless",
-      "tag": "1 § 0",
-      "server": "3.71.187.131",
+      "type": "shadowsocks",
+      "tag": "🇳🇱 SP-NL § 0",
+      "server": "109.201.152.181",
       "server_port": 443,
-      "uuid": "8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "2 § 1",
-      "server": "3.71.187.131",
-      "server_port": 443,
-      "uuid": "8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "3 § 2",
-      "server": "3.71.187.131",
-      "server_port": 443,
-      "uuid": "8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded",
-      "packet_encoding": "xudp"
+      "method": "aes-128-cfb",
+      "password": "shadowsocks"
     }
   ],
   "endpoints":   [
