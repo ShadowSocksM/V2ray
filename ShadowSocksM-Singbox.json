@@ -1,56 +1,143 @@
 {
-  "outbounds": [
+  "outbounds":   [
     {
-      "type": "anytls",
-      "tag": "AnyTLS-5",
-      "server": "76842b4a-tb71c0-tgprfk-ddgs.losjan20.west.wctype.com",
-      "server_port": 8300,
-      "password": "c870fe5a-0729-11f0-8cf9-f23c93136cb3",
-      "idle_session_check_interval": "30s",
-      "idle_session_timeout": "30s",
-      "min_idle_session": 5,
-      "tls": {
-        "enabled": true,
-        "server_name": "76842b4a-tb71c0-tgprfk-ddgs.losjan20.west.wctype.com",
-        "insecure": true
-      }
+      "type": "vless",
+      "tag": "1 § 0",
+      "server": "83.228.226.72",
+      "server_port": 443,
+      "uuid": "a1ee1f7f-deb9-48e4-9a97-6f565949817d",
+      "transport":       {
+        "type": "http",
+        "host": "uplod.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "Reality-2",
-      "server": "hungary.cloudpath.live",
+      "tag": "2 § 1",
+      "server": "83.228.226.72",
+      "server_port": 443,
+      "uuid": "a1ee1f7f-deb9-48e4-9a97-6f565949817d",
+      "transport":       {
+        "type": "http",
+        "host": "uplod.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "3 § 2",
+      "server": "germany.cloudpath.live",
       "server_port": 443,
       "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
-      "packet_encoding": "xudp",
-      "tls": {
+      "tls":       {
         "enabled": true,
         "server_name": "microsoft.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "qa6dtExYCAVoxRNSfoyuz9JRM9nq475NbuW-P6aJyS0",
-          "short_id": "d0c2ffdf"
-        },
-        "utls": {
+        "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
+          "short_id": "065ee439"
         }
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "TLS-3",
+      "tag": "4 § 3",
+      "server": "germany.cloudpath.live",
+      "server_port": 443,
+      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
+      "tls":       {
+        "enabled": true,
+        "server_name": "microsoft.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
+          "short_id": "065ee439"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "5 § 4",
+      "server": "83.228.226.72",
+      "server_port": 443,
+      "uuid": "a1ee1f7f-deb9-48e4-9a97-6f565949817d",
+      "transport":       {
+        "type": "http",
+        "host": "uplod.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "6 § 5",
+      "server": "germany.cloudpath.live",
+      "server_port": 443,
+      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
+      "tls":       {
+        "enabled": true,
+        "server_name": "microsoft.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
+          "short_id": "065ee439"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "7 § 6",
       "server": "cdn7-39.vk-cdnvideo.com",
       "server_port": 8443,
       "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "packet_encoding": "xudp",
-      "tls": {
+      "tls":       {
         "enabled": true,
         "server_name": "cdn7-39.vk-cdnvideo.com",
-        "utls": {
+        "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "8 § 7",
+      "server": "cdn7-09.vk-cdnvideo.com",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn7-09.vk-cdnvideo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp"
     }
+  ],
+  "endpoints":   [
   ]
 }
