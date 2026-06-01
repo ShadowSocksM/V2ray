@@ -14,6 +14,43 @@
         "server_name": "76842b4a-tb71c0-tgprfk-ddgs.losjan20.west.wctype.com",
         "insecure": true
       }
+    },
+    {
+      "type": "vless",
+      "tag": "Reality-2",
+      "server": "hungary.cloudpath.live",
+      "server_port": 443,
+      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "microsoft.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "qa6dtExYCAVoxRNSfoyuz9JRM9nq475NbuW-P6aJyS0",
+          "short_id": "d0c2ffdf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "TLS-3",
+      "server": "cdn7-39.vk-cdnvideo.com",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn7-39.vk-cdnvideo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ]
 }
