@@ -1,14 +1,19 @@
 {
-  "outbounds":   [
+  "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 SP-NL § 0",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
+      "type": "anytls",
+      "tag": "AnyTLS-5",
+      "server": "76842b4a-tb71c0-tgprfk-ddgs.losjan20.west.wctype.com",
+      "server_port": 8300,
+      "password": "c870fe5a-0729-11f0-8cf9-f23c93136cb3",
+      "idle_session_check_interval": "30s",
+      "idle_session_timeout": "30s",
+      "min_idle_session": 5,
+      "tls": {
+        "enabled": true,
+        "server_name": "76842b4a-tb71c0-tgprfk-ddgs.losjan20.west.wctype.com",
+        "insecure": true
+      }
     }
-  ],
-  "endpoints":   [
   ]
 }
