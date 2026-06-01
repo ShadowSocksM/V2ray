@@ -2,30 +2,26 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "DiBo § 0",
-      "server": "50.85.80.187",
-      "server_port": 12217,
-      "uuid": "4e4d0a09-55f6-454d-98e5-0a8aed6a03e7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "5NrYPyQB-JlYMwahPmlg5GNTACYuMts24B9HKT3Vk0o",
-          "short_id": "21af"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "service_name": "mci.ir",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
+      "tag": "1 § 0",
+      "server": "3.71.187.131",
+      "server_port": 443,
+      "uuid": "8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "2 § 1",
+      "server": "3.71.187.131",
+      "server_port": 443,
+      "uuid": "8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "3 § 2",
+      "server": "3.71.187.131",
+      "server_port": 443,
+      "uuid": "8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded",
       "packet_encoding": "xudp"
     }
   ],
