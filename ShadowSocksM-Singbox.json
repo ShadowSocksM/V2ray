@@ -2,138 +2,17 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "1 § 0",
-      "server": "83.228.226.72",
-      "server_port": 443,
-      "uuid": "a1ee1f7f-deb9-48e4-9a97-6f565949817d",
+      "tag": "https://t.me/ShadowsocksM40 § 0",
+      "server": "stdn.iau.ir",
+      "server_port": 2095,
+      "uuid": "62af51a4-d37e-40eb-8e86-469210815d3d",
       "transport":       {
-        "type": "http",
-        "host": "uplod.ir",
+        "type": "ws",
         "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "2 § 1",
-      "server": "83.228.226.72",
-      "server_port": 443,
-      "uuid": "a1ee1f7f-deb9-48e4-9a97-6f565949817d",
-      "transport":       {
-        "type": "http",
-        "host": "uplod.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "3 § 2",
-      "server": "germany.cloudpath.live",
-      "server_port": 443,
-      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
-      "tls":       {
-        "enabled": true,
-        "server_name": "microsoft.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
+        "headers":         {
+          "Host": "nl.fastwarx.shop"
         },
-        "reality":         {
-          "enabled": true,
-          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
-          "short_id": "065ee439"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "4 § 3",
-      "server": "germany.cloudpath.live",
-      "server_port": 443,
-      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
-      "tls":       {
-        "enabled": true,
-        "server_name": "microsoft.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
-          "short_id": "065ee439"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "5 § 4",
-      "server": "83.228.226.72",
-      "server_port": 443,
-      "uuid": "a1ee1f7f-deb9-48e4-9a97-6f565949817d",
-      "transport":       {
-        "type": "http",
-        "host": "uplod.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "6 § 5",
-      "server": "germany.cloudpath.live",
-      "server_port": 443,
-      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
-      "tls":       {
-        "enabled": true,
-        "server_name": "microsoft.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
-          "short_id": "065ee439"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "7 § 6",
-      "server": "cdn7-39.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn7-39.vk-cdnvideo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "8 § 7",
-      "server": "cdn7-09.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     }
