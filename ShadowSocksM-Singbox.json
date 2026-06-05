@@ -2,16 +2,159 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM40 § 0",
-      "server": "stdn.iau.ir",
-      "server_port": 2095,
-      "uuid": "62af51a4-d37e-40eb-8e86-469210815d3d",
+      "tag": "⚡1 § 0",
+      "server": "104.16.158.93",
+      "server_port": 443,
+      "uuid": "7a304dc5-cf5b-44d8-85e3-8c4a17245a28",
+      "tls":       {
+        "enabled": true,
+        "server_name": "autumn-breeze-bce9.novahoman.workers.dev",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport":       {
         "type": "ws",
-        "path": "/",
+        "path": "/proxyip=31.57.190.44",
         "headers":         {
-          "Host": "nl.fastwarx.shop"
+          "Host": "autumn-breeze-bce9.novahoman.workers.dev"
         },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "⚡2n § 1",
+      "server": "188.164.248.136",
+      "server_port": 443,
+      "uuid": "7a304dc5-cf5b-44d8-85e3-8c4a17245a28",
+      "tls":       {
+        "enabled": true,
+        "server_name": "autumn-breeze-bce9.novahoman.workers.dev",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/proxyip=31.57.190.44",
+        "headers":         {
+          "Host": "autumn-breeze-bce9.novahoman.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "⚡3 § 2",
+      "server": "172.66.1.151",
+      "server_port": 443,
+      "uuid": "7a304dc5-cf5b-44d8-85e3-8c4a17245a28",
+      "tls":       {
+        "enabled": true,
+        "server_name": "autumn-breeze-bce9.novahoman.workers.dev",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/proxyip=31.57.190.44",
+        "headers":         {
+          "Host": "autumn-breeze-bce9.novahoman.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "⚡4n § 3",
+      "server": "172.67.206.191",
+      "server_port": 443,
+      "uuid": "a5775494-b3ff-49f1-9763-4b0075784d85",
+      "tls":       {
+        "enabled": true,
+        "server_name": "aSaCoInGEM.gAMeSTOOLSsTEamIR.WOrkERs.deV",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiMTJmeDQ4alRtOWNWR0NxIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM4LjE5Ny4xODMuMjE5Il19",
+        "headers":         {
+          "Host": "asacoingem.gamestoolssteamir.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "⚡5n § 4",
+      "server": "172.67.135.157",
+      "server_port": 443,
+      "uuid": "a5775494-b3ff-49f1-9763-4b0075784d85",
+      "tls":       {
+        "enabled": true,
+        "server_name": "AsACOINGeM.GaMesTOoLssteAMIr.WOrKErs.DEV",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiMGlvVVRRWU9PTTE2QWNtIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM4LjE5Ny4xODMuMjE5Il19",
+        "headers":         {
+          "Host": "asacoingem.gamestoolssteamir.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "⚡6n § 5",
+      "server": "188.42.59.53",
+      "server_port": 443,
+      "uuid": "a5775494-b3ff-49f1-9763-4b0075784d85",
+      "tls":       {
+        "enabled": true,
+        "server_name": "aSACOIngeM.gameSTOOLssTeAMiR.WORkeRs.dev",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiTjA5MURhTE1jU3lTYnR3ZiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEzOC4xOTcuMTgzLjIxOSJdfQ==",
+        "headers":         {
+          "Host": "asacoingem.gamestoolssteamir.workers.dev"
+        },
+        "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
