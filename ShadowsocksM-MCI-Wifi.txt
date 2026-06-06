@@ -2,7 +2,7 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "🇬🇧32 کانال تلگرامی § 0",
+      "tag": "🇬🇧32  § 0",
       "server": "sinavm.sinavm.sinavm.sinavm.sinavm.sinabigo.ir",
       "server_port": 8080,
       "uuid": "22fc0199-0567-49aa-8184-c5ef5543d366",
