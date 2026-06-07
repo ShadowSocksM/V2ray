@@ -2,45 +2,28 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "🇬🇧32  § 0",
-      "server": "sinavm.sinavm.sinavm.sinavm.sinavm.sinabigo.ir",
-      "server_port": 8080,
-      "uuid": "22fc0199-0567-49aa-8184-c5ef5543d366",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fonts.googleapis.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "xFhpQSkW1CPOOkKMsMrshHGNi-Ap_wb0GxJmV0CoLVw",
-          "short_id": "5a"
-        }
-      },
+      "tag": "56 § 0",
+      "server": "3.71.187.131",
+      "server_port": 443,
+      "uuid": "8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded",
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "21 § 1",
-      "server": "104.27.66.214",
-      "server_port": 8443,
-      "uuid": "7deb9c5a-b0d6-4112-8f31-931985066a7c",
+      "tag": "98 § 1",
+      "server": "151.101.108.223",
+      "server_port": 443,
+      "uuid": "c838bbcc-db6b-4663-bc22-18db4dc62847",
       "tls":       {
         "enabled": true,
-        "server_name": "ratatouille.adaspoloandco.com",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "default.ssl.fastly.net",
+        "alpn": "http/1.1"
       },
       "transport":       {
         "type": "ws",
-        "path": "/admin.php",
+        "path": "/",
         "headers":         {
-          "Host": "ratatouille.adaspoloandco.com"
+          "Host": "Fijji.global.ssl.fastly.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -48,124 +31,26 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪362 § 2",
-      "server": "104.19.64.105",
-      "server_port": 8443,
-      "uuid": "7deb9c5a-b0d6-4112-8f31-931985066a7c",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ratatouille.adaspoloandco.com",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "77 § 2",
+      "server": "104.17.147.22",
+      "server_port": 2086,
+      "uuid": "18af1c9f-dba6-4d77-a732-cf6790214d10",
       "transport":       {
-        "type": "ws",
-        "path": "/admin.php",
+        "type": "httpupgrade",
+        "path": "/",
         "headers":         {
-          "Host": "ratatouille.adaspoloandco.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+          "Host": "beh2.salonemojallal.ir"
+        }
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱65 § 3",
-      "server": "162.159.253.41",
-      "server_port": 8443,
-      "uuid": "5a0fcc37-7878-4e68-858d-583b740c5fb5",
-      "tls":       {
-        "enabled": true,
-        "server_name": "chopin.adaspoloandco.com",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/download.php",
-        "headers":         {
-          "Host": "chopin.adaspoloandco.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮44 § 4",
-      "server": "104.19.64.105",
-      "server_port": 8443,
-      "uuid": "5a0fcc37-7878-4e68-858d-583b740c5fb5",
-      "tls":       {
-        "enabled": true,
-        "server_name": "chopin.adaspoloandco.com",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/download.php",
-        "headers":         {
-          "Host": "chopin.adaspoloandco.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪88 § 5",
-      "server": "162.159.253.41",
-      "server_port": 8443,
-      "uuid": "7deb9c5a-b0d6-4112-8f31-931985066a7c",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ratatouille.adaspoloandco.com",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/admin.php",
-        "headers":         {
-          "Host": "ratatouille.adaspoloandco.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷69 § 6",
-      "server": "sinavm.sinavm.sinavm.sinavm.sinavm.sinabigo.ir",
-      "server_port": 2053,
-      "uuid": "2471d54c-8fc2-4fb0-9a25-5311e874142d",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fonts.googleapis.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "xFhpQSkW1CPOOkKMsMrshHGNi-Ap_wb0GxJmV0CoLVw",
-          "short_id": "5a"
-        }
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "8 § 3",
+      "server": "185.189.160.105",
+      "server_port": 41632,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
     }
   ],
   "endpoints":   [
