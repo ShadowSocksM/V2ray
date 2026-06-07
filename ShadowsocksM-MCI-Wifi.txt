@@ -2,28 +2,95 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "56 § 0",
-      "server": "3.71.187.131",
-      "server_port": 443,
-      "uuid": "8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded",
+      "tag": "@vpnbaz 🍋‍🟩 § 0",
+      "server": "46.229.243.132",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn7-39.vk-cdnvideo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "98 § 1",
-      "server": "151.101.108.223",
+      "tag": "@vpnbaz 🚇 § 1",
+      "server": "se-modx.nodexphere.net",
       "server_port": 443,
-      "uuid": "c838bbcc-db6b-4663-bc22-18db4dc62847",
+      "uuid": "be2e1543-d450-481b-a955-c691086e41b1",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "default.ssl.fastly.net",
+        "server_name": "se-modx.nodexphere.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "zBMeyXgwFrSUKT60bU85vFEKWzcsprb7NtILQAezrgI"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "@vpnbaz 🪼 § 2",
+      "server": "104.18.152.225",
+      "server_port": 443,
+      "password": "humanity",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
         "alpn": "http/1.1"
       },
       "transport":       {
         "type": "ws",
+        "path": "/assignment",
+        "headers":         {
+          "Host": "www.ignitelimit.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@vpnbaz 🐞 § 3",
+      "server": "pl-modx.nodexphere.net",
+      "server_port": 443,
+      "uuid": "be2e1543-d450-481b-a955-c691086e41b1",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "pl-modx.nodexphere.net",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "_S6MJ2-dROx_X7rUM_Gnh01MPAVVgnB0_x0t4_2XuVc"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "@vpnbaz 🎲 § 4",
+      "server": "188.114.97.6",
+      "server_port": 80,
+      "uuid": "22c15b3f-e205-48e2-9b30-1a2c3480e7b2",
+      "transport":       {
+        "type": "ws",
         "path": "/",
         "headers":         {
-          "Host": "Fijji.global.ssl.fastly.net"
+          "Host": "sRv72.hAMiIbaR.CoM"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -31,26 +98,32 @@
     },
     {
       "type": "vless",
-      "tag": "77 § 2",
-      "server": "104.17.147.22",
-      "server_port": 2086,
-      "uuid": "18af1c9f-dba6-4d77-a732-cf6790214d10",
-      "transport":       {
-        "type": "httpupgrade",
-        "path": "/",
-        "headers":         {
-          "Host": "beh2.salonemojallal.ir"
+      "tag": "@vpnbaz ☂️ § 5",
+      "server": "45.130.125.160",
+      "server_port": 2087,
+      "uuid": "d8547c50-2ead-4251-a01c-f558a2af3843",
+      "tls":       {
+        "enabled": true,
+        "server_name": "natrskedarad-besooyat-navmiad.mgwarrior.ir",
+        "alpn":         [
+          "h2",
+          "http/1.1"
+        ],
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
       },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "natrskedarad-besooyat-navmiad.mgwarrior.ir",
+        "path": "/MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial-MGv2rayOfficial?ed=1024",
+        "xPaddingBytes": "100-1000",
+        "scMaxEachPostBytes": "1000000-1000000",
+        "scMinPostsIntervalMs": "30-30"
+      },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "8 § 3",
-      "server": "185.189.160.105",
-      "server_port": 41632,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
     }
   ],
   "endpoints":   [
