@@ -2,14 +2,35 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "⚡1 § 0",
-      "server": "104.16.158.93",
-      "server_port": 443,
-      "uuid": "7a304dc5-cf5b-44d8-85e3-8c4a17245a28",
+      "tag": "Server 10 § 0",
+      "server": "31.76.11.206",
+      "server_port": 6765,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
       "tls":       {
         "enabled": true,
-        "server_name": "autumn-breeze-bce9.novahoman.workers.dev",
-        "insecure": true,
+        "server_name": "s1.academy-reactjs.sbs",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Server 8 § 1",
+      "server": "31.76.11.206",
+      "server_port": 55954,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "panel.academy-reactjs.sbs",
         "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
@@ -18,9 +39,9 @@
       },
       "transport":       {
         "type": "ws",
-        "path": "/proxyip=31.57.190.44",
+        "path": "/",
         "headers":         {
-          "Host": "autumn-breeze-bce9.novahoman.workers.dev"
+          "Host": "speedtest.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -28,14 +49,13 @@
     },
     {
       "type": "vless",
-      "tag": "⚡2n § 1",
-      "server": "188.164.248.136",
-      "server_port": 443,
-      "uuid": "7a304dc5-cf5b-44d8-85e3-8c4a17245a28",
+      "tag": "Server 7 § 2",
+      "server": "31.76.11.206",
+      "server_port": 52697,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
       "tls":       {
         "enabled": true,
-        "server_name": "autumn-breeze-bce9.novahoman.workers.dev",
-        "insecure": true,
+        "server_name": "panel.academy-reactjs.sbs",
         "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
@@ -44,9 +64,9 @@
       },
       "transport":       {
         "type": "ws",
-        "path": "/proxyip=31.57.190.44",
+        "path": "/ir",
         "headers":         {
-          "Host": "autumn-breeze-bce9.novahoman.workers.dev"
+          "Host": "nodejs.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -54,14 +74,61 @@
     },
     {
       "type": "vless",
-      "tag": "⚡3 § 2",
-      "server": "172.66.1.151",
-      "server_port": 443,
-      "uuid": "7a304dc5-cf5b-44d8-85e3-8c4a17245a28",
+      "tag": "S4 § 3",
+      "server": "31.76.11.206",
+      "server_port": 12222,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
       "tls":       {
         "enabled": true,
-        "server_name": "autumn-breeze-bce9.novahoman.workers.dev",
-        "insecure": true,
+        "server_name": "panel.academy-reactjs.sbs",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "httpupgrade",
+        "path": "/"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "G § 4",
+      "server": "31.76.11.206",
+      "server_port": 10149,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.oracle.com",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "txC7xp6cMflTmZecAnM2PilUpHU7RlY_1jjuXPvfFDs",
+          "short_id": "d4e9bddfc400"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Server 9 § 5",
+      "server": "www.takeda.com",
+      "server_port": 443,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "s1.academy-reactjs.sbs",
         "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
@@ -70,9 +137,9 @@
       },
       "transport":       {
         "type": "ws",
-        "path": "/proxyip=31.57.190.44",
+        "path": "/",
         "headers":         {
-          "Host": "autumn-breeze-bce9.novahoman.workers.dev"
+          "Host": "s1.academy-reactjs.sbs"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -80,82 +147,255 @@
     },
     {
       "type": "vless",
-      "tag": "⚡4n § 3",
-      "server": "172.67.206.191",
+      "tag": "Server 9 § 6",
+      "server": "mclaren.com",
       "server_port": 443,
-      "uuid": "a5775494-b3ff-49f1-9763-4b0075784d85",
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
       "tls":       {
         "enabled": true,
-        "server_name": "aSaCoInGEM.gAMeSTOOLSsTEamIR.WOrkERs.deV",
-        "insecure": true,
+        "server_name": "s1.academy-reactjs.sbs",
         "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport":       {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiMTJmeDQ4alRtOWNWR0NxIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM4LjE5Ny4xODMuMjE5Il19",
+        "path": "/",
         "headers":         {
-          "Host": "asacoingem.gamestoolssteamir.workers.dev"
+          "Host": "s1.academy-reactjs.sbs"
         },
-        "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "⚡5n § 4",
-      "server": "172.67.135.157",
+      "tag": "Server 9 § 7",
+      "server": "www.cookiebot.com",
       "server_port": 443,
-      "uuid": "a5775494-b3ff-49f1-9763-4b0075784d85",
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
       "tls":       {
         "enabled": true,
-        "server_name": "AsACOINGeM.GaMesTOoLssteAMIr.WOrKErs.DEV",
-        "insecure": true,
+        "server_name": "s1.academy-reactjs.sbs",
         "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport":       {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiMGlvVVRRWU9PTTE2QWNtIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM4LjE5Ny4xODMuMjE5Il19",
+        "path": "/",
         "headers":         {
-          "Host": "asacoingem.gamestoolssteamir.workers.dev"
+          "Host": "s1.academy-reactjs.sbs"
         },
-        "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "⚡6n § 5",
-      "server": "188.42.59.53",
-      "server_port": 443,
-      "uuid": "a5775494-b3ff-49f1-9763-4b0075784d85",
+      "tag": "Server 5 § 8",
+      "server": "31.76.11.206",
+      "server_port": 36561,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
       "tls":       {
         "enabled": true,
-        "server_name": "aSACOIngeM.gameSTOOLssTeAMiR.WORkeRs.dev",
-        "insecure": true,
-        "alpn": "http/1.1",
+        "server_name": "www.amd.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "Wgn-lnKLiQKxvuWa_UMDiX8WRebPthQ-g9oexAVloA8",
+          "short_id": "18e5a192acef2ef5"
         }
       },
       "transport":       {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiTjA5MURhTE1jU3lTYnR3ZiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEzOC4xOTcuMTgzLjIxOSJdfQ==",
-        "headers":         {
-          "Host": "asacoingem.gamestoolssteamir.workers.dev"
+        "type": "http",
+        "path": "/ir",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Xhttp 2 § 9",
+      "server": "31.76.11.206",
+      "server_port": 56721,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
         },
-        "max_early_data": 2560,
+        "reality":         {
+          "enabled": true,
+          "public_key": "1kAfuk3X5IzZkLt7XYst1AbOZrxczXv85SUgVDsHZ10",
+          "short_id": "8b2d"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/",
+        "xPaddingBytes": "100-1000",
+        "scMaxEachPostBytes": "1000000-1000000",
+        "scMinPostsIntervalMs": "30-30"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Server2 § 10",
+      "server": "31.76.11.206",
+      "server_port": 45622,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Server 88.38GB📊 § 11",
+      "server": "panel.academy-reactjs.sbs",
+      "server_port": 21121,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "panel.academy-reactjs.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "S5 § 12",
+      "server": "31.76.11.206",
+      "server_port": 37709,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "s1.academy-reactjs.sbs",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "httpupgrade",
+        "path": "/"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Xhttp § 13",
+      "server": "panel.academy-reactjs.sbs",
+      "server_port": 22283,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "_q7WNZ-XGQTTc-t8KxEeEQVmhSmIyEl6SCqX4JSa1x8",
+          "short_id": "ec"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/",
+        "xPaddingBytes": "100-1000",
+        "scMaxEachPostBytes": "1000000-1000000",
+        "scMinPostsIntervalMs": "30-30"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Server 6 § 14",
+      "server": "31.76.11.206",
+      "server_port": 46464,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.oracle.com",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "1BwnA74jIxPiNfs5-fkCDHgIMqp5HWJvqVbnRuDvXnQ",
+          "short_id": "36b6a62efd6ebe"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Server 11 § 15",
+      "server": "panel.academy-reactjs.sbs",
+      "server_port": 2087,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "s1.academy-reactjs.sbs",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Server3 § 16",
+      "server": "31.76.11.206",
+      "server_port": 24980,
+      "uuid": "b0d9918c-320d-4e76-ab89-1a12ff5e1fe2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.nvidia.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "P99rfofbpC_zcEAVdVj3MvC1HqVGxVYUcjcgi0l_Ihs",
+          "short_id": "b8eca3bb"
+        }
       },
       "packet_encoding": "xudp"
     }
