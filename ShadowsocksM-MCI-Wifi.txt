@@ -1,328 +1,213 @@
 {
   "outbounds":   [
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 0",
-      "server": "mizan.onetwothree123.ir",
-      "server_port": 443,
-      "uuid": "b8d0b861-3ab4-493d-926f-f07b7d36faf5",
-      "security": "auto",
-      "authenticated_length": true,
+      "type": "trojan",
+      "tag": "22 § 0",
+      "server": "84.234.31.111",
+      "server_port": 1040,
+      "password": "Masir_Sefid",
       "tls":       {
         "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
+        "server_name": "store.steampowered.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/46319/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 1",
-      "server": "mizan.onetwothree123.ir",
+      "type": "vless",
+      "tag": "23 § 1",
+      "server": "45.130.125.158",
       "server_port": 443,
-      "uuid": "c9b5e11f-7e86-4741-9aca-b6315f3e1ec2",
-      "security": "auto",
-      "authenticated_length": true,
+      "uuid": "965fef48-24c7-4727-b51e-6d3b2b8873c8",
       "tls":       {
         "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
+        "server_name": "mahsa97.manhamunamkeyeruz.ir",
+        "alpn":         [
+          "h3",
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "mahsa97.manhamunamkeyeruz.ir",
+        "path": "/"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "24 § 2",
+      "server": "84.234.31.111",
+      "server_port": 2053,
+      "password": "Masir_Sefid",
+      "tls":       {
+        "enabled": true,
+        "server_name": "store.steampowered.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/12450/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 2",
-      "server": "mizan.onetwothree123.ir",
+      "type": "trojan",
+      "tag": "25 § 3",
+      "server": "84.234.31.111",
       "server_port": 443,
-      "uuid": "8d17f455-912b-4ed4-9521-577cb4d98669",
-      "security": "auto",
-      "authenticated_length": true,
+      "password": "Masir_Sefid",
       "tls":       {
         "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
+        "server_name": "store.steampowered.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/19246/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 3",
-      "server": "mizan.onetwothree123.ir",
-      "server_port": 443,
-      "uuid": "bcd2b5c7-b9ee-4178-9a7e-b1fd8e5bd1ee",
-      "security": "auto",
-      "authenticated_length": true,
+      "type": "trojan",
+      "tag": "26 § 4",
+      "server": "84.234.31.111",
+      "server_port": 1040,
+      "password": "Masir_Sefid",
       "tls":       {
         "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
+        "server_name": "store.steampowered.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/34822/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 4",
-      "server": "mizan.onetwothree123.ir",
+      "type": "vless",
+      "tag": "27 § 5",
+      "server": "199.232.78.159",
       "server_port": 443,
-      "uuid": "a2deea18-4c32-42e9-9500-e80ad382600d",
-      "security": "auto",
-      "authenticated_length": true,
+      "uuid": "984fac58-576e-42bd-ab99-83db7074a729",
       "tls":       {
         "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "default.ssl.fastly.net",
+        "alpn": "http/1.1"
       },
-      "packet_encoding": "xudp",
       "transport":       {
         "type": "ws",
-        "path": "/53668/mehdi",
+        "path": "/",
         "headers":         {
-          "Host": "mizan.onetwothree123.ir"
+          "Host": "bazaryabab.global.ssl.fastly.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 5",
-      "server": "mizan.onetwothree123.ir",
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM54 § 6",
+      "server": "95.169.191.225",
       "server_port": 443,
-      "uuid": "1d17fa60-c686-4c18-acd6-dea0d4576da7",
-      "security": "auto",
-      "authenticated_length": true,
+      "uuid": "8361e3fc-479d-466f-9583-4971c2cf2d03",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
+        "server_name": "finporkzov.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "_0N3gACBkKvGKTh0q5-dmt-XqSHB3xfEHSANRXu-U0I",
+          "short_id": "f00f58383241c807"
         }
       },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/13382/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 6",
-      "server": "mizan.onetwothree123.ir",
-      "server_port": 443,
-      "uuid": "8ddefa13-53bf-418a-ba13-e5a178871110",
-      "security": "auto",
-      "authenticated_length": true,
-      "tls":       {
-        "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM71 § 7",
+      "server": "172.67.211.74",
+      "server_port": 80,
+      "uuid": "e84064cc-617f-4ba8-aa6f-13e920fd2610",
       "transport":       {
         "type": "ws",
-        "path": "/15010/mehdi",
+        "path": "/",
         "headers":         {
-          "Host": "mizan.onetwothree123.ir"
+          "Host": "main.boobie.eu.cc"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 7",
-      "server": "mizan.onetwothree123.ir",
-      "server_port": 443,
-      "uuid": "402aa646-d5d1-43da-a2fb-482bbb787801",
-      "security": "auto",
-      "authenticated_length": true,
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM97 § 8",
+      "server": "45.130.125.193",
+      "server_port": 8443,
+      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
       "tls":       {
         "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
+        "server_name": "ssj.new-persian-song.ir",
+        "alpn": "h2",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
-      "packet_encoding": "xudp",
       "transport":       {
-        "type": "ws",
-        "path": "/41695/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/?ed"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 8",
-      "server": "mizan.onetwothree123.ir",
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM98 § 9",
+      "server": "78.17.147.66",
       "server_port": 443,
-      "uuid": "dca5c382-8135-4478-8f5c-9edf5467ee8d",
-      "security": "auto",
-      "authenticated_length": true,
+      "uuid": "8bbf020e-653f-4a82-9900-1214e4e37dab",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
+        "server_name": "www.microsoft.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE",
+          "short_id": "fcd9787f"
         }
       },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/55667/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 9",
-      "server": "mizan.onetwothree123.ir",
-      "server_port": 443,
-      "uuid": "02b37a91-3516-4948-a797-809c5aca7bb5",
-      "security": "auto",
-      "authenticated_length": true,
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM103 § 10",
+      "server": "45.130.125.162",
+      "server_port": 8443,
+      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
       "tls":       {
         "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
+        "server_name": "vi.mojaz-persian-music.ir",
+        "alpn": "h2",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
-      "packet_encoding": "xudp",
       "transport":       {
-        "type": "ws",
-        "path": "/31760/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 10",
-      "server": "mizan.onetwothree123.ir",
-      "server_port": 443,
-      "uuid": "41878f85-ccf3-4e58-9e17-c13524e10349",
-      "security": "auto",
-      "authenticated_length": true,
-      "tls":       {
-        "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "vi.mojaz-persian-music.ir",
+        "path": "/?ed"
       },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/17737/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🍒🎀𝑀𝐸𝐻𝒟𝐼🎀🍒 § 11",
-      "server": "mizan.onetwothree123.ir",
-      "server_port": 443,
-      "uuid": "158848ec-44da-41f5-9c45-feeb7c8ab3c4",
-      "security": "auto",
-      "authenticated_length": true,
-      "tls":       {
-        "enabled": true,
-        "server_name": "mizan.onetwothree123.ir",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/10609/mehdi",
-        "headers":         {
-          "Host": "mizan.onetwothree123.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "packet_encoding": "xudp"
     }
   ],
   "endpoints":   [
