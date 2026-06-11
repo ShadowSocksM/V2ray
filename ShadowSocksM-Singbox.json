@@ -1,211 +1,169 @@
 {
   "outbounds":   [
     {
-      "type": "trojan",
-      "tag": "22 § 0",
-      "server": "84.234.31.111",
-      "server_port": 1040,
-      "password": "Masir_Sefid",
+      "type": "vless",
+      "tag": "🇬🇧 0 § 0",
+      "server": "sinavm.sinavm.sinavm.sinavm.sinavm.sinabigo.ir",
+      "server_port": 8080,
+      "uuid": "22fc0199-0567-49aa-8184-c5ef5543d366",
       "tls":       {
         "enabled": true,
-        "server_name": "store.steampowered.com",
+        "server_name": "fonts.googleapis.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "xFhpQSkW1CPOOkKMsMrshHGNi-Ap_wb0GxJmV0CoLVw",
+          "short_id": "5a"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "23 § 1",
-      "server": "45.130.125.158",
-      "server_port": 443,
-      "uuid": "965fef48-24c7-4727-b51e-6d3b2b8873c8",
-      "tls":       {
-        "enabled": true,
-        "server_name": "mahsa97.manhamunamkeyeruz.ir",
-        "alpn":         [
-          "h3",
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "host": "mahsa97.manhamunamkeyeruz.ir",
-        "path": "/"
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "24 § 2",
-      "server": "84.234.31.111",
+      "type": "vless",
+      "tag": "🇫🇷1 § 1",
+      "server": "104.27.66.214",
+      "server_port": 8443,
+      "uuid": "7deb9c5a-b0d6-4112-8f31-931985066a7c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ratatouille.adaspoloandco.com",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/admin.php",
+        "headers":         {
+          "Host": "ratatouille.adaspoloandco.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪2 § 2",
+      "server": "104.19.64.105",
+      "server_port": 8443,
+      "uuid": "7deb9c5a-b0d6-4112-8f31-931985066a7c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ratatouille.adaspoloandco.com",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/admin.php",
+        "headers":         {
+          "Host": "ratatouille.adaspoloandco.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱3 § 3",
+      "server": "162.159.253.41",
+      "server_port": 8443,
+      "uuid": "5a0fcc37-7878-4e68-858d-583b740c5fb5",
+      "tls":       {
+        "enabled": true,
+        "server_name": "chopin.adaspoloandco.com",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/download.php",
+        "headers":         {
+          "Host": "chopin.adaspoloandco.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮4 § 4",
+      "server": "104.19.64.105",
+      "server_port": 8443,
+      "uuid": "5a0fcc37-7878-4e68-858d-583b740c5fb5",
+      "tls":       {
+        "enabled": true,
+        "server_name": "chopin.adaspoloandco.com",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/download.php",
+        "headers":         {
+          "Host": "chopin.adaspoloandco.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪5 § 5",
+      "server": "162.159.253.41",
+      "server_port": 8443,
+      "uuid": "7deb9c5a-b0d6-4112-8f31-931985066a7c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ratatouille.adaspoloandco.com",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/admin.php",
+        "headers":         {
+          "Host": "ratatouille.adaspoloandco.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "6 § 6",
+      "server": "sinavm.sinavm.sinavm.sinavm.sinavm.sinabigo.ir",
       "server_port": 2053,
-      "password": "Masir_Sefid",
+      "uuid": "2471d54c-8fc2-4fb0-9a25-5311e874142d",
       "tls":       {
         "enabled": true,
-        "server_name": "store.steampowered.com",
+        "server_name": "fonts.googleapis.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "25 § 3",
-      "server": "84.234.31.111",
-      "server_port": 443,
-      "password": "Masir_Sefid",
-      "tls":       {
-        "enabled": true,
-        "server_name": "store.steampowered.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "26 § 4",
-      "server": "84.234.31.111",
-      "server_port": 1040,
-      "password": "Masir_Sefid",
-      "tls":       {
-        "enabled": true,
-        "server_name": "store.steampowered.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "27 § 5",
-      "server": "199.232.78.159",
-      "server_port": 443,
-      "uuid": "984fac58-576e-42bd-ab99-83db7074a729",
-      "tls":       {
-        "enabled": true,
-        "server_name": "default.ssl.fastly.net",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "bazaryabab.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM54 § 6",
-      "server": "95.169.191.225",
-      "server_port": 443,
-      "uuid": "8361e3fc-479d-466f-9583-4971c2cf2d03",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "finporkzov.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "_0N3gACBkKvGKTh0q5-dmt-XqSHB3xfEHSANRXu-U0I",
-          "short_id": "f00f58383241c807"
+          "public_key": "xFhpQSkW1CPOOkKMsMrshHGNi-Ap_wb0GxJmV0CoLVw",
+          "short_id": "5a"
         }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM71 § 7",
-      "server": "172.67.211.74",
-      "server_port": 80,
-      "uuid": "e84064cc-617f-4ba8-aa6f-13e920fd2610",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "main.boobie.eu.cc"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM97 § 8",
-      "server": "45.130.125.193",
-      "server_port": 8443,
-      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ssj.new-persian-song.ir",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "path": "/?ed"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM98 § 9",
-      "server": "78.17.147.66",
-      "server_port": 443,
-      "uuid": "8bbf020e-653f-4a82-9900-1214e4e37dab",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE",
-          "short_id": "fcd9787f"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM103 § 10",
-      "server": "45.130.125.162",
-      "server_port": 8443,
-      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
-      "tls":       {
-        "enabled": true,
-        "server_name": "vi.mojaz-persian-music.ir",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "host": "vi.mojaz-persian-music.ir",
-        "path": "/?ed"
       },
       "packet_encoding": "xudp"
     }
