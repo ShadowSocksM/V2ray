@@ -1,150 +1,31 @@
 {
   "outbounds":   [
     {
-      "type": "trojan",
-      "tag": "22 § 0",
-      "server": "84.234.31.111",
-      "server_port": 1040,
-      "password": "Masir_Sefid",
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM103 § 0",
+      "server": "45.130.125.162",
+      "server_port": 8443,
+      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
       "tls":       {
         "enabled": true,
-        "server_name": "store.steampowered.com",
+        "server_name": "vi.mojaz-persian-music.ir",
+        "alpn": "h2",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "23 § 1",
-      "server": "45.130.125.158",
-      "server_port": 443,
-      "uuid": "965fef48-24c7-4727-b51e-6d3b2b8873c8",
-      "tls":       {
-        "enabled": true,
-        "server_name": "mahsa97.manhamunamkeyeruz.ir",
-        "alpn":         [
-          "h3",
-          "h2",
-          "http/1.1"
-        ]
       },
       "transport":       {
         "type": "xhttp",
         "mode": "auto",
-        "host": "mahsa97.manhamunamkeyeruz.ir",
-        "path": "/"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "24 § 2",
-      "server": "84.234.31.111",
-      "server_port": 2053,
-      "password": "Masir_Sefid",
-      "tls":       {
-        "enabled": true,
-        "server_name": "store.steampowered.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "25 § 3",
-      "server": "84.234.31.111",
-      "server_port": 443,
-      "password": "Masir_Sefid",
-      "tls":       {
-        "enabled": true,
-        "server_name": "store.steampowered.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "26 § 4",
-      "server": "84.234.31.111",
-      "server_port": 1040,
-      "password": "Masir_Sefid",
-      "tls":       {
-        "enabled": true,
-        "server_name": "store.steampowered.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "27 § 5",
-      "server": "199.232.78.159",
-      "server_port": 443,
-      "uuid": "984fac58-576e-42bd-ab99-83db7074a729",
-      "tls":       {
-        "enabled": true,
-        "server_name": "default.ssl.fastly.net",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "bazaryabab.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "host": "vi.mojaz-persian-music.ir",
+        "path": "/?ed"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM54 § 6",
-      "server": "95.169.191.225",
-      "server_port": 443,
-      "uuid": "8361e3fc-479d-466f-9583-4971c2cf2d03",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "finporkzov.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "_0N3gACBkKvGKTh0q5-dmt-XqSHB3xfEHSANRXu-U0I",
-          "short_id": "f00f58383241c807"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM71 § 7",
-      "server": "172.67.211.74",
-      "server_port": 80,
-      "uuid": "e84064cc-617f-4ba8-aa6f-13e920fd2610",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "main.boobie.eu.cc"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM97 § 8",
+      "tag": "https://t.me/ShadowsocksM97 § 1",
       "server": "45.130.125.193",
       "server_port": 8443,
       "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
@@ -166,32 +47,10 @@
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM98 § 9",
-      "server": "78.17.147.66",
-      "server_port": 443,
-      "uuid": "8bbf020e-653f-4a82-9900-1214e4e37dab",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE",
-          "short_id": "fcd9787f"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM103 § 10",
+      "tag": "https://t.me/ShadowsocksM68 § 2",
       "server": "45.130.125.162",
       "server_port": 8443,
-      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
+      "uuid": "d4eb1900-6515-494e-85c5-306bb9594f56",
       "tls":       {
         "enabled": true,
         "server_name": "vi.mojaz-persian-music.ir",
@@ -204,8 +63,197 @@
       "transport":       {
         "type": "xhttp",
         "mode": "auto",
-        "host": "vi.mojaz-persian-music.ir",
+        "path": "/?ed=80"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM81 § 3",
+      "server": "45.130.125.194",
+      "server_port": 8443,
+      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vo.new-persian-song.ir",
+        "alpn":         [
+          "h3",
+          "h2"
+        ]
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
         "path": "/?ed"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM92 § 4",
+      "server": "45.130.125.192",
+      "server_port": 8443,
+      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vh.mojaz-persian-music.ir",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/?ed=80"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM104 § 5",
+      "server": "151.101.192.223",
+      "server_port": 80,
+      "uuid": "5cdf99d3-a51b-570e-8245-f87d674dc652",
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "InternetAzadRobot07gt745.global.ssl.fastly.net",
+        "path": "/"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM106 § 6",
+      "server": "151.101.193.57",
+      "server_port": 80,
+      "uuid": "5cdf99d3-a51b-570e-8245-f87d674dc652",
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "InternetAzadRobot31dx253.global.ssl.fastly.net",
+        "path": "/"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM108 § 7",
+      "server": "151.101.193.57",
+      "server_port": 80,
+      "uuid": "5cdf99d3-a51b-570e-8245-f87d674dc652",
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "InternetAzadRobot31dx253.global.ssl.fastly.net",
+        "path": "/"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "https://t.me/ShadowsocksM40 § 8",
+      "server": "104.18.152.225",
+      "server_port": 443,
+      "password": "humanity",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/assignment",
+        "headers":         {
+          "Host": "www.ignitelimit.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM69 § 9",
+      "server": "45.130.125.162",
+      "server_port": 8443,
+      "uuid": "d4eb1900-6515-494e-85c5-306bb9594f56",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vi.mojaz-persian-music.ir",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/?ed=80"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM63 § 10",
+      "server": "45.130.125.193",
+      "server_port": 8443,
+      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ssj.new-persian-song.ir",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/?ed"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM100 § 11",
+      "server": "104.21.94.81",
+      "server_port": 2053,
+      "uuid": "ef23616d-8a9d-4b22-b2f5-9bda864de179",
+      "tls":       {
+        "enabled": true,
+        "server_name": "INDEX.Arcane509.Workers.DEV",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/assets",
+        "headers":         {
+          "Host": "index.arcane509.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM104 § 12",
+      "server": "104.24.132.66",
+      "server_port": 80,
+      "uuid": "a1511ec3-e426-48b0-bd7d-591a16104a6b",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "free.kabotar.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     }
