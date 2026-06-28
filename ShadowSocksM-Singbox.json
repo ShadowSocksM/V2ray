@@ -3,32 +3,139 @@
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "italy.mymarzban.com",
-      "server_port": 5000,
-      "uuid": "dc979488-6ece-49f2-821c-bfa7ecb3e061",
+      "server": "178.209.127.33",
+      "server_port": 8443,
+      "uuid": "17550015-678f-43ad-b0d2-65c0a829bedb",
       "tls":       {
         "enabled": true,
-        "server_name": "play.google.com",
+        "server_name": "cdn.kwork.com",
+        "alpn": "h2",
         "utls":         {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo"
+          "public_key": "flFgUuT_XNfhHeIKary4dXjIpfNPwhUBVlow3ozWiUo",
+          "short_id": "880e94ea9d8617b2"
         }
+      },
+      "transport":       {
+        "type": "grpc",
+        "service_name": "api-maps.yandex.ru",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "199.232.78.159",
-      "server_port": 443,
-      "uuid": "1df05cde-34a0-44ce-8059-44a7b1e7782b",
+      "server": "104.252.111.21",
+      "server_port": 36298,
+      "uuid": "60bbf4d3-915f-40ef-9b97-0696c7a6743a",
+      "transport":       {
+        "type": "httpupgrade",
+        "path": "/"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "server": "31.77.161.2",
+      "server_port": 8443,
+      "uuid": "a6704fb4-4874-4e6b-98f4-571b048e3d90",
       "tls":       {
         "enabled": true,
-        "server_name": "default.ssl.fastly.net",
+        "server_name": "prod.de-node-01.security-sbrf.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "4XxjInQuDp4SqaYF03yQ1VY61exkKi9e0RS5-kgyxAE",
+          "short_id": "db04ce8bdb8900f1"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM4 § 3",
+      "server": "63.177.240.253",
+      "server_port": 2053,
+      "uuid": "50ab6b59-4596-4b28-9440-fde9f5540514",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "oripM2rshqUJR0DlPvag-gmBHlSkZPt2KQ162fYbgFA",
+          "short_id": "cb80bdafa6ca3e0e"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM5 § 4",
+      "server": "104.252.111.21",
+      "server_port": 36298,
+      "uuid": "60bbf4d3-915f-40ef-9b97-0696c7a6743a",
+      "transport":       {
+        "type": "httpupgrade",
+        "path": "/",
+        "headers":         {
+          "Host": "Telegram-NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM6 § 5",
+      "server": "185.147.27.96",
+      "server_port": 8443,
+      "uuid": "222ca353-a842-44f8-a86f-317fbbf73f2c",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "F8-vs46mNbq9-5gAP08KD420Jf1tdHwcefIDTFpEMSs",
+          "short_id": "30095c0f0d"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM7 § 6",
+      "server": "132.243.213.174",
+      "server_port": 37037,
+      "uuid": "276733b9-25c8-47b0-b651-b18cd4909128",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM8 § 7",
+      "server": "199.232.78.159",
+      "server_port": 443,
+      "uuid": "75dc57ca-6e1c-4f7d-977e-beeb2b622ce4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
         "alpn": "http/1.1"
       },
       "transport":       {
@@ -43,32 +150,168 @@
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM3 § 2",
-      "server": "217.28.48.29",
-      "server_port": 25752,
-      "uuid": "27f2ae85-3e15-4a9a-9c71-49ee032e7b26",
+      "tag": "https://t.me/ShadowsocksM9 § 8",
+      "server": "45.130.125.6",
+      "server_port": 443,
+      "uuid": "ac006062-f051-43c6-bd4c-f409285c8635",
+      "tls":       {
+        "enabled": true,
+        "server_name": "germany4.alibaba1405.org",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "germany4.alibaba1405.org",
+        "path": "/v2raylink"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM10 § 9",
+      "server": "h2.garletshopino.com",
+      "server_port": 2096,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "tls":       {
+        "enabled": true,
+        "server_name": "italix.dtvialon.com",
+        "alpn":         [
+          "h2",
+          "http/1.1"
+        ],
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/clud?ed=2048",
+        "xPaddingBytes": "100-1000"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM11 § 10",
+      "server": "45.130.125.6",
+      "server_port": 443,
+      "uuid": "ac006062-f051-43c6-bd4c-f409285c8635",
+      "tls":       {
+        "enabled": true,
+        "server_name": "germany4.alibaba1405.org",
+        "alpn":         [
+          "http/1.1",
+          "h2"
+        ],
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "germany4.alibaba1405.org",
+        "path": "/v2raylink"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM12 § 11",
+      "server": "fn.fifapes.monster",
+      "server_port": 2090,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "transport":       {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM13 § 12",
+      "server": "178.105.168.171",
+      "server_port": 32638,
+      "uuid": "21847332-87ca-4ce8-a3c1-7e224f332c05",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "icloud.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "9UtDzM8SLHBa-q3WPOzw7vJIoR5vBhDr8-AF5I5r_ks",
+          "short_id": "5162332288d7f5d7"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM14 § 13",
+      "server": "gr1.fifapes.monster",
+      "server_port": 8882,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "transport":       {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
       "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM4 § 3",
-      "server": "178.63.244.11",
-      "server_port": 8443,
-      "password": "R6am5csvuv6rXxURXiDSPg"
-    },
-    {
-      "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM5 § 4",
-      "server": "141.101.90.101",
-      "server_port": 443,
-      "password": "humanity"
-    },
-    {
-      "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM6 § 5",
-      "server": "104.16.72.70",
-      "server_port": 443,
+      "tag": "https://t.me/ShadowsocksM15 § 14",
+      "server": "199.232.217.242",
+      "server_port": 80,
       "password": "MiTiVPN"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM16 § 15",
+      "server": "167.82.101.251",
+      "server_port": 443,
+      "uuid": "d27a232b-de94-4204-9bae-b0c243c6b93c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "default.ssl.fastly.net",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "newip.global.ssl.fastly.neT."
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM17 § 16",
+      "server": "89.106.64.15",
+      "server_port": 7000,
+      "uuid": "0a715ede-593a-4018-8406-66e2c3b1169c",
+      "transport":       {
+        "type": "xhttp",
+        "mode": "stream-one",
+        "host": "a12.crowsvpn.shop",
+        "path": "/",
+        "xPaddingBytes": "100-1000"
+      },
+      "packet_encoding": "xudp"
     }
   ],
   "endpoints":   [
