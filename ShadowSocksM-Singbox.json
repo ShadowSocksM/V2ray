@@ -1,25 +1,113 @@
 {
   "outbounds":   [
     {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "172.67.74.2",
-      "server_port": 443,
-      "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+      "type": "hysteria2",
+      "tag": "https://t.me/ShadowsocksM § 0",
+      "server": "assets.gateway-stream.com",
+      "server_port": 52008,
+      "password": "elknam6l7izf3z71",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "https://t.me/ShadowsocksM § 1",
+      "server": "assets.gateway-stream.com",
+      "server_port": 52002,
+      "password": "elknam6l7izf3z71",
       "tls":       {
         "enabled": true,
-        "server_name": "shegeftihaaa.net",
-        "alpn": "http/1.1",
+        "server_name": "assets.gateway-stream.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "https://t.me/ShadowsocksM § 2",
+      "server": "assets.gateway-stream.com",
+      "server_port": 52008,
+      "password": "elknam6l7izf3z71",
+      "tls":       {
+        "enabled": true,
+        "server_name": "assets.gateway-stream.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "https://t.me/ShadowsocksM § 3",
+      "server": "assets.gateway-stream.com",
+      "server_port": 52002,
+      "password": "elknam6l7izf3z71",
+      "tls":       {
+        "enabled": true,
+        "server_name": "assets.gateway-stream.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "https://t.me/ShadowsocksM § 4",
+      "server": "assets.gateway-stream.com",
+      "server_port": 52002,
+      "password": "elknam6l7izf3z71",
+      "tls":       {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM § 5",
+      "server": "138.68.153.237",
+      "server_port": 443,
+      "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "chatgpt.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+          "short_id": "a4844ba7"
         }
       },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM § 6",
+      "server": "138.68.167.93",
+      "server_port": 443,
+      "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "chatgpt.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+          "short_id": "a4844ba7"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM § 7",
+      "server": "104.16.92.229",
+      "server_port": 80,
+      "uuid": "e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b",
       "transport":       {
         "type": "ws",
-        "path": "/rsedgws",
+        "path": "/",
         "headers":         {
-          "Host": "shegeftihaaa.net"
+          "Host": "free-hzr115-cdn.sabzi.name.ng."
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -27,50 +115,33 @@
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "gr1.fifapes.monster",
-      "server_port": 8882,
-      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
-      "transport":       {
-        "type": "http",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM3 § 2",
-      "server": "www.speedtest.net",
+      "tag": "https://t.me/ShadowsocksM § 8",
+      "server": "104.16.72.50",
       "server_port": 2095,
-      "uuid": "3f298aca-2412-49ac-9f20-235f0e448d31",
+      "uuid": "cb0eaba6-e90e-40bf-bb62-f869dda0bfd0",
       "transport":       {
-        "type": "httpupgrade",
+        "type": "ws",
         "path": "/",
         "headers":         {
-          "Host": "fr.carefreemob2.com."
-        }
+          "Host": "BEFIttINg-boatVUAqEAVEW7.newGENEREaTioNGame.onlINe."
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM4 § 3",
-      "server": "31.77.161.2",
-      "server_port": 8443,
-      "uuid": "a6704fb4-4874-4e6b-98f4-571b048e3d90",
-      "tls":       {
-        "enabled": true,
-        "server_name": "prod.de-node-01.security-sbrf.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "tag": "https://t.me/ShadowsocksM § 9",
+      "server": "45.130.125.2",
+      "server_port": 2095,
+      "uuid": "fc53ce84-e372-4aad-8788-8a3bb0232566",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "ProUD-DIffERencE471378Y6JZ.NewGEnErEatioNgaMe.oNLIne."
         },
-        "reality":         {
-          "enabled": true,
-          "public_key": "4XxjInQuDp4SqaYF03yQ1VY61exkKi9e0RS5-kgyxAE",
-          "short_id": "db04ce8bdb8900f1"
-        }
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     }
