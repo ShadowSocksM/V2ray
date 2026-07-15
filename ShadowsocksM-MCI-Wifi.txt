@@ -1,80 +1,11 @@
-{
-  "outbounds":   [
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "172.67.74.2",
-      "server_port": 443,
-      "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
-      "tls":       {
-        "enabled": true,
-        "server_name": "shegeftihaaa.net",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/rsedgws",
-        "headers":         {
-          "Host": "shegeftihaaa.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "gr1.fifapes.monster",
-      "server_port": 8882,
-      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
-      "transport":       {
-        "type": "http",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM3 § 2",
-      "server": "www.speedtest.net",
-      "server_port": 2095,
-      "uuid": "3f298aca-2412-49ac-9f20-235f0e448d31",
-      "transport":       {
-        "type": "httpupgrade",
-        "path": "/",
-        "headers":         {
-          "Host": "fr.carefreemob2.com."
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM4 § 3",
-      "server": "31.77.161.2",
-      "server_port": 8443,
-      "uuid": "a6704fb4-4874-4e6b-98f4-571b048e3d90",
-      "tls":       {
-        "enabled": true,
-        "server_name": "prod.de-node-01.security-sbrf.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "4XxjInQuDp4SqaYF03yQ1VY61exkKi9e0RS5-kgyxAE",
-          "short_id": "db04ce8bdb8900f1"
-        }
-      },
-      "packet_encoding": "xudp"
-    }
-  ],
-  "endpoints":   [
-  ]
-}
+vless://33d5ecd8-b530-4040-9c40-98b6805a3992@love.ns.cloudflare.com:443?encryption=none&security=tls&sni=files107.kamelbash.info&alpn=http/1.1&fp=chrome&type=ws&host=files107.kamelbash.info&path=/files107&packetEncoding=xudp#https://t.me/ShadowsocksM
+vless://e277ac9b-3225-3381-a9fb-3585419f7142@love.ns.cloudflare.com:443?encryption=none&security=tls&sni=media56.iamali.info&alpn=http/1.1&fp=chrome&type=ws&host=media56.iamali.info&path=/media56&packetEncoding=xudp#https://t.me/ShadowsocksM
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@support.cloudflare.com:2095?encryption=none&type=ws&host=cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev&path=/&packetEncoding=xudp#https://t.me/ShadowsocksM
+vless://b7a1aa1f-7c16-43f9-92ce-96abb48800c6@104.16.72.50:2095?encryption=none&type=ws&host=gOOD-LeGnIVlS5sSya.NeWgENEreatiONgame.OnliNE.&path=/&max_early_data=2048&early_data_header_name=Sec-WebSocket-Protocol&packetEncoding=xudp#https://t.me/ShadowsocksM
+vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?encryption=none&type=ws&host=new-scale08-cdn.sabzi.name.ng.&path=/&packetEncoding=xudp#https://t.me/ShadowsocksM
+vless://412d7fbe-7474-4f1d-86c6-7eebdc628f72@mci.pictureiran.ir:2087?encryption=none&type=xhttp&security=tls&sni=ireland.alfather.ir&fp=chrome&host=ireland.alfather.ir&path=/&mode=auto#https://t.me/ShadowsocksM
+vless://b7a1aa1f-7c16-43f9-92ce-96abb48800c6@170.114.45.67:2095?encryption=none&type=ws&host=gOOD-LeGnIVlS5sSya.NeWgENEreatiONgame.OnliNE.&path=/&max_early_data=2048&early_data_header_name=Sec-WebSocket-Protocol&packetEncoding=xudp#https://t.me/ShadowsocksM
+vless://412d7fbe-7474-4f1d-86c6-7eebdc628f72@mci.pictureiran.ir:2087?encryption=none&type=xhttp&security=tls&sni=switzerland.alfather.ir&fp=chrome&host=switzerland.alfather.ir&path=/&mode=auto#https://t.me/ShadowsocksM
+vless://2e622f08-444a-46d0-8dac-6f9709f4d172@check-host.net:8880?encryption=none&type=httpupgrade&host=sni.abilim.info&path=/&packetEncoding=xudp#https://t.me/ShadowsocksM
+vless://fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301@104.17.108.69:443?encryption=none&security=tls&sni=nETriNo-De-3LE4mME6-R9nwlgmj.qnked.ORg&fp=chrome&type=ws&host=nETriNo-De-3LE4mME6-R9nwlgmj.qnked.ORg&path=/ws-vlees&packetEncoding=xudp#https://t.me/ShadowsocksM
+vless://d671978b-7904-4702-956f-3496929b3dfc@142.93.100.92:38505?encryption=none&type=http&host=play.google.com&path=/&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM
