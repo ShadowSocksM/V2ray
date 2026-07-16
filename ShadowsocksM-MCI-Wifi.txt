@@ -21,3 +21,10 @@ vless://bb5b4296-e7fa-42f9-9f65-64306413e00a@62.60.156.35:8081?encryption=mlkem7
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM21
 trojan://humanity@103.133.1.2:443#https://t.me/ShadowsocksM22
 hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443?obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3&security=tls&sni=hy2.aspidnet.xyz#55
+vless://ecad47b0-249e-4f6f-adff-e3c8f02b1897@89.105.212.138:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=nl.quattro-tech.ru&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6#https://t.me/ShadowsocksM
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.29.73.217:22223?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM
+trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?security=reality&sni=chi.yahoo.com&fp=firefox&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&sid&type=grpc#https://t.me/ShadowsocksM
+trojan://-----BanV2ray----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:2089?security=reality&sni=chi.yahoo.com&fp=firefox&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&sid&type=grpc#https://t.me/ShadowsocksM
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM
+ss://YWVzLTI1Ni1jZmI6WFB0ekE5c0N1ZzNTUFI0Yw==@5.188.181.201:9025#https://t.me/ShadowsocksM
+trojan://BxceQaOe@119.246.1.143:443?security=tls&sni=t.me%2Fripaojiedian&allowInsecure=true&fp=chrome#https://t.me/ShadowsocksM
