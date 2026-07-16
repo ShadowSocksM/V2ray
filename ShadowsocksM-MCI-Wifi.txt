@@ -20,3 +20,4 @@ vless://86fdb625-1a7f-4784-99a6-a96b3a80fc6d@199.232.9.94:443?encryption=none&se
 vless://bb5b4296-e7fa-42f9-9f65-64306413e00a@62.60.156.35:8081?encryption=mlkem768x25519plus.native.0rtt.w0d5QDh2kFXtrCcljpe6uvJfI7FKPavrpo1OLIJEnAE&flow=xtls-rprx-vision&type=raw&security=none#https://t.me/ShadowsocksM20
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM21
 trojan://humanity@103.133.1.2:443#https://t.me/ShadowsocksM22
+hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443?obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3&security=tls&sni=hy2.aspidnet.xyz#55
