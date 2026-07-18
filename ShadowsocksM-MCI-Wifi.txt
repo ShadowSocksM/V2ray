@@ -1,6 +1,4 @@
-vless://1c799205-5251-4fb2-8167-56d3e895c8c5@45.32.155.73:53776?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM1
 vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@fetch.anotherok.com:443?encryption=none&type=grpc&security=reality&sni=fetch.anotherok.com&fp=firefox&pbk=U7O4wCUNinuk5M-ADV1e4sJ_iA7-JVBEXB8nev6kzzs&sid=335555b164619360&serviceName=api.v1.StreamService#https://t.me/ShadowsocksM3
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.131.211.136:443?encryption=none&security=tls&sni=vangoghhh.info&type=ws&host=vangoghhh.info&path=/rdfgtws&packetEncoding=xudp#https://t.me/ShadowsocksM4
 vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@main.oneoker.com:443?encryption=none&type=grpc&security=reality&sni=main.oneoker.com&fp=firefox&pbk=yiX2T6z3GavNIgnnxsoU57vgq2pdfngXAU83vhBDQlA&sid=a9b0c08836bad3c5&serviceName=api.v1.StreamService#https://t.me/ShadowsocksM5
 vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@link.oneokgames.com:443?encryption=none&type=grpc&security=reality&sni=link.oneokgames.com&fp=chrome&pbk=x9m8Vxk2YlwXy8CLrHeEMDzLJWuRQ3mh6CPWA34u2yY&sid=ad613873130544ab&serviceName=media.v1.SyncService#https://t.me/ShadowsocksM6
 vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@media.oneokgames.com:443?encryption=none&type=grpc&security=reality&sni=media.oneokgames.com&fp=firefox&pbk=aDNsk312UNfOEh0RiyGZdK6opt__mMyKBSglqFKFP38&sid=dbdbeaf4aa6e1a5c&serviceName=api.v2.ObjectService#https://t.me/ShadowsocksM8
@@ -8,7 +6,6 @@ vless://b18ca099-f725-4470-9032-259cc1a779e0@samd.softupdl.ir:56792?encryption=n
 trojan://-------BanV2ray------@edededededededededededede-66.poki-pakipon.ir:61383?security=reality&sni=chi.yahoo.com&fp=firefox&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&sid&type=grpc#https://t.me/ShadowsocksM13
 vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@add.oneoker.com:443?encryption=none&type=grpc&security=reality&sni=add.oneoker.com&fp=firefox&pbk=W329R9_hAiG_wGLcIhfbm0AA8Si7DVhz4es2aASZACY&sid=9c478d3655bfa85d&serviceName=api.v1.StreamService#https://t.me/ShadowsocksM14
 vless://14b62416-547e-49c1-818a-510218ab101e@w9kbq.pastilbastani.ir:443?encryption=none&type=http&host=play.google.com&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM15
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@186.190.211.188:443?encryption=none&security=tls&sni=186.190.211.188&&packetEncoding=xudp#https://t.me/ShadowsocksM16
 vless://Telegram-%40Cooonfig-%40Cooonfig@65.109.181.154:59849?encryption=none&type=http&host=play.google.com&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM18
 trojan://humanity@188.114.97.7:443#https://t.me/ShadowsocksM19
 trojan://MiTiVPN@89.116.250.135:443#https://t.me/ShadowsocksM21
@@ -47,7 +44,6 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?encryption
 vless://29fa091f-65db-44fd-b388-22dc76dd4b97@2.fognet.ru:443?encryption=none&security=tls&type=ws&host=2.fognet.ru&path=/fog&packetEncoding=xudp#https://t.me/ShadowsocksM38
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@31.57.27.177:2090?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM40
 trojan://humanity@104.17.111.4:443#https://t.me/ShadowsocksM41
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.8.211.217:443?encryption=none&security=tls&sni=vangoghhh.info&type=ws&host=vangoghhh.info&path=/rdfgtws&packetEncoding=xudp#https://t.me/ShadowsocksM42
 vless://0538e749-3e42-40b3-a242-c763ef9e1c7f@real2.gogoli.xyz:53921?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.yahoo.com&fp=chrome&pbk=1BpNelF0e6LBCHdN6BbOL4Mb--MoiWVIgcZPl-0rE0Y&sid=c2&spx=/#https://t.me/ShadowsocksM1
 vless://b26e3696-b8b0-4a3a-9347-8bc4ab265ff8@89.39.121.131:10001?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM2
 vless://3536e1fa-0850-44d1-b123-925ce12476cf@206.71.158.124:443?encryption=none&type=xhttp&security=tls&sni=dey.lnmarketplace.net&alpn=h2&fp=chrome&host=dey.lnmarketplace.net&path=/kavir/?@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed%3D2048&mode=stream-one#https://t.me/ShadowsocksM3
@@ -61,12 +57,9 @@ vless://13b55e8e-fbea-4ee1-b6b7-115fa3043182@46.8.113.17:443?encryption=none&flo
 vless://4f5a379d-45e5-49e3-9f0e-d1303ddc9628@sv3.nonpath.ir:42542?encryption=none&type=http&host=play.google.com&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM11
 vless://4f5a379d-45e5-49e3-9f0e-d1303ddc9628@at-google.mobileemdad.top:443?encryption=none&type=raw&security=reality&sni=play.google.com&fp=qq&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&sid=f88610dd#https://t.me/ShadowsocksM12
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM13
-
 vless://58c9719e-c76b-4f7b-b032-3cc2fb30f943@w9kbq.pastilbastani.ir:443?encryption=none&type=http&host=play.google.com&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM44
 vless://d8b42cd5-a149-4356-9e61-111111111111@83.98.192.97:1446?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM45
 trojan://humanity@www.speedtest.net:443#https://t.me/ShadowsocksM46
 trojan://MiTiVPN@assets.fiverr.com:443#https://t.me/ShadowsocksM47
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.epicgames.com:2095?encryption=none&type=ws&host=cnmfangbinxing-nmsl.cnmfangbinxing-0.workers.dev&path=/&packetEncoding=none#https://t.me/ShadowsocksM48
 vless://31ad4c74-a799-44a6-a12f-d10a9bf71a35@91.107.182.113:35540?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=yellowpages.amazon.com&fp=chrome&pbk=jANeV_yrc4nWAoNnUd3cD1CtE40tak4AwryxNb8Zlyk&sid=6fb5b1550c26a6&spx=/0d604f74f392b10#https://t.me/ShadowsocksM49
-vless://7ec8bf5e-f30c-4c29-9197-6d96661cd36f@156.248.10.58:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=nono.hhhkkhktt.xyz&fp=safari&pbk=EXIEsAJq-s30mA0r997iwrR8ijvGLZ7DOTkr_R39QCE&sid=54fc3827c8#https://t.me/ShadowsocksM51
 vless://d028eaf5-c5ef-49a0-85c6-4f4816af8053@104.25.217.123:2086?encryption=none&type=ws&host=misty-bread-fd96.salehinezhadali.workers.dev&path=/eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ%3D%3D&max_early_data=2560&early_data_header_name=Sec-WebSocket-Protocol&packetEncoding=xudp#https://t.me/ShadowsocksM52
