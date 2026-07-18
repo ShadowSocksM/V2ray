@@ -48,6 +48,19 @@ vless://29fa091f-65db-44fd-b388-22dc76dd4b97@2.fognet.ru:443?encryption=none&sec
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@31.57.27.177:2090?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM40
 trojan://humanity@104.17.111.4:443#https://t.me/ShadowsocksM41
 vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.8.211.217:443?encryption=none&security=tls&sni=vangoghhh.info&type=ws&host=vangoghhh.info&path=/rdfgtws&packetEncoding=xudp#https://t.me/ShadowsocksM42
+vless://0538e749-3e42-40b3-a242-c763ef9e1c7f@real2.gogoli.xyz:53921?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.yahoo.com&fp=chrome&pbk=1BpNelF0e6LBCHdN6BbOL4Mb--MoiWVIgcZPl-0rE0Y&sid=c2&spx=/#https://t.me/ShadowsocksM1
+vless://b26e3696-b8b0-4a3a-9347-8bc4ab265ff8@89.39.121.131:10001?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM2
+vless://3536e1fa-0850-44d1-b123-925ce12476cf@206.71.158.124:443?encryption=none&type=xhttp&security=tls&sni=dey.lnmarketplace.net&alpn=h2&fp=chrome&host=dey.lnmarketplace.net&path=/kavir/?@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed%3D2048&mode=stream-one#https://t.me/ShadowsocksM3
+vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@push.oneokgames.com:443?encryption=none&type=grpc&security=reality&sni=push.oneokgames.com&fp=firefox&pbk=0ffnN7CdnOgEEFJ3AY1lnuTtsOPDL059UaTTxGxDjTA&sid=66ffd800ba2ec7c3&serviceName=home.v1.ApiService#https://t.me/ShadowsocksM4
+vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@link.oneokgames.com:443?encryption=none&type=grpc&security=reality&sni=link.oneokgames.com&fp=firefox&pbk=x9m8Vxk2YlwXy8CLrHeEMDzLJWuRQ3mh6CPWA34u2yY&sid=ad613873130544ab&serviceName=media.v1.SyncService#https://t.me/ShadowsocksM5
+vless://d8b42cd5-a149-4356-9e61-111111111111@83.98.192.97:1446?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM6
+vless://3536e1fa-0850-44d1-b123-925ce12476cf@206.71.158.124:443?encryption=none&type=xhttp&security=tls&sni=dey.lnmarketplace.net&alpn=h2&fp=chrome&host=dey.lnmarketplace.net&path=/kavir&mode=stream-one#https://t.me/ShadowsocksM7
+vless://13b55e8e-fbea-4ee1-b6b7-115fa3043182@45.151.183.222:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=cz.srv.anti-zapret.com&fp=firefox&pbk=0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY&sid=17faf32cb516c9cb#https://t.me/ShadowsocksM8
+vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@fetch.anotherok.com:443?encryption=none&type=grpc&security=reality&sni=fetch.anotherok.com&fp=chrome&pbk=U7O4wCUNinuk5M-ADV1e4sJ_iA7-JVBEXB8nev6kzzs&sid=335555b164619360&serviceName=api.v1.StreamService#https://t.me/ShadowsocksM9
+vless://13b55e8e-fbea-4ee1-b6b7-115fa3043182@46.8.113.17:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=cz.srv.anti-zapret.com&fp=firefox&pbk=0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY&sid=17faf32cb516c9cb#https://t.me/ShadowsocksM10
+vless://4f5a379d-45e5-49e3-9f0e-d1303ddc9628@sv3.nonpath.ir:42542?encryption=none&type=http&host=play.google.com&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM11
+vless://4f5a379d-45e5-49e3-9f0e-d1303ddc9628@at-google.mobileemdad.top:443?encryption=none&type=raw&security=reality&sni=play.google.com&fp=qq&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&sid=f88610dd#https://t.me/ShadowsocksM12
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM13
 
 vless://58c9719e-c76b-4f7b-b032-3cc2fb30f943@w9kbq.pastilbastani.ir:443?encryption=none&type=http&host=play.google.com&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM44
 vless://d8b42cd5-a149-4356-9e61-111111111111@83.98.192.97:1446?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM45
