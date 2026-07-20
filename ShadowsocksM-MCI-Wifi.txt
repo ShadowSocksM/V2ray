@@ -30,3 +30,17 @@ trojan://humanity@104.17.111.4:443#https://t.me/ShadowsocksM8
 trojan://humanity@188.114.97.7:443#https://t.me/ShadowsocksM7
 trojan://humanity@104.17.111.4:443#https://t.me/ShadowsocksM41
 trojan://auto@194.53.53.4:443#https://t.me/ShadowsocksM10
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.50.197:22222?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM1
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.50.197:22223?encryption=none&packetEncoding=xudp#https://t.me/ShadowsocksM2
+vless://3bb140ee-7a7b-49df-808d-9350c9a1317c@69.46.46.67:443?encryption=none&security=tls&sni=web-production-85c4e.up.railway.app&alpn=http/1.1&fp=chrome&type=ws&host=web-production-85c4e.up.railway.app&path=/ws/vless/3bb140ee-7a7b-49df-808d-9350c9a1317c&max_early_data=2048&early_data_header_name=Sec-WebSocket-Protocol&packetEncoding=xudp#https://t.me/ShadowsocksM3
+vless://ae86f68e-84c7-41de-b69f-87285451fb71@45.86.159.132:2085?encryption=none&type=grpc&serviceName=vless&packetEncoding=xudp#https://t.me/ShadowsocksM4
+vless://1ff35f30-f07f-423b-97d7-ec6a631e7ecc@69.46.46.67:443?encryption=none&security=tls&sni=web-production-42d4d9.up.railway.app&alpn=http/1.1&fp=chrome&type=ws&host=web-production-42d4d9.up.railway.app&path=/ws/1ff35f30-f07f-423b-97d7-ec6a631e7ecc&max_early_data=2048&early_data_header_name=Sec-WebSocket-Protocol&packetEncoding=xudp#https://t.me/ShadowsocksM5
+trojan://6a2657e5dbaabb6@ifo.configfast.site:58900?security=reality&sni=google.com&fp=firefox&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&sid=a508b9ff13ba7e#https://t.me/ShadowsocksM6
+vless://0b8dfc50-9e2d-4b3c-85cd-870b478312a0@45.192.2.115:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=yandex.net&pbk=1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA&sid=f34818a561dfd1fe#https://t.me/ShadowsocksM7
+vless://bf0899bc-5abd-40b8-b376-f108e2d8cb6f@vs-pl2.vibesignal.space:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=ajax.googleapis.com&fp=edge&pbk=cwGWK11FxNLsxS6uDBw5zHzfu26AA2-E_bNdv7j5-T0&sid=6316fbe56c3dac5e#https://t.me/ShadowsocksM8
+vless://613de70c-f1d7-4176-968d-86d0f20e8786@ips-----pro-----vip.nininet.xyz:1418?encryption=none&type=http&host=play.google.com&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM9
+vless://906be882-7f16-47c3-8702-59db2ada9688@2.26.82.237:443?encryption=none&type=grpc&security=reality&sni=speed.cloudflare.com&pbk=VmBEjLUpiEnoNIaPNGDfVPIOzH_ktSDdsGGAvissxgI&serviceName=grpc#https://t.me/ShadowsocksM10
+trojan://-----------BanV2ray-----------@uupupupuppupupupuuppupupupupuup-11.poki-pakipon.ir:47375?security=reality&sni=chi.yahoo.com&fp=firefox&pbk=6PX0SCkt6TANowjz80Ugiv4cSg0vF8g0mVt4WbyIGhI&sid=05626eef4c&type=grpc#https://t.me/ShadowsocksM11
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?encryption=none&type=http&host=gr1.fifapes.monster&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM12
+vless://88360a6d-0fd7-49ef-ad06-6397fc7a80e5@www.speedtest.net:8443?encryption=none&security=tls&sni=pn.lox30shop.ir&type=ws&host=pn.lox30shop.ir&path=/&packetEncoding=xudp#https://t.me/ShadowsocksM13
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?encryption=none&type=http&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&method=GET&packetEncoding=xudp#https://t.me/ShadowsocksM14
