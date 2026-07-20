@@ -1,42 +1,28 @@
 {
   "outbounds":   [
     {
-      "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "89.116.250.135",
-      "server_port": 443,
-      "password": "MiTiVPN"
-    },
-    {
-      "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "password": "humanity"
-    },
-    {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM6 § 2",
-      "server": "feed.onetimeok.com",
+      "tag": "https://t.me/ShadowsocksM1 § 0",
+      "server": "stream.noneok.com",
       "server_port": 443,
-      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+      "uuid": "8673cea6-211f-45cf-88e7-09d61a98e33f",
       "tls":       {
         "enabled": true,
-        "server_name": "feed.onetimeok.com",
+        "server_name": "stream.noneok.com",
         "alpn": "h2",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "nhw3l7ERW8NoAh5lBv3dxkF-mkNYifxsSxX_HNiOhAU",
-          "short_id": "82674cbe556a1209"
+          "public_key": "0DwrY31Tr1wowEKo8Q2dSUYHuwBPhQ2OGWlcpBOVrks",
+          "short_id": "c18304806fa688bd"
         }
       },
       "transport":       {
         "type": "grpc",
-        "service_name": "app.v1.StreamService",
+        "service_name": "api.v1.StreamService",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       },
@@ -44,13 +30,13 @@
     },
     {
       "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM7 § 3",
-      "server": "52.212.156.233",
+      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "server": "63.178.193.196",
       "server_port": 443,
-      "password": "OD90375861",
+      "password": "NQ26071394",
       "tls":       {
         "enabled": true,
-        "server_name": "wired-tick.rooster465.autos",
+        "server_name": "quiet-condor.rooster465.autos",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
@@ -58,75 +44,11 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM8 § 4",
-      "server": "feed.onetimeok.com",
-      "server_port": 443,
-      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
-      "tls":       {
-        "enabled": true,
-        "server_name": "feed.onetimeok.com",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "nhw3l7ERW8NoAh5lBv3dxkF-mkNYifxsSxX_HNiOhAU",
-          "short_id": "82674cbe556a1209"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "service_name": "app.v1.StreamService",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM9 § 5",
-      "server": "sync.onetimeok.com",
-      "server_port": 443,
-      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sync.onetimeok.com",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "28oR3ji9c2CneMNkbvcDL8WfvNWHS3GfA3RdtaF-pSg",
-          "short_id": "89e97b6542785ca6"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "service_name": "gw.v1.MetricsService",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM10 § 6",
-      "server": "206.189.49.128",
-      "server_port": 37779,
-      "uuid": "319c1270-87da-4fa4-ac4f-e2d5c0353fdc",
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM11 § 7",
-      "server": "edededededededededededede-66.poki-pakipon.ir",
-      "server_port": 36268,
-      "password": "-------BanV2ray------",
+      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "server": "uupupupuppupupupuuppupupupupuup-11.poki-pakipon.ir",
+      "server_port": 26378,
+      "password": "-----------BanV2ray-----------",
       "tls":       {
         "enabled": true,
         "server_name": "chi.yahoo.com",
@@ -144,102 +66,276 @@
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM12 § 8",
-      "server": "64.176.73.240",
-      "server_port": 443,
-      "uuid": "9b3d9031-4279-4000-9d7e-309a4431737b",
+      "tag": "https://t.me/ShadowsocksM4 § 3",
+      "server": "ukall.lorqina.ir",
+      "server_port": 31118,
+      "uuid": "9d66932d-9eec-47de-972a-e98dee7231c1",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "www.intel.com",
+        "server_name": "de.nachrichten.yahoo.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "xKBhcOO7xTV_jviXRtnlRxyUdQ0BJIi1itzPG381CGQ",
-          "short_id": "9db7db"
+          "public_key": "LUCLCEE0jswfTEzoonfVHLw_1l-j4uROgNJi12jJsnc",
+          "short_id": "1604fe"
         }
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "path": "/",
-        "xPaddingBytes": "100-1000",
-        "scMaxEachPostBytes": "1000000-1000000"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM13 § 9",
-      "server": "217.69.15.80",
+      "tag": "https://t.me/ShadowsocksM5 § 4",
+      "server": "spider-panel-production-8fc7.up.railway.app",
       "server_port": 443,
-      "uuid": "dca26c55-c244-4239-8def-afb8179db2e9",
+      "uuid": "bedb826892f3de617a6b65a02e5ebc13",
       "tls":       {
         "enabled": true,
-        "server_name": "www.sony.com",
+        "server_name": "spider-panel-production-8fc7.up.railway.app",
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "tJq5ZqtbmdX76sOOQ80eciRtnvyxw8rGtrEduYJPpzQ",
-          "short_id": "dfd605"
         }
       },
       "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "path": "/",
-        "xPaddingBytes": "100-1000",
-        "scMaxEachPostBytes": "1000000-1000000"
+        "type": "ws",
+        "path": "/ws/bedb826892f3de617a6b65a02e5ebc13",
+        "headers":         {
+          "Host": "spider-panel-production-8fc7.up.railway.app"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM15 § 10",
-      "server": "net.oneoneok.com",
+      "tag": "https://t.me/ShadowsocksM6 § 5",
+      "server": "206.71.158.124",
       "server_port": 443,
-      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
       "tls":       {
         "enabled": true,
-        "server_name": "net.oneoneok.com",
+        "server_name": "dey.lnmarketplace.net",
         "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "stream-one",
+        "host": "dey.lnmarketplace.net",
+        "path": "/kavir/?@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "https://t.me/ShadowsocksM7 § 6",
+      "server": "104.21.40.34",
+      "server_port": 443,
+      "password": "humanity",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.gossipglove.com",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/assignment",
+        "headers":         {
+          "Host": "www.gossipglove.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM8 § 7",
+      "server": "1.tls.fastly.veraspeed.ir",
+      "server_port": 443,
+      "uuid": "cbcf2255-6d66-4039-b7d6-c10d6ffc99e7",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER",
+        "headers":         {
+          "Host": "pan1.global.ssl.fastly.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM9 § 8",
+      "server": "495-4080-b3.de.v.iranisystembaz.ir",
+      "server_port": 800,
+      "uuid": "d5dc3a37-b41f-4725-bdaf-9edf826357b8",
+      "transport":       {
+        "type": "http",
+        "host": "rubika.ir,igap.net,splus.ir,skyroom.online",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM10 § 9",
+      "server": "www.chatgpt.com",
+      "server_port": 2083,
+      "uuid": "88360a6d-0fd7-49ef-ad06-6397fc7a80e5",
+      "tls":       {
+        "enabled": true,
+        "server_name": "pn.lox30shop.ir",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "pn.lox30shop.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM12 § 10",
+      "server": "95.181.167.157",
+      "server_port": 1080,
+      "uuid": "f2f723f5-b97d-4414-997c-d2925013af28",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "github.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "fl73IBnFC9oaLCgTZkYWoCS9gbintk3TxHnKiE20Nk8",
-          "short_id": "62b68b9d30622133"
+          "public_key": "Bp5PnujrPK50eE_28vIWSyBjdIPLXCLGYPjRKx0pqgI",
+          "short_id": "845ac2739143b71d"
         }
-      },
-      "transport":       {
-        "type": "grpc",
-        "service_name": "api.v1.StreamService",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM16 § 11",
-      "server": "63.178.193.196",
+      "tag": "https://t.me/ShadowsocksM13 § 11",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "password": "NQ26071394",
+      "password": "humanity"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM14 § 12",
+      "server": "q7sv9.pastilbastani.ir",
+      "server_port": 443,
+      "uuid": "d223a3b5-d048-4c7f-83ea-8c1466bc28f2",
+      "transport":       {
+        "type": "http",
+        "host": "play.google.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "https://t.me/ShadowsocksM15 § 13",
+      "server": "transfer01.kaochangonline.online",
+      "server_port": 443,
+      "password": "62b78c9b-16cb-4ee6-824b-a4f856cf18f3"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM16 § 14",
+      "server": "77.110.125.143",
+      "server_port": 443,
+      "uuid": "441f6a72-53f4-4f63-9542-bf445eb16a3e",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "quiet-condor.rooster465.autos",
+        "server_name": "aviasales.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "MtmQRo_fBuvzEa7gFKDrTrJhtn0DcIq-IJNTupxZJSc",
+          "short_id": "9f"
         }
-      }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "https://t.me/ShadowsocksM17 § 15",
+      "server": "89.116.250.135",
+      "server_port": 443,
+      "password": "MiTiVPN"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM18 § 16",
+      "server": "194.87.138.159",
+      "server_port": 443,
+      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "web.max.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "Cfi8a4Pk4645E8ZNKIp14GW9DeNivoXYYBG2CHr6wm4",
+          "short_id": "45ba18f116ad1f81"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM19 § 17",
+      "server": "77.110.125.143",
+      "server_port": 443,
+      "uuid": "441f6a72-53f4-4f63-9542-bf445eb16a3e",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "aviasales.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "MtmQRo_fBuvzEa7gFKDrTrJhtn0DcIq-IJNTupxZJSc",
+          "short_id": "9f"
+        }
+      },
+      "packet_encoding": "xudp"
     }
   ],
   "endpoints":   [
