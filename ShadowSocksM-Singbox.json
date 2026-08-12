@@ -3,361 +3,64 @@
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "217.60.193.4",
+      "server": "tg.riotvpn.eu",
       "server_port": 443,
-      "uuid": "5dc56757-458e-4df2-9e71-2a14ce47e8af",
+      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
       "tls":       {
         "enabled": true,
-        "server_name": "ddc-akn.astralweb.tech",
+        "server_name": "ads.x5.ru",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
+          "short_id": "2f49bccf11150ef2"
         }
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "130.78.216.194",
-      "server_port": 443,
-      "uuid": "2a12bb81-f3a3-0064-99ab-36febf676b4a",
-      "flow": "xtls-rprx-vision",
+      "server": "dns.tokyoservice.ir",
+      "server_port": 2082,
+      "password": "9cc2113e-6b5b-4ced-9c46-70cf78d2c599",
       "tls":       {
         "enabled": true,
-        "server_name": "calm-panther.cdn.cachefleet.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "hy2.tokyoservice.ir"
+      }
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM3 § 2",
-      "server": "193.58.122.41",
-      "server_port": 2053,
-      "uuid": "695a935b-5d8b-4468-ba7c-5f2a02e3356e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM4 § 3",
-      "server": "86.107.178.66",
-      "server_port": 448,
-      "uuid": "b3eed393-e990-40a0-978c-689d40be9da4",
+      "server": "grpc.tokyoservice.ir",
+      "server_port": 2087,
+      "uuid": "2b586da3-43b8-482b-bb67-a74a8ce73b4b",
       "tls":       {
         "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "i3cJbIu8AN7qCD7xQTVfCN7de9RkxVohk_PGQgHqRl8",
-          "short_id": "52a74e01683e9173"
-        }
+        "server_name": "grpc.tokyoservice.ir",
+        "alpn": "h2"
       },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM5 § 4",
-      "server": "194.5.65.36",
-      "server_port": 443,
-      "uuid": "d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "v_s3GW5_7jvB081tdUeyoDUUTq6fZwqKbVS7CdvLFA0",
-          "short_id": "72cd47c079c0a3df"
-        }
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "path": "/"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM6 § 5",
-      "server": "nl.n.belka.network",
-      "server_port": 443,
-      "uuid": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "max.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "U8yhhQTieIzorSj_S2ZGKlac4zfbP1d_ywFAn-7NGDs",
-          "short_id": "8f3e9c4b1a8d6e53"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM7 § 6",
-      "server": "15.237.137.197",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fancy-skink.rooster465.autos",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM8 § 7",
-      "server": "31.76.113.187",
-      "server_port": 443,
-      "uuid": "cd1673b3-7cec-4fe6-bedf-b534eb54e647",
-      "tls":       {
-        "enabled": true,
-        "server_name": "it1-akn.astralweb.tech",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM9 § 8",
-      "server": "34.251.228.118",
-      "server_port": 443,
-      "password": "UO36402987",
-      "tls":       {
-        "enabled": true,
-        "server_name": "definite-ladybird.rooster465.autos",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM10 § 9",
-      "server": "84.32.101.222",
-      "server_port": 443,
-      "uuid": "5dc56757-458e-4df2-9e71-2a14ce47e8af",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ddc-chr.astralweb.tech",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM11 § 10",
-      "server": "193.58.122.41",
-      "server_port": 2096,
-      "uuid": "695a935b-5d8b-4468-ba7c-5f2a02e3356e",
       "transport":       {
         "type": "grpc",
-        "service_name": "612aad59257d46d1",
+        "service_name": "sky",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM12 § 11",
-      "server": "217.60.193.4",
-      "server_port": 443,
-      "uuid": "5dc56757-458e-4df2-9e71-2a14ce47e8af",
+      "type": "hysteria2",
+      "tag": "https://t.me/ShadowsocksM5 § 3",
+      "server": "assets.gateway-stream.com",
+      "server_port": 52032,
+      "password": "4ff4adfb8e7a4bae9c959c54fa5af52f",
       "tls":       {
         "enabled": true,
-        "server_name": "ddc-akn.astralweb.tech",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM13 § 12",
-      "server": "130.78.216.194",
-      "server_port": 443,
-      "uuid": "2a12bb81-f3a3-0065-99ab-36febf676b4a",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "quiet-bear.cdn.cachefleet.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM14 § 13",
-      "server": "109.69.218.208",
-      "server_port": 443,
-      "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "kind-wolf.cdn.cachefleet.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "8hse7wRRL-F66rQ-aAeetKTw0MSeJC7Rr6EaDeLzdCU"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM15 § 14",
-      "server": "130.78.216.194",
-      "server_port": 443,
-      "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "calm-panther.cdn.cachefleet.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM16 § 15",
-      "server": "80.77.25.142",
-      "server_port": 443,
-      "password": "humanity",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/assignment",
-        "headers":         {
-          "Host": "www.calmlunch.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "server_name": "assets.gateway-stream.com"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM17 § 16",
-      "server": "67.220.73.204",
-      "server_port": 18662,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM18 § 17",
-      "server": "172.64.144.82",
-      "server_port": 2095,
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "fangbinxingnmsl.pusytroller.gq"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM19 § 18",
-      "server": "104.18.38.47",
-      "server_port": 2095,
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "fangbinxingnmsl.pusytroller.gq"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM20 § 19",
-      "server": "104.18.35.15",
-      "server_port": 2095,
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "fuckingfangbinxing.pusytroller.cf"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
     }
   ],
   "endpoints":   [
