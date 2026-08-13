@@ -5,6 +5,9 @@ vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?encryption=non
 vless://467a3271-caf5-485b-90d0-0c5ba7efe881@31.177.111.151:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=wap.yandex.ru&fp=firefox&pbk=wqT1qRUUDgqpKigqaWCOepUhCKnuR1jWr5LX8RiTgTU&sid=59bcf19dc2a0b93e&spx=/#https://t.me/ShadowsocksM7
 vless://5502312d-b5cf-4652-8c59-4d670dd047be@45.146.131.97:4100?encryption=none&type=ws&path=/v1&packetEncoding=xudp#https://t.me/ShadowsocksM8
 vless://8a36e681-e022-44cb-a3a5-6194d558cf1d@31.177.111.151:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=wap.yandex.ru&fp=firefox&pbk=wqT1qRUUDgqpKigqaWCOepUhCKnuR1jWr5LX8RiTgTU&sid=59bcf19dc2a0b93e&spx=/#https://t.me/ShadowsocksM9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.129:8080#%F0%9F%92%AB@hidifay
+vless://a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a@tg.riotvpn.eu:443?encryption=none&type=raw&security=reality&sni=ads.x5.ru&fp=chrome&pbk=8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho&sid=2f49bccf11150ef2#Mr_Power_Vpn%20%E2%9D%A4%EF%B8%8F
+
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@104.18.42.163:2095?encryption=none&type=ws&host=download.pusytroller.gq&path=/&packetEncoding=xudp#https://t.me/ShadowsocksM10
 vless://49e76398-5127-4005-90cb-c2a971f745f1@162.159.38.119:443?encryption=none&security=tls&sni=rmqkx.freshfox-nilo.sbs&fp=chrome&type=ws&host=rmqkx.freshfox-nilo.sbs&path=/carbon&packetEncoding=xudp#https://t.me/ShadowsocksM11
 vless://78b58296-16a0-47ac-ba3f-8fe64425457f@95.163.232.183:443?encryption=none&type=grpc&security=reality&sni=5post-gate.x5.ru&fp=qq&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=abcd&serviceName=5post.gate.v1#https://t.me/ShadowsocksM12
