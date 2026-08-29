@@ -1,41 +1,1666 @@
 {
-  "outbounds":   [
+  "outbounds": [],
+  "endpoints": [
     {
       "type": "wireguard",
-      "tag": "ShadowM § 0",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8cd2:a054:d6d8:1c3:daee/128"
+      "tag": "https://t.me/ShadowsocksM1 § 0",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "165.73.248.92",
+          "port": 80,
+          "public_key": "stPvzj5yM1z5Qg9H3gMvAKNPJLU0X3SeUSJPg3wqDR8=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
       ],
-      "private_key": "wG8o2OQ3D3tt3g8hw+1v6VoKBRceHtx9pGrzE66JE3s=",
-      "server": "162.159.195.1",
-      "server_port": 0,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "Iw5g",
-      "mtu": 1330,
-      "fake_packets": "20-30",
-      "fake_packets_size": "10-20",
-      "fake_packets_delay": "1-2",
-      "fake_packets_mode": "m4"
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
     },
     {
       "type": "wireguard",
-      "tag": "WoW IPv4 § 1",
-      "detour": "ShadowM § 0",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:811c:e477:68ee:45b3:f9fa/128"
+      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "116.206.228.180",
+          "port": 80,
+          "public_key": "r5BDU0T+VGZU6I+zuF3vlGrdORtgNvLhY08gQxrFRCw=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
       ],
-      "private_key": "mMC+H9WU3IVVI7f9lqjriQvapFLR02jyAwT42e2T+UU=",
-      "server": "162.159.195.1",
-      "server_port": 0,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "ZIta",
-      "mtu": 1330,
-      "fake_packets": "2-4",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
-      "fake_packets_mode": "m4"
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.108.95.228",
+          "port": 80,
+          "public_key": "iY4MhQqQTP4uT7U4w9DfUEVxi5I3HJvjZcIL2dwmtTw=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM4 § 3",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.62.50.132",
+          "port": 80,
+          "public_key": "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM5 § 4",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.77.232.76",
+          "port": 80,
+          "public_key": "eSxX+L8qX+1MdmwjtlZGIDbDivFdURBh5Rm1KfUpYzc=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM6 § 5",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.77.234.212",
+          "port": 80,
+          "public_key": "Jhhq6jvPxABM8OmzaM4/zJbcoRBR5OZalIHrZaFuXAU=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM7 § 6",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "185.99.3.25",
+          "port": 80,
+          "public_key": "6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM8 § 7",
+      "mtu": 1280,
+      "address": "10.2.0.2/32",
+      "private_key": "aAWi+kcdpKFETLybHjeiy46LJbg4anEvSaCFvXougl0=",
+      "peers": [
+        {
+          "address": "149.22.82.55",
+          "port": 51820,
+          "public_key": "32BouQp7QBFlZTBW8goSEE+kDnyEqbjYGKWNOdqx4DM=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM9 § 8",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "165.73.248.92",
+          "port": 80,
+          "public_key": "stPvzj5yM1z5Qg9H3gMvAKNPJLU0X3SeUSJPg3wqDR8=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM10 § 9",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.108.95.228",
+          "port": 80,
+          "public_key": "iY4MhQqQTP4uT7U4w9DfUEVxi5I3HJvjZcIL2dwmtTw=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM11 § 10",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.62.50.132",
+          "port": 80,
+          "public_key": "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM12 § 11",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.77.232.76",
+          "port": 80,
+          "public_key": "eSxX+L8qX+1MdmwjtlZGIDbDivFdURBh5Rm1KfUpYzc=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM13 § 12",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.77.234.212",
+          "port": 80,
+          "public_key": "Jhhq6jvPxABM8OmzaM4/zJbcoRBR5OZalIHrZaFuXAU=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM14 § 13",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "185.99.3.25",
+          "port": 80,
+          "public_key": "6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM15 § 14",
+      "mtu": 1280,
+      "address": "10.2.0.2/32",
+      "private_key": "aAWi+kcdpKFETLybHjeiy46LJbg4anEvSaCFvXougl0=",
+      "peers": [
+        {
+          "address": "149.22.82.55",
+          "port": 51820,
+          "public_key": "32BouQp7QBFlZTBW8goSEE+kDnyEqbjYGKWNOdqx4DM=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM16 § 15",
+      "mtu": 1280,
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:856e:2592:8983:d2f3:bf31/128"
+      ],
+      "private_key": "EP6iZgOR+z8e/O+O1kWUe0fnH9Ixy2O/yfe5W+qqinA=",
+      "peers": [
+        {
+          "address": "162.159.192.10",
+          "port": 2506,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM17 § 16",
+      "mtu": 1280,
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8a8e:f20a:b5e4:9718:e5f4/128"
+      ],
+      "private_key": "8IREz0wjTHPwDBkz1oQAxqJLjgRszWvDudTHfHJQ91c=",
+      "peers": [
+        {
+          "address": "wire.nscl.ir",
+          "port": 878,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM18 § 17",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "45.138.86.228",
+          "port": 80,
+          "public_key": "S/qPJPWnfwfb1pWIcKN8FH71j5dFt9eH2KbEeU1+QlE=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM19 § 18",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "185.225.28.52",
+          "port": 80,
+          "public_key": "9J0kA4c4i7N/+6B+3j0zFkDTHocZNsw6eK6+sLZ1qCQ=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM20 § 19",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.108.94.164",
+          "port": 80,
+          "public_key": "el0He87GLmmywBmn7ErEiuKd5Bjc6Q4zWciL86rYcxw=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM21 § 20",
+      "mtu": 1280,
+      "address": "10.2.0.2/32",
+      "private_key": "SAQnzqQeqpj2k92AR4KI3pl7jSIam31MRdZvR8NOUF8=",
+      "peers": [
+        {
+          "address": "169.150.218.31",
+          "port": 51820,
+          "public_key": "BMVFYo1dYKoCWl6QJzrGjWzRxQVD5ZQ3D4/L331J52s=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM22 § 21",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "138.186.142.204",
+          "port": 80,
+          "public_key": "3L8yhe+v7TzBeesOFxSdU2VUa8FG4PTuoiiUoV7DAGY=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM23 § 22",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "103.107.198.228",
+          "port": 80,
+          "public_key": "tJa6iPx6mpOktn5KoalMslWcpg6pRUdVx3bKDi3wtDg=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM24 § 23",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "193.36.118.228",
+          "port": 80,
+          "public_key": "bGn6yuCFQWWF8+ZMGlJ0M6+IJRlkLXn0/UI/mvIyYwQ=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM25 § 24",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "199.217.104.228",
+          "port": 80,
+          "public_key": "5yBJlSpfxd8Hq4+X4ZD60MYc6tosaMh5inQwA18XCCk=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM26 § 25",
+      "mtu": 1280,
+      "address": "10.2.0.2/32",
+      "private_key": "YBK2yQjs4datZO0vEGWQSgRkMELY/+swxJhr5HQL0nc=",
+      "peers": [
+        {
+          "address": "79.127.147.88",
+          "port": 51820,
+          "public_key": "+nfuVNp0Pevo7gksdbUCpgcNa+oowtZI/m031Ww3Iy0=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM27 § 26",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "46.199.75.107",
+          "port": 80,
+          "public_key": "90fjr1sq0Hgv2l+DgMaaGQ009SDw7VxmzJwaYmclaFs=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM28 § 27",
+      "mtu": 1280,
+      "address": "100.80.234.177/32",
+      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
+      "peers": [
+        {
+          "address": "84.17.57.115",
+          "port": 80,
+          "public_key": "zi62xnrtbvAbaavB8MLoTF36BX/stxjfnGJ6mIsZYzg=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=",
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM29 § 28",
+      "mtu": 1280,
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8017:5ef1:e186:5169:1ae2/128"
+      ],
+      "private_key": "kFrCW3gU8ssg2jsa0IMlcw8U1sjrR4FyHfZvFMrtIlo=",
+      "peers": [
+        {
+          "address": "162.159.195.8",
+          "port": 1014,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM30 § 29",
+      "mtu": 1280,
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:856e:2592:8983:d2f3:bf31/128"
+      ],
+      "private_key": "EP6iZgOR+z8e/O+O1kWUe0fnH9Ixy2O/yfe5W+qqinA=",
+      "peers": [
+        {
+          "address": "162.159.192.10",
+          "port": 2506,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM31 § 30",
+      "mtu": 1280,
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8a8e:f20a:b5e4:9718:e5f4/128"
+      ],
+      "private_key": "8IREz0wjTHPwDBkz1oQAxqJLjgRszWvDudTHfHJQ91c=",
+      "peers": [
+        {
+          "address": "wire.nscl.ir",
+          "port": 878,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM32 § 31",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "EMyPth5PWA78F+sSX/pP6kxRMmPgTICZoNnGXqiISHA=",
+      "peers": [
+        {
+          "address": "91.132.139.2",
+          "port": 51820,
+          "public_key": "zJ9EtguoeooUHMQa9G4GSBjCV+x+mGsBTbqPHNrzrFo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM33 § 32",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "yGOlvbAoFKaQW8Ulq1koWCGGBfK23t5+VI19HFY+tXE=",
+      "peers": [
+        {
+          "address": "91.132.139.2",
+          "port": 51820,
+          "public_key": "zJ9EtguoeooUHMQa9G4GSBjCV+x+mGsBTbqPHNrzrFo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM34 § 33",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "OA1rTymstRkykXhtR0pO/rEWXVm3flbkozPqbIucx3I=",
+      "peers": [
+        {
+          "address": "91.132.139.2",
+          "port": 51820,
+          "public_key": "zJ9EtguoeooUHMQa9G4GSBjCV+x+mGsBTbqPHNrzrFo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM35 § 34",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "mLkeCfdvnkIVIm4XcdE2GhplhkhAjKMJWy7TaodPO3E=",
+      "peers": [
+        {
+          "address": "91.132.139.2",
+          "port": 51820,
+          "public_key": "zJ9EtguoeooUHMQa9G4GSBjCV+x+mGsBTbqPHNrzrFo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM36 § 35",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "0K87ADf4UBVC7pOrkPt9fQWr9JwaSJy43nYscva3BWc=",
+      "peers": [
+        {
+          "address": "103.108.231.18",
+          "port": 51820,
+          "public_key": "mfJQLevPV800jb6E+dqgIZ8fjMfej5h0bBp9n/xuZRg=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM37 § 36",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "EJdErkqvXphIe4i9kdanRfgNDVVfdQFIZf/zjLELyF8=",
+      "peers": [
+        {
+          "address": "180.149.228.66",
+          "port": 51820,
+          "public_key": "dpcwy7V6UxFxZ5BEYED5w30sqpz2Bak+7HchFbUNHUw=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM38 § 37",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "GJJjN11WeUvIuQPxIjlhK3AybIFoavPqow4qQL6vd3M=",
+      "peers": [
+        {
+          "address": "180.149.228.66",
+          "port": 51820,
+          "public_key": "dpcwy7V6UxFxZ5BEYED5w30sqpz2Bak+7HchFbUNHUw=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM39 § 38",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "wNYIgm/b2QklHPJO2QAAOfUBlN/6s3ZUf4j2yHwddVM=",
+      "peers": [
+        {
+          "address": "180.149.228.66",
+          "port": 51820,
+          "public_key": "dpcwy7V6UxFxZ5BEYED5w30sqpz2Bak+7HchFbUNHUw=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM40 § 39",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "KCCADS5d0rItG7vkSIoKrkAlLX/GdA9YhouA83CWg0w=",
+      "peers": [
+        {
+          "address": "180.149.228.82",
+          "port": 51820,
+          "public_key": "VGIii/+0t4bJCoItCzNw64wAoGh7BF6Wi7loTtkcGEM=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM41 § 40",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "6CUgpBx+1YxJhJsdHcRyFBZh9WZczri5PSnlZLbG0E8=",
+      "peers": [
+        {
+          "address": "180.149.228.82",
+          "port": 51820,
+          "public_key": "VGIii/+0t4bJCoItCzNw64wAoGh7BF6Wi7loTtkcGEM=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM42 § 41",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "mCYnGBKcZ7OULnGVf1UQwXl4f5aWdFgDRxAan79AvlU=",
+      "peers": [
+        {
+          "address": "103.108.231.226",
+          "port": 51820,
+          "public_key": "esnV9MghD7mavVF32bvKc4xrgOyZ5AmwPny7EJnL2WU=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM43 § 42",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "YGZLdmpMvHPy4srlSnRbXgdq0etVtFwfoXKeTg7Dy2Q=",
+      "peers": [
+        {
+          "address": "144.48.38.178",
+          "port": 51820,
+          "public_key": "enwR3M+w4F/8bBPz85kf46hh/dVSmQfeoQnECaLo1lo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM44 § 43",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "+A/Kw729gQ5o3MryE3dVMzGleJ1KNF2K5RhsdXB4GHY=",
+      "peers": [
+        {
+          "address": "144.48.38.178",
+          "port": 51820,
+          "public_key": "enwR3M+w4F/8bBPz85kf46hh/dVSmQfeoQnECaLo1lo=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM45 § 44",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "MPIoNiYsnvm2Ny+1lzxfFYWtFVunj31pvvxvG0EtHHk=",
+      "peers": [
+        {
+          "address": "103.25.57.50",
+          "port": 51820,
+          "public_key": "0tgcqEhedj9Vkv7q4meskjUOe2HLDA5G5ezRBYqSb24=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM46 § 45",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "6Awa1rmIwyguMSoJpGPsvLH4falfpkx9NHEU2CERFHQ=",
+      "peers": [
+        {
+          "address": "103.25.57.50",
+          "port": 51820,
+          "public_key": "0tgcqEhedj9Vkv7q4meskjUOe2HLDA5G5ezRBYqSb24=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM47 § 46",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "IIuaZrz23JtS+31QAnAw7hbtD7V+nr765r3BUcj+CHw=",
+      "peers": [
+        {
+          "address": "103.25.57.130",
+          "port": 51820,
+          "public_key": "mqcmtcMU9cvA4e4sTSmPnVROWPyNNksrpqTKftyFYkY=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM48 § 47",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "OBfWy4w9xTu24hvrN07GkHRuy90jnb4mLKVMYAN+V30=",
+      "peers": [
+        {
+          "address": "103.25.57.130",
+          "port": 51820,
+          "public_key": "mqcmtcMU9cvA4e4sTSmPnVROWPyNNksrpqTKftyFYkY=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM49 § 48",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "4IBPQlavu5837jW0CyrykUgJ7n2brcwqV0WO/cp3TXE=",
+      "peers": [
+        {
+          "address": "103.25.57.130",
+          "port": 51820,
+          "public_key": "mqcmtcMU9cvA4e4sTSmPnVROWPyNNksrpqTKftyFYkY=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM50 § 49",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "kJVrfgV4qvJrwRlxtk5ToT+0Twlyg8thXEJ8vQangkc=",
+      "peers": [
+        {
+          "address": "103.216.220.162",
+          "port": 51820,
+          "public_key": "EI/gCZrSqSGrvsIUTy3LRa3PBWjbiksZf/H4tvU6fRE=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM51 § 50",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "yMu6w8SsuxBPjlyOTuSbYx5JtfSonpZaqdayFFcbalE=",
+      "peers": [
+        {
+          "address": "103.216.220.162",
+          "port": 51820,
+          "public_key": "EI/gCZrSqSGrvsIUTy3LRa3PBWjbiksZf/H4tvU6fRE=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM52 § 51",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "AN2FExJSFVb59rybWVW13nO+ahSEJVBDHZDVnGze6l0=",
+      "peers": [
+        {
+          "address": "79.127.155.65",
+          "port": 51820,
+          "public_key": "DBGcLTkmP+P/0coBrPtXWst9JvST4cufH3KH6h1rFyk=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM53 § 52",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "4AnnGqaOYG+AVfEJvWxci45JSmPBmR+SCs4WBWCWC1A=",
+      "peers": [
+        {
+          "address": "79.127.155.65",
+          "port": 51820,
+          "public_key": "DBGcLTkmP+P/0coBrPtXWst9JvST4cufH3KH6h1rFyk=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM54 § 53",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "gP9i5CRGRMnWA5PNjCuCEsBFFrRnF1jwrg8QR1nUZHo=",
+      "peers": [
+        {
+          "address": "79.127.155.65",
+          "port": 51820,
+          "public_key": "DBGcLTkmP+P/0coBrPtXWst9JvST4cufH3KH6h1rFyk=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM55 § 54",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "GClBVnhy8xH1Rv35R6LwX1AxRso2rJK+cFkecsGit3k=",
+      "peers": [
+        {
+          "address": "79.127.155.65",
+          "port": 51820,
+          "public_key": "DBGcLTkmP+P/0coBrPtXWst9JvST4cufH3KH6h1rFyk=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "https://t.me/ShadowsocksM56 § 55",
+      "mtu": 1420,
+      "address": "10.2.0.2/32",
+      "private_key": "SIavO6yjzRx0yVGftG/TcAijZv7zQJkquFl08tU2o2A=",
+      "peers": [
+        {
+          "address": "79.127.155.65",
+          "port": 51820,
+          "public_key": "DBGcLTkmP+P/0coBrPtXWst9JvST4cufH3KH6h1rFyk=",
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "AAAA"
+        }
+      ],
+      "noise": {
+        "fake_packet": {
+          "enabled": true,
+          "count": "15-15",
+          "size": "5-10",
+          "delay": "1-2",
+          "mode": "m4"
+        }
+      }
     }
   ]
 }
