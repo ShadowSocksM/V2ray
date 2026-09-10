@@ -3,36 +3,42 @@
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "xnforo.ir",
-      "server_port": 2087,
-      "uuid": "c75775e9-cf53-47b6-9d1d-29c3a46633fd",
+      "server": "212.43.150.162",
+      "server_port": 30650,
+      "uuid": "c134103b-4a52-4a8c-86c5-99b153a5e9ea",
       "tls": {
         "enabled": true,
-        "server_name": "ratatouille.rahmatokaduie.ir"
+        "server_name": "play-apps-features.googleusercontent.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3rEI5HCj35So-rElkivoE5G2u3iYT0eNWcFjZA73Ekw",
+          "short_id": "a38316da8ada"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "104.21.85.220",
-      "server_port": 443,
-      "uuid": "7893b302-3882-4c38-9ab6-6313f1575d1a",
+      "server": "212.43.150.162",
+      "server_port": 30650,
+      "uuid": "c134103b-4a52-4a8c-86c5-99b153a5e9ea",
       "tls": {
         "enabled": true,
-        "server_name": "cf.udpid.org",
+        "server_name": "play-apps-features.googleusercontent.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3rEI5HCj35So-rElkivoE5G2u3iYT0eNWcFjZA73Ekw",
+          "short_id": "a38316da8ada"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@zyzzzoao",
-        "headers": {
-          "Host": "cf.udpid.org"
-        }
-      },
-      "packet_encoding": "xudp"
+      }
     },
     {
       "type": "vless",
@@ -73,6 +79,128 @@
           "short_id": "2f49bccf11150ef2"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM5 § 4",
+      "server": "62.233.53.79",
+      "server_port": 30650,
+      "uuid": "c134103b-4a52-4a8c-86c5-99b153a5e9ea",
+      "tls": {
+        "enabled": true,
+        "server_name": "play-apps-features.googleusercontent.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3rEI5HCj35So-rElkivoE5G2u3iYT0eNWcFjZA73Ekw",
+          "short_id": "f87b09"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM6 § 5",
+      "server": "193.148.253.210",
+      "server_port": 8081,
+      "uuid": "394cb8c2-67fd-4955-a7a7-f96f104ac17b",
+      "tls": {
+        "enabled": true,
+        "server_name": "193.148.253.210",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "httpupgrade",
+        "path": "/",
+        "host": "193.148.253.210"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM7 § 6",
+      "server": "31.56.222.36",
+      "server_port": 443,
+      "uuid": "5f3161da-b950-47cf-8e66-5bfa9fc3f68e",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.api.www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-JvxsO6T-FwQEzsAM-S5s7lwohRmgv8KuBdZqaZPXTo",
+          "short_id": "f5080e30e0af"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM8 § 7",
+      "server": "5.178.101.166",
+      "server_port": 443,
+      "uuid": "64c3ae71-4874-4a05-8d52-73b2fbb8a207",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "sbrf-8885.website",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM9 § 8",
+      "server": "31.56.222.36",
+      "server_port": 443,
+      "uuid": "5f3161da-b950-47cf-8e66-5bfa9fc3f68e",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.api.www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-JvxsO6T-FwQEzsAM-S5s7lwohRmgv8KuBdZqaZPXTo",
+          "short_id": "f5080e30e0af"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM10 § 9",
+      "server": "fi.korluma.ir",
+      "server_port": 21884,
+      "uuid": "1cec39e0-b9cb-46eb-8357-30fbe7d93c0f",
+      "transport": {
+        "type": "http",
+        "host": "http2-rel1.pixelated4.ir"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM11 § 10",
+      "server": "fi.korluma.ir",
+      "server_port": 21884,
+      "uuid": "1cec39e0-b9cb-46eb-8357-30fbe7d93c0f",
+      "transport": {
+        "type": "http",
+        "host": "http2-rel1.pixelated4.ir"
+      },
+      "packet_encoding": "xudp"
     }
   ],
   "endpoints": []
