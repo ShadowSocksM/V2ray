@@ -3,208 +3,206 @@
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "kebabyumyum.net",
-      "server_port": 8443,
-      "uuid": "8c0dd77e-bfc2-4818-88d4-d9a72ec8c1ee",
+      "server": "159.195.112.171",
+      "server_port": 443,
+      "uuid": "dbe7df9a-c846-4305-9bbf-771c1b2f0520",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "kebabyumyum.net",
+        "server_name": "stream.jugoslavija.uk",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "auZrfyobgU8l8-4_WKsupJVeZMxRJPkXT6ams3na6l0",
+          "short_id": "a0f54666d5e6fb80"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      },
-      "packet_encoding": "xudp"
+      }
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "83.168.71.216",
-      "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "server": "s7.beqvian.ir",
+      "server_port": 2087,
+      "uuid": "8106f7ea-6c28-4e68-636e-7587f131f6aa",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "backup1.zynetrax.ir",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
-          "short_id": "2f49bccf11150ef2"
         }
       }
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM3 § 2",
-      "server": "83.168.71.216",
+      "server": "159.195.112.171",
       "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "uuid": "dbe7df9a-c846-4305-9bbf-771c1b2f0520",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "stream.jugoslavija.uk",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
-          "short_id": "2f49bccf11150ef2"
+          "public_key": "auZrfyobgU8l8-4_WKsupJVeZMxRJPkXT6ams3na6l0",
+          "short_id": "a0f54666d5e6fb80"
         }
       }
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM4 § 3",
-      "server": "83.168.71.216",
+      "server": "179.198.207.36",
       "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "uuid": "dbe7df9a-c846-4305-9bbf-771c1b2f0520",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "ai.sonnysleepbot.uk",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
-          "short_id": "2f49bccf11150ef2"
+          "public_key": "OsyavP0kjFE1iSMCLRMRfOK2qDIpB1iwxBqdmamsaC4",
+          "short_id": "be9df5407e49841e"
         }
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "https://t.me/ShadowsocksM5 § 4",
-      "server": "2.27.59.206",
+      "server": "admin.jugoslavija.uk",
       "server_port": 443,
-      "password": "cd74c0a406664a5bc0bac098220a2468",
+      "uuid": "dbe7df9a-c846-4305-9bbf-771c1b2f0520",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de1.sferavpn.pro"
+        "server_name": "admin.jugoslavija.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kyjCyJlDyqcpc0UgyPaW-4tjGKbeQKz45zHRmHvxw2Q",
+          "short_id": "665aa727f6bc1f5e"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM6 § 5",
-      "server": "83.168.71.216",
-      "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
-          "short_id": "2f49bccf11150ef2"
-        }
-      }
+      "server": "31.56.196.249",
+      "server_port": 19910,
+      "uuid": "391c226e-370f-4f45-bbc8-7a9336959d76",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM7 § 6",
-      "server": "83.168.71.216",
+      "server": "admin.jugoslavija.uk",
       "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "uuid": "dbe7df9a-c846-4305-9bbf-771c1b2f0520",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
-          "short_id": "2f49bccf11150ef2"
+          "public_key": "kyjCyJlDyqcpc0UgyPaW-4tjGKbeQKz45zHRmHvxw2Q",
+          "short_id": "665aa727f6bc1f5e"
         }
       }
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM8 § 7",
-      "server": "eat8xny7.selqora.ir",
-      "server_port": 51595,
-      "uuid": "d9826bd9-1023-4a3b-895e-3ba9d64061f2",
+      "server": "oil.nikotine.us",
+      "server_port": 443,
+      "uuid": "dbe7df9a-c846-4305-9bbf-771c1b2f0520",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.aparat.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "2r94D7GhoZK4inffwafDlMW23Rqj1YVR5871e8EHADs",
-          "short_id": "155e0ffd717f90d8"
+          "public_key": "aHMslQzeWSCspD7XL2TP6wLIyzbVm67q-cc7A2NWbXU",
+          "short_id": "f56e9ef4d4b9dadd"
         }
       }
     },
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM9 § 8",
-      "server": "83.168.71.216",
+      "server": "153.76.185.160",
+      "server_port": 3090,
+      "uuid": "b24348cd-38f3-483c-aff4-f5355f254f0a",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM10 § 9",
+      "server": "oil.nikotine.us",
       "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "uuid": "dbe7df9a-c846-4305-9bbf-771c1b2f0520",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "oil.nikotine.us",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
-          "short_id": "2f49bccf11150ef2"
+          "public_key": "aHMslQzeWSCspD7XL2TP6wLIyzbVm67q-cc7A2NWbXU",
+          "short_id": "f56e9ef4d4b9dadd"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM10 § 9",
-      "server": "curtainground.net",
-      "server_port": 8443,
-      "uuid": "8c0dd77e-bfc2-4818-88d4-d9a72ec8c1ee",
-      "tls": {
-        "enabled": true,
-        "server_name": "curtainground.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
+      "tag": "https://t.me/ShadowsocksM11 § 10",
+      "server": "153.76.185.183",
+      "server_port": 3090,
+      "uuid": "5f716928-b19e-4c8d-a70b-6bee4995d7f1",
       "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "curtainground.net"
-        }
+        "type": "grpc",
+        "service_name": "vless"
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
-      "tag": "https://t.me/ShadowsocksM11 § 10",
-      "server": "162.249.125.133",
-      "server_port": 443,
-      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2-new.aspidnet.xyz"
-      }
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM12 § 11",
+      "server": "153.76.185.160",
+      "server_port": 3090,
+      "uuid": "b24348cd-38f3-483c-aff4-f5355f254f0a",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      },
+      "packet_encoding": "xudp"
     }
   ],
   "endpoints": []
