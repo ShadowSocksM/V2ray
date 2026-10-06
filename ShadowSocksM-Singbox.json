@@ -1,8 +1,16 @@
 {
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "https://t.me/ShadowsocksM1 § 0",
+      "server": "134.195.101.119",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM2 § 1",
       "server": "fs.koomeh.net",
       "server_port": 443,
       "uuid": "8decb53d-a198-4b9b-8dfc-814a7715a062",
@@ -13,7 +21,24 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "server": "134.195.101.118",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM4 § 3",
+      "server": "134.195.101.117",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
     }
   ],
   "endpoints": []
