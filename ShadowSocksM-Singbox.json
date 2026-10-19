@@ -2,28 +2,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "عضو کانال شوید @ShadowProxy66 -17 🇩🇪 § 0",
-      "server": "app-sh-143.wb-deep-ai-analytics.com",
+      "tag": "https://t.me/ShadowsocksM1 § 0",
+      "server": "212.24.105.101",
       "server_port": 443,
-      "uuid": "074690f9-cb30-44f5-84e5-f3ce8fc6cf29",
-      "flow": "xtls-rprx-vision",
+      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
       "tls": {
         "enabled": true,
-        "server_name": "assets-sh-143.wb-deep-ai-analytics.com",
+        "server_name": "b58e68t.lt1.h1clayd.click",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_7SmdKnXeQ-pMOR4bbt6N6JJk5rIiRaFVcOTlhFxhEc",
-          "short_id": "21dbee1dc3c8ef04"
+          "public_key": "MbRONgV8ADD5B_aKDBv15LAW2a8QZok5bkkZexRRVAs",
+          "short_id": "2301ac8aee8bf6d4"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "عضو کانال شوید @ShadowProxy66 -18 🇩🇪 § 1",
+      "tag": "https://t.me/ShadowsocksM2 § 1",
       "server": "188.114.98.0",
       "server_port": 2053,
       "uuid": "3ee10440-225e-4cbc-83ed-3c80b90bcb07",
@@ -45,21 +44,22 @@
     },
     {
       "type": "vless",
-      "tag": "عضو کانال شوید @ShadowProxy66 -6 🇱🇹 § 2",
-      "server": "212.24.105.101",
+      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "server": "app-sh-143.wb-deep-ai-analytics.com",
       "server_port": 443,
-      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+      "uuid": "074690f9-cb30-44f5-84e5-f3ce8fc6cf29",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "b58e68t.lt1.h1clayd.click",
+        "server_name": "assets-sh-143.wb-deep-ai-analytics.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "MbRONgV8ADD5B_aKDBv15LAW2a8QZok5bkkZexRRVAs",
-          "short_id": "2301ac8aee8bf6d4"
+          "public_key": "_7SmdKnXeQ-pMOR4bbt6N6JJk5rIiRaFVcOTlhFxhEc",
+          "short_id": "21dbee1dc3c8ef04"
         }
       }
     }
