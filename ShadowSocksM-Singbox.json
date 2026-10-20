@@ -1,65 +1,179 @@
 {
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "212.24.105.101",
-      "server_port": 443,
-      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
-      "tls": {
-        "enabled": true,
-        "server_name": "b58e68t.lt1.h1clayd.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MbRONgV8ADD5B_aKDBv15LAW2a8QZok5bkkZexRRVAs",
-          "short_id": "2301ac8aee8bf6d4"
-        }
-      }
+      "server": "185.176.204.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "188.114.98.0",
-      "server_port": 2053,
-      "uuid": "3ee10440-225e-4cbc-83ed-3c80b90bcb07",
-      "tls": {
-        "enabled": true,
-        "server_name": "ovh-gr1.mahkhorshidi.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/movies/12345",
-        "headers": {
-          "Host": "ovh-gr1.mahkhorshidi.ir"
-        }
-      }
+      "server": "95.215.201.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "server": "193.151.160.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM4 § 3",
+      "server": "185.215.132.9",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM5 § 4",
+      "server": "193.151.160.9",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM6 § 5",
+      "server": "185.215.132.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM7 § 6",
+      "server": "193.151.163.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM8 § 7",
+      "server": "45.86.51.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM9 § 8",
+      "server": "202.50.253.90",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM10 § 9",
+      "server": "202.50.253.99",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM11 § 10",
+      "server": "202.50.253.54",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM12 § 11",
+      "server": "202.50.253.63",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM13 § 12",
+      "server": "202.50.253.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM14 § 13",
+      "server": "202.50.253.72",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM15 § 14",
+      "server": "202.50.253.81",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM16 § 15",
+      "server": "185.176.206.9",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM17 § 16",
+      "server": "202.50.253.45",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM18 § 17",
+      "server": "202.50.253.27",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM19 § 18",
+      "server": "202.50.253.36",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM20 § 19",
+      "server": "185.230.230.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM3 § 2",
-      "server": "app-sh-143.wb-deep-ai-analytics.com",
-      "server_port": 443,
-      "uuid": "074690f9-cb30-44f5-84e5-f3ce8fc6cf29",
+      "tag": "https://t.me/ShadowsocksM21 § 20",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 47691,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "assets-sh-143.wb-deep-ai-analytics.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
+        "server_name": "m.media-amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "_7SmdKnXeQ-pMOR4bbt6N6JJk5rIiRaFVcOTlhFxhEc",
-          "short_id": "21dbee1dc3c8ef04"
+          "public_key": "6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg",
+          "short_id": "2905326a"
         }
       }
     }
