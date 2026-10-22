@@ -1,20 +1,38 @@
 {
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "46.17.44.216",
-      "server_port": 18443,
-      "method": "aes-256-gcm",
-      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+      "server": "152.53.107.241",
+      "server_port": 443,
+      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "news.moscowvibe.fyi",
+        "reality": {
+          "enabled": true,
+          "public_key": "13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ",
+          "short_id": "7271129440ade8fa"
+        }
+      }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "20.166.51.228",
+      "server": "185.58.115.62",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LVMlhvK82To1FGsy"
+      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "se2.gderevievsvideos.fyi",
+        "reality": {
+          "enabled": true,
+          "public_key": "13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ",
+          "short_id": "7271129440ade8fa"
+        }
+      }
     },
     {
       "type": "shadowsocks",
@@ -27,90 +45,19 @@
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM4 § 3",
-      "server": "13.37.140.13",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "https://t.me/ShadowsocksM5 § 4",
-      "server": "turknew.net-flowa.com",
-      "server_port": 80,
-      "uuid": "cd96479e-9c39-4a7f-ba0c-806a83af19ca",
-      "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM6 § 5",
-      "server": "14.1.28.74",
-      "server_port": 10740,
-      "method": "aes-128-gcm",
-      "password": "77ac486bc90aba7f880dd81f006f3ddc"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM7 § 6",
-      "server": "167.160.90.50",
-      "server_port": 11474,
-      "method": "aes-128-gcm",
-      "password": "36f398a022881b99884755030b81d507"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM8 § 7",
-      "server": "64.42.181.102",
-      "server_port": 12996,
-      "method": "aes-128-gcm",
-      "password": "a7be96a98392ef40dab7693317a81cc0"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM9 § 8",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "nQeEoXC5Yl5PZnPLvKUpFTU9cyQcNG902zpibWkwGbo="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM10 § 9",
-      "server": "176.32.33.254",
-      "server_port": 18443,
-      "method": "aes-256-gcm",
-      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM11 § 10",
-      "server": "fn1s.sublinkplas.ir",
-      "server_port": 53731,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QoYjvkIZ7-bMIYfVI9IzRXUx5A1o3kj7"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM12 § 11",
-      "server": "65.21.52.113",
-      "server_port": 53731,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QoYjvkIZ7-bMIYfVI9IzRXUx5A1o3kj7"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM13 § 12",
-      "server": "46.17.44.216",
-      "server_port": 18443,
-      "method": "aes-256-gcm",
-      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM14 § 13",
-      "server": "dns5.m3hrzd.ir",
-      "server_port": 8044,
-      "method": "chacha20-ietf-poly1305",
-      "password": "5ox2e7xif1rCKOiffOPvibGk-KVXCk8v"
+      "server": "69.42.222.165",
+      "server_port": 443,
+      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.moscowvibe.fyi",
+        "reality": {
+          "enabled": true,
+          "public_key": "ST900c3lnBenLZfgTP95GPCXNm2dOpwQ7R5WShAKjSs",
+          "short_id": "7271129440ade8fa"
+        }
+      }
     }
   ],
   "endpoints": []
