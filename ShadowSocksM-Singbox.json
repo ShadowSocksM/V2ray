@@ -1,22 +1,26 @@
 {
-  "outbounds": [
+  "outbounds":   [
     {
       "type": "vless",
       "tag": "https://t.me/ShadowsocksM1 § 0",
       "server": "199.232.78.160",
       "server_port": 443,
       "uuid": "XpnTeam-36",
-      "tls": {
+      "tls":       {
         "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com"
+        "server_name": "cdn.akamai.steamstatic.com",
+        "alpn": "http/1.1",
+        "certificate_sha256": "zW6Di5v+Mcq4s9XIWLDWIj/oTs4jbB/bKBvpPDAuHm4="
       },
-      "transport": {
+      "transport":       {
         "type": "ws",
         "path": "/",
-        "headers": {
+        "headers":         {
           "Host": "Appxdn.global.ssl.fastly.net"
-        }
-      }
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -24,17 +28,21 @@
       "server": "199.232.78.160",
       "server_port": 443,
       "uuid": "XpnTeam-35",
-      "tls": {
+      "tls":       {
         "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com"
+        "server_name": "cdn.akamai.steamstatic.com",
+        "alpn": "http/1.1",
+        "certificate_sha256": "zW6Di5v+Mcq4s9XIWLDWIj/oTs4jbB/bKBvpPDAuHm4="
       },
-      "transport": {
+      "transport":       {
         "type": "ws",
         "path": "/",
-        "headers": {
+        "headers":         {
           "Host": "Appxdn.global.ssl.fastly.net"
-        }
-      }
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -42,22 +50,26 @@
       "server": "199.232.78.160",
       "server_port": 443,
       "password": "mitivpn",
-      "tls": {
+      "tls":       {
         "enabled": true,
         "server_name": "firefox.com",
-        "utls": {
+        "alpn": "http/1.1",
+        "certificate_sha256": "zW6Di5v+Mcq4s9XIWLDWIj/oTs4jbB/bKBvpPDAuHm4=",
+        "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
-      "transport": {
+      "transport":       {
         "type": "ws",
         "path": "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN",
-        "headers": {
+        "headers":         {
           "Host": "mitivpn---ViP1.global.ssl.fastly.net"
-        }
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     }
   ],
-  "endpoints": []
+  "endpoints":   [
+  ]
 }
