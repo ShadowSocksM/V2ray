@@ -1,8 +1,193 @@
 {
   "outbounds": [
     {
-      "type": "http",
+      "type": "vless",
       "tag": "https://t.me/ShadowsocksM1 § 0",
+      "server": "abnitronewline.beautishine.ir",
+      "server_port": 2083,
+      "uuid": "79fdde74-a556-46af-ae77-1f641fc9b0b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "fastiland.beautishine.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": "h2,http/1.1"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "server": "fin.color-shop.ir",
+      "server_port": 8880,
+      "uuid": "e3026ffb-cde6-4cfe-b4b7-f76d5264e969",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "J2VjWxzcFwn_AxXIY1XIgAOm6yDn0FSyVEYwo7ydmmA",
+          "short_id": "72ad72803a06429f"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "server": "de4ju5rq9cybjoptygvdzsn66nsdgybbt.fanavarancenter24.ir",
+      "server_port": 8443,
+      "uuid": "7623b717-29f8-4f76-9a9a-eec96d92dba9",
+      "tls": {
+        "enabled": true,
+        "server_name": "dex4ju5rq9cybjoptygvdzsn66nsdgybbt.fanavarancenter24.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": "http/1.1"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM4 § 3",
+      "server": "de7q52a4z5o5ihd5fj1cpl1x13tyan4za.fanavarancenter24.ir",
+      "server_port": 8443,
+      "uuid": "7623b717-29f8-4f76-9a9a-eec96d92dba9",
+      "tls": {
+        "enabled": true,
+        "server_name": "dex7q52a4z5o5ihd5fj1cpl1x13tyan4za.fanavarancenter24.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": "http/1.1"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM5 § 4",
+      "server": "tr1vo2t3ezixs93mjjz8nn5g5zj1jz0me.fanavarancenter24.ir",
+      "server_port": 8443,
+      "uuid": "7623b717-29f8-4f76-9a9a-eec96d92dba9",
+      "tls": {
+        "enabled": true,
+        "server_name": "trx1vo2t3ezixs93mjjz8nn5g5zj1jz0me.fanavarancenter24.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": "http/1.1"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM6 § 5",
+      "server": "us1g9zmvwp2okc6m2zrzpeo8l26jhey7l.fanavarancenter24.ir",
+      "server_port": 8443,
+      "uuid": "7623b717-29f8-4f76-9a9a-eec96d92dba9",
+      "tls": {
+        "enabled": true,
+        "server_name": "usx1g9zmvwp2okc6m2zrzpeo8l26jhey7l.fanavarancenter24.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": "http/1.1"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM7 § 6",
+      "server": "e29181f3ebfce73d.tunvi.w-ert.org",
+      "server_port": 42924,
+      "uuid": "4dd86f78-8202-42c2-89b6-801fd29daf45",
+      "tls": {
+        "enabled": true,
+        "server_name": "amp-api-edge.apps.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Jps_lXkq4doz-qvvikPlMevcR1CG3ZFRPHyAadj3Fhc",
+          "short_id": "ca358c46a3e9d52a"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM8 § 7",
+      "server": "e17af6bd982d0749.tunvi.w-ert.org",
+      "server_port": 42924,
+      "uuid": "b2dacbda-8221-4548-a104-aa8aa56ab282",
+      "tls": {
+        "enabled": true,
+        "server_name": "amp-api-edge.apps.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Jps_lXkq4doz-qvvikPlMevcR1CG3ZFRPHyAadj3Fhc",
+          "short_id": "ca358c46a3e9d52a"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM9 § 8",
+      "server": "de2.wrenandroad.space",
+      "server_port": 443,
+      "uuid": "5131b5e9-2c3c-44a0-8f18-0641f3f21cac",
+      "tls": {
+        "enabled": true,
+        "server_name": "de2.wrenandroad.space",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "t4k236yDGdnUbfJSBl3KR7JzyLReVVRWEiVHMaE72XI",
+          "short_id": "9b2e8eb7fea9860b"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM10 § 9",
+      "server": "dns8.m3hrzd.ir",
+      "server_port": 8044,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W8wg-Pb6xj9NOOwriOXIBLulDFNNt5Jt"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM11 § 10",
+      "server": "dns3.m3hrzd.ir",
+      "server_port": 8044,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W8wg-Pb6xj9NOOwriOXIBLulDFNNt5Jt"
+    },
+    {
+      "type": "http",
+      "tag": "https://t.me/ShadowsocksM12 § 11",
       "server": "96.5.129.85",
       "server_port": 443,
       "tls": {
@@ -12,7 +197,7 @@
     },
     {
       "type": "anytls",
-      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "tag": "https://t.me/ShadowsocksM13 § 12",
       "server": "654968169.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
@@ -24,40 +209,6 @@
       "idle_session_check_interval": "30s",
       "idle_session_timeout": "30s",
       "min_idle_session": 5
-    },
-    {
-      "type": "vmess",
-      "tag": "https://t.me/ShadowsocksM3 § 2",
-      "server": "free.ertebatgoostar.ir",
-      "server_port": 443,
-      "uuid": "c9eab439-53bf-46e4-ba58-fc368ae1ee8c",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM4 § 3",
-      "server": "185.233.131.236",
-      "server_port": 443,
-      "uuid": "b9f5a731-ad7c-4185-9d86-89a4a043961d",
-      "tls": {
-        "enabled": true,
-        "server_name": "v3p.sabermusic.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM5 § 4",
-      "server": "103.149.182.79",
-      "server_port": 8388,
-      "method": "chacha20-ietf",
-      "password": "asd123456"
     }
   ],
   "endpoints": []
