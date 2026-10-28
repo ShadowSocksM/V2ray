@@ -1,81 +1,68 @@
 {
-  "outbounds":   [
-  ],
-  "endpoints":   [
+  "outbounds": [],
+  "endpoints": [
     {
       "type": "wireguard",
-      "tag": "wiregaurd § 0",
+      "tag": "WG-1",
+      "system": false,
       "mtu": 1375,
-      "address": "172.16.0.2/32",
+      "address": [
+        "172.16.0.2/32"
+      ],
       "private_key": "L031Yj1wWtZzB3lFSmZv7P4wppkDk4NXl2xpBCcIKqc=",
-      "peers":       [
+      "peers": [
         {
           "address": "162.159.192.4",
           "port": 3854,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": "0.0.0.0/0",
+          "allowed_ips": [
+            "0.0.0.0/0"
+          ],
           "persistent_keepalive_interval": 35
         }
-      ],
-      "noise":       {
-        "fake_packet":         {
-          "enabled": true,
-          "count": "2-10",
-          "size": "30-50",
-          "delay": "30-50",
-          "mode": "m4"
-        }
-      }
+      ]
     },
     {
       "type": "wireguard",
-      "tag": "wiregaurd § 1",
+      "tag": "WG-2",
+      "system": false,
       "mtu": 1380,
-      "address": "172.16.0.2/32",
+      "address": [
+        "172.16.0.2/32"
+      ],
       "private_key": "L031Yj1wWtZzB3lFSmZv7P4wppkDk4NXl2xpBCcIKqc=",
-      "peers":       [
+      "peers": [
         {
           "address": "162.159.192.4",
           "port": 3854,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": "0.0.0.0/0",
+          "allowed_ips": [
+            "0.0.0.0/0"
+          ],
           "persistent_keepalive_interval": 35
         }
-      ],
-      "noise":       {
-        "fake_packet":         {
-          "enabled": true,
-          "count": "2-10",
-          "size": "30-50",
-          "delay": "30-50",
-          "mode": "m4"
-        }
-      }
+      ]
     },
     {
       "type": "wireguard",
-      "tag": "wiregaurd § 2",
+      "tag": "WG-3",
+      "system": false,
       "mtu": 1375,
-      "address": "172.16.0.2/32",
+      "address": [
+        "172.16.0.2/32"
+      ],
       "private_key": "L031Yj1wWtZzB3lFSmZv7P4wppkDk4NXl2xpBCcIKqc=",
-      "peers":       [
+      "peers": [
         {
           "address": "162.159.192.4",
           "port": 3854,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": "0.0.0.0/0",
+          "allowed_ips": [
+            "0.0.0.0/0"
+          ],
           "persistent_keepalive_interval": 35
         }
-      ],
-      "noise":       {
-        "fake_packet":         {
-          "enabled": true,
-          "count": "2-10",
-          "size": "30-50",
-          "delay": "30-50",
-          "mode": "m4"
-        }
-      }
+      ]
     }
   ]
 }
