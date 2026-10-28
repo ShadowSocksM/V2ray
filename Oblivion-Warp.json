@@ -1,47 +1,26 @@
-{
-  "outbounds": [],
-  "endpoints": [
-    {
-      "type": "wireguard",
-      "tag": "WG-1",
-      "system": false,
-      "mtu": 1375,
-      "address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "L031Yj1wWtZzB3lFSmZv7P4wppkDk4NXl2xpBCcIKqc=",
-      "peers": [
-        {
-          "address": "162.159.192.4",
-          "port": 3854,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0"
-          ],
-          "persistent_keepalive_interval": 35
-        }
-      ]
-    },
-    {
-      "type": "wireguard",
-      "tag": "WG-2",
-      "system": false,
-      "mtu": 1380,
-      "address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "L031Yj1wWtZzB3lFSmZv7P4wppkDk4NXl2xpBCcIKqc=",
-      "peers": [
-        {
-          "address": "162.159.192.4",
-          "port": 3854,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0"
-          ],
-          "persistent_keepalive_interval": 25
-        }
-      ]
-    }
-  ]
-}
+===== Config_1_Warp_Pro_13.conf =====
+[Interface]
+PrivateKey = L031Yj1wWtZzB3lFSmZv7P4wppkDk4NXl2xpBCcIKqc=
+Address = 172.16.0.2/32
+MTU = 1380
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 162.159.192.4:3854
+AllowedIPs = 0.0.0.0/0
+PersistentKeepalive = 35
+Reserved = 140,128,49
+
+
+===== Config_1_Warp_Pro_26.conf =====
+[Interface]
+PrivateKey = L031Yj1wWtZzB3lFSmZv7P4wppkDk4NXl2xpBCcIKqc=
+Address = 172.16.0.2/32
+MTU = 1375
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 162.159.192.4:3854
+AllowedIPs = 0.0.0.0/0
+PersistentKeepalive = 35
+Reserved = 140,128,49
