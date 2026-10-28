@@ -1,28 +1,38 @@
 {
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "193.29.139.225",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "tag": "https://t.me/ShadowsocksM1 § 0",
       "server": "199.232.78.160",
       "server_port": 443,
       "uuid": "46cb8a26-0712-4e85-89bf-2538a2788652",
       "tls": {
         "enabled": true,
-        "server_name": "firefox.com",
-        "certificate_sha256": "zW6Di5v+Mcq4s9XIWLDWIj/oTs4jbB/bKBvpPDAuHm4="
+        "server_name": "firefox.com"
       },
       "transport": {
         "type": "ws",
         "headers": {
           "Host": "copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net."
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "server": "wwww.qarvian.ir",
+      "server_port": 443,
+      "uuid": "46cb8a26-0712-4e85-89bf-2538a2788652",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com"
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net."
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -36,28 +46,7 @@
       "uuid": "46cb8a26-0712-4e85-89bf-2538a2788652",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com",
-        "certificate_sha256": "zW6Di5v+Mcq4s9XIWLDWIj/oTs4jbB/bKBvpPDAuHm4="
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net."
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM4 § 3",
-      "server": "wwww.qarvian.ir",
-      "server_port": 443,
-      "uuid": "46cb8a26-0712-4e85-89bf-2538a2788652",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com",
-        "certificate_sha256": "zW6Di5v+Mcq4s9XIWLDWIj/oTs4jbB/bKBvpPDAuHm4="
+        "server_name": "cdn.akamai.steamstatic.com"
       },
       "transport": {
         "type": "ws",
@@ -70,14 +59,13 @@
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM5 § 4",
+      "tag": "https://t.me/ShadowsocksM4 § 3",
       "server": "199.232.78.159",
       "server_port": 443,
       "uuid": "46cb8a26-0712-4e85-89bf-2538a2788652",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com",
-        "certificate_sha256": "zW6Di5v+Mcq4s9XIWLDWIj/oTs4jbB/bKBvpPDAuHm4="
+        "server_name": "cdn.akamai.steamstatic.com"
       },
       "transport": {
         "type": "ws",
@@ -90,7 +78,7 @@
     },
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM6 § 5",
+      "tag": "https://t.me/ShadowsocksM5 § 4",
       "server": "15.204.97.214",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -111,7 +99,7 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM7 § 6",
+      "tag": "https://t.me/ShadowsocksM6 § 5",
       "server": "38.95.111.226",
       "server_port": 9443,
       "tls": {
@@ -122,13 +110,13 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM8 § 7",
+      "tag": "https://t.me/ShadowsocksM7 § 6",
       "server": "64.118.155.2",
       "server_port": 22222
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM9 § 8",
+      "tag": "https://t.me/ShadowsocksM8 § 7",
       "server": "35.84.133.236",
       "server_port": 8443,
       "tls": {
@@ -139,7 +127,7 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM10 § 9",
+      "tag": "https://t.me/ShadowsocksM9 § 8",
       "server": "44.229.69.166",
       "server_port": 8443,
       "tls": {
@@ -150,7 +138,7 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM11 § 10",
+      "tag": "https://t.me/ShadowsocksM10 § 9",
       "server": "149.22.88.65",
       "server_port": 443,
       "password": "None",
@@ -162,7 +150,7 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM12 § 11",
+      "tag": "https://t.me/ShadowsocksM11 § 10",
       "server": "13.229.54.109",
       "server_port": 2080,
       "username": "1234",
@@ -170,7 +158,7 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM13 § 12",
+      "tag": "https://t.me/ShadowsocksM12 § 11",
       "server": "44.248.167.117",
       "server_port": 8443,
       "tls": {
@@ -181,7 +169,7 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM14 § 13",
+      "tag": "https://t.me/ShadowsocksM13 § 12",
       "server": "13.250.6.200",
       "server_port": 2080,
       "username": "1234",
@@ -189,7 +177,7 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM15 § 14",
+      "tag": "https://t.me/ShadowsocksM14 § 13",
       "server": "206.223.161.47",
       "server_port": 443,
       "tls": {
@@ -197,6 +185,14 @@
         "server_name": "206.223.161.47",
         "insecure": true
       }
+    },
+    {
+      "type": "socks",
+      "tag": "https://t.me/ShadowsocksM15 § 14",
+      "server": "47.236.168.243",
+      "server_port": 1080,
+      "username": "8888",
+      "password": "8888"
     }
   ],
   "endpoints": []
