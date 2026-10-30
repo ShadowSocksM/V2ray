@@ -1,20 +1,12 @@
 {
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "https://t.me/ShadowsocksM1",
-      "server": "hy2-new.aspidnet.xyz",
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM1 § 0",
+      "server": "193.29.139.235",
       "server_port": 443,
-      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
-      "obfs": {
-        "type": "salamander",
-        "password": "c1b4086fea89914496c7e10967a419216566"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2-new.aspidnet.xyz",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     }
   ],
   "endpoints": []
