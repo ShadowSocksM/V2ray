@@ -1,12 +1,15 @@
 {
   "outbounds": [
     {
-      "type": "socks",
-      "tag": "https://t.me/ShadowsocksM8 § 0",
-      "server": "185.145.99.41",
-      "server_port": 1080,
-      "username": "test123",
-      "password": "test123"
+      "type": "hysteria2",
+      "tag": "https://t.me/ShadowsocksM1 § 0",
+      "server": "hy2-new.aspidnet.xyz",
+      "server_port": 443,
+      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2-new.aspidnet.xyz"
+      }
     }
   ],
   "endpoints": []
