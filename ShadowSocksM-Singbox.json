@@ -9,21 +9,15 @@
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
-      "type": "vless",
-      "tag": "@Vip_Security join us - 590 § 1",
-      "server": "ee.h1cloud.net",
-      "server_port": 25895,
-      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+      "type": "trojan",
+      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "server": "66.163.127.155",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "www.samsung.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
-          "short_id": "a73f0410d728c823"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "indyourperfectremotetechjobfromthecomfortofhome.com"
+      }
     }
   ],
   "endpoints": []
