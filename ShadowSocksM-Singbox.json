@@ -1,23 +1,44 @@
 {
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "http",
       "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "193.29.139.235",
+      "server": "95.229.15.89",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "66.163.127.155",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "indyourperfectremotetechjobfromthecomfortofhome.com"
+        "insecure": true
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "server": "18.196.58.183",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "server": "uk.worldfly.io",
+      "server_port": 443,
+      "uuid": "02e7f01e-c9cf-4f96-816d-3b7cb97b289b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "uk.worldfly.io",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CFRvAzBbIdgkA4JZ418tnZQPJtqAo3EOM-p3pqVoew0",
+          "short_id": "7c22adeb5c5b4103"
+        }
+      },
+      "packet_encoding": "xudp"
     }
   ],
   "endpoints": []
