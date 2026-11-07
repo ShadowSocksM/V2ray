@@ -9,15 +9,3 @@ PresharedKey = N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
 Endpoint = 185.221.132.228:65142
 AllowedIPs = 0.0.0.0/0
 PersistentKeepalive = 35
-
-[Interface]
-PrivateKey = cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
-Address = 100.80.234.177/32
-MTU = 1375
-
-[Peer]
-PublicKey = BzMLell5uUM/d9aNGaGMog+GFH36s4dFO0WuQ6/VxCg=
-PresharedKey = N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
-Endpoint = 185.221.132.228:65142
-AllowedIPs = 0.0.0.0/0
-PersistentKeepalive = 35
