@@ -1,11 +1,759 @@
 [Interface]
-PrivateKey = cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
-Address = 100.80.234.177/32
-MTU = 1380
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
 
 [Peer]
-PublicKey = BzMLell5uUM/d9aNGaGMog+GFH36s4dFO0WuQ6/VxCg=
-PresharedKey = N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
-Endpoint = 185.221.132.228:65142
-AllowedIPs = 0.0.0.0/0
-PersistentKeepalive = 35
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.34.70.110:955
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.39.204.18:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = 1yUMSC0JzLwtBBdGcsBZuTMmUFPHeuvQl7piT10dPps=
+Address = ['172.16.0.2/32', '2606:4700:110:8be0:ecae:8819:720d:89ba/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.6.112.6:8742
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 2606:4700:110:84b5:5c59:34e5:c03e:56bb/128
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 2606:4700:d1:0:a9ed:7486:8a1:5e59:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = DzckJIMfz/T9vwWN0UZ3rrMeeXqFSQMDWIjMlg/Td5g=
+Address = ['172.16.0.2/32', '2606:4700:110:8021:8568:6f57:37ef:bd27/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.34.70.4:864
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 2606:4700:110:84b5:5c59:34e5:c03e:56bb/128
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 2606:4700:d1:0:2b4a:8aed:84e9:79ef:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = UGJ4WGEXehxUV3+Pwp5wGqpTaXqgFD4Iu7aFPBlN0Wg=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.96.218:7156
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = /2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=
+Address = ['172.16.0.2/32', '2606:4700:110:856e:d1a5:f4af:16c9:248c/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.47.69.5:903
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 2606:4700:110:84b5:5c59:34e5:c03e:56bb/128
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 2606:4700:d1:0:35fe:b57f:6d85:4815:500
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = OZdg4d2UUTVhn9k5/HL27QY/dY/0WfzwdI/PeilUnAk=
+Address = ['172.16.0.2/32', '2606:4700:110:85d8:8e06:3c2c:f4d9:d1c1/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.98.2:908
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = /2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=
+Address = ['172.16.0.2/32', '2606:4700:110:856e:d1a5:f4af:16c9:248c/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.97.9:987
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.35.211.46:987
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 2606:4700:110:84b5:5c59:34e5:c03e:56bb/128
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.39.125.178:7156
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 162.159.192.236:945
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.96.74:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = /2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=
+Address = ['172.16.0.2/32', '2606:4700:110:856e:d1a5:f4af:16c9:248c/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.47.69.6:945
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = UGJ4WGEXehxUV3+Pwp5wGqpTaXqgFD4Iu7aFPBlN0Wg=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.39.214.25:3581
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 2606:4700:110:84b5:5c59:34e5:c03e:56bb/128
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 2606:4700:d0:0:4ef2:1547:2892:483d:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.39.214.24:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.98.195:500
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.97.229:500
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = UGJ4WGEXehxUV3+Pwp5wGqpTaXqgFD4Iu7aFPBlN0Wg=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.96.218:7103
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.97.39:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = 1yUMSC0JzLwtBBdGcsBZuTMmUFPHeuvQl7piT10dPps=
+Address = ['172.16.0.2/32', '2606:4700:110:8be0:ecae:8819:720d:89ba/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.97.4:890
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.98.0:903
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = h3uNl8xSMNDvcFq/I+N7tXo7p9r8d0FPHoBOUYyU6pU=
+Address = ['172.16.0.2/32', '2606:4700:110:85a2:c6c3:70f2:61bb:c5d6/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.98.7:1074
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.39.125.197:1014
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.35.211.68:500
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.39.214.52:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 2606:4700:110:84b5:5c59:34e5:c03e:56bb/128
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 2606:4700:d0:0:91b5:943:61ba:7922:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 2606:4700:110:84b5:5c59:34e5:c03e:56bb/128
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 2606:4700:d0:0:fdc9:28cb:7c28:601e:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = /2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=
+Address = ['172.16.0.2/32', '2606:4700:110:856e:d1a5:f4af:16c9:248c/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.39.204.3:7559
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 2606:4700:110:84b5:5c59:34e5:c03e:56bb/128
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 2606:4700:d1:0:54f1:c00c:4a76:9fa6:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 2606:4700:110:84b5:5c59:34e5:c03e:56bb/128
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 2606:4700:d0:0:3553:790a:8d14:537e:500
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = KhwgJZf2Fr+HWTvt/kabbYqkvK1Oh/FnX8Nsty5T31s=
+Address = ['172.16.0.2/32', '2606:4700:110:8c83:8f75:f27f:9d84:bffd/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.47.69.10:928
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.96.123:8854
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.96.169:2408
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 2606:4700:d0:0:9c03:851e:cd3c:f7c8:4500
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = DKRqAxWpgs826xIRkmBO23XE6Dod4D5nML1pAkpbs4Q=
+Address = ['172.16.0.2/32', '2606:4700:110:8202:7e14:7549:c95d:6654/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 188.114.98.5:5956
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = DKRqAxWpgs826xIRkmBO23XE6Dod4D5nML1pAkpbs4Q=
+Address = ['172.16.0.2/32', '2606:4700:110:8202:7e14:7549:c95d:6654/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.39.214.8:5956
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = 8MoUyzmoRj9FUPeoip84Afmt6aHhcY/DF3h8gsZcVlc=
+Address = ['10.2.0.2/32', '2a07:b944::2:2/128']
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = dQL3GTtbIcz8OhVTFpYTQd+//OcqOYg6LAFOfel2VBw=
+Endpoint = 194.180.34.2:51820
+AllowedIPs = 0.0.0.0/0, ::/0
+
+[Interface]
+PrivateKey = kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=
+Address = 172.16.0.2/32
+MTU = 1420
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.39.125.178:7559
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 25
+
+[Interface]
+PrivateKey = 73JUfMVYvUcMc1G4NopGpDGwI5SmptwbaTakFKUv2qI=
+Address = ['172.16.0.2/32', '2606:4700:110:8c7e:10e8:4a74:58a6:bf99/128']
+MTU = 1280
+Jc = 3
+Jmin = 1
+Jmax = 3
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+Endpoint = 8.34.146.3:903
+AllowedIPs = 0.0.0.0/0, ::/0
