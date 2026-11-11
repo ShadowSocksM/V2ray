@@ -1,44 +1,89 @@
 {
   "outbounds": [
     {
-      "type": "http",
+      "type": "vless",
       "tag": "https://t.me/ShadowsocksM1 § 0",
-      "server": "95.229.15.89",
+      "server": "ir.raexa.ir",
       "server_port": 443,
+      "uuid": "6a0131c0-7ced-4e81-a76f-05923c67beb7",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.aparat.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "o00_7BsGDMrBx7oQxq15hYd1rhnyMsmj1d5VtQhXLHo",
+          "short_id": "af41267c3f2fccda"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "socks",
+      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "server": "104.168.249.36",
+      "server_port": 1080,
+      "username": "test123",
+      "password": "test123"
+    },
+    {
+      "type": "trojan",
+      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "server": "stream.yabenzin.app",
+      "server_port": 443,
+      "password": "duJyVGgB2y0tCFs37Y89NE1fMHXk8C5j",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn12.yabenzin.app",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": "h2"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "https://t.me/ShadowsocksM4 § 3",
+      "server": "66.163.127.155",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "indyourperfectremotetechjobfromthecomfortofhome.com"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ShadowsocksM5 § 4",
+      "server": "193.29.139.235",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "http",
+      "tag": "https://t.me/ShadowsocksM6 § 5",
+      "server": "80.124.109.22",
+      "server_port": 8090,
       "tls": {
         "enabled": true,
         "insecure": true
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM2 § 1",
-      "server": "18.196.58.183",
+      "type": "http",
+      "tag": "https://t.me/ShadowsocksM7 § 6",
+      "server": "89.150.35.94",
       "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ShadowsocksM3 § 2",
-      "server": "uk.worldfly.io",
-      "server_port": 443,
-      "uuid": "02e7f01e-c9cf-4f96-816d-3b7cb97b289b",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "uk.worldfly.io",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CFRvAzBbIdgkA4JZ418tnZQPJtqAo3EOM-p3pqVoew0",
-          "short_id": "7c22adeb5c5b4103"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "89.150.35.94",
+        "insecure": true
+      }
     }
   ],
   "endpoints": []
