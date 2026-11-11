@@ -2,7 +2,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "https://t.me/ShadowsocksM1 § 0",
+      "tag": "ShadowsocksM1",
       "server": "ir.raexa.ir",
       "server_port": 443,
       "uuid": "6a0131c0-7ced-4e81-a76f-05923c67beb7",
@@ -23,7 +23,7 @@
     },
     {
       "type": "socks",
-      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "tag": "ShadowsocksM2",
       "server": "104.168.249.36",
       "server_port": 1080,
       "username": "test123",
@@ -31,7 +31,7 @@
     },
     {
       "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM3 § 2",
+      "tag": "ShadowsocksM3",
       "server": "stream.yabenzin.app",
       "server_port": 443,
       "password": "duJyVGgB2y0tCFs37Y89NE1fMHXk8C5j",
@@ -47,7 +47,7 @@
     },
     {
       "type": "trojan",
-      "tag": "https://t.me/ShadowsocksM4 § 3",
+      "tag": "ShadowsocksM4",
       "server": "66.163.127.155",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -58,7 +58,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "https://t.me/ShadowsocksM5 § 4",
+      "tag": "ShadowsocksM5",
       "server": "193.29.139.235",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -66,7 +66,7 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM6 § 5",
+      "tag": "ShadowsocksM6",
       "server": "80.124.109.22",
       "server_port": 8090,
       "tls": {
@@ -76,7 +76,7 @@
     },
     {
       "type": "http",
-      "tag": "https://t.me/ShadowsocksM7 § 6",
+      "tag": "ShadowsocksM7",
       "server": "89.150.35.94",
       "server_port": 443,
       "tls": {
@@ -84,6 +84,30 @@
         "server_name": "89.150.35.94",
         "insecure": true
       }
+    },
+    {
+      "type": "vless",
+      "tag": "ShadowsocksM8",
+      "server": "199.232.78.159",
+      "server_port": 443,
+      "uuid": "14fcb437-5561-413c-9eff-55424855e7d7",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "certificate_sha256": "zW6Di5v+Mcq4s9XIWLDWIj/oTs4jbB/bKBvpPDAuHm4="
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "finalnsdger.global.ssl.fastly.net."
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     }
   ],
   "endpoints": []
