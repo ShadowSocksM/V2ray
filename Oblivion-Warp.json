@@ -1,138 +1,39 @@
 {
-  "outbounds": [],
-  "endpoints": [
+  "outbounds":   [
+  ],
+  "endpoints":   [
     {
-      "type": "wireguard",
-      "tag": "Config 1 § 0",
-      "mtu": 1280,
-      "address": "100.80.234.177/32",
-      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
-      "peers": [
-        {
-          "address": "156.146.56.112",
-          "port": 65142,
-          "public_key": "sv9o+LudivUcZh3f92hEFFu5KGCT/2QISYy3OpPC0h0=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+      "type": "warp",
+      "tag": "Warp-Masque § 0",
+      "unique_identifier": "masque-77cf53feec87",
+      "server": "",
+      "noise":       {
+        "fake_packet":         {
+          "count": "",
+          "size": "",
+          "delay": ""
         }
-      ]
-    },
-    {
-      "type": "wireguard",
-      "tag": "Config 2 § 1",
-      "mtu": 1280,
-      "address": "100.80.234.177/32",
-      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
-      "peers": [
-        {
-          "address": "156.146.56.112",
-          "port": 80,
-          "public_key": "sv9o+LudivUcZh3f92hEFFu5KGCT/2QISYy3OpPC0h0=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+      },
+      "mode": "masque",
+      "masque":       {
+        "enabled": true,
+        "tls":         {
+          "insecure": true
+        },
+        "udp_keepalive_period": "5s",
+        "vhttp": "h2",
+        "server_name": "www.cloudflare.com",
+        "device":         {
+          "private_key": "MHcCAQEEICi09nEfKeu6b7bYfJEzI0K06bG3rIGUOqQ0f3jYwimcoAoGCCqGSM49AwEHoUQDQgAEcNBD6KBodcy4Ecv6oP/COTyjErEAusYkyXAOpvGfyGe0HnMp9CwEVJjnChQ0TKGfVlqexb9JTf7raZQDkcTFNw==",
+          "ipv4": "172.16.0.2",
+          "ipv6": "2606:4700:110:84c5:9a4f:7972:4f8:9789",
+          "endpoint_v4": "162.159.198.111:500"
         }
-      ]
-    },
-    {
-      "type": "wireguard",
-      "tag": "Config 3 § 2",
+      },
       "mtu": 1280,
-      "address": "100.80.234.177/32",
-      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
-      "peers": [
-        {
-          "address": "156.146.56.112",
-          "port": 443,
-          "public_key": "sv9o+LudivUcZh3f92hEFFu5KGCT/2QISYy3OpPC0h0=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-        }
-      ]
-    },
-    {
-      "type": "wireguard",
-      "tag": "Config 4 § 3",
-      "mtu": 1280,
-      "address": "100.80.234.177/32",
-      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
-      "peers": [
-        {
-          "address": "46.199.75.107",
-          "port": 65142,
-          "public_key": "90fjr1sq0Hgv2l+DgMaaGQ009SDw7VxmzJwaYmclaFs=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-        }
-      ]
-    },
-    {
-      "type": "wireguard",
-      "tag": "Config 5 § 4",
-      "mtu": 1280,
-      "address": "100.80.234.177/32",
-      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
-      "peers": [
-        {
-          "address": "46.199.75.107",
-          "port": 80,
-          "public_key": "90fjr1sq0Hgv2l+DgMaaGQ009SDw7VxmzJwaYmclaFs=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-        }
-      ]
-    },
-    {
-      "type": "wireguard",
-      "tag": "Config 6 § 5",
-      "mtu": 1280,
-      "address": "100.80.234.177/32",
-      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
-      "peers": [
-        {
-          "address": "185.225.28.52",
-          "port": 65142,
-          "public_key": "9J0kA4c4i7N/+6B+3j0zFkDTHocZNsw6eK6+sLZ1qCQ=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-        }
-      ]
-    },
-    {
-      "type": "wireguard",
-      "tag": "Config 7 § 6",
-      "mtu": 1280,
-      "address": "100.80.234.177/32",
-      "private_key": "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=",
-      "peers": [
-        {
-          "address": "185.225.28.52",
-          "port": 123,
-          "public_key": "9J0kA4c4i7N/+6B+3j0zFkDTHocZNsw6eK6+sLZ1qCQ=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "pre_shared_key": "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-        }
-      ]
+      "scanner":       {
+        "enabled": true
+      }
     }
   ]
 }
