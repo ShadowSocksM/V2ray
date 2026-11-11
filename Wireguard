@@ -2,10 +2,13 @@
   "outbounds": [],
   "endpoints": [
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM1 § 0",
+      "type": "awg",
+      "tag": "ShadowsocksM1",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:8be0:ecae:8819:720d:89ba/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8be0:ecae:8819:720d:89ba/128"
+      ],
       "private_key": "1yUMSC0JzLwtBBdGcsBZuTMmUFPHeuvQl7piT10dPps=",
       "peers": [
         {
@@ -17,13 +20,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM2 § 1",
+      "type": "awg",
+      "tag": "ShadowsocksM2",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:85d8:8e06:3c2c:f4d9:d1c1/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:85d8:8e06:3c2c:f4d9:d1c1/128"
+      ],
       "private_key": "OZdg4d2UUTVhn9k5/HL27QY/dY/0WfzwdI/PeilUnAk=",
       "peers": [
         {
@@ -35,12 +51,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM3 § 2",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM3",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "UGJ4WGEXehxUV3+Pwp5wGqpTaXqgFD4Iu7aFPBlN0Wg=",
       "peers": [
@@ -53,13 +79,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM4 § 3",
+      "type": "awg",
+      "tag": "ShadowsocksM4",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:8c83:8f75:f27f:9d84:bffd/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8c83:8f75:f27f:9d84:bffd/128"
+      ],
       "private_key": "KhwgJZf2Fr+HWTvt/kabbYqkvK1Oh/FnX8Nsty5T31s=",
       "peers": [
         {
@@ -71,12 +110,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM5 § 4",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM5",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -89,12 +138,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM6 § 5",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM6",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -107,12 +166,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM7 § 6",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM7",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -125,12 +194,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM8 § 7",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM8",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -143,12 +222,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM9 § 8",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM9",
+      "mtu": 1420,
       "address": "2606:4700:110:84b5:5c59:34e5:c03e:56bb/128",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -161,13 +250,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM10 § 9",
+      "type": "awg",
+      "tag": "ShadowsocksM10",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:856e:d1a5:f4af:16c9:248c/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:856e:d1a5:f4af:16c9:248c/128"
+      ],
       "private_key": "/2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=",
       "peers": [
         {
@@ -179,13 +281,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM11 § 10",
+      "type": "awg",
+      "tag": "ShadowsocksM11",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:85a2:c6c3:70f2:61bb:c5d6/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:85a2:c6c3:70f2:61bb:c5d6/128"
+      ],
       "private_key": "h3uNl8xSMNDvcFq/I+N7tXo7p9r8d0FPHoBOUYyU6pU=",
       "peers": [
         {
@@ -197,13 +312,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM12 § 11",
+      "type": "awg",
+      "tag": "ShadowsocksM12",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:856e:d1a5:f4af:16c9:248c/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:856e:d1a5:f4af:16c9:248c/128"
+      ],
       "private_key": "/2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=",
       "peers": [
         {
@@ -215,12 +343,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM13 § 12",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM13",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -233,13 +371,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM14 § 13",
+      "type": "awg",
+      "tag": "ShadowsocksM14",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:8c7e:10e8:4a74:58a6:bf99/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8c7e:10e8:4a74:58a6:bf99/128"
+      ],
       "private_key": "73JUfMVYvUcMc1G4NopGpDGwI5SmptwbaTakFKUv2qI=",
       "peers": [
         {
@@ -251,13 +402,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM15 § 14",
+      "type": "awg",
+      "tag": "ShadowsocksM15",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:8021:8568:6f57:37ef:bd27/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8021:8568:6f57:37ef:bd27/128"
+      ],
       "private_key": "DzckJIMfz/T9vwWN0UZ3rrMeeXqFSQMDWIjMlg/Td5g=",
       "peers": [
         {
@@ -269,12 +433,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM16 § 15",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM16",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "UGJ4WGEXehxUV3+Pwp5wGqpTaXqgFD4Iu7aFPBlN0Wg=",
       "peers": [
@@ -287,12 +461,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM17 § 16",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM17",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -305,12 +489,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM18 § 17",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM18",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -323,12 +517,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM19 § 18",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM19",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -341,12 +545,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM20 § 19",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM20",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -359,13 +573,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM21 § 20",
+      "type": "awg",
+      "tag": "ShadowsocksM21",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:8202:7e14:7549:c95d:6654/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8202:7e14:7549:c95d:6654/128"
+      ],
       "private_key": "DKRqAxWpgs826xIRkmBO23XE6Dod4D5nML1pAkpbs4Q=",
       "peers": [
         {
@@ -377,12 +604,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM22 § 21",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM22",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -395,13 +632,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM23 § 22",
+      "type": "awg",
+      "tag": "ShadowsocksM23",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:856e:d1a5:f4af:16c9:248c/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:856e:d1a5:f4af:16c9:248c/128"
+      ],
       "private_key": "/2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=",
       "peers": [
         {
@@ -413,12 +663,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM24 § 23",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM24",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -431,12 +691,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM25 § 24",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM25",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -449,12 +719,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM26 § 25",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM26",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -467,12 +747,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM27 § 26",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM27",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "UGJ4WGEXehxUV3+Pwp5wGqpTaXqgFD4Iu7aFPBlN0Wg=",
       "peers": [
@@ -485,12 +775,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM28 § 27",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM28",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -503,13 +803,26 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM29 § 28",
+      "type": "awg",
+      "tag": "ShadowsocksM29",
       "mtu": 1280,
-      "address": "172.16.0.2/32-2606:4700:110:8202:7e14:7549:c95d:6654/128",
+      "address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8202:7e14:7549:c95d:6654/128"
+      ],
       "private_key": "DKRqAxWpgs826xIRkmBO23XE6Dod4D5nML1pAkpbs4Q=",
       "peers": [
         {
@@ -521,12 +834,22 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     },
     {
-      "type": "wireguard",
-      "tag": "https://t.me/ShadowsocksM30 § 29",
-      "mtu": 1280,
+      "type": "awg",
+      "tag": "ShadowsocksM30",
+      "mtu": 1420,
       "address": "172.16.0.2/32",
       "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
       "peers": [
@@ -539,7 +862,17 @@
             "::/0"
           ]
         }
-      ]
+      ],
+      "useIntegratedTun": false,
+      "awg": {
+        "jc": 3,
+        "jmin": 1,
+        "jmax": 3,
+        "h1": "1",
+        "h2": "2",
+        "h3": "3",
+        "h4": "4"
+      }
     }
   ]
 }
