@@ -1,878 +1,136 @@
-{
-  "outbounds": [],
-  "endpoints": [
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM1",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8be0:ecae:8819:720d:89ba/128"
-      ],
-      "private_key": "1yUMSC0JzLwtBBdGcsBZuTMmUFPHeuvQl7piT10dPps=",
-      "peers": [
+//profile-title: base64:QW5vbnltb3VzIFNlcnZlcmxlc3M=
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/An0nymou3Bot
+//profile-web-page-url: https://github.com/4n0nymou3
+
+[
+  {
+    "type": "direct",
+    "tag": "Serverless 1",
+    "finalmask": {
+      "tcp": [
         {
-          "address": "188.114.97.4",
-          "port": 890,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM2",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:85d8:8e06:3c2c:f4d9:d1c1/128"
-      ],
-      "private_key": "OZdg4d2UUTVhn9k5/HL27QY/dY/0WfzwdI/PeilUnAk=",
-      "peers": [
+          "type": "merge",
+          "settings": {
+            "times": 100,
+            "delayMs": 30,
+            "maxBytes": 16384
+          }
+        },
         {
-          "address": "188.114.98.2",
-          "port": 908,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM3",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "UGJ4WGEXehxUV3+Pwp5wGqpTaXqgFD4Iu7aFPBlN0Wg=",
-      "peers": [
+          "type": "fragment",
+          "settings": {
+            "packets": "1-1",
+            "lengths": [
+              "75"
+            ],
+            "delays": [
+              "30"
+            ],
+            "maxSplit": "2"
+          }
+        },
         {
-          "address": "8.39.214.25",
-          "port": 3581,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
+          "type": "oob",
+          "settings": {
+            "bytes": [
+              0,
+              0
+            ]
+          }
         }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM4",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8c83:8f75:f27f:9d84:bffd/128"
-      ],
-      "private_key": "KhwgJZf2Fr+HWTvt/kabbYqkvK1Oh/FnX8Nsty5T31s=",
-      "peers": [
-        {
-          "address": "8.47.69.10",
-          "port": 928,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM5",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "8.35.211.46",
-          "port": 987,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM6",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "8.39.204.18",
-          "port": 2408,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM7",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "8.39.214.52",
-          "port": 2408,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM8",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "188.114.96.123",
-          "port": 8854,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM9",
-      "mtu": 1420,
-      "address": "2606:4700:110:84b5:5c59:34e5:c03e:56bb/128",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "8.39.125.178",
-          "port": 7156,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM10",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:856e:d1a5:f4af:16c9:248c/128"
-      ],
-      "private_key": "/2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=",
-      "peers": [
-        {
-          "address": "8.47.69.6",
-          "port": 945,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM11",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:85a2:c6c3:70f2:61bb:c5d6/128"
-      ],
-      "private_key": "h3uNl8xSMNDvcFq/I+N7tXo7p9r8d0FPHoBOUYyU6pU=",
-      "peers": [
-        {
-          "address": "188.114.98.7",
-          "port": 1074,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM12",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:856e:d1a5:f4af:16c9:248c/128"
-      ],
-      "private_key": "/2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=",
-      "peers": [
-        {
-          "address": "8.39.204.3",
-          "port": 7559,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM13",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "8.35.211.68",
-          "port": 500,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM14",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8c7e:10e8:4a74:58a6:bf99/128"
-      ],
-      "private_key": "73JUfMVYvUcMc1G4NopGpDGwI5SmptwbaTakFKUv2qI=",
-      "peers": [
-        {
-          "address": "8.34.146.3",
-          "port": 903,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM15",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8021:8568:6f57:37ef:bd27/128"
-      ],
-      "private_key": "DzckJIMfz/T9vwWN0UZ3rrMeeXqFSQMDWIjMlg/Td5g=",
-      "peers": [
-        {
-          "address": "8.34.70.4",
-          "port": 864,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM16",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "UGJ4WGEXehxUV3+Pwp5wGqpTaXqgFD4Iu7aFPBlN0Wg=",
-      "peers": [
-        {
-          "address": "188.114.96.218",
-          "port": 7156,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM17",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "162.159.192.236",
-          "port": 945,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM18",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "188.114.96.169",
-          "port": 2408,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM19",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "8.39.125.197",
-          "port": 1014,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM20",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "188.114.97.39",
-          "port": 2408,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM21",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8202:7e14:7549:c95d:6654/128"
-      ],
-      "private_key": "DKRqAxWpgs826xIRkmBO23XE6Dod4D5nML1pAkpbs4Q=",
-      "peers": [
-        {
-          "address": "8.39.214.8",
-          "port": 5956,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM22",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "188.114.97.229",
-          "port": 500,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM23",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:856e:d1a5:f4af:16c9:248c/128"
-      ],
-      "private_key": "/2xIVy3cMC/8u1yo7wEu/783juP34Y4EjgA1Fae2Ha0=",
-      "peers": [
-        {
-          "address": "188.114.97.9",
-          "port": 987,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM24",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "8.39.214.24",
-          "port": 2408,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM25",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "188.114.98.195",
-          "port": 500,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM26",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "188.114.96.74",
-          "port": 2408,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM27",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "UGJ4WGEXehxUV3+Pwp5wGqpTaXqgFD4Iu7aFPBlN0Wg=",
-      "peers": [
-        {
-          "address": "188.114.96.218",
-          "port": 7103,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM28",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "8.34.70.110",
-          "port": 955,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM29",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8202:7e14:7549:c95d:6654/128"
-      ],
-      "private_key": "DKRqAxWpgs826xIRkmBO23XE6Dod4D5nML1pAkpbs4Q=",
-      "peers": [
-        {
-          "address": "188.114.98.5",
-          "port": 5956,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
-    },
-    {
-      "type": "awg",
-      "tag": "ShadowsocksM30",
-      "mtu": 1420,
-      "address": "172.16.0.2/32",
-      "private_key": "kK/DhxAUbX/Cr0n2sSEl/LEiZS8d4uXTMqMbea5OrUc=",
-      "peers": [
-        {
-          "address": "8.39.125.178",
-          "port": 7559,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ]
-        }
-      ],
-      "useIntegratedTun": false,
-      "awg": {
-        "jc": 3,
-        "jmin": 1,
-        "jmax": 3,
-        "h1": "1",
-        "h2": "2",
-        "h3": "3",
-        "h4": "4"
-      }
+      ]
     }
-  ]
-}
+  },
+  {
+    "type": "direct",
+    "tag": "Serverless 2",
+    "finalmask": {
+      "tcp": [
+        {
+          "type": "merge",
+          "settings": {
+            "times": 100,
+            "delayMs": 30,
+            "maxBytes": 16384
+          }
+        },
+        {
+          "type": "fragment",
+          "settings": {
+            "packets": "tlshello",
+            "lengths": [
+              "6",
+              "99",
+              "1"
+            ],
+            "delays": [
+              "0"
+            ],
+            "maxSplit": "0"
+          }
+        },
+        {
+          "type": "fragment",
+          "settings": {
+            "packets": "1-1",
+            "lengths": [
+              "115",
+              "1"
+            ],
+            "delays": [
+              "1"
+            ],
+            "maxSplit": "11"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "direct",
+    "tag": "Serverless 3",
+    "finalmask": {
+      "tcp": [
+        {
+          "type": "merge",
+          "settings": {
+            "times": 100,
+            "delayMs": 30,
+            "maxBytes": 16384
+          }
+        },
+        {
+          "type": "fragment",
+          "settings": {
+            "packets": "tlshello",
+            "lengths": [
+              "0",
+              "105",
+              "1"
+            ],
+            "delays": [
+              "0"
+            ],
+            "maxSplit": "0"
+          }
+        },
+        {
+          "type": "fragment",
+          "settings": {
+            "packets": "1-1",
+            "lengths": [
+              "115",
+              "1"
+            ],
+            "delays": [
+              "1"
+            ],
+            "maxSplit": "11"
+          }
+        }
+      ]
+    }
+  }
+]
